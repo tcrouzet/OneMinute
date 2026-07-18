@@ -1465,6 +1465,44 @@
     });
   }
 
+  function waitForCesiumReady(timeout = 6500) {
+    return new Promise((resolve) => {
+      let settled = false;
+      let frames = 0;
+      let tilesReady = !!viewer.scene.globe.tilesLoaded;
+      let removePostRender = null;
+      let removeTileProgress = null;
+      let timer = null;
+
+      const cleanup = () => {
+        removePostRender?.();
+        removeTileProgress?.();
+        window.clearTimeout(timer);
+      };
+      const finish = () => {
+        if (settled) return;
+        settled = true;
+        cleanup();
+        resolve();
+      };
+      const check = () => {
+        if (frames >= 2 && tilesReady) finish();
+      };
+
+      removePostRender = viewer.scene.postRender.addEventListener(() => {
+        frames += 1;
+        tilesReady = tilesReady || !!viewer.scene.globe.tilesLoaded;
+        check();
+      });
+      removeTileProgress = viewer.scene.globe.tileLoadProgressEvent.addEventListener((pendingTiles) => {
+        tilesReady = pendingTiles === 0;
+        check();
+      });
+      timer = window.setTimeout(finish, timeout);
+      viewer.scene.requestRender();
+    });
+  }
+
   function openChapterForMarker(chapterId, marker) {
     if (!chapterId || !marker?.chapterIds?.includes(chapterId)) return false;
     openReader(chapterId, marker);
@@ -1592,5 +1630,6 @@
   bindReaderControls();
   bindOverlayRendering();
   await loadPoints();
+  await waitForCesiumReady();
   if (!restoreSession()) playIntro();
 })();
