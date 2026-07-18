@@ -679,35 +679,55 @@ button.profile-stat.is-locked {
   background: #000;
 }
 
+.reader.is-vertical,
+.reader.is-vertical .reader-backdrop {
+  background: #f8f2df;
+}
+
+.reader.is-vertical .reader-shell {
+  color: #151515;
+}
+
 .reader-shell {
   position: absolute;
   inset: max(18px, env(safe-area-inset-top)) max(14px, env(safe-area-inset-right)) max(18px, env(safe-area-inset-bottom)) max(14px, env(safe-area-inset-left));
   display: grid;
   grid-template-rows: auto 1fr auto;
-  width: min(100%, 1180px);
+  width: auto;
   max-width: 1180px;
   margin: 0 auto;
   color: #f8f2df;
 }
 
 .reader-header {
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(64px, max-content);
   align-items: start;
-  justify-content: space-between;
   gap: 16px;
   padding: 12px 0;
 }
 
 .reader-place {
+  min-width: 0;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(1.1rem, 2.6vw, 1.7rem);
   font-weight: 700;
   line-height: 1.12;
+  overflow-wrap: anywhere;
 }
 
-.reader-close {
+.reader-actions {
+  display: grid;
+  justify-items: end;
+  gap: 6px;
+  min-width: 0;
+}
+
+.reader-close,
+.reader-mode,
+.reader-next {
   border-radius: 4px;
-  background: rgba(248, 245, 235, 0.92);
+  background: #f8f2df;
   color: #151515;
   font-weight: 900;
   cursor: pointer;
@@ -718,6 +738,36 @@ button.profile-stat.is-locked {
   height: 38px;
   font-size: 1.45rem;
   line-height: 1;
+}
+
+.reader-mode {
+  position: relative;
+  width: 38px;
+  height: 34px;
+}
+
+.reader-mode-icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: block;
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transform: translate(-50%, -50%);
+}
+
+.reader-mode .icon-rsvp,
+.reader.is-vertical .reader-mode .icon-classic {
+  display: none;
+}
+
+.reader.is-vertical .reader-mode .icon-rsvp {
+  display: block;
 }
 
 .reader-stage {
@@ -747,6 +797,52 @@ button.profile-stat.is-locked {
   white-space: nowrap;
 }
 
+.reader-vertical {
+  display: none;
+  width: min(620px, 100%);
+  height: 100%;
+  margin: 0 auto;
+  padding: 18px;
+  overflow: auto;
+  border-radius: 4px;
+  background: #f8f2df;
+  color: #151515;
+  font-family: Georgia, "Times New Roman", serif;
+  scrollbar-width: none;
+  font-size: clamp(1.15rem, 5vw, 1.28rem);
+  font-weight: 500;
+  line-height: 1.45;
+  text-align: left;
+}
+
+.reader-vertical::-webkit-scrollbar {
+  display: none;
+}
+
+.reader-vertical-text {
+  min-height: 100%;
+}
+
+.reader-vertical-text p {
+  margin: 0;
+  text-indent: 0.8em;
+}
+
+.reader-vertical-text p:first-child {
+  text-indent: 0;
+}
+
+.reader.is-vertical .reader-words,
+.reader.is-vertical .seek-control,
+.reader.is-vertical .speed-control,
+.reader.is-vertical .reader-controls {
+  display: none;
+}
+
+.reader.is-vertical .reader-vertical {
+  display: block;
+}
+
 .focus-letter {
   color: #ff2638;
 }
@@ -774,6 +870,16 @@ button.profile-stat.is-locked {
   align-items: end;
   gap: 14px;
   padding: 14px 0;
+}
+
+.reader-next {
+  display: block;
+  width: 100%;
+  margin-top: 28px;
+  min-height: 40px;
+  background: #151515;
+  color: #f8f2df;
+  font-size: 0.95rem;
 }
 
 .seek-control,

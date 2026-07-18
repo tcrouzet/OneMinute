@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  function createLinkManager({ Cesium, viewer, markerByChapterId }) {
+  function createLinkManager({ Cesium, viewer, markerByChapterId, pickTolerance = 10 }) {
     const entities = [];
     const visibleEdges = [];
     let sequence = 0;
@@ -101,7 +101,7 @@
         }
       }
 
-      if (!best || bestDistance > 18) return null;
+      if (!best || bestDistance > pickTolerance) return null;
       return {
         from: best.from,
         to: best.to,

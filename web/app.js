@@ -53,10 +53,14 @@
   const reader = document.querySelector("#reader");
   const readerPlace = document.querySelector("#readerPlace");
   const readerWords = document.querySelector("#readerWords");
+  const readerVertical = document.querySelector("#readerVertical");
+  const readerVerticalText = document.querySelector("#readerVerticalText");
   const readerSeek = document.querySelector("#readerSeek");
   const readerSpeed = document.querySelector("#readerSpeed");
   const speedLabel = document.querySelector("#speedLabel");
   const readerClose = document.querySelector("#readerClose");
+  const readerMode = document.querySelector("#readerMode");
+  const readerNext = document.querySelector("#readerNext");
   const shareButton = document.querySelector("#shareButton");
   const profileButton = document.querySelector("#profileButton");
   const profilePanel = document.querySelector("#profilePanel");
@@ -95,7 +99,8 @@
     index: 0,
     playing: false,
     timer: null,
-    syllablesPerSecond: 5,
+    syllablesPerSecond: 6,
+    mode: "rsvp",
     seeking: false,
     resumeAfterSeek: false,
     readerFontSize: null,
@@ -155,7 +160,12 @@
     destination: Cesium.Cartesian3.fromDegrees(-35, 28, 260000000),
   });
   syncZoomState();
-  linkManager = Links.createLinkManager({ Cesium, viewer, markerByChapterId });
+  linkManager = Links.createLinkManager({
+    Cesium,
+    viewer,
+    markerByChapterId,
+    pickTolerance: IS_TOUCH_DEVICE ? 24 : 10,
+  });
   vignette = Vignette.createVignette({
     element: tooltip,
     screenPosition: markerScreenPosition,
@@ -201,6 +211,7 @@
       knownEdges: progress.knownEdges,
       lastChapterId,
       syllablesPerSecond: rsvp.syllablesPerSecond,
+      readerMode: rsvp.mode,
     }));
     updateProfile();
   }
@@ -434,6 +445,10 @@
       rsvp.syllablesPerSecond = Math.max(2, Math.min(12, Number(savedSpeed)));
       readerSpeed.value = String(rsvp.syllablesPerSecond);
     }
+    if (state.readerMode === "vertical") {
+      rsvp.mode = "vertical";
+    }
+    applyReaderMode();
     for (const point of payload.points || []) {
       addPoint(point, progress.read);
     }
@@ -768,23 +783,23 @@
       if (now - lastRoutedClickAt < 90) return;
       lastRoutedClickAt = now;
       if (introPlaying) return;
+      const marker = pickMarker(position);
+      if (marker) {
+        historyReturnActive = false;
+        if (!firstReadableChapterId(marker)) {
+          if (markerHasKnownLinks(marker, true)) showRememberedLinksForMarker(marker);
+          return;
+        }
+        showReadableMarker(marker, markerScreenPosition(marker) || position, true);
+        return;
+      }
       const link = pickedUnlockLink(position);
       if (link?.to) {
         historyReturnActive = false;
         flyToLinkedChapter(link);
         return;
       }
-      const marker = pickMarker(position);
-      if (!marker) {
-        hidePopup();
-        return;
-      }
-      historyReturnActive = false;
-      if (!firstReadableChapterId(marker)) {
-        if (markerHasKnownLinks(marker, true)) showRememberedLinksForMarker(marker);
-        return;
-      }
-      showReadableMarker(marker, markerScreenPosition(marker) || position, true);
+      hidePopup();
     };
 
     const handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
@@ -907,6 +922,8 @@
     suppressAutoPopup = false;
     rsvp.chapter = null;
     rsvp.marker = null;
+    rsvp.mode = "rsvp";
+    applyReaderMode();
     profileManager?.close();
     closeReader();
     hidePopup();
@@ -1007,7 +1024,60 @@
     applyReaderFontSize();
   }
 
+  function applyReaderMode() {
+    const vertical = rsvp.mode === "vertical";
+    reader?.classList.toggle("is-vertical", vertical);
+    if (readerMode) {
+      readerMode.setAttribute("aria-label", vertical ? "Lecture RSVP" : "Lecture verticale");
+      readerMode.title = vertical ? "Lecture RSVP" : "Lecture verticale";
+    }
+    if (vertical) pauseReader();
+  }
+
+  function toggleReaderMode() {
+    rsvp.mode = rsvp.mode === "vertical" ? "rsvp" : "vertical";
+    applyReaderMode();
+    saveState();
+    if (!rsvp.chapter) return;
+    if (rsvp.mode === "vertical") {
+      renderVerticalReader();
+    } else {
+      readerWords.textContent = "";
+      rsvp.index = verticalReaderIndex();
+      setReaderProgress();
+      playReader();
+    }
+  }
+
+  function renderVerticalReader() {
+    if (!readerVertical || !readerVerticalText || !rsvp.chapter) return;
+    readerVerticalText.innerHTML = renderVerticalText(rsvp.chapter.texte || "");
+    const ratio = rsvp.groups.length > 1 ? Math.max(0, Math.min(1, rsvp.index / (rsvp.groups.length - 1))) : 0;
+    requestAnimationFrame(() => {
+      const maxScroll = Math.max(0, readerVertical.scrollHeight - readerVertical.clientHeight);
+      readerVertical.scrollTop = maxScroll * ratio;
+    });
+  }
+
+  function verticalReaderIndex() {
+    if (!readerVertical || rsvp.groups.length <= 1) return rsvp.index;
+    const maxScroll = Math.max(0, readerVertical.scrollHeight - readerVertical.clientHeight);
+    if (!maxScroll) return rsvp.index;
+    const ratio = Math.max(0, Math.min(1, readerVertical.scrollTop / maxScroll));
+    return Math.max(0, Math.min(rsvp.groups.length - 1, Math.round(ratio * (rsvp.groups.length - 1))));
+  }
+
+  function renderVerticalText(text) {
+    return String(text)
+      .trim()
+      .split(/\n\s*\n/)
+      .filter(Boolean)
+      .map((paragraph) => `<p>${RSVP.renderInlineMarkdown(paragraph.replace(/\s*\n\s*/g, " ").trim())}</p>`)
+      .join("");
+  }
+
   function playReader() {
+    if (rsvp.mode === "vertical") return;
     rsvp.playing = true;
     nextReaderGroup();
   }
@@ -1414,6 +1484,7 @@
 
   function completeReader() {
     pauseReader();
+    if (rsvp.mode === "vertical" && readerVerticalText) readerVerticalText.textContent = "";
     readerWords.textContent = "Fin";
     if (readerSeek) readerSeek.value = readerSeek.max;
     let newlyOpened = [];
@@ -1450,10 +1521,17 @@
     rsvp.displayedFirstGroupFor = null;
     rsvp.chapter = null;
     rsvp.marker = marker;
+    if (readerVerticalText) readerVerticalText.textContent = "";
     reader.dataset.requestedChapterId = chapterId;
     reader.dataset.chapterId = "";
     readerPlace.textContent = "";
-    readerWords.textContent = `Chargement chapitre ${chapterId}`;
+    applyReaderMode();
+    if (rsvp.mode === "vertical") {
+      readerWords.textContent = "";
+      if (readerVerticalText) readerVerticalText.textContent = `Chargement chapitre ${chapterId}`;
+    } else {
+      readerWords.textContent = `Chargement chapitre ${chapterId}`;
+    }
     reader.classList.add("is-open");
     reader.setAttribute("aria-hidden", "false");
     Debug?.log("Reader", "loading affiche", { chapterId, domText: readerWords.innerText });
@@ -1466,6 +1544,7 @@
     rsvp.marker = marker;
     reader.dataset.chapterId = chapter.id;
     rsvp.groups = groups;
+    if (readerVerticalText) readerVerticalText.textContent = "";
     Debug?.log("Reader", "chapitre installe", {
       requestedChapterId: chapterId,
       loadedChapterId: chapter.id,
@@ -1484,10 +1563,12 @@
     }
     reader.classList.add("is-open");
     reader.setAttribute("aria-hidden", "false");
+    applyReaderMode();
     setReaderFontForChapter();
     updateSpeedLabel();
     hidePopup();
-    playReader();
+    if (rsvp.mode === "vertical") renderVerticalReader();
+    else playReader();
   }
 
   function nextPaint() {
@@ -1544,6 +1625,7 @@
     pauseReader();
     reader.classList.remove("is-open");
     reader.setAttribute("aria-hidden", "true");
+    if (readerVerticalText) readerVerticalText.textContent = "";
     hidePopup();
   }
 
@@ -1583,6 +1665,16 @@
       saveState();
     });
     readerClose.addEventListener("click", closeReader);
+    readerMode?.addEventListener("click", (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      toggleReaderMode();
+    });
+    readerNext?.addEventListener("click", (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      completeReader();
+    });
     shareButton?.addEventListener("click", shareCurrentPage);
     mapTitle?.addEventListener("click", (event) => {
       event.preventDefault();

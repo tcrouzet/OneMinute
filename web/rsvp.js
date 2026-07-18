@@ -226,6 +226,7 @@
     loadChapter,
     plainWord,
     prepareChapter,
+    renderInlineMarkdown,
     renderFocusWord,
     splitIntoGroups,
     wordDuration,
