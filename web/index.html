@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#05070b">
+    <title>OneMinute — Globe</title>
+    <script src="https://cesium.com/downloads/cesiumjs/releases/1.143/Build/Cesium/Cesium.js"></script>
+    <link href="https://cesium.com/downloads/cesiumjs/releases/1.143/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+    <script>
+      window.ONEMINUTE_DEV_VERSION = Date.now().toString();
+      document.write(`<link rel="stylesheet" href="styles.css?dev=${window.ONEMINUTE_DEV_VERSION}">`);
+    </script>
+  </head>
+  <body>
+    <main class="game-map" aria-label="Globe de navigation OneMinute">
+      <div id="globe"></div>
+      <div class="point-hit-layer" id="pointHitLayer" aria-hidden="true"></div>
+      <div class="map-title" aria-hidden="true">One Minute</div>
+      <div class="build-badge" id="buildBadge" aria-hidden="true">build ...</div>
+      <div class="zoom-controls" aria-label="Zoom">
+        <button id="zoomIn" type="button" aria-label="Zoomer">+</button>
+        <button id="zoomOut" type="button" aria-label="Dezoomer">-</button>
+      </div>
+      <button class="profile-button" id="profileButton" type="button" aria-label="Profil">
+        <span class="profile-head" aria-hidden="true"></span>
+        <span class="profile-body" aria-hidden="true"></span>
+      </button>
+      <aside class="profile-panel" id="profilePanel" aria-hidden="true">
+        <div class="profile-content">
+          <button class="profile-close" id="profileClose" type="button" aria-label="Fermer">x</button>
+          <div class="profile-row">
+            <span>XP</span>
+            <strong id="profileXp">0</strong>
+          </div>
+          <div class="profile-row">
+            <span>vitesse</span>
+            <strong id="profileSpeed">5 syll/s</strong>
+          </div>
+          <div class="profile-history" id="profileHistory" aria-label="Chapitres lus"></div>
+          <button class="profile-reset" id="profileReset" type="button">Reset lecture</button>
+        </div>
+      </aside>
+      <div class="point-tooltip" id="pointTooltip" aria-hidden="true"></div>
+      <section class="reader" id="reader" aria-hidden="true">
+        <div class="reader-backdrop"></div>
+        <div class="reader-shell" role="dialog" aria-modal="true" aria-label="Lecture du chapitre">
+          <header class="reader-header">
+            <div class="reader-place" id="readerPlace"></div>
+            <button class="reader-close" id="readerClose" type="button" aria-label="Fermer">x</button>
+          </header>
+          <div class="reader-stage">
+            <div class="reader-words" id="readerWords"></div>
+          </div>
+          <footer class="reader-controls">
+            <label class="seek-control" aria-label="Position de lecture">
+              <span>lecture</span>
+              <input id="readerSeek" type="range" min="0" max="0" step="1" value="0">
+            </label>
+            <label class="speed-control">
+              <span id="speedLabel">5 syll/s</span>
+              <input id="readerSpeed" type="range" min="2" max="12" step="0.5" value="5">
+            </label>
+          </footer>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      document.write(`<script src="debug.js?dev=${window.ONEMINUTE_DEV_VERSION}"><\/script>`);
+      document.write(`<script src="rsvp.js?dev=${window.ONEMINUTE_DEV_VERSION}"><\/script>`);
+      document.write(`<script src="links.js?dev=${window.ONEMINUTE_DEV_VERSION}"><\/script>`);
+      document.write(`<script src="vignette.js?dev=${window.ONEMINUTE_DEV_VERSION}"><\/script>`);
+      document.write(`<script src="profile.js?dev=${window.ONEMINUTE_DEV_VERSION}"><\/script>`);
+      document.write(`<script src="app.js?dev=${window.ONEMINUTE_DEV_VERSION}"><\/script>`);
+    </script>
+  </body>
+</html>

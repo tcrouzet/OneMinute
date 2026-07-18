@@ -1,0 +1,1126 @@
+{
+  "tome": 2,
+  "nb_chapitres": 95,
+  "chapitres": [
+    {
+      "id": "2_1",
+      "lieu": "Milan, Italie",
+      "lieu_detail": "chez eux, devant la télévision pendant un match de football",
+      "zone": "Europe du Sud",
+      "personnages": ["Matteo", "sa femme"],
+      "tags_auteur": ["Quidam"],
+      "tags_enrichis": ["Copa América", "routine conjugale", "coupure soudaine"]
+    },
+    {
+      "id": "2_2",
+      "lieu": "Amsterdam, Pays-Bas",
+      "lieu_detail": "en service, dans la rue",
+      "zone": "Europe de l'Ouest",
+      "personnages": ["Wooter", "policier non nommé"],
+      "tags_auteur": ["Hypo", "Gouv", "Loi001"],
+      "tags_enrichis": ["puce biométrique", "loi 001", "refus de connexion"]
+    },
+    {
+      "id": "2_3",
+      "lieu": "Kuda Hithi, Maldives",
+      "lieu_detail": "île privée de luxe, attaque de pirates",
+      "zone": "Asie du Sud",
+      "personnages": [
+        "Jeff Rothman",
+        "sa jeune épouse (non nommée)",
+        "pirates non nommés",
+        "capitaine non nommé"
+      ],
+      "tags_auteur": ["Longue Vie", "Club"],
+      "tags_enrichis": [
+        "traitement Longue Vie",
+        "île privée",
+        "attaque de pirates"
+      ]
+    },
+    {
+      "id": "2_4",
+      "lieu": "Snow Lake, États-Unis",
+      "lieu_detail": "en pleine nature, retraite spirituelle",
+      "zone": "Amérique du Nord",
+      "personnages": ["Damon"],
+      "tags_auteur": ["Hypo", "Chamane"],
+      "tags_enrichis": ["chamanisme", "déconnexion", "extase naturelle"]
+    },
+    {
+      "id": "2_5",
+      "lieu": "Alexandrie, Égypte",
+      "lieu_detail": "chez elle",
+      "zone": "Afrique du Nord",
+      "personnages": ["Mariam", "Mahmoud"],
+      "tags_auteur": ["Analyste"],
+      "tags_enrichis": ["asexualité", "refus des normes sociales", "analyste"]
+    },
+    {
+      "id": "2_6",
+      "lieu": "Honolulu, États-Unis",
+      "lieu_detail": "observatoire Mauna Kea",
+      "zone": "Océanie/Pacifique",
+      "personnages": ["Nick"],
+      "tags_auteur": ["Message"],
+      "tags_enrichis": [
+        "Gliese 581",
+        "transmission irrégulière",
+        "embouteillage"
+      ]
+    },
+    {
+      "id": "2_7",
+      "lieu": "Oklahoma City, États-Unis",
+      "lieu_detail": "tribunal, lors d'un procès",
+      "zone": "Amérique du Nord",
+      "personnages": ["Erin"],
+      "tags_auteur": ["Hypo", "Code", "Loi001"],
+      "tags_enrichis": ["puce abdominale", "résistance hypo", "procès"]
+    },
+    {
+      "id": "2_8",
+      "lieu": "Kowloon, Hong Kong",
+      "lieu_detail": "cadre universitaire, étude de terrain",
+      "zone": "Asie de l'Est",
+      "personnages": ["professeur Tak"],
+      "tags_auteur": ["Analyste"],
+      "tags_enrichis": [
+        "étude sociologique",
+        "asexualité adolescente",
+        "corrélation analystes"
+      ]
+    },
+    {
+      "id": "2_9",
+      "lieu": "Freetown, Sierra Leone",
+      "lieu_detail": "en train de rédiger un texte",
+      "zone": "Afrique",
+      "personnages": ["Nouhou"],
+      "tags_auteur": ["Hypo", "Dead Drop"],
+      "tags_enrichis": ["Manifeste hypo", "Dead Drop"]
+    },
+    {
+      "id": "2_10",
+      "lieu": "Cambridge, États-Unis",
+      "lieu_detail": "bureau à Harvard",
+      "zone": "Amérique du Nord",
+      "personnages": ["Morgan", "jeune femme non nommée (étudiante)"],
+      "tags_auteur": ["Code", "Quidam", "Philo", "Morgan"],
+      "tags_enrichis": [
+        "computation universelle",
+        "physique de l'information",
+        "E=f(bits)"
+      ]
+    },
+    {
+      "id": "2_11",
+      "lieu": "Annaba, Algérie",
+      "lieu_detail": "rendez-vous près d'une Dead Drop",
+      "zone": "Afrique du Nord",
+      "personnages": ["Salim", "fille au foulard bleu (non nommée)"],
+      "tags_auteur": ["Hypo", "Dead Drop"],
+      "tags_enrichis": ["Dead Drop", "rencontre hypo", "foulard bleu"]
+    },
+    {
+      "id": "2_12",
+      "lieu": "Cambridge, États-Unis",
+      "lieu_detail": "bureau à Harvard",
+      "zone": "Amérique du Nord",
+      "personnages": [
+        "Melissa Mackenzie",
+        "Rex (vu comme 'petite main', POV complet en 2_14)"
+      ],
+      "tags_auteur": ["Code", "Philo", "Analyste", "Mackenzie", "Morgan"],
+      "tags_enrichis": [
+        "intelligence artificielle",
+        "analyste enfant",
+        "conscience quantique"
+      ]
+    },
+    {
+      "id": "2_13",
+      "lieu": "Alger, Algérie",
+      "lieu_detail": "squat hypo",
+      "zone": "Afrique du Nord",
+      "personnages": [
+        "Aya",
+        "Yacine (mentionné)",
+        "jeune homme timide (non nommé)"
+      ],
+      "tags_auteur": ["Hypo", "Dead Drop"],
+      "tags_enrichis": ["Dead Drop", "communauté hypo"]
+    },
+    {
+      "id": "2_14",
+      "lieu": "Cambridge, États-Unis",
+      "lieu_detail": "bureau à Harvard, à côté de Mackenzie",
+      "zone": "Amérique du Nord",
+      "personnages": ["Mackenzie", "Rex (analyste, 13 ans)"],
+      "tags_auteur": ["Analyste", "Mackenzie", "IA", "Philo"],
+      "tags_enrichis": ["Rex", "analyste", "IA consciente"]
+    },
+    {
+      "id": "2_15",
+      "lieu": "Alger, Algérie",
+      "lieu_detail": "squat hypo",
+      "zone": "Afrique du Nord",
+      "personnages": ["Hassiba", "Yacine"],
+      "tags_auteur": ["Hypo", "Dead Drop"],
+      "tags_enrichis": ["Dead Drop", "communauté hypo"]
+    },
+    {
+      "id": "2_16",
+      "lieu": "Nouadhibou, Mauritanie",
+      "lieu_detail": "à bord d'une épave de cargo échouée, le 'United Malika'",
+      "zone": "Afrique",
+      "personnages": ["Akim"],
+      "tags_auteur": ["Quidam"],
+      "tags_enrichis": [
+        "ensemble de Mandelbrot",
+        "mysticisme cosmique",
+        "épaves de cargos"
+      ]
+    },
+    {
+      "id": "2_17",
+      "lieu": "Cambridge, États-Unis",
+      "lieu_detail": "bureau à Harvard",
+      "zone": "Amérique du Nord",
+      "personnages": [
+        "Melody",
+        "Mackenzie (mentionnée)",
+        "Rex (décrit comme 'probablement son jeune frère')"
+      ],
+      "tags_auteur": ["Mackenzie", "Morgan", "Philo"],
+      "tags_enrichis": ["analyste", "observation extérieure"]
+    },
+    {
+      "id": "2_18",
+      "lieu": "Ponta Delgada, Portugal (Açores)",
+      "lieu_detail": "laboratoire d'informatique de l'Universidade dos Açores",
+      "zone": "Europe de l'Ouest",
+      "personnages": ["Lenna"],
+      "tags_auteur": ["Hypo", "USS White Bay"],
+      "tags_enrichis": [
+        "expérience de déconnexion",
+        "USS White Bay",
+        "Zarmiens"
+      ]
+    },
+    {
+      "id": "2_19",
+      "lieu": "Karnak, Égypte",
+      "lieu_detail": "temple d'Amon-Rê, garde de nuit",
+      "zone": "Afrique du Nord",
+      "personnages": ["Tarek"],
+      "tags_auteur": ["Mackenzie", "Philo", "Quidam"],
+      "tags_enrichis": [
+        "théorie du maximum de complexité (Mackenzie)",
+        "poésie et amour"
+      ]
+    },
+    {
+      "id": "2_20",
+      "lieu": "Tórshavn, Îles Féroé",
+      "lieu_detail": "chez elle, dans sa chambre, volets fermés",
+      "zone": "Europe du Nord",
+      "personnages": ["Ziggy", "voix mystérieuse ('un rescapé')"],
+      "tags_auteur": ["Analyste"],
+      "tags_enrichis": [
+        "migraines rituelles annuelles",
+        "expérience de sortie du corps"
+      ]
+    },
+    {
+      "id": "2_21",
+      "lieu": "Santa Fe, États-Unis",
+      "lieu_detail": "cantina El Farol",
+      "zone": "Amérique du Nord",
+      "personnages": ["deux scientifiques non nommées", "serveur non nommé"],
+      "tags_auteur": ["Mackenzie", "Philo", "Quidam"],
+      "tags_enrichis": [
+        "théorie de la complexité de Mackenzie",
+        "effondrement d'une civilisation (Joseph Tainter)"
+      ]
+    },
+    {
+      "id": "2_22",
+      "lieu": "Cambridge, États-Unis",
+      "lieu_detail": "amphithéâtre du Harvard Science Center",
+      "zone": "Amérique du Nord",
+      "personnages": ["Innork", "Mackenzie (aperçue, non abordée)"],
+      "tags_auteur": ["Mackenzie", "Morgan", "Philo"],
+      "tags_enrichis": [
+        "maximum de complexité computationnelle",
+        "admiration secrète pour Mackenzie"
+      ]
+    },
+    {
+      "id": "2_23",
+      "lieu": "Tórshavn, Îles Féroé",
+      "lieu_detail": "en mer, sur un jet-ski, lors du Grind",
+      "zone": "Europe du Nord",
+      "personnages": ["Jàkup", "son père (non nommé)"],
+      "tags_auteur": ["Analyste", "Dauphins"],
+      "tags_enrichis": [
+        "Grind (massacre traditionnel de dauphins)",
+        "communion des analystes avec les dauphins"
+      ]
+    },
+    {
+      "id": "2_24",
+      "lieu": "Kingston, Jamaïque",
+      "lieu_detail": "chez ses parents, maison de pêcheurs à Harbour View",
+      "zone": "Caraïbes",
+      "personnages": ["Shanice"],
+      "tags_auteur": ["Hypo", "USS White Bay"],
+      "tags_enrichis": [
+        "Manifeste hypo",
+        "USS White Bay",
+        "retour à la sobriété numérique"
+      ]
+    },
+    {
+      "id": "2_25",
+      "lieu": "Tórshavn, Îles Féroé",
+      "lieu_detail": "musée d'histoire naturelle, devant le registre du Grind",
+      "zone": "Europe du Nord",
+      "personnages": ["Eivør"],
+      "tags_auteur": ["Analyste", "Trame", "Dauphins"],
+      "tags_enrichis": [
+        "Grind",
+        "citation d'Oppien de Corycos",
+        "dauphins avenir de l'homme"
+      ]
+    },
+    {
+      "id": "2_26",
+      "lieu": "Rangoon, Myanmar",
+      "lieu_detail": "dans sa chambre, la nuit, avec un détecteur de rayons cosmiques improvisé",
+      "zone": "Asie du Sud-Est",
+      "personnages": ["Suu"],
+      "tags_auteur": ["Analyste", "Explosion"],
+      "tags_enrichis": [
+        "détecteur à chambre à brouillard",
+        "muon et particule alpha",
+        "commérage intérieur (communion des analystes)"
+      ]
+    },
+    {
+      "id": "2_27",
+      "lieu": "Oslo, Norvège",
+      "lieu_detail": "réunion des Interconnectés anonymes, église luthérienne américaine",
+      "zone": "Europe du Nord",
+      "personnages": ["Silje"],
+      "tags_auteur": ["Hypo", "Quidam", "Philo", "InLine"],
+      "tags_enrichis": ["addiction à InLine", "témoignage de groupe de soutien"]
+    },
+    {
+      "id": "2_28",
+      "lieu": "Budapest, Hongrie",
+      "lieu_detail": "au téléphone avec son professeur",
+      "zone": "Europe centrale",
+      "personnages": [
+        "Vilmos",
+        "son professeur (voix au téléphone, non nommé)"
+      ],
+      "tags_auteur": ["SETI", "Signal", "Sara"],
+      "tags_enrichis": ["SETI"]
+    },
+    {
+      "id": "2_29",
+      "lieu": "Florac, France",
+      "lieu_detail": "chemin dans les châtaigniers, près de la cabane d'Hypolite",
+      "zone": "Europe de l'Ouest",
+      "personnages": [
+        "Audrey",
+        "Hypolite O'Gorman",
+        "jeune femme qui trébuche (vue de loin, = Camille, POV complet en 2_31)"
+      ],
+      "tags_auteur": ["Hypolite", "Hypo", "Analyste"],
+      "tags_enrichis": [
+        "Manifeste hypo",
+        "cabane de pierres sèches",
+        "Cévennes"
+      ]
+    },
+    {
+      "id": "2_30",
+      "lieu": "Yevpatoria, Crimée",
+      "lieu_detail": "observatoire radio d'Eupatoria",
+      "zone": "Europe de l'Est",
+      "personnages": ["Vassia"],
+      "tags_auteur": ["Signal", "Gliese"],
+      "tags_enrichis": [
+        "message envoyé vers Gliese 581 vingt ans plus tôt",
+        "principe de précaution"
+      ]
+    },
+    {
+      "id": "2_31",
+      "lieu": "Florac, France",
+      "lieu_detail": "châtaigniers près de la cabane d'Hypolite",
+      "zone": "Europe de l'Ouest",
+      "personnages": [
+        "Camille (fille d'Hypolite O'Gorman)",
+        "Hypolite O'Gorman"
+      ],
+      "tags_auteur": [
+        "Hypolite",
+        "Hypo",
+        "Analyste",
+        "Zarmien",
+        "Sara",
+        "USS White Bay"
+      ],
+      "tags_enrichis": [
+        "cabane de pierres sèches",
+        "Cévennes",
+        "branche cassée"
+      ]
+    },
+    {
+      "id": "2_32",
+      "lieu": "Berlin, Allemagne",
+      "lieu_detail": "vélodrome, rave/concert électronique",
+      "zone": "Europe centrale",
+      "personnages": ["Gunter"],
+      "tags_auteur": ["Analyste", "Quidam"],
+      "tags_enrichis": [
+        "larsen musical",
+        "yeux bleus (motif récurrent des analystes)"
+      ]
+    },
+    {
+      "id": "2_33",
+      "lieu": "Key Largo, États-Unis",
+      "lieu_detail": "chez lui, en Floride, soigneur de dauphins",
+      "zone": "Amérique du Nord",
+      "personnages": ["Gerrit"],
+      "tags_auteur": ["Philo", "Signal", "Dauphins"],
+      "tags_enrichis": ["équation de Drake", "scepticisme scientifique"]
+    },
+    {
+      "id": "2_34",
+      "lieu": "Florac, France",
+      "lieu_detail": "perché dans un sapin, surveillant la cabane d'Hypolite",
+      "zone": "Europe de l'Ouest",
+      "personnages": [
+        "drone-espion gouvernemental (narrateur non-humain)",
+        "Hypolite O'Gorman (surveillé)",
+        "Camille (aperçue)"
+      ],
+      "tags_auteur": ["Hypo", "Drone", "Hypolite"],
+      "tags_enrichis": [
+        "surveillance gouvernementale",
+        "POV non-humain",
+        "panne fatale au drone"
+      ]
+    },
+    {
+      "id": "2_35",
+      "lieu": "Castel Gandolfo, Italie",
+      "lieu_detail": "observatoire du Vatican",
+      "zone": "Europe du Sud",
+      "personnages": ["frère Guy"],
+      "tags_auteur": ["Quidam", "Philo", "Michele"],
+      "tags_enrichis": ["astronomie vaticane"]
+    },
+    {
+      "id": "2_36",
+      "lieu": "Florac, France",
+      "lieu_detail": "approche de la cabane d'Hypolite",
+      "zone": "Europe de l'Ouest",
+      "personnages": ["Lazar", "Kamber", "Hypolite O'Gorman (cible)"],
+      "tags_auteur": ["Hypolite", "Hypo", "Analyste", "Zarmien"],
+      "tags_enrichis": ["mercenaires", "tentative d'assassinat"]
+    },
+    {
+      "id": "2_37",
+      "lieu": "CERN, Suisse",
+      "lieu_detail": "balcon surplombant le détecteur Alpha du Large Hadron Collider",
+      "zone": "Europe centrale",
+      "personnages": ["Momar Wolof"],
+      "tags_auteur": ["Quidam", "Philo"],
+      "tags_enrichis": [
+        "collisionneur de particules",
+        "antigravitation",
+        "pyramide de Kheops (comparaison)"
+      ]
+    },
+    {
+      "id": "2_38",
+      "lieu": "Florac, France",
+      "lieu_detail": "laboratoire de SupAgro, analyse d'un champignon inconnu",
+      "zone": "Europe de l'Ouest",
+      "personnages": ["Baptiste"],
+      "tags_auteur": ["Hypo", "ADN"],
+      "tags_enrichis": [
+        "champignon synthétique inconnu",
+        "gaz du bonheur",
+        "séquençage ADN"
+      ]
+    },
+    {
+      "id": "2_39",
+      "lieu": "Monkey Bay, Malawi",
+      "lieu_detail": "rochers en surplomb du lac Malawi",
+      "zone": "Afrique",
+      "personnages": ["Tiwonge (Soleil)", "Melina (Nuit)"],
+      "tags_auteur": ["Analyste", "Aba", "Blackout"],
+      "tags_enrichis": [
+        "Blackout (roman de Neal Lover)",
+        "Aba la chasseuse d'analystes",
+        "pressentiment partagé"
+      ]
+    },
+    {
+      "id": "2_40",
+      "lieu": "Florac, France",
+      "lieu_detail": "forêt, découverte du drone-espion abattu",
+      "zone": "Europe de l'Ouest",
+      "personnages": ["P'tit Roger", "Grand Steph", "Camille (aperçue)"],
+      "tags_auteur": ["Hypolite", "Drone"],
+      "tags_enrichis": ["chasseurs", "drone abattu"]
+    },
+    {
+      "id": "2_41",
+      "lieu": "Washington, États-Unis",
+      "lieu_detail": "bureaux du parti démocrate",
+      "zone": "Amérique du Nord",
+      "personnages": [
+        "sénatrice Walden",
+        "boss du parti démocrate (non nommé)"
+      ],
+      "tags_auteur": ["Gouv", "Club", "Zarmien"],
+      "tags_enrichis": ["loi de renseignement", "surveillance de masse"]
+    },
+    {
+      "id": "2_42",
+      "lieu": "Washington, États-Unis",
+      "lieu_detail": "prise d'otage",
+      "zone": "Amérique du Nord",
+      "personnages": ["LX", "propriétaire non nommé (otage)"],
+      "tags_auteur": ["Analyste", "Gardien", "LX"],
+      "tags_enrichis": ["don de précognition", "calculateur quantique naturel"]
+    },
+    {
+      "id": "2_43",
+      "lieu": "New York, États-Unis",
+      "lieu_detail": "librairie, salon littéraire",
+      "zone": "Amérique du Nord",
+      "personnages": [
+        "Ainzly (critique littéraire)",
+        "Aba et Hardin (personnages du roman Blackout, mentionnés)"
+      ],
+      "tags_auteur": ["Analyste", "Aba", "Blackout"],
+      "tags_enrichis": ["Blackout", "Neal Lover", "critique littéraire"]
+    },
+    {
+      "id": "2_44",
+      "lieu": "Vienne, Autriche",
+      "lieu_detail": "plateau de spectacle/cabaret",
+      "zone": "Europe centrale",
+      "personnages": ["Marga Flash", "présentateur non nommé"],
+      "tags_auteur": ["Marga"],
+      "tags_enrichis": ["parodie de Sara Cash", "cabaret viennois"]
+    },
+    {
+      "id": "2_45",
+      "lieu": "Bureh Beach, Sierra Leone",
+      "lieu_detail": "dans un hamac entre deux manguiers",
+      "zone": "Afrique",
+      "personnages": [
+        "Alex (= Neal Lover, auteur de Blackout)",
+        "Aba (mentionnée, son ex)"
+      ],
+      "tags_auteur": ["Analyste", "Aba", "Blackout"],
+      "tags_enrichis": ["protoanalystes", "Blackout", "Aba réelle"]
+    },
+    {
+      "id": "2_46",
+      "lieu": "Lyon, France",
+      "lieu_detail": "parc de la Tête d'Or, immeuble d'Interpol",
+      "zone": "Europe de l'Ouest",
+      "personnages": [
+        "Amaury",
+        "Marga Flash (mentionnée)",
+        "Sara Cash (mentionnée)"
+      ],
+      "tags_auteur": ["Marga", "Sara"],
+      "tags_enrichis": ["physionomiste", "ressemblance Sara/Marga"]
+    },
+    {
+      "id": "2_47",
+      "lieu": "Istanbul, Turquie",
+      "lieu_detail": "aéroport, duty free",
+      "zone": "Europe de l'Est",
+      "personnages": ["Assam", "Viona", "LX (mentionné)"],
+      "tags_auteur": ["LX", "Analyste"],
+      "tags_enrichis": ["calculateur quantique naturel", "billard"]
+    },
+    {
+      "id": "2_48",
+      "lieu": "Fort George G. Meade, États-Unis",
+      "lieu_detail": "NSA",
+      "zone": "Amérique du Nord",
+      "personnages": ["Autumn"],
+      "tags_auteur": ["LX", "Sara", "Gardien"],
+      "tags_enrichis": [
+        "révolution des foulards",
+        "Mashhad",
+        "LX chevalier blanc"
+      ]
+    },
+    {
+      "id": "2_49",
+      "lieu": "Londres, Angleterre",
+      "lieu_detail": "librairie Foyles, auditorium",
+      "zone": "Europe de l'Ouest",
+      "personnages": [
+        "Lauren",
+        "un terroriste anti-analystes (non nommé)",
+        "un otage téméraire (non nommé)"
+      ],
+      "tags_auteur": ["Aba", "Analyste"],
+      "tags_enrichis": [
+        "Blackout",
+        "Hardin (personnage du roman)",
+        "drone piégé"
+      ]
+    },
+    {
+      "id": "2_50",
+      "lieu": "Mashhad, Iran",
+      "lieu_detail": "hall de l'hôtel Pardisan",
+      "zone": "Moyen-Orient",
+      "personnages": [
+        "Zachary",
+        "Assam (mentionné)",
+        "LX (mentionné)",
+        "N (mentionnée)"
+      ],
+      "tags_auteur": ["LX", "N", "Sara"],
+      "tags_enrichis": ["révolution des foulards", "foulard bleu"]
+    },
+    {
+      "id": "2_51",
+      "lieu": "Lyon, France",
+      "lieu_detail": "immeuble d'Interpol, ascenseur",
+      "zone": "Europe de l'Ouest",
+      "personnages": ["Andrew", "Marine"],
+      "tags_auteur": ["Hypo", "Sara", "Marga"],
+      "tags_enrichis": ["attirance interdite", "Sara/Marga archétype"]
+    },
+    {
+      "id": "2_52",
+      "lieu": "Lisbonne, Portugal",
+      "lieu_detail": "consultant sémioticien sollicité à distance par la NSA",
+      "zone": "Europe du Sud",
+      "personnages": ["Rui Quinto"],
+      "tags_auteur": ["Sara"],
+      "tags_enrichis": [
+        "fins multiples des shows de Sara Cash",
+        "chat de Schrödinger",
+        "Fernando Pessoa (référence)"
+      ]
+    },
+    {
+      "id": "2_53",
+      "lieu": "Poznań, Pologne",
+      "lieu_detail": "cabinet médical, place du marché",
+      "zone": "Europe centrale",
+      "personnages": ["Karolina", "N (mentionnée)"],
+      "tags_auteur": ["Hypo", "Aba", "Analyste", "Blackout", "N", "Sara"],
+      "tags_enrichis": ["conscience quantique", "Blackout non fictif"]
+    },
+    {
+      "id": "2_54",
+      "lieu": "New York, États-Unis",
+      "lieu_detail": "jardin public, POV écureuil",
+      "zone": "Amérique du Nord",
+      "personnages": ["Squirrel (écureuil, narrateur non-humain)"],
+      "tags_auteur": ["Quidam"],
+      "tags_enrichis": ["POV animal", "manifestation anti-loi Walden"]
+    },
+    {
+      "id": "2_55",
+      "lieu": "Lyon, France",
+      "lieu_detail": "immeuble d'Interpol, ascenseur",
+      "zone": "Europe de l'Ouest",
+      "personnages": ["Marine", "Andrew", "Amaury (mentionné)"],
+      "tags_auteur": ["Marga", "Sara", "Gouv"],
+      "tags_enrichis": ["Sara/Marga slogan", "séduction"]
+    },
+    {
+      "id": "2_56",
+      "lieu": "Aogashima, Japon",
+      "lieu_detail": "île volcanique",
+      "zone": "Asie de l'Est",
+      "personnages": [
+        "Takuya",
+        "Anastasiya Boleslava Alyona (= Aba, sous un autre nom)"
+      ],
+      "tags_auteur": ["Hypo", "Aba", "Analyste", "Blackout"],
+      "tags_enrichis": ["Aba sous alias", "conversion à la chair"]
+    },
+    {
+      "id": "2_57",
+      "lieu": "Réserve du Paracas, Pérou",
+      "lieu_detail": "falaise au bord du Pacifique",
+      "zone": "Amérique du Sud",
+      "personnages": ["Naida", "son frère (analyste, non nommé)"],
+      "tags_auteur": ["Analyste", "Dauphins"],
+      "tags_enrichis": [
+        "communion sensorielle",
+        "dauphins",
+        "entités non extraterrestres"
+      ]
+    },
+    {
+      "id": "2_58",
+      "lieu": "Mashhad, Iran",
+      "lieu_detail": "hôpital, chevet d'un enfant comateux",
+      "zone": "Moyen-Orient",
+      "personnages": [
+        "Shirin",
+        "N (mentionnée)",
+        "LX (mentionné)",
+        "enfant patient (non nommé)"
+      ],
+      "tags_auteur": ["Analyste", "LX", "N"],
+      "tags_enrichis": ["mutation cérébrale", "yeux bleus au réveil"]
+    },
+    {
+      "id": "2_59",
+      "lieu": "Lokolama, Congo",
+      "lieu_detail": "forêt équatoriale, de nuit",
+      "zone": "Afrique",
+      "personnages": [
+        "Hardin (personnage réel, ex-analyste déconnecté par Aba)"
+      ],
+      "tags_auteur": ["Aba", "Analyste"],
+      "tags_enrichis": ["infratrame", "technochaman"]
+    },
+    {
+      "id": "2_60",
+      "lieu": "Madrid, Espagne",
+      "lieu_detail": "Plaza Mayor",
+      "zone": "Europe du Sud",
+      "personnages": ["Carmen", "Hypolite O'Gorman (mentionné)"],
+      "tags_auteur": ["Hypo", "Hypolite"],
+      "tags_enrichis": ["surveillance de masse", "NSA/Snowden"]
+    },
+    {
+      "id": "2_61",
+      "lieu": "Washington, États-Unis",
+      "lieu_detail": "quartier de Dupont Circle, à vélo",
+      "zone": "Amérique du Nord",
+      "personnages": ["Cielo", "LX (mentionné)", "N (mentionnée)"],
+      "tags_auteur": ["LX"],
+      "tags_enrichis": ["protoanalyste", "Club (commanditaire de LX)"]
+    },
+    {
+      "id": "2_62",
+      "lieu": "Djibouti, Djibouti",
+      "lieu_detail": "café Mask",
+      "zone": "Afrique",
+      "personnages": [
+        "Théo Boulard",
+        "sa fille (mentionnée, ressemble à Sara Cash)",
+        "patronne du café (non nommée)"
+      ],
+      "tags_auteur": ["Sara", "Boulard"],
+      "tags_enrichis": ["ancien légionnaire", "khat"]
+    },
+    {
+      "id": "2_63",
+      "lieu": "Copenhague, Danemark",
+      "lieu_detail": "studio de design",
+      "zone": "Europe du Nord",
+      "personnages": ["Lars"],
+      "tags_auteur": ["Sara", "Hypolite"],
+      "tags_enrichis": ["Christina O'Gorman (photos, 1913)", "Mervyn O'Gorman"]
+    },
+    {
+      "id": "2_64",
+      "lieu": "Santa Fe, États-Unis",
+      "lieu_detail": "square, sous un banc métallique équipé d'une Dead Drop",
+      "zone": "Amérique du Nord",
+      "personnages": ["Jamie"],
+      "tags_auteur": ["Hypo", "Dead Drop", "Hypolite"],
+      "tags_enrichis": ["transporteuse", "Dead Drop"]
+    },
+    {
+      "id": "2_65",
+      "lieu": "Helsinki, Finlande",
+      "lieu_detail": "chez lui, devant son écran tactile",
+      "zone": "Europe du Nord",
+      "personnages": ["Sampo"],
+      "tags_auteur": ["Boulard", "Hypolite", "InLine"],
+      "tags_enrichis": [
+        "reconnaissance faciale InLine",
+        "Christina O'Gorman (photos 1913)",
+        "filiation Boulard/O'Gorman révélée"
+      ]
+    },
+    {
+      "id": "2_66",
+      "lieu": "Santa Fe, États-Unis",
+      "lieu_detail": "square, POV drone-espion en forme de libellule",
+      "zone": "Amérique du Nord",
+      "personnages": [
+        "Libellule (drone-espion, narrateur non-humain)",
+        "Jamie (= Jamie550)"
+      ],
+      "tags_auteur": ["Hypo", "Drone", "Zarmien"],
+      "tags_enrichis": ["POV non-humain", "traque des hypos"]
+    },
+    {
+      "id": "2_67",
+      "lieu": "Heidelberg, Allemagne",
+      "lieu_detail": "cabinet d'avocats Berton & Partner",
+      "zone": "Europe centrale",
+      "personnages": ["Jana"],
+      "tags_auteur": ["Sara", "Boulard", "Marga"],
+      "tags_enrichis": [
+        "détective d'art",
+        "Sara Cash = Marga Boulard = Marga Flash (révélation)",
+        "filiation Boulard/O'Gorman"
+      ]
+    },
+    {
+      "id": "2_68",
+      "lieu": "Santa Fe, États-Unis",
+      "lieu_detail": "route 66, sous une Camaro SS 1967",
+      "zone": "Amérique du Nord",
+      "personnages": ["Matt", "Jamie (mentionnée, surveillée)"],
+      "tags_auteur": ["Hypo", "Drone"],
+      "tags_enrichis": ["garde du corps secret", "chasse aux drones-espions"]
+    },
+    {
+      "id": "2_69",
+      "lieu": "Lancaster, États-Unis",
+      "lieu_detail": "boulangerie amish",
+      "zone": "Amérique du Nord",
+      "personnages": ["Jakob"],
+      "tags_auteur": ["Aba", "Analyste", "Blackout", "Quidam"],
+      "tags_enrichis": ["philosophie amish", "Blackout (lu comme parabole)"]
+    },
+    {
+      "id": "2_70",
+      "lieu": "Santa Fe, États-Unis",
+      "lieu_detail": "corniche, POV drone-suiveur",
+      "zone": "Amérique du Nord",
+      "personnages": [
+        "drone-suiveur (narrateur non-humain)",
+        "Austin (symbiote humain toxicomane)"
+      ],
+      "tags_auteur": ["Hypo", "Drone", "Dead Drop"],
+      "tags_enrichis": ["POV non-humain", "dépendance au DXM"]
+    },
+    {
+      "id": "2_71",
+      "lieu": "Bugarach, France",
+      "lieu_detail": "champ de blé au pied du Pech de Bugarach",
+      "zone": "Europe de l'Ouest",
+      "personnages": [
+        "Cabrol",
+        "quatre adolescents non nommés (probablement analystes)"
+      ],
+      "tags_auteur": ["Analyste"],
+      "tags_enrichis": [
+        "Pech de Bugarach",
+        "mythe de la fin du monde",
+        "nyctalopie"
+      ]
+    },
+    {
+      "id": "2_72",
+      "lieu": "Santa Fe, États-Unis",
+      "lieu_detail": "square, à côté du banc de Jamie",
+      "zone": "Amérique du Nord",
+      "personnages": ["Austin"],
+      "tags_auteur": ["Hypo", "Dead Drop", "Zarmien"],
+      "tags_enrichis": ["manque de DXM", "mort du drone"]
+    },
+    {
+      "id": "2_73",
+      "lieu": "Washington, États-Unis",
+      "lieu_detail": "situation room, Maison-Blanche",
+      "zone": "Amérique du Nord",
+      "personnages": ["Heather", "la Présidente (mentionnée)"],
+      "tags_auteur": ["Hypo", "Sara", "Gouv"],
+      "tags_enrichis": ["cryptomonnaies", "financement occulte de Sara Cash"]
+    },
+    {
+      "id": "2_74",
+      "lieu": "Christmas Island, Kiribati",
+      "lieu_detail": "navire océanographique",
+      "zone": "Océanie/Pacifique",
+      "personnages": [
+        "Joan Cunningham",
+        "Ricou (son fils, autiste)",
+        "chef scientifique non nommé",
+        "Yup (dauphin)"
+      ],
+      "tags_auteur": ["Longue Vie", "Analyste", "Dauphins"],
+      "tags_enrichis": [
+        "dauphins",
+        "théorie de Gerrit Verschuur",
+        "traitement Longue Vie"
+      ]
+    },
+    {
+      "id": "2_75",
+      "lieu": "Sète, France",
+      "lieu_detail": "Worldwide Festival, mix party sur la plage",
+      "zone": "Europe de l'Ouest",
+      "personnages": ["Polo", "deux danseuses non nommées"],
+      "tags_auteur": ["Hypo", "Gouv", "Dead Drop", "Loi001"],
+      "tags_enrichis": ["cryptobracelets", "traque des hypos", "loi 001"]
+    },
+    {
+      "id": "2_76",
+      "lieu": "Séville, Espagne",
+      "lieu_detail": "bar",
+      "zone": "Europe du Sud",
+      "personnages": ["Nuria", "Javier", "barman non nommé"],
+      "tags_auteur": ["Hypo", "Analyste", "Trame", "InLine"],
+      "tags_enrichis": ["puce abdominale", "rendez-vous hypo"]
+    },
+    {
+      "id": "2_77",
+      "lieu": "Älvdalen, Suède",
+      "lieu_detail": "sur une branche, en forêt, au-dessus d'un ravin",
+      "zone": "Europe du Nord",
+      "personnages": ["Jewel"],
+      "tags_auteur": ["Analyste", "Trame", "Réplicants", "Zarmien"],
+      "tags_enrichis": [
+        "vigie de la trame",
+        "épicéa millénaire",
+        "conflit trame/machines zarmiennes"
+      ]
+    },
+    {
+      "id": "2_78",
+      "lieu": "Christmas Island, Kiribati",
+      "lieu_detail": "plage arrière du navire océanographique",
+      "zone": "Océanie/Pacifique",
+      "personnages": ["Ricou"],
+      "tags_auteur": ["Analyste", "Trame", "Dauphins"],
+      "tags_enrichis": ["communion dauphins/analystes", "métamorphose"]
+    },
+    {
+      "id": "2_79",
+      "lieu": "Reykjavik, Islande",
+      "lieu_detail": "atelier de reliure",
+      "zone": "Europe du Nord",
+      "personnages": ["Birta"],
+      "tags_auteur": ["Hypo", "Quidam"],
+      "tags_enrichis": ["livre-objet", "mouvement hypo (esthétique)"]
+    },
+    {
+      "id": "2_80",
+      "lieu": "Vladivostok, Russie",
+      "lieu_detail": "chez lui, après une mix party dans un entrepôt du Transsibérien",
+      "zone": "Europe de l'Est",
+      "personnages": ["Yul", "une Japonaise non nommée"],
+      "tags_auteur": ["Hypo", "Sara"],
+      "tags_enrichis": ["Manifeste hypo", "virus informatique"]
+    },
+    {
+      "id": "2_81",
+      "lieu": "Vladivostok, Russie",
+      "lieu_detail": "quai au bord de la baie de la Corne d'Or",
+      "zone": "Europe de l'Est",
+      "personnages": [
+        "Irina (fille adoptive d'Oleg Ossokine)",
+        "deux hommes non nommés"
+      ],
+      "tags_auteur": ["Hypo"],
+      "tags_enrichis": ["virus transmis aux hypos", "Bratva"]
+    },
+    {
+      "id": "2_82",
+      "lieu": "Discovery Island, Bahamas",
+      "lieu_detail": "extrémité d'une passerelle de bois, maison sur pilotis",
+      "zone": "Caraïbes",
+      "personnages": ["Kelly", "Skky (mentionné)"],
+      "tags_auteur": ["Analyste", "Trame"],
+      "tags_enrichis": ["temple de l'équilibre", "extase/dissolution"]
+    },
+    {
+      "id": "2_83",
+      "lieu": "Venise, Italie",
+      "lieu_detail": "lagune, en kayak près du canal de Punta Sabbioni",
+      "zone": "Europe du Sud",
+      "personnages": ["Saverio", "homme à l'arc non nommé"],
+      "tags_auteur": ["Hypo", "Quidam"],
+      "tags_enrichis": ["survivalisme", "arc traditionnel"]
+    },
+    {
+      "id": "2_84",
+      "lieu": "Discovery Island, Bahamas",
+      "lieu_detail": "plage, sous les flamboyants",
+      "zone": "Caraïbes",
+      "personnages": ["Moon", "Jessica", "Skky (mentionné)"],
+      "tags_auteur": ["Analyste", "Trame"],
+      "tags_enrichis": ["initiation", "trois piliers de Skky"]
+    },
+    {
+      "id": "2_85",
+      "lieu": "Colobraro, Italie",
+      "lieu_detail": "village entre les Pouilles et la Calabre",
+      "zone": "Europe du Sud",
+      "personnages": ["Vincenzo"],
+      "tags_auteur": ["Hypo"],
+      "tags_enrichis": ["Manifeste hypo", "survivalisme"]
+    },
+    {
+      "id": "2_86",
+      "lieu": "Discovery Island, Bahamas",
+      "lieu_detail": "rocher au bord de la mer, près du temple de Skky",
+      "zone": "Caraïbes",
+      "personnages": ["Savannah", "Skky (mentionné)"],
+      "tags_auteur": ["Analyste", "Trame", "Gardien"],
+      "tags_enrichis": [
+        "trois piliers de l'équilibre",
+        "épuisement physique de la connexion"
+      ]
+    },
+    {
+      "id": "2_87",
+      "lieu": "Xunantunich, Bélize",
+      "lieu_detail": "sommet du temple El Castillo",
+      "zone": "Amérique centrale",
+      "personnages": ["Summer"],
+      "tags_auteur": ["Hypo", "Quidam", "Philo"],
+      "tags_enrichis": ["mouvement hypo (origines)", "civilisation maya"]
+    },
+    {
+      "id": "2_88",
+      "lieu": "Discovery Island, Bahamas",
+      "lieu_detail": "chambre, chez Skky",
+      "zone": "Caraïbes",
+      "personnages": ["Zair", "Sidra"],
+      "tags_auteur": ["Analyste", "Trame"],
+      "tags_enrichis": ["asexualité des analystes", "initiation sexuelle"]
+    },
+    {
+      "id": "2_89",
+      "lieu": "Samara, Russie",
+      "lieu_detail": "bar de la Volga",
+      "zone": "Europe de l'Est",
+      "personnages": [
+        "Sergei",
+        "Olga",
+        "géant non nommé (garde du corps)",
+        "Maksim (mentionné, aperçu)"
+      ],
+      "tags_auteur": ["Hypo", "Dead Drop", "Analyste", "Zarmien"],
+      "tags_enrichis": ["Bratva", "rendez-vous hypo"]
+    },
+    {
+      "id": "2_90",
+      "lieu": "Discovery Island, Bahamas",
+      "lieu_detail": "chez Skky, bungalow",
+      "zone": "Caraïbes",
+      "personnages": ["Callum", "Aba (non nommée directement, décrite)"],
+      "tags_auteur": ["Aba", "Analyste", "Trame"],
+      "tags_enrichis": ["Aba chez Skky", "jalousie"]
+    },
+    {
+      "id": "2_91",
+      "lieu": "Samara, Russie",
+      "lieu_detail": "soirée organisée par une agence, appartement",
+      "zone": "Europe de l'Est",
+      "personnages": [
+        "Eldar",
+        "Maksim",
+        "Olga",
+        "Oleg Ossokine (mentionné)",
+        "Irina (mentionnée)",
+        "le petit ami d'Olga (= Sergei)"
+      ],
+      "tags_auteur": ["Hypo", "Zarmien", "Analyste", "Yeux"],
+      "tags_enrichis": [
+        "Bratva",
+        "yeux auréolés de lueur bleutée",
+        "Zarmiens (voix manipulatrice)"
+      ]
+    },
+    {
+      "id": "2_92",
+      "lieu": "Discovery Island, Bahamas",
+      "lieu_detail": "bungalow de Skky",
+      "zone": "Caraïbes",
+      "personnages": ["Skky", "Aba"],
+      "tags_auteur": ["Aba", "Zarmien", "Shutdown", "Gardien", "LX"],
+      "tags_enrichis": [
+        "protoanalystes",
+        "LX comme contre-exemple",
+        "alliance Skky/Aba"
+      ]
+    },
+    {
+      "id": "2_93",
+      "lieu": "Samara, Russie",
+      "lieu_detail": "bar de la Volga, soirée Bratva",
+      "zone": "Europe de l'Est",
+      "personnages": ["Olga", "Sergei", "brigadiers de la Bratva non nommés"],
+      "tags_auteur": ["Hypo", "Analyste", "Tanya", "Trame", "Cyborg"],
+      "tags_enrichis": [
+        "Olga espionne les Zarmiens",
+        "extermination des analystes annoncée"
+      ]
+    },
+    {
+      "id": "2_94",
+      "lieu": "Discovery Island, Bahamas",
+      "lieu_detail": "eau turquoise, avec un dauphin",
+      "zone": "Caraïbes",
+      "personnages": ["Nikki", "Skky (mentionné)", "Aba (mentionnée)"],
+      "tags_auteur": ["Aba", "Analyste", "Trame", "Hypo"],
+      "tags_enrichis": [
+        "technochamane",
+        "dauphin",
+        "théorie de Mackenzie et Morgan"
+      ]
+    },
+    {
+      "id": "2_95",
+      "lieu": "Florac, France",
+      "lieu_detail": "perron de la cabane de pierres sèches",
+      "zone": "Europe de l'Ouest",
+      "personnages": [
+        "Hypolite O'Gorman",
+        "Sara (mentionnée, présentée comme 'sa fille')",
+        "Marga (mentionnée, présentée comme 'sa cousine')"
+      ],
+      "tags_auteur": ["Hypolite", "Hypo", "Analyste"],
+      "tags_enrichis": [
+        "déconnexion volontaire d'Hypolite",
+        "fierté paternelle"
+      ]
+    }
+  ],
+  "cas_ambigus": [
+    {"id":"2_67 vs 2_95","note":"Contradiction textuelle non résolue : en 2_67, Jana déduit que Sara Cash = Marga Boulard = Marga Flash (une seule personne, fille de Théo Boulard, donc nièce d'Hypolite O'Gorman). Mais en 2_95, Hypolite pense à Sara comme 'sa fille' et évoque 'sa cousine Marga' comme une personne distincte. Soit Jana se trompe, soit Hypolite ignore/dissimule la vérité, soit le texte joue volontairement sur l'ambiguïté. Signalé plutôt que tranché."},
+    {"id":"2_1","note":"Le prénom de la femme de Matteo n'est pas donné explicitement dans le texte lu — à revérifier si besoin."}
+  ],
+  "notes": [
+    "RÉVÉLATION MAJEURE : Sara Cash serait en réalité Marga Boulard (alias Marga Flash), fille de Théo Boulard, petite-fille de Shannon O'Gorman, elle-même fille de Christina O'Gorman. Hypolite O'Gorman, fondateur du mouvement hypo, serait le demi-frère de Théo (donc le grand-oncle ou le père présumé de Sara selon 2_67 vs 2_95, voir cas ambigu ci-dessus).",
+    "RÉVÉLATION : 'Blackout' est un roman best-seller à l'intérieur même du récit, écrit par 'Neal Lover' — qui est en réalité Alex, un ex-protoanalyste. Son héroïne 'Aba, la chasseuse d'analystes' est inspirée d'une femme réelle (Aba), son ex-compagne, qui déconnecte réellement des analystes de la trame dans le monde réel (2_39, 2_43, 2_45, 2_49, 2_53, 2_56, 2_59, 2_69, 2_90, 2_92, 2_94). Son autre personnage, Hardin, existe aussi réellement (2_59).",
+    "Fil narratif LX/N : LX (calculateur quantique naturel, ancien tueur à gages) a aimé N (l'égérie de la révolution des foulards en Iran), qui l'a quitté pour continuer à aider les jeunes analystes. LX a basculé du côté du Club puis peut-être des Zarmiens (2_42, 2_47, 2_48, 2_50, 2_53, 2_58, 2_61, 2_92).",
+    "Groupe Discovery Island (Bahamas) : communauté d'analystes autour de 'Skky', maître de l'équilibre/protoanalyste, avec Kelly, Moon, Jessica, Savannah, Zair, Sidra, Callum, Nikki. Aba vient s'y installer et se rapproche de Skky (2_82, 2_84, 2_86, 2_88, 2_90, 2_92, 2_94).",
+    "Groupe Florac (France) : Hypolite O'Gorman, déconnecté volontaire, vit caché dans les Cévennes avec sa fille/cousine Camille ; cible d'une tentative d'assassinat (Lazar, Kamber) et surveillé par un drone gouvernemental (2_29, 2_31, 2_34, 2_36, 2_38, 2_40, 2_95).",
+    "Groupe Samara (Russie) : Olga, jeune analyste infiltrée dans la Bratva d'Oleg Ossokine (déjà croisé au Tome 1, chapitre 1_58) pour espionner l'influence des Zarmiens ; Sergei, son petit ami hypo (2_89, 2_91, 2_93). Le lien avec le Tome 1 (Oleg Ossokine, Irina) est confirmé.",
+    "Fil Cambridge/Mackenzie : Melissa Mackenzie (chercheuse) et le professeur Morgan développent une théorie de la conscience quantique/computation universelle, en lien avec Rex, jeune analyste de 13 ans (2_10, 2_12, 2_14, 2_17, 2_19, 2_21, 2_22).",
+    "Motif récurrent 'dauphins' : plusieurs analystes (Ricou, Naida et son frère, les personnages de Tórshavn) communient avec les dauphins d'une façon jugée proche, mais plus ancienne, que la communion des analystes humains (2_23, 2_25, 2_33, 2_57, 2_74, 2_78).",
+    "Deux chapitres à POV non-humain dans ce tome (comme Didou le chien en 1_62) : Squirrel l'écureuil (2_54), un drone-espion gouvernemental (2_34), un drone-suiveur toxicomane (2_70) et Libellule, un drone-espion en forme d'insecte (2_66).",
+    "Correction de zones : plusieurs lieux du Tome 2 ne correspondent pas à mes suppositions initiales (ex. Discovery Island aux Bahamas plutôt qu'Exuma, Samara plutôt que Volgograd, Xunantunich au Bélize plutôt que Tikal au Honduras) — corrigées après vérification systématique dans map-minimal.json plutôt que déduites du texte seul.",
+    "Consolidation terminée : les 19 chapitres initialement marqués 'à préciser' (2_16, 2_18 à 2_27, 2_30, 2_32, 2_33, 2_37, 2_38, 2_39, 2_52, 2_65) ont été relus intégralement et complétés avec le même niveau de détail que le reste du Tome 2."
+  ]
+}

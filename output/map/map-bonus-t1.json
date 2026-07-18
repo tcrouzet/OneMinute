@@ -1,0 +1,1143 @@
+{
+  "tome": 1,
+  "nb_chapitres": 95,
+  "chapitres": [
+    {
+      "id": "1_1",
+      "lieu": "Versailles, France",
+      "lieu_detail": "terrasse face au château",
+      "zone": "Europe de l'Ouest",
+      "personnages": ["Gabriel", "Thomas", "Paul", "Sara Cash (mentionnée)"],
+      "tags_auteur": ["Analyste", "Sara", "Gliese"],
+      "tags_enrichis": [
+        "message extraterrestre",
+        "Cluedo",
+        "divorce",
+        "écran/tablette"
+      ]
+    },
+    {
+      "id": "1_2",
+      "lieu": "New York, États-Unis",
+      "lieu_detail": "bureau au Time Warner Center, vue sur Central Park",
+      "zone": "Amérique du Nord",
+      "personnages": ["Cooper", "Sara Cash (mentionnée)"],
+      "tags_auteur": ["Club", "Sara"],
+      "tags_enrichis": ["Networks", "Club", "message extraterrestre"]
+    },
+    {
+      "id": "1_3",
+      "lieu": "Atacama, Chili",
+      "lieu_detail": "observatoire sur haut plateau",
+      "zone": "Amérique du Sud",
+      "personnages": ["Jimmy", "Michele Lamb (mentionnée)"],
+      "tags_auteur": ["Michele", "Gliese", "Philo"],
+      "tags_enrichis": [
+        "Gliese 581",
+        "êta-Terres",
+        "principe de médiocrité",
+        "bug"
+      ]
+    },
+    {
+      "id": "1_4",
+      "lieu": "Versailles, France",
+      "lieu_detail": "terrasse face au château",
+      "zone": "Europe de l'Ouest",
+      "personnages": [
+        "Thomas",
+        "Paul",
+        "Sara Cash (mentionnée)",
+        "Gabriel (mentionné)"
+      ],
+      "tags_auteur": ["Analyste", "Sara", "Gliese", "Trame"],
+      "tags_enrichis": ["code Morse tactile", "Gliese 581", "contact", "trame"]
+    },
+    {
+      "id": "1_5",
+      "lieu": "Mumbai, Inde",
+      "lieu_detail": "dans son lit, tard dans la nuit, face à la fenêtre donnant sur les Imperial Towers",
+      "zone": "Asie du Sud",
+      "personnages": ["Pawan"],
+      "tags_auteur": ["Hypo", "Sara", "Loi001"],
+      "tags_enrichis": ["InLine", "hypos", "loi 001", "Sara Cash Intubeuse"]
+    },
+    {
+      "id": "1_6",
+      "lieu": "Bordeaux, France",
+      "lieu_detail": "chez elle, en pleine réflexion",
+      "zone": "Europe de l'Ouest",
+      "personnages": [
+        "Nadine François",
+        "Gabriel (mentionné)",
+        "Thomas (mentionné)",
+        "Paul (mentionné)"
+      ],
+      "tags_auteur": ["Analyste", "Sara", "Gliese", "Trame", "ADN"],
+      "tags_enrichis": [
+        "microchimérisme",
+        "ADN",
+        "chromosome Y",
+        "interconnexion"
+      ]
+    },
+    {
+      "id": "1_7",
+      "lieu": "Arecibo, Porto Rico",
+      "lieu_detail": "salle de contrôle du radiotélescope",
+      "zone": "Caraïbes",
+      "personnages": ["Tara", "Michele Lamb", "Jonathan (mentionné, disparu)"],
+      "tags_auteur": ["Michele", "Gliese", "Fringe"],
+      "tags_enrichis": [
+        "exobiologiste",
+        "contact",
+        "Gliese 581",
+        "constellation de la Lyre"
+      ]
+    },
+    {
+      "id": "1_8",
+      "lieu": "Singapour, République de Singapour",
+      "lieu_detail": "chambre d'hôpital",
+      "zone": "Asie du Sud-Est",
+      "personnages": ["Chan Chun Chee", "père de Chan"],
+      "tags_auteur": ["Quidam", "Zarmina", "Gliese"],
+      "tags_enrichis": ["Zarmina", "infarctus", "je t'aime"]
+    },
+    {
+      "id": "1_9",
+      "lieu": "Washington, États-Unis",
+      "lieu_detail": "situation room, Maison-Blanche",
+      "zone": "Amérique du Nord",
+      "personnages": [
+        "la Présidente",
+        "James Upper",
+        "Mark Revolver",
+        "Sara Cash (mentionnée)",
+        "Michele Lamb (mentionnée)"
+      ],
+      "tags_auteur": ["Hypo", "Sara", "Michele", "Loi001", "Gouv", "Gliese"],
+      "tags_enrichis": ["National Intelligence", "loi 001", "InLine", "hypos"]
+    },
+    {
+      "id": "1_10",
+      "lieu": "Santa Cruz, États-Unis",
+      "lieu_detail": "chez lui, devant son ordinateur",
+      "zone": "Amérique du Nord",
+      "personnages": ["Steve Vogt", "Sara Cash (mentionnée)"],
+      "tags_auteur": ["Gliese", "Philo", "Zarmina"],
+      "tags_enrichis": [
+        "Zarmina",
+        "naine rouge",
+        "rotation synchrone",
+        "Zarmiens"
+      ]
+    },
+    {
+      "id": "1_11",
+      "lieu": "Majuro, Marshall Islands",
+      "lieu_detail": "cruiser touristique dans le Pacifique",
+      "zone": "Océanie/Pacifique",
+      "personnages": ["Rathan Harshavardan", "Sara Cash (voix radio)"],
+      "tags_auteur": ["Sara", "Quidam", "Code"],
+      "tags_enrichis": ["montée des eaux", "essais nucléaires", "atolls"]
+    },
+    {
+      "id": "1_12",
+      "lieu": "Mountain View, États-Unis",
+      "lieu_detail": "embouteillage sur Bernardo Avenue",
+      "zone": "Amérique du Nord",
+      "personnages": ["Mark Honegger", "Michele Lamb (mentionnée)"],
+      "tags_auteur": ["Michele", "SETI"],
+      "tags_enrichis": ["SETI", "Terriens", "chasseurs d'extraterrestres"]
+    },
+    {
+      "id": "1_13",
+      "lieu": "Saint-Pétersbourg, Russie",
+      "lieu_detail": "musée de l'Hermitage, nuit",
+      "zone": "Europe de l'Est",
+      "personnages": ["Popov"],
+      "tags_auteur": ["Réplicants", "Quidam", "Drone"],
+      "tags_enrichis": ["drones ménagers", "robotisation", "drone escorte"]
+    },
+    {
+      "id": "1_14",
+      "lieu": "Londres, Angleterre",
+      "lieu_detail": "devant ses écrans, en train de décrypter le stream",
+      "zone": "Europe de l'Ouest",
+      "personnages": ["Jay", "Sara Cash"],
+      "tags_auteur": ["Sara"],
+      "tags_enrichis": [
+        "InLine",
+        "19:45 UTC/GMT",
+        "Vancouver",
+        "incrustation vidéo"
+      ]
+    },
+    {
+      "id": "1_15",
+      "lieu": "Vancouver, Canada",
+      "lieu_detail": "Waterfront Road, parking Shaw Tower, Stanley Park",
+      "zone": "Amérique du Nord",
+      "personnages": ["Greg", "Alexander"],
+      "tags_auteur": ["Zarmien", "Gouv"],
+      "tags_enrichis": ["Mustang noire", "drone (véhicule sans conducteur)"]
+    },
+    {
+      "id": "1_16",
+      "lieu": "Washington, États-Unis",
+      "lieu_detail": "situation room, Maison-Blanche",
+      "zone": "Amérique du Nord",
+      "personnages": [
+        "Erica Madison",
+        "la Présidente (mentionnée)",
+        "Blade (mentionné)",
+        "Furlong (mentionné)"
+      ],
+      "tags_auteur": ["Gouv", "Sara"],
+      "tags_enrichis": ["CIA", "Vancouver", "hackers", "sniper"]
+    },
+    {
+      "id": "1_17",
+      "lieu": "Vancouver, Canada",
+      "lieu_detail": "squat, toit",
+      "zone": "Amérique du Nord",
+      "personnages": ["Rachel", "Blade (absent)"],
+      "tags_auteur": ["Zarmien", "Cyborg", "Hypo", "Gouv"],
+      "tags_enrichis": [
+        "hypos",
+        "hypo un jour hypo toujours",
+        "pirate pacifiste"
+      ]
+    },
+    {
+      "id": "1_18",
+      "lieu": "Vancouver, Canada",
+      "lieu_detail": "immeuble en travaux face au centre de conférences",
+      "zone": "Amérique du Nord",
+      "personnages": [
+        "Furlong",
+        "Josh (vu de l'extérieur, POV complet en 2_14)"
+      ],
+      "tags_auteur": ["Analyste", "Zarmien", "Gardien", "Yeux"],
+      "tags_enrichis": [
+        "McMillan TAC-50",
+        "tir manqué",
+        "yeux auréolés de lueur bleutée"
+      ]
+    },
+    {
+      "id": "1_19",
+      "lieu": "Zelenchukskaya, Russie",
+      "lieu_detail": "radiotélescope RATAN-600",
+      "zone": "Europe de l'Est",
+      "personnages": ["Svetlana", "Michele Lamb (mentionnée)"],
+      "tags_auteur": ["Michele", "Gliese", "Philo"],
+      "tags_enrichis": ["RATAN-600", "HD 164595", "triangulation", "2015"]
+    },
+    {
+      "id": "1_20",
+      "lieu": "Moscou, Russie",
+      "lieu_detail": "quai de la Moskova",
+      "zone": "Europe de l'Est",
+      "personnages": ["Iván", "Nastya"],
+      "tags_auteur": ["Analyste", "Sara", "Hypo"],
+      "tags_enrichis": ["analystes", "amour", "étoiles"]
+    },
+    {
+      "id": "1_21",
+      "lieu": "Necker Island, îles Vierges",
+      "lieu_detail": "belvédère, île privée",
+      "zone": "Caraïbes",
+      "personnages": ["Richard Trenton", "Sara Cash (mentionnée)"],
+      "tags_auteur": ["Longue Vie", "Club", "Sara"],
+      "tags_enrichis": ["Club", "traitement Longue Vie", "Davos", "autarcie"]
+    },
+    {
+      "id": "1_22",
+      "lieu": "Station spatiale, orbite terrestre",
+      "lieu_detail": "module Tranquility",
+      "zone": "Espace/orbite",
+      "personnages": ["Tracy", "Youri (mentionné)"],
+      "tags_auteur": ["Blackout", "Espace"],
+      "tags_enrichis": ["Soyouz", "Baïkonour", "extase", "transcendance"]
+    },
+    {
+      "id": "1_23",
+      "lieu": "Fort George G. Meade, États-Unis",
+      "lieu_detail": "NSA, plateau surnommé 'la ruche'",
+      "zone": "Amérique du Nord",
+      "personnages": [
+        "Logan",
+        "Li Li (mentionné)",
+        "Sara Cash",
+        "Michele Lamb (mentionnée)"
+      ],
+      "tags_auteur": [
+        "Michele",
+        "Gliese",
+        "Sara",
+        "Gouv",
+        "Zarmina",
+        "Li Li",
+        "3DTechnologie"
+      ],
+      "tags_enrichis": [
+        "NSA",
+        "3D Technologie",
+        "Metsähovi",
+        "Ooty",
+        "rejoignez les hypos"
+      ]
+    },
+    {
+      "id": "1_24",
+      "lieu": "Naples, Italie",
+      "lieu_detail": "navette vers Capri, baie de Naples",
+      "zone": "Europe du Sud",
+      "personnages": ["Majorana"],
+      "tags_auteur": ["Sara", "Gliese", "Philo"],
+      "tags_enrichis": [
+        "lentille gravitationnelle",
+        "trou noir",
+        "astrophysicien"
+      ]
+    },
+    {
+      "id": "1_25",
+      "lieu": "Puerto Montt, Chili",
+      "lieu_detail": "maisons sur pilotis",
+      "zone": "Amérique du Sud",
+      "personnages": ["Catalina", "fils de Catalina (non nommé)"],
+      "tags_auteur": ["Analyste", "Trame"],
+      "tags_enrichis": ["trame", "télépathie", "obsolescence de l'écriture"]
+    },
+    {
+      "id": "1_26",
+      "lieu": "Wellington, Nouvelle-Zélande",
+      "lieu_detail": "dans son jardin, en train de tailler les rosiers",
+      "zone": "Océanie/Pacifique",
+      "personnages": ["Pepe", "femme de Pepe", "fils de Pepe (mentionné)"],
+      "tags_auteur": ["Quidam"],
+      "tags_enrichis": ["rosiers", "sécateur électrique", "demi-dieux/vedettes"]
+    },
+    {
+      "id": "1_27",
+      "lieu": "Muthorai, Inde",
+      "lieu_detail": "bureau du radiotélescope Ooty",
+      "zone": "Asie du Sud",
+      "personnages": [
+        "Aryabhata",
+        "Michele Lamb (mentionnée)",
+        "Kristiina Miettinen (mentionnée)"
+      ],
+      "tags_auteur": ["Michele", "Sara", "Message"],
+      "tags_enrichis": [
+        "triangulation",
+        "Ooty",
+        "3D Technology",
+        "bourse/NASDAQ"
+      ]
+    },
+    {
+      "id": "1_28",
+      "lieu": "Montréal, Canada",
+      "lieu_detail": "biosphère de l'île Sainte-Hélène, berges du Saint-Laurent",
+      "zone": "Amérique du Nord",
+      "personnages": ["Zoé"],
+      "tags_auteur": ["Analyste", "Trame"],
+      "tags_enrichis": ["trame", "Saint-Saëns", "audition insolite", "analyste"]
+    },
+    {
+      "id": "1_29",
+      "lieu": "Thessalonique, Grèce",
+      "lieu_detail": "fond de cale d'un rafiot désarmé",
+      "zone": "Europe du Sud/Balkans",
+      "personnages": [
+        "Yiorgos",
+        "deux ravisseurs non nommés",
+        "Iván (mentionné)",
+        "Nastya (mentionnée)"
+      ],
+      "tags_auteur": ["Analyste", "Sara"],
+      "tags_enrichis": [
+        "enlèvement",
+        "détecteur de mensonges",
+        "analystes enfants"
+      ]
+    },
+    {
+      "id": "1_30",
+      "lieu": "Lhassa, Tibet",
+      "lieu_detail": "toit du palais du Potala",
+      "zone": "Asie de l'Est",
+      "personnages": ["Loden", "Jetsun"],
+      "tags_auteur": ["Drone", "Quidam"],
+      "tags_enrichis": [
+        "drones",
+        "chasse au drone",
+        "dérégulation de l'espace aérien"
+      ]
+    },
+    {
+      "id": "1_31",
+      "lieu": "Arecibo, Porto Rico",
+      "lieu_detail": "local technique du radiotélescope, derrière la cloison vitrée",
+      "zone": "Caraïbes",
+      "personnages": ["Tyler", "Tara", "Michele Lamb"],
+      "tags_auteur": ["Michele", "Gliese", "Signal"],
+      "tags_enrichis": ["cryptage", "piratage", "chronologie du signal"]
+    },
+    {
+      "id": "1_32",
+      "lieu": "Vienne, Autriche",
+      "lieu_detail": "réunion OPEP, 17 Helferstorferstrasse",
+      "zone": "Europe centrale",
+      "personnages": ["Ahmad Al-Naimi (Sheikh Vert)", "délégué du Qatar"],
+      "tags_auteur": ["Club", "Longue Vie"],
+      "tags_enrichis": [
+        "OPEP",
+        "traitement Longue Vie",
+        "transition énergétique"
+      ]
+    },
+    {
+      "id": "1_33",
+      "lieu": "Nagoya, Japon",
+      "lieu_detail": "chez lui, devant ses écrans",
+      "zone": "Asie de l'Est",
+      "personnages": ["Takashi"],
+      "tags_auteur": ["Sara", "Code"],
+      "tags_enrichis": ["décodage binaire", "BitUpload", "Murakami"]
+    },
+    {
+      "id": "1_34",
+      "lieu": "Vatican, Italie",
+      "lieu_detail": "appartements du cardinal",
+      "zone": "Europe du Sud",
+      "personnages": ["cardinal Allibi"],
+      "tags_auteur": ["Sara"],
+      "tags_enrichis": ["théologie", "Sara archétype", "fils de Dieu"]
+    },
+    {
+      "id": "1_35",
+      "lieu": "Washington, États-Unis",
+      "lieu_detail": "situation room, Maison-Blanche",
+      "zone": "Amérique du Nord",
+      "personnages": [
+        "amiral Michael Rice",
+        "Michele Lamb (mentionnée)",
+        "Jonathan Fringe (mentionné)",
+        "la Présidente (mentionnée)"
+      ],
+      "tags_auteur": ["USS White Bay", "Michele", "Gliese", "Signal", "Fringe"],
+      "tags_enrichis": [
+        "USS White Bay",
+        "SEAL Team Six",
+        "disparition du navire"
+      ]
+    },
+    {
+      "id": "1_36",
+      "lieu": "Portsmouth, États-Unis",
+      "lieu_detail": "devant l'hôpital de la Navy",
+      "zone": "Amérique du Nord",
+      "personnages": ["Flora Fringe", "Brandon Lake (BL)"],
+      "tags_auteur": ["USS White Bay", "Fringe", "Gardien"],
+      "tags_enrichis": [
+        "USS White Bay",
+        "familles de marins disparus",
+        "Intubeur indépendant"
+      ]
+    },
+    {
+      "id": "1_37",
+      "lieu": "Portsmouth, États-Unis",
+      "lieu_detail": "chambre d'hôpital, vue sur Elizabeth River",
+      "zone": "Amérique du Nord",
+      "personnages": ["Emily D", "Jonathan Fringe"],
+      "tags_auteur": ["Analyste", "Fringe", "USS White Bay"],
+      "tags_enrichis": ["coma", "USS White Bay", "réveil"]
+    },
+    {
+      "id": "1_38",
+      "lieu": "Mascate, Sultanat d'Oman",
+      "lieu_detail": "chambre à coucher",
+      "zone": "Moyen-Orient",
+      "personnages": ["Amana", "Qabus", "Ayah (bébé)"],
+      "tags_auteur": ["Analyste"],
+      "tags_enrichis": ["babyphone", "nourrisson sensible aux ondes"]
+    },
+    {
+      "id": "1_39",
+      "lieu": "Mascate, Sultanat d'Oman",
+      "lieu_detail": "chambre de bébé, dans son lit à barreaux",
+      "zone": "Moyen-Orient",
+      "personnages": ["Ayah (bébé)"],
+      "tags_auteur": ["Analyste"],
+      "tags_enrichis": ["perception du bébé", "trame", "présence bienveillante"]
+    },
+    {
+      "id": "1_40",
+      "lieu": "Washington, États-Unis",
+      "lieu_detail": "situation room",
+      "zone": "Amérique du Nord",
+      "personnages": ["Giuliano", "Sara Cash (mentionnée)"],
+      "tags_auteur": ["Sara", "Gouv"],
+      "tags_enrichis": ["communication gouvernementale", "séduction", "intox"]
+    },
+    {
+      "id": "1_41",
+      "lieu": "Arlington County, États-Unis",
+      "lieu_detail": "bureau du renseignement militaire",
+      "zone": "Amérique du Nord",
+      "personnages": [
+        "Jordan",
+        "Michele Lamb (mentionnée)",
+        "Jonathan Fringe (mentionné)"
+      ],
+      "tags_auteur": ["Michele", "Analyste", "USS White Bay", "Fringe", "Code"],
+      "tags_enrichis": ["USS White Bay", "physionomiste", "virus numérique"]
+    },
+    {
+      "id": "1_42",
+      "lieu": "Seattle, États-Unis",
+      "lieu_detail": "McGilvra Boulevard, à la sortie du tennis club",
+      "zone": "Amérique du Nord",
+      "personnages": ["Teddy", "basketteur agressif non nommé"],
+      "tags_auteur": ["Analyste"],
+      "tags_enrichis": ["Zik", "trame", "déconnexion"]
+    },
+    {
+      "id": "1_43",
+      "lieu": "San Andrés Zabache, Mexique",
+      "lieu_detail": "bus pour Puerto Escondido",
+      "zone": "Amérique du Nord",
+      "personnages": ["Janis"],
+      "tags_auteur": ["Hypo", "Quidam", "Philo"],
+      "tags_enrichis": ["hypos", "indifférence collective"]
+    },
+    {
+      "id": "1_44",
+      "lieu": "Pearl Harbor, États-Unis",
+      "lieu_detail": "bureau de la capitaine Miller",
+      "zone": "Amérique du Nord",
+      "personnages": ["agent Doris Sharp", "capitaine Miller"],
+      "tags_auteur": ["Michele", "Analyste", "USS White Bay", "Fringe", "Code"],
+      "tags_enrichis": [
+        "USS White Bay",
+        "interrogatoire",
+        "romance Michele/Jonathan"
+      ]
+    },
+    {
+      "id": "1_45",
+      "lieu": "Jérusalem, Israël",
+      "lieu_detail": "seul, en pleine méditation",
+      "zone": "Moyen-Orient",
+      "personnages": ["Rabbi Shalom"],
+      "tags_auteur": ["Quidam", "signal"],
+      "tags_enrichis": ["Genèse", "théologie juive", "dialogue intérieur"]
+    },
+    {
+      "id": "1_46",
+      "lieu": "Mendoza, Argentine",
+      "lieu_detail": "cordillère des Andes, à vélo",
+      "zone": "Amérique du Sud",
+      "personnages": ["Mauro"],
+      "tags_auteur": ["Analyste"],
+      "tags_enrichis": ["rêve prémonitoire", "communion", "signal"]
+    },
+    {
+      "id": "1_47",
+      "lieu": "Mountain View, États-Unis",
+      "lieu_detail": "couloir du SETI Institute, près de la salle de réunion",
+      "zone": "Amérique du Nord",
+      "personnages": ["Cody", "Michele Lamb (mentionnée)"],
+      "tags_auteur": ["Michele", "USS White Bay", "SETI", "Gouv"],
+      "tags_enrichis": ["SETI", "jalousie", "constellation de la Lyre"]
+    },
+    {
+      "id": "1_48",
+      "lieu": "Mousehole, Angleterre",
+      "lieu_detail": "port de Mousehole, Cornouailles",
+      "zone": "Europe de l'Ouest",
+      "personnages": ["John"],
+      "tags_auteur": ["Quidam", "Hypo", "Sara", "Philo"],
+      "tags_enrichis": ["Lumières", "Laniakea", "destinée cosmique"]
+    },
+    {
+      "id": "1_49",
+      "lieu": "Artarmon, Australie",
+      "lieu_detail": "SBS ONE, desk de montage",
+      "zone": "Océanie/Pacifique",
+      "personnages": ["Candy", "Sara Cash"],
+      "tags_auteur": ["Sara"],
+      "tags_enrichis": [
+        "montage vidéo",
+        "piratage du lien",
+        "frère de Sara (hypothèse)"
+      ]
+    },
+    {
+      "id": "1_50",
+      "lieu": "Tallinn, Estonie",
+      "lieu_detail": "parc de l'hôtel Schlössle",
+      "zone": "Europe de l'Est/Baltique",
+      "personnages": ["Elina Kalamaja"],
+      "tags_auteur": ["Analyste", "Sara", "Elina"],
+      "tags_enrichis": ["trame", "marée noire", "île de Ruhnu"]
+    },
+    {
+      "id": "1_51",
+      "lieu": "São Paulo, Brésil",
+      "lieu_detail": "appartement en hauteur, Mirante do Vale Building",
+      "zone": "Amérique du Sud",
+      "personnages": ["Luiz da Costa Rodrigues", "gamin analyste non nommé"],
+      "tags_auteur": ["Analyste"],
+      "tags_enrichis": ["crime organisé", "pollution", "yeux bleutés"]
+    },
+    {
+      "id": "1_52",
+      "lieu": "Tallinn, Estonie",
+      "lieu_detail": "balcon de l'hôtel Schlössle",
+      "zone": "Europe de l'Est/Baltique",
+      "personnages": ["Arko", "Elina Kalamaja"],
+      "tags_auteur": ["Analyste", "Zarmien", "Elina"],
+      "tags_enrichis": ["tueur à gages", "hackeuse"]
+    },
+    {
+      "id": "1_53",
+      "lieu": "Pago Pago, Samoa américaines",
+      "lieu_detail": "route côtière, au volant",
+      "zone": "Océanie/Pacifique",
+      "personnages": ["Shirley"],
+      "tags_auteur": ["Michele", "USS White Bay", "Sara"],
+      "tags_enrichis": [
+        "USS White Bay",
+        "enquête journalistique",
+        "Michele Lamb"
+      ]
+    },
+    {
+      "id": "1_54",
+      "lieu": "Tallinn, Estonie",
+      "lieu_detail": "bar de l'hôtel Schlössle",
+      "zone": "Europe de l'Est/Baltique",
+      "personnages": [
+        "Sten",
+        "Arko",
+        "Elina Kalamaja",
+        "Ramzan Cepow (mentionné)"
+      ],
+      "tags_auteur": ["Analyste", "Zarmien", "Elina"],
+      "tags_enrichis": ["filature", "intégrisme religieux"]
+    },
+    {
+      "id": "1_55",
+      "lieu": "Portillo, Chili",
+      "lieu_detail": "hôtel Portillo, station de ski",
+      "zone": "Amérique du Sud",
+      "personnages": ["Carlo Moreno"],
+      "tags_auteur": ["Quidam", "Signal", "Philo"],
+      "tags_enrichis": ["paradoxe de Fermi", "scepticisme scientifique"]
+    },
+    {
+      "id": "1_56",
+      "lieu": "Grozny, Tchétchénie",
+      "lieu_detail": "chez lui, au téléphone avec ses mécènes",
+      "zone": "Europe de l'Est/Caucase",
+      "personnages": ["Ramzan Cepow"],
+      "tags_auteur": ["Analyste", "Zarmien", "Elina"],
+      "tags_enrichis": [
+        "intégrisme religieux",
+        "unité des fidèles",
+        "Sara Cash hérétique"
+      ]
+    },
+    {
+      "id": "1_57",
+      "lieu": "Essaouira, Maroc",
+      "lieu_detail": "plage de Tagharte",
+      "zone": "Afrique du Nord",
+      "personnages": ["Chahid", "enfants de Chahid"],
+      "tags_auteur": ["Quidam", "Philo"],
+      "tags_enrichis": [
+        "cristaux de sucre interstellaires",
+        "analogie du loto",
+        "paternité"
+      ]
+    },
+    {
+      "id": "1_58",
+      "lieu": "Moscou, Russie",
+      "lieu_detail": "loft, tour OKO",
+      "zone": "Europe de l'Est",
+      "personnages": ["Oleg Ossokine", "voix mystérieuse non identifiée"],
+      "tags_auteur": ["Zarmien", "Elina"],
+      "tags_enrichis": ["Bratva", "voix manipulatrice", "Elina Kalamaja cible"]
+    },
+    {
+      "id": "1_59",
+      "lieu": "Pago Pago, Samoa américaines",
+      "lieu_detail": "aéroport, comptoir Hawaiian Airlines",
+      "zone": "Océanie/Pacifique",
+      "personnages": [
+        "agent McGregor",
+        "Li Li (mentionné)",
+        "Michele Lamb (mentionnée)",
+        "Jonathan Fringe (mentionné)"
+      ],
+      "tags_auteur": ["Michele", "Fringe", "USS White Bay", "Gouv"],
+      "tags_enrichis": ["USS White Bay", "stéganographie", "Li Li"]
+    },
+    {
+      "id": "1_60",
+      "lieu": "Réserve du Néouvielle, France",
+      "lieu_detail": "cockpit du Rafale, survol des Pyrénées",
+      "zone": "Europe de l'Ouest",
+      "personnages": ["lieutenant Milan"],
+      "tags_auteur": ["Quidam", "Gouv"],
+      "tags_enrichis": ["OTAN", "alerte militaire", "Rafale"]
+    },
+    {
+      "id": "1_61",
+      "lieu": "Washington, États-Unis",
+      "lieu_detail": "situation room",
+      "zone": "Amérique du Nord",
+      "personnages": ["Robert Monk", "la Présidente (mentionnée)"],
+      "tags_auteur": ["Gouv", "Gliese", "Philo"],
+      "tags_enrichis": [
+        "mobilisation militaire",
+        "Zarmiens",
+        "anthropocentrisme"
+      ]
+    },
+    {
+      "id": "1_62",
+      "lieu": "Réserve du Néouvielle, France",
+      "lieu_detail": "pâturage en surplomb du troupeau",
+      "zone": "Europe de l'Ouest",
+      "personnages": ["Didou (chien de berger)"],
+      "tags_auteur": ["Quidam"],
+      "tags_enrichis": ["pastoralisme", "point de vue animal"]
+    },
+    {
+      "id": "1_63",
+      "lieu": "Fort George G. Meade, États-Unis",
+      "lieu_detail": "NSA, écran géant partagé",
+      "zone": "Amérique du Nord",
+      "personnages": ["Melinda", "Cheyenne"],
+      "tags_auteur": ["Michele", "USS White Bay"],
+      "tags_enrichis": [
+        "stéganographie",
+        "décrypteur quantique",
+        "Pago Pago message caché"
+      ]
+    },
+    {
+      "id": "1_64",
+      "lieu": "Mountain View, États-Unis",
+      "lieu_detail": "SETI Institute, devant les écrans",
+      "zone": "Amérique du Nord",
+      "personnages": ["Jill"],
+      "tags_auteur": ["SETI", "Quidam", "Philo"],
+      "tags_enrichis": ["Green Bank 1997", "pulsars", "Little Green Men"]
+    },
+    {
+      "id": "1_65",
+      "lieu": "Houston, États-Unis",
+      "lieu_detail": "box de gardien de parking",
+      "zone": "Amérique du Nord",
+      "personnages": ["Soan"],
+      "tags_auteur": ["Drone", "Quidam"],
+      "tags_enrichis": [
+        "radicalisation religieuse",
+        "drone-attentat",
+        "biopuces"
+      ]
+    },
+    {
+      "id": "1_66",
+      "lieu": "Diego Garcia, Royaume-Uni",
+      "lieu_detail": "station de surveillance de l'océan Indien",
+      "zone": "Océan Indien",
+      "personnages": ["Jennifer"],
+      "tags_auteur": ["Michele", "USS White Bay", "NOSS-55", "Gliese", "Gouv"],
+      "tags_enrichis": [
+        "NOSS-53",
+        "télémétrie laser",
+        "constellation de la Lyre"
+      ]
+    },
+    {
+      "id": "1_67",
+      "lieu": "Barcelone, Espagne",
+      "lieu_detail": "toit d'immeuble où sèche du linge",
+      "zone": "Europe de l'Ouest",
+      "personnages": ["Paloma", "Claudia", "Esteban (mentionné)"],
+      "tags_auteur": ["Analyste"],
+      "tags_enrichis": ["analyste", "amitié adolescente"]
+    },
+    {
+      "id": "1_68",
+      "lieu": "Cape Town, Afrique du Sud",
+      "lieu_detail": "maison au-dessus de Fish Hoek",
+      "zone": "Afrique",
+      "personnages": ["Yusuf"],
+      "tags_auteur": ["Quidam", "Philo"],
+      "tags_enrichis": [
+        "rupture de paradigme",
+        "histoire de l'humanité",
+        "contact décisif"
+      ]
+    },
+    {
+      "id": "1_69",
+      "lieu": "Barcelone, Espagne",
+      "lieu_detail": "téléphérique du Montjuïc",
+      "zone": "Europe de l'Ouest",
+      "personnages": ["Esteban", "Claudia (mentionnée)", "Paloma (mentionnée)"],
+      "tags_auteur": ["Analyste"],
+      "tags_enrichis": ["marée noire", "trame saturée", "hypos épargnés"]
+    },
+    {
+      "id": "1_70",
+      "lieu": "Honolulu, États-Unis",
+      "lieu_detail": "en moto, dans les embouteillages",
+      "zone": "Océanie/Pacifique",
+      "personnages": ["Jack"],
+      "tags_auteur": ["Quidam", "Blackout"],
+      "tags_enrichis": ["moto", "connexion à la terre", "embouteillage"]
+    },
+    {
+      "id": "1_71",
+      "lieu": "Monaco, Monaco",
+      "lieu_detail": "appartement au sommet d'une tour, vue sur la Méditerranée",
+      "zone": "Europe de l'Ouest",
+      "personnages": ["Albert (Sherlock)"],
+      "tags_auteur": ["Michele", "3DTechnologie", "Drone", "Zarmina"],
+      "tags_enrichis": ["délit d'initié", "3D Technology", "passivité"]
+    },
+    {
+      "id": "1_72",
+      "lieu": "Tokyo, Japon",
+      "lieu_detail": "salle d'opération",
+      "zone": "Asie de l'Est",
+      "personnages": [
+        "professeur Okinaka",
+        "infirmière-chef",
+        "garçon opéré non nommé"
+      ],
+      "tags_auteur": ["Analyste", "Yeux"],
+      "tags_enrichis": ["neurochirurgie", "dendrites", "yeux fluorescents"]
+    },
+    {
+      "id": "1_73",
+      "lieu": "Base Dumont d'Urville, Antarctique",
+      "lieu_detail": "esplanade de glace, extérieur de la base",
+      "zone": "Antarctique",
+      "personnages": ["Olivier Stennuit", "Charlène (mentionnée)"],
+      "tags_auteur": ["Quidam", "Explosion"],
+      "tags_enrichis": [
+        "résidence artistique",
+        "aurores boréales",
+        "composition musicale"
+      ]
+    },
+    {
+      "id": "1_74",
+      "lieu": "Base Dumont d'Urville, Antarctique",
+      "lieu_detail": "laboratoire, fenêtre sur l'esplanade",
+      "zone": "Antarctique",
+      "personnages": ["Charlène", "Olivier (mentionné)"],
+      "tags_auteur": ["Quidam", "Explosion"],
+      "tags_enrichis": [
+        "rayonnement cosmique",
+        "aurore australe",
+        "éruption solaire"
+      ]
+    },
+    {
+      "id": "1_75",
+      "lieu": "Lisbonne, Portugal",
+      "lieu_detail": "chez elle, devant son ordinateur",
+      "zone": "Europe de l'Ouest",
+      "personnages": ["Shana"],
+      "tags_auteur": ["Code", "Zarmina"],
+      "tags_enrichis": [
+        "racisme/sexisme",
+        "dématérialisation",
+        "voyage interstellaire"
+      ]
+    },
+    {
+      "id": "1_76",
+      "lieu": "Newport, États-Unis",
+      "lieu_detail": "terrasse en surplomb du port, pont sur la Yaquina River",
+      "zone": "Amérique du Nord",
+      "personnages": [
+        "Brittany",
+        "agent CIA non nommé",
+        "Michele Lamb (mentionnée)"
+      ],
+      "tags_auteur": ["Michele", "Fringe", "USS White Bay"],
+      "tags_enrichis": ["USS White Bay", "interrogatoire CIA"]
+    },
+    {
+      "id": "1_77",
+      "lieu": "Tikal, Honduras",
+      "lieu_detail": "sommet du temple du grand jaguar",
+      "zone": "Amérique centrale",
+      "personnages": [
+        "deux frères analystes non nommés",
+        "leur mère (mentionnée)"
+      ],
+      "tags_auteur": ["Analyste", "Sara"],
+      "tags_enrichis": ["communion", "pacifisme", "civilisation maya"]
+    },
+    {
+      "id": "1_78",
+      "lieu": "Tikal, Honduras",
+      "lieu_detail": "au pied du temple du grand jaguar",
+      "zone": "Amérique centrale",
+      "personnages": ["Juliza", "frère de Juliza"],
+      "tags_auteur": ["Analyste"],
+      "tags_enrichis": ["trame", "loterie ADN", "grand reset"]
+    },
+    {
+      "id": "1_79",
+      "lieu": "New York, États-Unis",
+      "lieu_detail": "Times Square, Broadway",
+      "zone": "Amérique du Nord",
+      "personnages": ["agent Tompkins", "Sara Cash"],
+      "tags_auteur": ["Sara", "Quidam"],
+      "tags_enrichis": [
+        "communion collective",
+        "sentiment Terrien",
+        "projection publicitaire"
+      ]
+    },
+    {
+      "id": "1_80",
+      "lieu": "Washington, États-Unis",
+      "lieu_detail": "Naval Research Laboratory, salle de réunion en surplomb du Potomac",
+      "zone": "Amérique du Nord",
+      "personnages": [
+        "Salana",
+        "bureaucrate non nommé",
+        "Michele Lamb (vidéo)",
+        "Jonathan Fringe (vidéo)"
+      ],
+      "tags_auteur": ["Gouv", "Michele", "Li Li", "Code", "Gliese", "Fringe"],
+      "tags_enrichis": ["lecture labiale", "Zodiac de Pago Pago", "Li Li"]
+    },
+    {
+      "id": "1_81",
+      "lieu": "Fort George G. Meade, États-Unis",
+      "lieu_detail": "NSA, poste d'analyse vidéo",
+      "zone": "Amérique du Nord",
+      "personnages": ["Jackie"],
+      "tags_auteur": ["Sara", "Gouv"],
+      "tags_enrichis": ["hypnose visuelle", "pixels HD", "mythe Sara Cash"]
+    },
+    {
+      "id": "1_82",
+      "lieu": "Kirkkonummi, Finlande",
+      "lieu_detail": "radiotélescope Metsähovi",
+      "zone": "Europe du Nord",
+      "personnages": ["Kristiina Miettinen"],
+      "tags_auteur": ["SETI", "Gliese", "Signal", "Blackout"],
+      "tags_enrichis": [
+        "message Arecibo 1974",
+        "nombres premiers",
+        "ping terrestre"
+      ]
+    },
+    {
+      "id": "1_83",
+      "lieu": "Anchorage, États-Unis",
+      "lieu_detail": "salle de classe",
+      "zone": "Amérique du Nord",
+      "personnages": ["Jayden", "Molly"],
+      "tags_auteur": ["Quidam", "Hypo"],
+      "tags_enrichis": [
+        "cours de respiration",
+        "envie d'être hypo",
+        "adolescence"
+      ]
+    },
+    {
+      "id": "1_84",
+      "lieu": "Valencia, Vénézuéla",
+      "lieu_detail": "cimetière, sous les jacarandas",
+      "zone": "Amérique du Sud",
+      "personnages": [
+        "adolescente non nommée (amie d'Àlvaro)",
+        "Àlvaro (défunt)"
+      ],
+      "tags_auteur": ["Analyste", "Trame"],
+      "tags_enrichis": ["enterrement", "analystes qui meurent jeunes", "trame"]
+    },
+    {
+      "id": "1_85",
+      "lieu": "Arecibo, Porto Rico",
+      "lieu_detail": "jungle en bordure de l'observatoire",
+      "zone": "Caraïbes",
+      "personnages": [
+        "Semaj/Semal",
+        "soldate Phoenix",
+        "Michele Lamb (mentionnée)",
+        "enfants analystes non nommés"
+      ],
+      "tags_auteur": ["Michele", "USS White Bay", "Fringe"],
+      "tags_enrichis": ["SEAL Team Six", "exfiltration", "Nerf"]
+    },
+    {
+      "id": "1_86",
+      "lieu": "Bangkok, Thaïlande",
+      "lieu_detail": "hôtel Chang, quartier de Patong",
+      "zone": "Asie du Sud-Est",
+      "personnages": ["Jason", "sa compagne non nommée"],
+      "tags_auteur": ["Analyste", "Zarmien"],
+      "tags_enrichis": [
+        "contrat d'assassinat",
+        "cible enfant musicienne",
+        "trahison"
+      ]
+    },
+    {
+      "id": "1_87",
+      "lieu": "Arecibo, Porto Rico",
+      "lieu_detail": "abords de la dépression aux microparaboles",
+      "zone": "Caraïbes",
+      "personnages": [
+        "Souf",
+        "Michele Lamb",
+        "Loriann (vue de l'extérieur, POV complet en 1_89)"
+      ],
+      "tags_auteur": ["Michele", "Analyste", "Zarmien"],
+      "tags_enrichis": ["tueur adolescent", "Nerf", "école privée Robinson"]
+    },
+    {
+      "id": "1_88",
+      "lieu": "Byurakan, Arménie",
+      "lieu_detail": "observatoire de Byurakan",
+      "zone": "Europe de l'Est/Caucase",
+      "personnages": ["Viktor Petrosian"],
+      "tags_auteur": ["SETI", "Signal", "Sara", "Quidam", "Zarmina"],
+      "tags_enrichis": [
+        "échelle de Kardashev",
+        "SETI histoire",
+        "apocalypse numérique"
+      ]
+    },
+    {
+      "id": "1_89",
+      "lieu": "Arecibo, Porto Rico",
+      "lieu_detail": "dépression aux microparaboles, parmi les touristes",
+      "zone": "Caraïbes",
+      "personnages": ["Loriann", "Souf", "Michele Lamb", "SEAL Team Six"],
+      "tags_auteur": ["Michele", "Analyste"],
+      "tags_enrichis": ["trame", "vortex pays baltes", "combat Nerf"]
+    },
+    {
+      "id": "1_90",
+      "lieu": "Toronto, Canada",
+      "lieu_detail": "bureau, devant son ordinateur et son imprimante",
+      "zone": "Amérique du Nord",
+      "personnages": ["Sibel"],
+      "tags_auteur": ["Hypo", "Quidam", "Code"],
+      "tags_enrichis": [
+        "technologie capricieuse",
+        "panne informatique",
+        "hypos (envie)"
+      ]
+    },
+    {
+      "id": "1_91",
+      "lieu": "Tunis, Tunisie",
+      "lieu_detail": "restaurant El Ali, terrasse sur le toit, médina",
+      "zone": "Afrique du Nord",
+      "personnages": [
+        "jeune homme fanatique non nommé",
+        "enfant survivant non nommé"
+      ],
+      "tags_auteur": ["Analyste"],
+      "tags_enrichis": [
+        "attentat",
+        "fanatisme religieux",
+        "Sara Cash accusée de propagande"
+      ]
+    },
+    {
+      "id": "1_92",
+      "lieu": "Paris, France",
+      "lieu_detail": "appartement mansardé, rue des Écoles",
+      "zone": "Europe de l'Ouest",
+      "personnages": ["Lola", "Sara Cash"],
+      "tags_auteur": ["Quidam", "Sara"],
+      "tags_enrichis": ["Louise Michel", "#MeToo", "identification à Sara Cash"]
+    },
+    {
+      "id": "1_93",
+      "lieu": "Portsmouth, États-Unis",
+      "lieu_detail": "chambre d'hôpital",
+      "zone": "Amérique du Nord",
+      "personnages": ["Jonathan Fringe", "Emily D", "Michele (pensée)"],
+      "tags_auteur": [
+        "Michele",
+        "USS White Bay",
+        "Trame",
+        "Gardien",
+        "Analyste"
+      ],
+      "tags_enrichis": ["trame", "virus USS White Bay", "coma"]
+    },
+    {
+      "id": "1_94",
+      "lieu": "Resolute, Canada",
+      "lieu_detail": "plage de cailloux",
+      "zone": "Arctique/Amérique du Nord",
+      "personnages": ["Ethan", "vieil Inuit chaman non nommé"],
+      "tags_auteur": ["USS White Bay", "Drone", "Gouv"],
+      "tags_enrichis": [
+        "USS White Bay aperçu",
+        "chaman",
+        "passage du Nord-Ouest"
+      ]
+    },
+    {
+      "id": "1_95",
+      "lieu": "Arecibo, Porto Rico",
+      "lieu_detail": "abords de la dépression aux microparaboles",
+      "zone": "Caraïbes",
+      "personnages": [
+        "Michele Lamb",
+        "Jonathan Fringe (lien télépathique)",
+        "Nadine François (mentionnée)"
+      ],
+      "tags_auteur": [
+        "Michele",
+        "USS White Bay",
+        "Fringe",
+        "Analyste",
+        "Zarmien"
+      ],
+      "tags_enrichis": [
+        "grossesse",
+        "analyste in utero",
+        "trame",
+        "microchimérisme"
+      ]
+    }
+  ],
+  "cas_ambigus": [],
+  "notes": [
+    "Zones ajoutées au-delà de la taxonomie initiale : Europe du Sud/Balkans, Europe centrale, Asie de l'Est, Europe de l'Est/Baltique, Europe de l'Est/Caucase, Afrique du Nord, Amérique centrale, Océan Indien, Antarctique, Arctique/Amérique du Nord, Europe du Nord. À valider/fusionner selon préférence.",
+    "Fil narratif dominant du tome 1 : couple Michele Lamb / Jonathan Fringe et disparition de l'USS White Bay.",
+    "Groupe récurrent : les enfants 'analystes' connectés à la trame (Thomas, Paul, Yiorgos, Iván, Nastya, Zoé, Loriann, Àlvaro, Esteban, Teddy, etc.).",
+    "Marqueur récurrent identifié : la 'lueur bleutée' dans les yeux semble être un signe distinctif transversal des analystes/personnes connectées à la trame (vu chez Josh en 1_18/2_14, le gamin de São Paulo en 1_51, et ailleurs hors Tome 1, ex. scène Bratva à Moscou). Piste solide pour le futur lien narratif, à confirmer au fil des tomes plutôt qu'à figer maintenant.",
+    "Josh (1_18) a son propre chapitre POV en 2_14 (Tome 2) — confirme qu'il faudra vérifier systématiquement, pour chaque personnage 'non identifié' du Tome 1, s'il n'apparaît pas nommé plus tard dans le corpus complet avant de le classer en cas ambigu."
+  ]
+}

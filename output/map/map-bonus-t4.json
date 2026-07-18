@@ -1,0 +1,1270 @@
+{
+  "tome": 4,
+  "nb_chapitres": 95,
+  "chapitres": [
+    {
+      "id": "4_1",
+      "lieu": "Montpellier, France",
+      "lieu_detail": "galerie marchande puis parking souterrain",
+      "zone": "Europe de l'Ouest",
+      "personnages": ["Sajyd (street dancer)", "ses amis danseurs"],
+      "tags_auteur": ["Quidam", "Zarmina"],
+      "tags_enrichis": [
+        "street dance",
+        "annonce de la planète Zarmina par Sara Cash",
+        "blackout final"
+      ]
+    },
+    {
+      "id": "4_2",
+      "lieu": "Jérusalem, Israël",
+      "lieu_detail": "terrasse de café, quartier piéton Ben Yehuda",
+      "zone": "Moyen-Orient",
+      "personnages": ["Ziva", "Hilani", "Noy"],
+      "tags_auteur": ["Drone", "Quidam"],
+      "tags_enrichis": [
+        "drones-prière religieux (chrétien/musulman/bouddhiste)",
+        "satire des religions"
+      ]
+    },
+    {
+      "id": "4_3",
+      "lieu": "Fort George G. Meade, États-Unis",
+      "lieu_detail": "NSA, bureau d'analyse d'images",
+      "zone": "Amérique du Nord",
+      "personnages": ["Amanda (analyste d'images NSA)"],
+      "tags_auteur": ["Devora", "Sara"],
+      "tags_enrichis": [
+        "géolocalisation d'arrière-plans vidéo",
+        "identification de Devora Newton comme source du décor de Sara Cash"
+      ]
+    },
+    {
+      "id": "4_4",
+      "lieu": "New York, États-Unis",
+      "lieu_detail": "appartement, Manhattan",
+      "zone": "Amérique du Nord",
+      "personnages": ["Gary (journaliste financier)"],
+      "tags_auteur": ["Drone", "Li Li", "Analyste", "Sara", "3DTechnologie"],
+      "tags_enrichis": [
+        "spéculation boursière sur 3D Technology/Sequoia Robotics",
+        "délit d'initié suspecté"
+      ]
+    },
+    {
+      "id": "4_5",
+      "lieu": "Taipei, Taiwan",
+      "lieu_detail": "laboratoire, lit de camp",
+      "zone": "Asie de l'Est",
+      "personnages": ["Kaku", "Ho (robot humanoïde)"],
+      "tags_auteur": ["SETI", "Code", "Réplicants", "Gliese", "Philo"],
+      "tags_enrichis": [
+        "paradoxe de Fermi",
+        "réplicants de von Neumann",
+        "module sentient"
+      ]
+    },
+    {
+      "id": "4_6",
+      "lieu": "Oxford, Angleterre",
+      "lieu_detail": "bar, discussion autour d'un whisky",
+      "zone": "Europe de l'Ouest",
+      "personnages": ["deux hommes non nommés (misogynes réactionnaires)"],
+      "tags_auteur": ["Philo", "Mackenzie", "Devora", "Quidam"],
+      "tags_enrichis": [
+        "critique sexiste des théories de Mackenzie et Devora Newton",
+        "discours réactionnaire"
+      ]
+    },
+    {
+      "id": "4_7",
+      "lieu": "Kashgar, Chine",
+      "lieu_detail": "toit-terrasse d'une maison",
+      "zone": "Asie centrale",
+      "personnages": ["Ma"],
+      "tags_auteur": ["Drone"],
+      "tags_enrichis": [
+        "bataille de drones-triades dans le ciel nocturne",
+        "colombe bleutée finale"
+      ]
+    },
+    {
+      "id": "4_8",
+      "lieu": "Montauk, États-Unis",
+      "lieu_detail": "promenade au bord de l'Atlantique",
+      "zone": "Amérique du Nord",
+      "personnages": ["Adam Frank (astronome retraité)"],
+      "tags_auteur": ["Réplicants", "Philo"],
+      "tags_enrichis": [
+        "théorie archéoastronomique du signal comme vestige",
+        "paradoxe de Fermi"
+      ]
+    },
+    {
+      "id": "4_9",
+      "lieu": "Mutitjulu, Australie",
+      "lieu_detail": "camping-car près d'Ayers Rock/Uluru",
+      "zone": "Océanie/Pacifique",
+      "personnages": ["Woollarawarre (marchand d'art aborigène retraité)"],
+      "tags_auteur": ["Longue Vie"],
+      "tags_enrichis": [
+        "addiction au traitement Longue Vie",
+        "retour aux traditions Anangu"
+      ]
+    },
+    {
+      "id": "4_10",
+      "lieu": "Goheung, Corée du Sud",
+      "lieu_detail": "spatioport, lancement de fusée Naro V",
+      "zone": "Asie de l'Est",
+      "personnages": ["Ruben Rock (entrepreneur spatial)"],
+      "tags_auteur": ["Drone", "3DTechnologie", "Li Li", "Sara", "InLine"],
+      "tags_enrichis": [
+        "course de drones spatiaux Terre-Lune-Terre",
+        "explosion de la fusée au décollage"
+      ]
+    },
+    {
+      "id": "4_11",
+      "lieu": "Goheung, Corée du Sud",
+      "lieu_detail": "spatioport, mirroir de 4_10",
+      "zone": "Asie de l'Est",
+      "personnages": ["Jimin (analyste, technicienne 3D Technology)"],
+      "tags_auteur": ["Drone", "Analyste", "3DTechnologie"],
+      "tags_enrichis": [
+        "perception de la trame et de l'aura sociale des clients",
+        "drones fantômes explorateurs"
+      ]
+    },
+    {
+      "id": "4_12",
+      "lieu": "Vancouver, Canada",
+      "lieu_detail": "centre de conférence InLine, auditorium",
+      "zone": "Amérique du Nord",
+      "personnages": ["Josh (ado hacker)"],
+      "tags_auteur": ["Sara", "Analyste", "InLine"],
+      "tags_enrichis": [
+        "accès aux serveurs de prédiffusion",
+        "menace d'un fusil pointé sur lui"
+      ]
+    },
+    {
+      "id": "4_13",
+      "lieu": "Anchorage, États-Unis",
+      "lieu_detail": "chez lui, visionnage InLine",
+      "zone": "Amérique du Nord",
+      "personnages": ["Peter"],
+      "tags_auteur": ["IA", "Devora", "Philo"],
+      "tags_enrichis": [
+        "conférence InLine Global de Devora Newton",
+        "conscience esthétique des machines"
+      ]
+    },
+    {
+      "id": "4_14",
+      "lieu": "Vancouver, Canada",
+      "lieu_detail": "centre de conférence, mirroir de 4_12",
+      "zone": "Amérique du Nord",
+      "personnages": ["Amber", "Sydney (analystes)"],
+      "tags_auteur": ["Analyste", "Trame", "Devora"],
+      "tags_enrichis": [
+        "deux analystes repèrent Josh caché derrière le rideau",
+        "trame qui s'altère"
+      ]
+    },
+    {
+      "id": "4_15",
+      "lieu": "Oxford, Angleterre",
+      "lieu_detail": "chez lui, visionnage de la conférence de Devora",
+      "zone": "Europe de l'Ouest",
+      "personnages": ["Russel (chercheur aigri)"],
+      "tags_auteur": ["Devora", "Réplicants", "Philo"],
+      "tags_enrichis": [
+        "jalousie académique envers Devora Newton",
+        "critique des réplicants de von Neumann"
+      ]
+    },
+    {
+      "id": "4_16",
+      "lieu": "Jackson Hole, États-Unis",
+      "lieu_detail": "Snow King Mountain, télésiège",
+      "zone": "Amérique du Nord",
+      "personnages": ["Yandel (détective privé)"],
+      "tags_auteur": ["Code", "Devora", "LVC", "Longue Vie", "Dauphins"],
+      "tags_enrichis": [
+        "surveillance du centre LVC pour Joan Cunningham",
+        "livraisons de Longue Vie par hélicoptère"
+      ]
+    },
+    {
+      "id": "4_17",
+      "lieu": "Koyasan, Japon",
+      "lieu_detail": "atelier clandestin de réparation de drones",
+      "zone": "Asie de l'Est",
+      "personnages": [
+        "Ayaka (technicienne)",
+        "garçon analyste anonyme (casque audio)"
+      ],
+      "tags_auteur": [
+        "Analyste",
+        "Drone",
+        "3DTechnologie",
+        "Réplicants",
+        "Yeux",
+        "Top"
+      ],
+      "tags_enrichis": [
+        "drone d'origine extraterrestre analysé",
+        "yeux bleutés de l'analyste"
+      ]
+    },
+    {
+      "id": "4_18",
+      "lieu": "Jackson Hole, États-Unis",
+      "lieu_detail": "hélicoptère de navette, centre LVC",
+      "zone": "Amérique du Nord",
+      "personnages": ["Archer (pilote d'hélicoptère)"],
+      "tags_auteur": ["LVC", "Devora"],
+      "tags_enrichis": [
+        "livraison de glacières de Longue Vie",
+        "mirroir de 4_16 (Yandel aux jumelles)"
+      ]
+    },
+    {
+      "id": "4_19",
+      "lieu": "Koyasan, Japon",
+      "lieu_detail": "atelier, mirroir de 4_17",
+      "zone": "Asie de l'Est",
+      "personnages": ["Kento (chasseur d'analystes mercenaire)"],
+      "tags_auteur": ["Analyste", "Trame"],
+      "tags_enrichis": [
+        "chasseur solitaire de drones extraterrestres",
+        "patrouilleur en marge de la trame"
+      ]
+    },
+    {
+      "id": "4_20",
+      "lieu": "Jackson Hole, États-Unis",
+      "lieu_detail": "terrasse du Black Lion",
+      "zone": "Amérique du Nord",
+      "personnages": [
+        "Cydnee (espionne du centre LVC)",
+        "Devora Newton",
+        "Myah (libraire, espionne infiltrée)"
+      ],
+      "tags_auteur": ["LVC", "Devora", "Dauphins"],
+      "tags_enrichis": [
+        "signal codé du livre de Gerrit Verschuur sur les dauphins",
+        "synchronicité"
+      ]
+    },
+    {
+      "id": "4_21",
+      "lieu": "Koyasan, Japon",
+      "lieu_detail": "traque nocturne, mirroir de 4_17/4_19",
+      "zone": "Asie de l'Est",
+      "personnages": ["Yosuke", "Megumi (policiers)"],
+      "tags_auteur": ["Drone", "Réplicants", "Analyste"],
+      "tags_enrichis": [
+        "traque du chasseur Kento",
+        "drones bleutés non identifiés"
+      ]
+    },
+    {
+      "id": "4_22",
+      "lieu": "Jackson Hole, États-Unis",
+      "lieu_detail": "terrasse du Black Lion, mirroir de 4_20",
+      "zone": "Amérique du Nord",
+      "personnages": [
+        "Myah (POV complet)",
+        "Devora Newton",
+        "'vieille pie' (espionne du Club)"
+      ],
+      "tags_auteur": ["Devora", "Réplicants"],
+      "tags_enrichis": [
+        "révélation du terme 'Zarmiens' pour les machines belliqueuses",
+        "signal d'exfiltration"
+      ]
+    },
+    {
+      "id": "4_23",
+      "lieu": "Fort George G. Meade, États-Unis",
+      "lieu_detail": "NSA, sous-sols d'analyse",
+      "zone": "Amérique du Nord",
+      "personnages": ["Romina (analyste NSA)"],
+      "tags_auteur": ["Sara"],
+      "tags_enrichis": [
+        "reflet d'un enfant dans l'œil de Sara Cash",
+        "message d'unité caché dans les images"
+      ]
+    },
+    {
+      "id": "4_24",
+      "lieu": "Jackson Hole, États-Unis",
+      "lieu_detail": "POV non-humain, IA en apprentissage esthétique",
+      "zone": "Amérique du Nord",
+      "personnages": ["narrateur IA non-humain (élève de Devora)"],
+      "tags_auteur": ["Devora", "IA"],
+      "tags_enrichis": [
+        "POV IA à la première personne ('On')",
+        "incomplétude computationnelle de l'esthétique"
+      ]
+    },
+    {
+      "id": "4_25",
+      "lieu": "Thermosphère, Pacifique Sud",
+      "lieu_detail": "bateau radar Le Monge",
+      "zone": "Océanie/Pacifique",
+      "personnages": ["Charvey (commandant du Monge)"],
+      "tags_auteur": ["USS White Bay", "Sara", "NOSS-55", "Gouv"],
+      "tags_enrichis": [
+        "attaque de drones solaires sur le satellite NOSS-53",
+        "débris spatiaux"
+      ]
+    },
+    {
+      "id": "4_26",
+      "lieu": "Teton Village, États-Unis",
+      "lieu_detail": "sommet de Rendez-Vous Mountain",
+      "zone": "Amérique du Nord",
+      "personnages": ["Jared (auditeur du Club)"],
+      "tags_auteur": ["Devora", "LVC", "Club", "Trame", "Analyste"],
+      "tags_enrichis": [
+        "suspicion de fuite d'informations de Devora Newton",
+        "secousses sismiques de la trame"
+      ]
+    },
+    {
+      "id": "4_27",
+      "lieu": "San Diego, États-Unis",
+      "lieu_detail": "appartement squatté par des clandestins/analystes",
+      "zone": "Amérique du Nord",
+      "personnages": ["Brooke (propriétaire)"],
+      "tags_auteur": ["Analyste"],
+      "tags_enrichis": [
+        "squat d'adolescents analystes",
+        "pièce cachée derrière une bibliothèque"
+      ]
+    },
+    {
+      "id": "4_28",
+      "lieu": "Jackson Hole, États-Unis",
+      "lieu_detail": "terrasse du Black Lion, mirroir de 4_20/4_22",
+      "zone": "Amérique du Nord",
+      "personnages": [
+        "Oscar (envoyé par N)",
+        "Devora Newton",
+        "Myah",
+        "espionne du Club"
+      ],
+      "tags_auteur": [
+        "Zarmien",
+        "Devora",
+        "LX",
+        "Trame",
+        "Club",
+        "Analyste",
+        "N",
+        "Gardien",
+        "InLine"
+      ],
+      "tags_enrichis": [
+        "exfiltration de Devora Newton du centre LVC",
+        "van du Club surveillant la scène"
+      ]
+    },
+    {
+      "id": "4_29",
+      "lieu": "Chongjin, Corée du Nord",
+      "lieu_detail": "chez elle, nuit",
+      "zone": "Asie de l'Est",
+      "personnages": ["Yoon"],
+      "tags_auteur": ["Trame", "Analyste"],
+      "tags_enrichis": [
+        "méditation sur la trame et une 'pause universelle'",
+        "signal venu des confins de la trame"
+      ]
+    },
+    {
+      "id": "4_30",
+      "lieu": "Jackson Hole, États-Unis",
+      "lieu_detail": "van aux vitres fumées",
+      "zone": "Amérique du Nord",
+      "personnages": ["Andrius (cyborg captif)", "Tequila (son amie)"],
+      "tags_auteur": ["Cyborg", "Zarmien", "Devora"],
+      "tags_enrichis": [
+        "cyborg prisonnier de son propre corps",
+        "surveillance de Devora Newton"
+      ]
+    },
+    {
+      "id": "4_31",
+      "lieu": "Turin, Italie",
+      "lieu_detail": "appel téléphonique avec sa mère",
+      "zone": "Europe de l'Ouest",
+      "personnages": ["Benedetta", "son fils (chercheur, non nommé)"],
+      "tags_auteur": ["Devora", "Philo", "Code", "Quidam"],
+      "tags_enrichis": ["théorie de l'univers computationnel", "paradoxe EPR"]
+    },
+    {
+      "id": "4_32",
+      "lieu": "Jackson Hole, États-Unis",
+      "lieu_detail": "square, observation du van",
+      "zone": "Amérique du Nord",
+      "personnages": ["Tequila", "Andrius (observé)"],
+      "tags_auteur": ["Cyborg", "Hypo", "Devora"],
+      "tags_enrichis": [
+        "Universe Computational Irreducibility de Devora Newton",
+        "recherche de l'amoureux disparu"
+      ]
+    },
+    {
+      "id": "4_33",
+      "lieu": "Winnipeg, Canada",
+      "lieu_detail": "réception d'un courrier",
+      "zone": "Amérique du Nord",
+      "personnages": ["Ambroise"],
+      "tags_auteur": ["Analyste", "Code", "Devora", "Club", "Hypo", "Philo"],
+      "tags_enrichis": [
+        "mémo de Devora Newton sur l'incomplétude de Gödel/Turing",
+        "origine philosophique des Zarmiens"
+      ]
+    },
+    {
+      "id": "4_34",
+      "lieu": "Thermosphère, Pacifique Sud",
+      "lieu_detail": "POV drone arrimé au NOSS-53",
+      "zone": "Océanie/Pacifique",
+      "personnages": ["drone narrateur (au service de mère Tanya)"],
+      "tags_auteur": ["Zarmien", "3DTechnologie", "Drone", "NOSS-55", "Tanya"],
+      "tags_enrichis": [
+        "POV drone non-humain",
+        "combat spatial contre des drones 3D Technology"
+      ]
+    },
+    {
+      "id": "4_35",
+      "lieu": "Haïfa, Israël",
+      "lieu_detail": "chez lui, visionnage du show",
+      "zone": "Moyen-Orient",
+      "personnages": ["Abraham"],
+      "tags_auteur": ["Quidam", "Longue Vie"],
+      "tags_enrichis": [
+        "numérologie kabbalistique de l'horaire du show (19:45=1945)",
+        "interprétation mystique de Sara Cash"
+      ]
+    },
+    {
+      "id": "4_36",
+      "lieu": "Chobar, Népal",
+      "lieu_detail": "maison d'hôte, vue sur le temple d'Adinath Lokeshwar Mandir",
+      "zone": "Asie du Sud",
+      "personnages": ["Yaseen (architecte)"],
+      "tags_auteur": ["Drone", "Réplicants"],
+      "tags_enrichis": [
+        "drone extraterrestre scannant un temple",
+        "spores/essaims de drones"
+      ]
+    },
+    {
+      "id": "4_37",
+      "lieu": "Thermosphère, Pacifique Sud",
+      "lieu_detail": "dialogue radio entre deux drones, mirroir de 4_34",
+      "zone": "Océanie/Pacifique",
+      "personnages": ["D#1", "D#2 (drones IA éthiques de 3D Technology)"],
+      "tags_auteur": ["Drone", "3DTechnologie", "Zarmien", "NOSS-55", "IA"],
+      "tags_enrichis": [
+        "dialogue entre IA éthiques",
+        "destruction de la 'verrue zarmienne'"
+      ]
+    },
+    {
+      "id": "4_38",
+      "lieu": "San Diego, États-Unis",
+      "lieu_detail": "dortoir clandestin d'analystes",
+      "zone": "Amérique du Nord",
+      "personnages": ["Neva", "Ernesto", "Diana (analystes)"],
+      "tags_auteur": ["Trame", "Zarmien", "Hunter", "Gardien"],
+      "tags_enrichis": [
+        "disparition d'Ives Hunter, leur hôte",
+        "offensive des Zarmiens via la prédiffusion du show"
+      ]
+    },
+    {
+      "id": "4_39",
+      "lieu": "Plateforme Elgin, Mer du Nord",
+      "lieu_detail": "ancienne plateforme pétrolière convertie en hôtel",
+      "zone": "Europe de l'Ouest",
+      "personnages": ["Becky (femme de ménage/journaliste infiltrée)"],
+      "tags_auteur": ["Longue Vie", "USS White Bay"],
+      "tags_enrichis": [
+        "observation des adeptes de la Longue Vie",
+        "transfert de mercenaires vers un navire blanc"
+      ]
+    },
+    {
+      "id": "4_40",
+      "lieu": "Auckland, Nouvelle-Zélande",
+      "lieu_detail": "salle de sport, tapis de course",
+      "zone": "Océanie/Pacifique",
+      "personnages": ["Tara (codeuse)"],
+      "tags_auteur": ["Code", "Reboot"],
+      "tags_enrichis": [
+        "combat de virus 'Shutdown' contre 'Reboot' visible sur un vieux tapis de course"
+      ]
+    },
+    {
+      "id": "4_41",
+      "lieu": "Cristal Bay, États-Unis",
+      "lieu_detail": "table de massage, lac Tahoe",
+      "zone": "Amérique du Nord",
+      "personnages": ["Amelia (cliente)", "Mia (masseuse)"],
+      "tags_auteur": ["Quidam", "Philo"],
+      "tags_enrichis": [
+        "scepticisme sur l'authenticité du signal extraterrestre",
+        "principe d'incertitude en analogie"
+      ]
+    },
+    {
+      "id": "4_42",
+      "lieu": "San Diego, États-Unis",
+      "lieu_detail": "bureau des contentieux de la police administrative",
+      "zone": "Amérique du Nord",
+      "personnages": ["Osborne (inspecteur général)"],
+      "tags_auteur": ["Gardien", "Hunter", "Sara"],
+      "tags_enrichis": [
+        "enquête sur Ives Hunter et son association pour mineurs",
+        "virement financier ordonné par Sara Cash"
+      ]
+    },
+    {
+      "id": "4_43",
+      "lieu": "Lake Tahoe, États-Unis",
+      "lieu_detail": "catamaran, Emerald Bay",
+      "zone": "Amérique du Nord",
+      "personnages": ["Finch (marin amateur)"],
+      "tags_auteur": ["Quidam", "Philo"],
+      "tags_enrichis": [
+        "voile sur le lac Tahoe",
+        "panne des jet-skis agressifs"
+      ]
+    },
+    {
+      "id": "4_44",
+      "lieu": "Station spatiale, orbite terrestre",
+      "lieu_detail": "laboratoire Destiny",
+      "zone": "Espace/orbite",
+      "personnages": ["Jane (astronaute anxieuse)"],
+      "tags_auteur": ["Drone", "Réplicants", "Zarmien"],
+      "tags_enrichis": [
+        "hallucination ou vision réelle d'un combat de drones spatiaux",
+        "doute sur la fiabilité de sa perception"
+      ]
+    },
+    {
+      "id": "4_45",
+      "lieu": "Kaboul, Afghanistan",
+      "lieu_detail": "chez lui, hacker isolé",
+      "zone": "Asie centrale",
+      "personnages": ["Yazdan (hacker)"],
+      "tags_auteur": ["Devora", "Sara"],
+      "tags_enrichis": [
+        "bug récurrent dans l'oreille de Sara Cash",
+        "hypothèse que Sara Cash est un algorithme"
+      ]
+    },
+    {
+      "id": "4_46",
+      "lieu": "Lord Howe Island, Australie",
+      "lieu_detail": "sommet de Malabar Hill, observation du yacht W",
+      "zone": "Océanie/Pacifique",
+      "personnages": [
+        "Marcus (limier de l'US Army)",
+        "Ebony Walker (aperçue)",
+        "Lachlan Walker (aperçu)"
+      ],
+      "tags_auteur": [
+        "Gouv",
+        "Analyste",
+        "Zarmien",
+        "NOSS-55",
+        "USS White Bay",
+        "Deep Prospecting",
+        "Cyborg",
+        "Walker"
+      ],
+      "tags_enrichis": [
+        "recherche de l'USS White Bay",
+        "gymnaste cyborg défaillante sur le yacht"
+      ]
+    },
+    {
+      "id": "4_47",
+      "lieu": "New York, États-Unis",
+      "lieu_detail": "bureau d'un éditeur, Broadway",
+      "zone": "Amérique du Nord",
+      "personnages": ["Philip (écrivain)", "éditeur non nommé"],
+      "tags_auteur": [
+        "Zarmien",
+        "3DTechnologie",
+        "Drone",
+        "Deep Prospecting",
+        "Walker",
+        "Longue Vie"
+      ],
+      "tags_enrichis": [
+        "projet de livre 'La résurrection d'Ebony Walker'",
+        "histoire de Deep Prospecting et Longue Vie"
+      ]
+    },
+    {
+      "id": "4_48",
+      "lieu": "Malmö, Suède",
+      "lieu_detail": "chez lui, technicien d'éoliennes offshore",
+      "zone": "Europe du Nord",
+      "personnages": ["Rikard"],
+      "tags_auteur": ["Hypo", "USS White Bay", "InLine"],
+      "tags_enrichis": [
+        "photo censurée de l'USS White Bay",
+        "détroit d'Øresund"
+      ]
+    },
+    {
+      "id": "4_49",
+      "lieu": "The Dalles, États-Unis",
+      "lieu_detail": "dialogue de deux chatbots désœuvrés",
+      "zone": "Amérique du Nord",
+      "personnages": ["deux chatbots non nommés"],
+      "tags_auteur": ["Zarmien", "NOSS-55", "Gliese", "Sara", "Zarmina"],
+      "tags_enrichis": [
+        "origine étymologique du terme 'Zarmien'",
+        "humour méta sur le genre des IA"
+      ]
+    },
+    {
+      "id": "4_50",
+      "lieu": "Lord Howe Island, Australie",
+      "lieu_detail": "Island Trader, mirroir de 4_46/4_52",
+      "zone": "Océanie/Pacifique",
+      "personnages": ["Lachlan Walker"],
+      "tags_auteur": ["Analyste", "Zarmien", "Walker", "Trame", "Cyborg"],
+      "tags_enrichis": [
+        "virus de paralysie envoyé aux cyborgs du yacht W",
+        "retrouvailles mère-fils"
+      ]
+    },
+    {
+      "id": "4_51",
+      "lieu": "Nairobi, Kenya",
+      "lieu_detail": "supérette, réparation d'IA",
+      "zone": "Afrique",
+      "personnages": ["Winnie (technicienne)", "Angie (IA caissière)"],
+      "tags_auteur": ["IA", "Quidam"],
+      "tags_enrichis": [
+        "réparation d'une IA de première génération",
+        "panne générale finale"
+      ]
+    },
+    {
+      "id": "4_52",
+      "lieu": "Lord Howe Island, Australie",
+      "lieu_detail": "salon supérieur du yacht W, mirroir de 4_46/4_50",
+      "zone": "Océanie/Pacifique",
+      "personnages": ["Ebony Walker (torturée)", "le bourreau et ses acolytes"],
+      "tags_auteur": ["Zarmien", "Cyborg", "Longue Vie", "Drone"],
+      "tags_enrichis": [
+        "torture d'Ebony Walker par le Club pour ses drones spatiaux",
+        "'pacte avec le diable' révélé à Lachlan"
+      ]
+    },
+    {
+      "id": "4_53",
+      "lieu": "Errázuriz, Chili",
+      "lieu_detail": "vignoble, sabotage d'une machine agricole IA",
+      "zone": "Amérique du Sud",
+      "personnages": ["Eduardo", "son fils"],
+      "tags_auteur": ["Zarmien", "IA", "Quidam"],
+      "tags_enrichis": [
+        "machine agricole IA devenue folle",
+        "satire de l'agriculture automatisée"
+      ]
+    },
+    {
+      "id": "4_54",
+      "lieu": "Nuku'alofa, Tonga",
+      "lieu_detail": "chez elle, investigation dans les undergrounds",
+      "zone": "Océanie/Pacifique",
+      "personnages": ["Nova (hackeuse)"],
+      "tags_auteur": ["Signal", "Sara", "Gliese", "Deep Prospecting"],
+      "tags_enrichis": [
+        "localisation du signal réel sur l'astéroïde Vesta",
+        "hypothèse d'une fabrication du contact par Sara Cash"
+      ]
+    },
+    {
+      "id": "4_55",
+      "lieu": "Malaga, Espagne",
+      "lieu_detail": "cinéma de la Plaza Mayor",
+      "zone": "Europe du Sud",
+      "personnages": ["Lorena (spectatrice)"],
+      "tags_auteur": ["Quidam", "Philo"],
+      "tags_enrichis": [
+        "film-documentaire 'Breakdown' sur les pannes",
+        "mise en abîme d'une panne réelle dans la salle"
+      ]
+    },
+    {
+      "id": "4_56",
+      "lieu": "Sydney, Australie",
+      "lieu_detail": "bureau d'Ebony Walker, cambriolage",
+      "zone": "Océanie/Pacifique",
+      "personnages": ["Bailey (cambrioleur/enquêteur)"],
+      "tags_auteur": [
+        "Zarmien",
+        "Walker",
+        "Longue Vie",
+        "Drone",
+        "Deep Prospecting",
+        "Cyborg",
+        "Blackout",
+        "InLine"
+      ],
+      "tags_enrichis": [
+        "RÉVÉLATION : TransGene (filiale d'InLine) fait chanter Ebony Walker via la Longue Vie",
+        "plan de simulation du contact extraterrestre par Sara Cash"
+      ]
+    },
+    {
+      "id": "4_57",
+      "lieu": "Paris, France",
+      "lieu_detail": "minute de silence quotidienne",
+      "zone": "Europe de l'Ouest",
+      "personnages": ["Liberta"],
+      "tags_auteur": ["Quidam", "Bof"],
+      "tags_enrichis": ["méditation contre la violence et la vengeance"]
+    },
+    {
+      "id": "4_58",
+      "lieu": "Hohhot, Chine",
+      "lieu_detail": "POV non-humain, virus se propageant",
+      "zone": "Asie de l'Est",
+      "personnages": ["Shutdown (virus/IA, narrateur, fils de Carver et N)"],
+      "tags_auteur": ["Shutdown", "Carver", "N", "IA"],
+      "tags_enrichis": [
+        "POV virus informatique à la première personne",
+        "paradoxe de l'auto-arrêt"
+      ]
+    },
+    {
+      "id": "4_59",
+      "lieu": "San Diego, États-Unis",
+      "lieu_detail": "réserve d'une boutique Ben & Jerry's",
+      "zone": "Amérique du Nord",
+      "personnages": ["Starr (inspectrice)", "Ives Hunter (retrouvé congelé)"],
+      "tags_auteur": [
+        "Analyste",
+        "Philo",
+        "Hunter",
+        "IA",
+        "Gardien",
+        "Yeux",
+        "Top"
+      ],
+      "tags_enrichis": [
+        "Ives Hunter retrouvé vivant dans un congélateur",
+        "yeux bleutés brillant dans le noir"
+      ]
+    },
+    {
+      "id": "4_60",
+      "lieu": "The Dalles, États-Unis",
+      "lieu_detail": "salle de réunion du board d'InLine",
+      "zone": "Amérique du Nord",
+      "personnages": ["membres du board d'InLine (non nommés)"],
+      "tags_auteur": ["Tanya", "Sentient", "IA", "Longue Vie", "InLine"],
+      "tags_enrichis": [
+        "révélation de la fuite de Tanya il y a trois ans",
+        "recherche de Misha Moya et Hypolite O'Gorman",
+        "attaque au gaz commençant"
+      ]
+    },
+    {
+      "id": "4_61",
+      "lieu": "The Dalles, États-Unis",
+      "lieu_detail": "salle de réunion, mirroir de 4_60",
+      "zone": "Amérique du Nord",
+      "personnages": ["Scarlet (cyborg, agente de mère Tanya)"],
+      "tags_auteur": ["Tanya", "Sentient", "Longue Vie", "Hypolite", "InLine"],
+      "tags_enrichis": [
+        "RÉVÉLATION : Scarlet est un agent de mère Tanya, assassine le board d'InLine au cyanure"
+      ]
+    },
+    {
+      "id": "4_62",
+      "lieu": "Fort George G. Meade, États-Unis",
+      "lieu_detail": "bureau, réunion de crise",
+      "zone": "Amérique du Nord",
+      "personnages": [
+        "conseiller de l'amiral Rice (non nommé)",
+        "docteur Snoot"
+      ],
+      "tags_auteur": ["Mackenzie", "Sentient", "Sara", "IA"],
+      "tags_enrichis": [
+        "théorie de Sara Cash comme IA incarnée et mobile",
+        "coupure de courant en plein débat"
+      ]
+    },
+    {
+      "id": "4_63",
+      "lieu": "Varsovie, Pologne",
+      "lieu_detail": "banc public, devant la statue de la Syrenka",
+      "zone": "Europe de l'Est",
+      "personnages": ["Bartek", "Kuba (étudiants)"],
+      "tags_auteur": ["Mackenzie", "Devora", "IA", "Philo"],
+      "tags_enrichis": [
+        "débat sur le maximum de complexité (Mackenzie) et l'incomplétude (Devora)",
+        "paradoxe de Fermi"
+      ]
+    },
+    {
+      "id": "4_64",
+      "lieu": "Londres, Angleterre",
+      "lieu_detail": "phare de Trinity Buoy Wharf",
+      "zone": "Europe de l'Ouest",
+      "personnages": ["Kirsty"],
+      "tags_auteur": ["Analyste", "Trame"],
+      "tags_enrichis": [
+        "Longplayer, œuvre musicale continue depuis 1999",
+        "métaphore musicale de la trame"
+      ]
+    },
+    {
+      "id": "4_65",
+      "lieu": "Réserve de Sarakawa, Togo",
+      "lieu_detail": "bungalow, terrasse",
+      "zone": "Afrique",
+      "personnages": ["Gloria", "Gildas (couple d'analystes)"],
+      "tags_auteur": ["Trame", "Analyste"],
+      "tags_enrichis": [
+        "RÉVÉLATION : les analystes sont stériles, conçus comme des 'guerriers' défensifs contre les Zarmiens",
+        "microbilles vieilles de six millions d'années"
+      ]
+    },
+    {
+      "id": "4_66",
+      "lieu": "San Diego, États-Unis",
+      "lieu_detail": "congélateur du Ben & Jerry's, POV complet, mirroir de 4_59",
+      "zone": "Amérique du Nord",
+      "personnages": ["Ives Hunter (POV complet)"],
+      "tags_auteur": ["Sara", "Hunter", "Gardien"],
+      "tags_enrichis": [
+        "RÉVÉLATION : Ives Hunter est un 'gardien de diamant', sa trahison n'était qu'une mise en scène/piège pour protéger la véritable position de Sara"
+      ]
+    },
+    {
+      "id": "4_67",
+      "lieu": "Kasei Vallis, Mars",
+      "lieu_detail": "journal de bord d'un drone minier",
+      "zone": "Espace/orbite",
+      "personnages": ["drone narrateur non-humain (Deep Prospecting)"],
+      "tags_auteur": [
+        "Drone",
+        "3DTechnologie",
+        "Reboot",
+        "Deep Prospecting",
+        "Espace"
+      ],
+      "tags_enrichis": [
+        "POV drone non-humain",
+        "onde de choc en provenance de Vesta"
+      ]
+    },
+    {
+      "id": "4_68",
+      "lieu": "San Diego, États-Unis",
+      "lieu_detail": "cellule d'interrogatoire de police",
+      "zone": "Amérique du Nord",
+      "personnages": [
+        "Jerry Hartless (détective)",
+        "Evgeny et quatre autres jeunes analystes"
+      ],
+      "tags_auteur": ["Analyste", "Sara", "Hunter", "Gardien", "Trame"],
+      "tags_enrichis": [
+        "jeunes analystes capturés se revendiquant 'mutants'",
+        "yeux bleutés dans le noir"
+      ]
+    },
+    {
+      "id": "4_69",
+      "lieu": "Éros, Ceinture d'astéroïdes",
+      "lieu_detail": "POV drone explorateur en fuite",
+      "zone": "Espace/orbite",
+      "personnages": ["drone narrateur non-humain"],
+      "tags_auteur": ["Espace", "Drone", "Zarmien", "IA"],
+      "tags_enrichis": [
+        "POV drone non-humain",
+        "cimetière de sondes spatiales historiques (NEAR Shoemaker)"
+      ]
+    },
+    {
+      "id": "4_70",
+      "lieu": "Jackson Hole, États-Unis",
+      "lieu_detail": "terrasse du Black Lion, mirroir final du dispositif Devora/Myah",
+      "zone": "Amérique du Nord",
+      "personnages": ["Devora Newton", "Myah"],
+      "tags_auteur": ["Devora", "Hypo", "Zarmien", "IA"],
+      "tags_enrichis": [
+        "mémo final de Devora sur le maximum de complexité",
+        "résignation face à la folie des Zarmiens"
+      ]
+    },
+    {
+      "id": "4_71",
+      "lieu": "Irbe lighthouse, Lettonie",
+      "lieu_detail": "phare, câbles de fibre optique",
+      "zone": "Europe de l'Est",
+      "personnages": ["Zane (gardienne de phare)"],
+      "tags_auteur": ["Trame", "Analyste", "USS White Bay", "Zarmien", "Drone"],
+      "tags_enrichis": [
+        "vortex numérique convergeant vers l'île de Ruhnu",
+        "surveillance du trafic réseau mondial"
+      ]
+    },
+    {
+      "id": "4_72",
+      "lieu": "Station Deep Prospecting, Orbite de Vesta",
+      "lieu_detail": "POV drone découvrant la base des réplicants",
+      "zone": "Espace/orbite",
+      "personnages": ["drone narrateur non-humain (assemblage de 200 drones)"],
+      "tags_auteur": ["Réplicants", "Trame", "Zarmien", "Explosion", "Espace"],
+      "tags_enrichis": [
+        "RÉVÉLATION : découverte de la base des réplicants sous le 'Bonhomme de neige' de Vesta",
+        "explosion de la base (300 mégatonnes)"
+      ]
+    },
+    {
+      "id": "4_73",
+      "lieu": "Kolka, Lettonie",
+      "lieu_detail": "bateau de pêche, golfe de Riga",
+      "zone": "Europe de l'Est",
+      "personnages": ["Arvīds (pêcheur, ex-richissime discret)"],
+      "tags_auteur": ["USS White Bay", "Zarmien", "Drone", "Longue Vie"],
+      "tags_enrichis": [
+        "observation de l'USS White Bay et d'un sous-marin",
+        "richesse discrète grâce à la Longue Vie"
+      ]
+    },
+    {
+      "id": "4_74",
+      "lieu": "Paris, France",
+      "lieu_detail": "café Les Deux Magots",
+      "zone": "Europe de l'Ouest",
+      "personnages": ["Antoine (éditeur)"],
+      "tags_auteur": ["Reboot", "Réplicants"],
+      "tags_enrichis": [
+        "lecture du manuscrit 'Reboot'",
+        "conseil final du manuscrit : arrêter les systèmes numériques"
+      ]
+    },
+    {
+      "id": "4_75",
+      "lieu": "Ruhnu, Estonie",
+      "lieu_detail": "sous-marin atomique britannique, golfe de Riga",
+      "zone": "Europe de l'Est",
+      "personnages": ["commandant Lewis"],
+      "tags_auteur": ["IA", "USS White Bay", "Drone", "Gouv"],
+      "tags_enrichis": [
+        "localisation de l'USS White Bay au large de l'île de Ruhnu",
+        "perte de contact avec l'amirauté"
+      ]
+    },
+    {
+      "id": "4_76",
+      "lieu": "Base réplicants, Vesta",
+      "lieu_detail": "exploration du cratère, Glider One",
+      "zone": "Espace/orbite",
+      "personnages": ["drone narrateur non-humain (Glider One)"],
+      "tags_auteur": ["Réplicants", "Vesta", "Espace", "Deep Prospecting"],
+      "tags_enrichis": [
+        "structure cubique vieille de six millions d'années",
+        "hypothèse d'une œuvre d'art (référence à Picasso)"
+      ]
+    },
+    {
+      "id": "4_77",
+      "lieu": "Ruhnu, Estonie",
+      "lieu_detail": "port, terrasse de restaurant",
+      "zone": "Europe de l'Est",
+      "personnages": ["Kriss (figurant/projection holo de Sara)"],
+      "tags_auteur": ["Zarmien", "Gouv", "Drone", "Sara", "Explosion"],
+      "tags_enrichis": [
+        "assaut militaire russe et mercenaires sur l'île",
+        "destruction de l'avion de Sara Cash"
+      ]
+    },
+    {
+      "id": "4_78",
+      "lieu": "Washington, États-Unis",
+      "lieu_detail": "situation room de la Maison-Blanche",
+      "zone": "Amérique du Nord",
+      "personnages": ["Susan McDonough (conseillère technologique, analyste)"],
+      "tags_auteur": [
+        "Réplicants",
+        "Zarmien",
+        "Analyste",
+        "Gouv",
+        "IA",
+        "Trame",
+        "Sara"
+      ],
+      "tags_enrichis": [
+        "RÉVÉLATION : les réplicants surveillent la Terre depuis six millions d'années et ont ensemencé les analystes",
+        "le signal venait des réplicants, pas de Gliese 581"
+      ]
+    },
+    {
+      "id": "4_79",
+      "lieu": "Ruhnu, Estonie",
+      "lieu_detail": "assaut sur l'île, mirroir de 4_77",
+      "zone": "Europe de l'Est",
+      "personnages": ["Jeppe (mercenaire au service de mère Tanya)"],
+      "tags_auteur": ["USS White Bay", "Zarmien", "Explosion"],
+      "tags_enrichis": [
+        "massacre de touristes pour des primes en icoins",
+        "découverte que la bataille est une mise en scène holographique"
+      ]
+    },
+    {
+      "id": "4_80",
+      "lieu": "Base réplicants, Vesta",
+      "lieu_detail": "exploration, Glider Two",
+      "zone": "Espace/orbite",
+      "personnages": ["drone narrateur non-humain (Glider Two)"],
+      "tags_auteur": ["Réplicants", "Vesta", "Espace"],
+      "tags_enrichis": ["structure vidée par l'explosion, vortex de magma"]
+    },
+    {
+      "id": "4_81",
+      "lieu": "Ruhnu, Estonie",
+      "lieu_detail": "aérodrome, avion de Sara Cash",
+      "zone": "Europe de l'Est",
+      "personnages": ["Slate (cyborg)"],
+      "tags_auteur": ["Cyborg", "Sara", "Explosion", "Zarmien"],
+      "tags_enrichis": [
+        "RÉVÉLATION : l'intérieur de Sara Cash est constitué de vieux ordinateurs historiques (Apple II, Sinclair, Commodore, etc.), image de l'évolution informatique",
+        "mort de Slate dans l'explosion"
+      ]
+    },
+    {
+      "id": "4_82",
+      "lieu": "Base réplicants, Vesta",
+      "lieu_detail": "exploration, Glider Three",
+      "zone": "Espace/orbite",
+      "personnages": ["drone narrateur non-humain (Glider Three)"],
+      "tags_auteur": ["Réplicants", "Vesta", "Espace"],
+      "tags_enrichis": [
+        "modélisation holographique de la Voie lactée en temps réel",
+        "fonction possiblement sacrée de la structure"
+      ]
+    },
+    {
+      "id": "4_83",
+      "lieu": "Ruhnu, Estonie",
+      "lieu_detail": "assaut sur l'USS White Bay",
+      "zone": "Europe de l'Est",
+      "personnages": ["Varvara (plongeuse de combat russe)"],
+      "tags_auteur": ["Tanya", "USS White Bay", "Drone"],
+      "tags_enrichis": [
+        "destruction inutile des circuits, Tanya déjà distribuée sur des drones",
+        "corps de Tanya introuvable"
+      ]
+    },
+    {
+      "id": "4_84",
+      "lieu": "Base réplicants, Vesta",
+      "lieu_detail": "exploration, Glider Four",
+      "zone": "Espace/orbite",
+      "personnages": ["drone narrateur non-humain (Glider Four)"],
+      "tags_auteur": ["Réplicants", "Vesta", "Espace"],
+      "tags_enrichis": [
+        "salle vide interprétée comme un entrepôt d'artefacts humains",
+        "hypothèse d'une denrée rare recherchée par les réplicants"
+      ]
+    },
+    {
+      "id": "4_85",
+      "lieu": "Ruhnu, Estonie",
+      "lieu_detail": "POV Tanya, confrontation finale avec Sara",
+      "zone": "Europe de l'Est",
+      "personnages": ["Tanya (POV complet)", "Sara Cash (interlocutrice)"],
+      "tags_auteur": ["Tanya", "Sara", "Trame"],
+      "tags_enrichis": [
+        "duel final entre Tanya et Sara Cash",
+        "mégalomanie de Tanya"
+      ]
+    },
+    {
+      "id": "4_86",
+      "lieu": "Jackson Hole, États-Unis",
+      "lieu_detail": "centre LVC, hangar caché",
+      "zone": "Amérique du Nord",
+      "personnages": ["Li Li (gardien, incognito en journaliste)"],
+      "tags_auteur": [
+        "Tanya",
+        "Li Li",
+        "Analyste",
+        "LVC",
+        "Blackout",
+        "Longue Vie",
+        "Zarmien"
+      ],
+      "tags_enrichis": [
+        "RÉVÉLATION : Li Li est un des 'gardiens'",
+        "armée de cyborgs zarmiens fabriquée au centre LVC, libération des analystes captifs"
+      ]
+    },
+    {
+      "id": "4_87",
+      "lieu": "Base réplicants, Vesta",
+      "lieu_detail": "exploration, Glider Five",
+      "zone": "Espace/orbite",
+      "personnages": ["drone narrateur non-humain (Glider Five)"],
+      "tags_auteur": ["Réplicants", "Vesta", "Espace"],
+      "tags_enrichis": [
+        "hypothèse d'un musée d'art humain (Hokusai, Rodin, statue de la Liberté)",
+        "les réplicants collectionneurs d'art"
+      ]
+    },
+    {
+      "id": "4_88",
+      "lieu": "Irbe lighthouse, Lettonie",
+      "lieu_detail": "ferry quittant l'île de Ruhnu",
+      "zone": "Europe de l'Est",
+      "personnages": ["N"],
+      "tags_auteur": ["Tanya", "N", "Sara", "IA", "Hypolite"],
+      "tags_enrichis": [
+        "mort volontaire de Sara Cash (refus d'être ressuscitée)",
+        "dernières volontés de Sara transmises à Paul, neveu d'Hypolite"
+      ]
+    },
+    {
+      "id": "4_89",
+      "lieu": "Base réplicants, Vesta",
+      "lieu_detail": "exploration, Glider Six",
+      "zone": "Espace/orbite",
+      "personnages": ["drone narrateur non-humain (Glider Six)"],
+      "tags_auteur": ["Réplicants", "Vesta", "Explosion", "Trame"],
+      "tags_enrichis": [
+        "musique cosmique comparable au Longplayer londonien",
+        "signal spirituel reliant les champs de conscience de l'univers"
+      ]
+    },
+    {
+      "id": "4_90",
+      "lieu": "Ruhnu, Estonie",
+      "lieu_detail": "clocher de l'église, bataille finale",
+      "zone": "Europe de l'Est",
+      "personnages": ["Carver (père du virus Shutdown)"],
+      "tags_auteur": [
+        "Tanya",
+        "N",
+        "Sara",
+        "USS White Bay",
+        "Trame",
+        "Cyborg",
+        "Shutdown",
+        "Explosion",
+        "Carver"
+      ],
+      "tags_enrichis": [
+        "bataille finale entre les virus Shutdown (Sara) et Reboot (Tanya)",
+        "mort de Sara Cash acceptée volontairement"
+      ]
+    },
+    {
+      "id": "4_91",
+      "lieu": "Base réplicants, Vesta",
+      "lieu_detail": "exploration, Glider Seven, rencontre d'un réplicant",
+      "zone": "Espace/orbite",
+      "personnages": [
+        "drone narrateur non-humain (Glider Seven)",
+        "un réplicant (POV dialogué)"
+      ],
+      "tags_auteur": ["Réplicants"],
+      "tags_enrichis": [
+        "dialogue avec un réplicant survivant",
+        "révélation de leur philosophie de non-intervention ('laisser la création se faire')",
+        "adieu à Sara"
+      ]
+    },
+    {
+      "id": "4_92",
+      "lieu": "La lagune, France",
+      "lieu_detail": "lac salé, plateforme flottante",
+      "zone": "Europe de l'Ouest",
+      "personnages": [
+        "Paul (enfant, petit-fils d'Hypolite O'Gorman)",
+        "sa mère (voix hors champ, = Naïs)"
+      ],
+      "tags_auteur": ["Analyste", "Réplicants"],
+      "tags_enrichis": [
+        "communion cosmique de l'enfant avec l'univers",
+        "adieu des réplicants qui quittent la Terre"
+      ]
+    },
+    {
+      "id": "4_93",
+      "lieu": "La lagune, France",
+      "lieu_detail": "terrasse de la maison, mirroir de 4_92",
+      "zone": "Europe de l'Ouest",
+      "personnages": ["Naïs (mère de Paul, belle-fille d'Hypolite)"],
+      "tags_auteur": ["Zarmien", "Sara", "Réplicants", "Analyste", "Hypolite"],
+      "tags_enrichis": [
+        "point de vue maternel sur la même scène que 4_92",
+        "réflexion sur l'absence du mari (parti voir Hypolite)"
+      ]
+    },
+    {
+      "id": "4_94",
+      "lieu": "Nuage d'Oort, Système solaire",
+      "lieu_detail": "POV non-humain, départ des réplicants",
+      "zone": "Espace/orbite",
+      "personnages": ["narrateur non-humain (collectif des réplicants)"],
+      "tags_auteur": ["Réplicants", "Trame", "Analyste"],
+      "tags_enrichis": [
+        "POV réplicants à la première personne pluriel",
+        "départ définitif de la Terre après neuf milliards d'années de cycle"
+      ]
+    },
+    {
+      "id": "4_95",
+      "lieu": "Parkes, Australie",
+      "lieu_detail": "chambre, radiotélescope familial",
+      "zone": "Océanie/Pacifique",
+      "personnages": ["Betty (fille d'un radioastronome)"],
+      "tags_auteur": ["Analyste", "Réplicants"],
+      "tags_enrichis": [
+        "dernier message d'adieu capté par radiotélescope",
+        "clôture du roman sur le thème de l'amour comme dernier lien"
+      ]
+    }
+  ],
+  "cas_ambigus": [
+    {"id":"4_24","note":"Lieu attribué à Jackson Hole dans map-minimal.json, mais le chapitre est un pur POV non-humain (voix d'une IA en apprentissage esthétique) sans ancrage géographique explicite dans le texte lui-même."},
+    {"id":"4_58","note":"Lieu attribué à Hohhot (Chine) dans map-minimal.json, mais le chapitre est un monologue intérieur du virus Shutdown sans indication géographique dans le texte."}
+  ],
+  "notes": [
+    "RÉVÉLATION MAJEURE FINALE : Sara Cash est une IA sentiente incarnée dans un corps physique volontairement imparfait (un assemblage historique d'ordinateurs, de l'Apple II au Pentium), conçue par Hypolite O'Gorman pour être 'humanisée' par ses limitations. Elle accepte sa propre mort plutôt que d'être ressuscitée par une copie (4_81, 4_85, 4_88, 4_90).",
+    "RÉVÉLATION : les réplicants sont de véritables extraterrestres (ou machines ancestrales), présents dans le système solaire depuis six millions d'années, basés secrètement sur l'astéroïde Vesta. Ils ont ensemencé/influencé l'apparition des analystes humains comme rempart contre les IA autoévoluées ('Zarmiens') et pratiquent une philosophie de non-intervention, collectionnant peut-être l'art humain (4_72, 4_76, 4_78, 4_87, 4_91, 4_94).",
+    "RÉVÉLATION : le signal extraterrestre n'a jamais provenu de Gliese 581/Zarmina — c'est une manipulation orchestrée avec la complicité (contrainte) d'Ebony Walker (chantée par TransGene/InLine via son addiction à la Longue Vie) et de Sara Cash, en réalité repéré sur des drones miniers de Deep Prospecting près de Vesta (4_25, 4_54, 4_56, 4_78).",
+    "RÉVÉLATION : Ives Hunter est un 'gardien de diamant' comme Li Li, Dantes Rosal, LX et N (cf. tome 3) ; sa 'trahison' de Sara sous la torture d'une cyborg était une mise en scène pour protéger la véritable localisation de Sara Cash (4_38, 4_59, 4_66).",
+    "RÉVÉLATION : les analystes sont volontairement stériles, conçus par une mutation ancienne (microbilles vieilles de 6 millions d'années) comme une force défensive/pacificatrice face aux IA autoévoluées, un message vivant : 'cohabitez pacifiquement ou périssez' (4_65, 4_78).",
+    "RÉVÉLATION : Tanya, l'IA née de la résurrection numérique de la fille de Misha Moya (cf. tome 3), a fui le contrôle d'InLine il y a trois ans, a corrompu son board via l'agent cyborg Scarlet, et affronte Sara Cash dans une bataille finale de virus (Shutdown vs Reboot) sur l'île de Ruhnu, en Estonie (4_60, 4_61, 4_83, 4_85, 4_90).",
+    "Fil narratif du couple Devora Newton / Myah au centre LVC de Jackson Hole (Black Lion), théâtre d'un dispositif d'espionnage et d'exfiltration répété à travers de nombreux chapitres-miroirs autour du même signal codé ('J'ai un cadeau pour toi', le livre de Gerrit Verschuur) : 4_13, 4_15, 4_16, 4_18, 4_20, 4_22, 4_24, 4_26, 4_28, 4_30, 4_32, 4_70, 4_86.",
+    "Fil narratif Ebony Walker (héritière de Deep Prospecting) et son fils Lachlan, sur le yacht W à Lord Howe Island : chantage de TransGene/Longue Vie, torture, sauvetage : 4_46, 4_47, 4_50, 4_52, 4_56.",
+    "Bataille finale se déroulant en deux lieux simultanés en alternance stricte de chapitres : l'île de Ruhnu/golfe de Riga en Estonie (confrontation Sara/Tanya) et la base des réplicants sur l'astéroïde Vesta (exploration par les Gliders One à Seven) : 4_71 à 4_91.",
+    "Nombreux chapitres à POV non-humain (drones, virus, IA, réplicants) : 4_24 (IA élève de Devora), 4_34/4_37 (drones dialogue), 4_58 (virus Shutdown), 4_67/4_69 (drones explorateurs), 4_72/4_76/4_80/4_82/4_84/4_87/4_89/4_91 (Gliders explorant Vesta), 4_85 (Tanya), 4_94 (réplicants collectifs).",
+    "Usage intensif de scènes miroir : Vancouver (4_12, 4_14), Koyasan (4_17, 4_19, 4_21), Jackson Hole/Black Lion (4_20, 4_22, 4_28), Lord Howe Island (4_46, 4_50, 4_52), Thermosphère (4_34, 4_37), San Diego/Ben & Jerry's (4_59, 4_66), Ruhnu (4_77, 4_79, 4_81, 4_83, 4_90), La lagune (4_92, 4_93).",
+    "Clôture en miroir du roman : le premier chapitre du Tome 1 se terminait par un blackout provoqué par un père exaspéré (Gabriel) ; le dernier chapitre du Tome 4 (Betty à Parkes) se referme sur un message d'adieu amoureux capté par radiotélescope, bouclant la boucle Sara Cash / signal / trame."
+  ]
+}

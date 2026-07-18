@@ -1,0 +1,4953 @@
+{
+  "chapitres": [
+    {
+      "id": "1_1",
+      "tome": 1,
+      "chapitre": 1,
+      "lieu": "Versailles, France",
+      "heure": "21:45",
+      "tags": [
+        "Analyste",
+        "Sara",
+        "Gliese"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_2",
+      "tome": 1,
+      "chapitre": 2,
+      "lieu": "New York, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Club",
+        "Sara"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_3",
+      "tome": 1,
+      "chapitre": 3,
+      "lieu": "Atacama, Chili",
+      "heure": "16:45",
+      "tags": [
+        "Michele",
+        "Gliese",
+        "Philo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_4",
+      "tome": 1,
+      "chapitre": 4,
+      "lieu": "Versailles, France",
+      "heure": "21:45",
+      "tags": [
+        "Analyste",
+        "Sara",
+        "Gliese",
+        "Trame"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_5",
+      "tome": 1,
+      "chapitre": 5,
+      "lieu": "Mumbai, Inde",
+      "heure": "1:15",
+      "tags": [
+        "Hypo",
+        "Sara",
+        "Loi001"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_6",
+      "tome": 1,
+      "chapitre": 6,
+      "lieu": "Bordeaux, France",
+      "heure": "21:45",
+      "tags": [
+        "Analyste",
+        "Sara",
+        "Gliese",
+        "Trame",
+        "ADN"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_7",
+      "tome": 1,
+      "chapitre": 7,
+      "lieu": "Arecibo, Porto Rico",
+      "heure": "15:45",
+      "tags": [
+        "Michele",
+        "Gliese",
+        "Fringe"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_8",
+      "tome": 1,
+      "chapitre": 8,
+      "lieu": "Singapour, République de Singapour",
+      "heure": "3:45",
+      "tags": [
+        "Quidam",
+        "Zarmina",
+        "Gliese"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_9",
+      "tome": 1,
+      "chapitre": 9,
+      "lieu": "Washington, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Hypo",
+        "Sara",
+        "Michele",
+        "Loi001",
+        "Gouv",
+        "Gliese"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_10",
+      "tome": 1,
+      "chapitre": 10,
+      "lieu": "Santa Cruz, États-Unis",
+      "heure": "12:45",
+      "tags": [
+        "Gliese",
+        "Philo",
+        "Zarmina"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_11",
+      "tome": 1,
+      "chapitre": 11,
+      "lieu": "Majuro, Marshall Islands",
+      "heure": "7:45",
+      "tags": [
+        "Sara",
+        "Quidam",
+        "Code"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_12",
+      "tome": 1,
+      "chapitre": 12,
+      "lieu": "Mountain View, États-Unis",
+      "heure": "12:45",
+      "tags": [
+        "Michele",
+        "SETI"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_13",
+      "tome": 1,
+      "chapitre": 13,
+      "lieu": "Saint-Pétersbourg, Russie",
+      "heure": "22:45",
+      "tags": [
+        "Réplicants",
+        "Quidam",
+        "Drone"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_14",
+      "tome": 1,
+      "chapitre": 14,
+      "lieu": "Londres, Angleterre",
+      "heure": "20:45",
+      "tags": [
+        "Sara"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_15",
+      "tome": 1,
+      "chapitre": 15,
+      "lieu": "Vancouver, Canada",
+      "heure": "12:45",
+      "tags": [
+        "Zarmien",
+        "Gouv"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_16",
+      "tome": 1,
+      "chapitre": 16,
+      "lieu": "Washington, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Gouv",
+        "Sara"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_17",
+      "tome": 1,
+      "chapitre": 17,
+      "lieu": "Vancouver, Canada",
+      "heure": "12:45",
+      "tags": [
+        "Zarmien",
+        "Cyborg",
+        "Hypo",
+        "Gouv"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_18",
+      "tome": 1,
+      "chapitre": 18,
+      "lieu": "Vancouver, Canada",
+      "heure": "12:45",
+      "tags": [
+        "Analyste",
+        "Zarmien",
+        "Gardien",
+        "Yeux"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_19",
+      "tome": 1,
+      "chapitre": 19,
+      "lieu": "Zelenchukskaya, Russie",
+      "heure": "22:45",
+      "tags": [
+        "Michele",
+        "Gliese",
+        "Philo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_20",
+      "tome": 1,
+      "chapitre": 20,
+      "lieu": "Moscou, Russie",
+      "heure": "22:45",
+      "tags": [
+        "Analyste",
+        "Sara",
+        "Hypo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_21",
+      "tome": 1,
+      "chapitre": 21,
+      "lieu": "Necker Island, îles Vierges",
+      "heure": "15:45",
+      "tags": [
+        "Longue Vie",
+        "Club",
+        "Sara"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_22",
+      "tome": 1,
+      "chapitre": 22,
+      "lieu": "Station spatiale, orbite terrestre",
+      "heure": "19:45",
+      "tags": [
+        "Blackout",
+        "Espace"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_23",
+      "tome": 1,
+      "chapitre": 23,
+      "lieu": "Fort George G. Meade, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Michele",
+        "Gliese",
+        "Sara",
+        "Gouv",
+        "Zarmina",
+        "Li Li",
+        "3DTechnology"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_24",
+      "tome": 1,
+      "chapitre": 24,
+      "lieu": "Naples, Italie",
+      "heure": "21:45",
+      "tags": [
+        "Sara",
+        "Gliese",
+        "Philo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_25",
+      "tome": 1,
+      "chapitre": 25,
+      "lieu": "Puerto Montt, Chili",
+      "heure": "16:45",
+      "tags": [
+        "Analyste",
+        "Trame"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_26",
+      "tome": 1,
+      "chapitre": 26,
+      "lieu": "Wellington, Nouvelle-Zélande",
+      "heure": "7:45",
+      "tags": [
+        "Quidam"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_27",
+      "tome": 1,
+      "chapitre": 27,
+      "lieu": "Muthorai, Inde",
+      "heure": "1:15",
+      "tags": [
+        "Michele",
+        "Sara",
+        "Message"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_28",
+      "tome": 1,
+      "chapitre": 28,
+      "lieu": "Montréal, Canada",
+      "heure": "15:45",
+      "tags": [
+        "Analyste",
+        "Trame"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_29",
+      "tome": 1,
+      "chapitre": 29,
+      "lieu": "Thessalonique, Grèce",
+      "heure": "22:45",
+      "tags": [
+        "Analyste",
+        "Sara"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_30",
+      "tome": 1,
+      "chapitre": 30,
+      "lieu": "Lhassa, Tibet",
+      "heure": "3:45",
+      "tags": [
+        "Drone",
+        "Quidam"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_31",
+      "tome": 1,
+      "chapitre": 31,
+      "lieu": "Arecibo, Porto Rico",
+      "heure": "15:45",
+      "tags": [
+        "Michele",
+        "Gliese",
+        "Signal"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_32",
+      "tome": 1,
+      "chapitre": 32,
+      "lieu": "Vienne, Autriche",
+      "heure": "21:45",
+      "tags": [
+        "Club",
+        "Longue Vie"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_33",
+      "tome": 1,
+      "chapitre": 33,
+      "lieu": "Nagoya, Japon",
+      "heure": "4:45",
+      "tags": [
+        "Sara",
+        "Code"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_34",
+      "tome": 1,
+      "chapitre": 34,
+      "lieu": "Vatican, Italie",
+      "heure": "21:45",
+      "tags": [
+        "Sara"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_35",
+      "tome": 1,
+      "chapitre": 35,
+      "lieu": "Washington, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "USS White Bay",
+        "Michele",
+        "Gliese",
+        "Signal",
+        "Fringe"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_36",
+      "tome": 1,
+      "chapitre": 36,
+      "lieu": "Portsmouth, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "USS White Bay",
+        "Fringe",
+        "Gardien"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_37",
+      "tome": 1,
+      "chapitre": 37,
+      "lieu": "Portsmouth, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Analyste",
+        "Fringe",
+        "USS White Bay"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_38",
+      "tome": 1,
+      "chapitre": 38,
+      "lieu": "Mascate, Sultanat d’Oman",
+      "heure": "23:45",
+      "tags": [
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_39",
+      "tome": 1,
+      "chapitre": 39,
+      "lieu": "Mascate, Sultanat d’Oman",
+      "heure": "23:45",
+      "tags": [
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_40",
+      "tome": 1,
+      "chapitre": 40,
+      "lieu": "Washington, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Sara",
+        "Gouv"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_41",
+      "tome": 1,
+      "chapitre": 41,
+      "lieu": "Arlington County, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Michele",
+        "Analyste",
+        "USS White Bay",
+        "Fringe",
+        "Code"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_42",
+      "tome": 1,
+      "chapitre": 42,
+      "lieu": "Seattle, États-Unis",
+      "heure": "12:45",
+      "tags": [
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_43",
+      "tome": 1,
+      "chapitre": 43,
+      "lieu": "San Andrés Zabache, Mexique",
+      "heure": "14:45",
+      "tags": [
+        "Hypo",
+        "Quidam",
+        "Philo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_44",
+      "tome": 1,
+      "chapitre": 44,
+      "lieu": "Pearl Harbor, États-Unis",
+      "heure": "9:45",
+      "tags": [
+        "Michele",
+        "Analyste",
+        "USS White Bay",
+        "Fringe",
+        "Code"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_45",
+      "tome": 1,
+      "chapitre": 45,
+      "lieu": "Jérusalem, Israël",
+      "heure": "22:45",
+      "tags": [
+        "Quidam",
+        "signal"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_46",
+      "tome": 1,
+      "chapitre": 46,
+      "lieu": "Mendoza, Argentine",
+      "heure": "16:45",
+      "tags": [
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_47",
+      "tome": 1,
+      "chapitre": 47,
+      "lieu": "Mountain View, États-Unis",
+      "heure": "12:45",
+      "tags": [
+        "Michele",
+        "USS White Bay",
+        "SETI",
+        "Gouv"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_48",
+      "tome": 1,
+      "chapitre": 48,
+      "lieu": "Mousehole, Angleterre",
+      "heure": "20:45",
+      "tags": [
+        "Quidam",
+        "Hypo",
+        "Sara",
+        "Philo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_49",
+      "tome": 1,
+      "chapitre": 49,
+      "lieu": "Artarmon, Australie",
+      "heure": "5:45",
+      "tags": [
+        "Sara"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_50",
+      "tome": 1,
+      "chapitre": 50,
+      "lieu": "Tallinn, Estonie",
+      "heure": "22:45",
+      "tags": [
+        "Analyste",
+        "Sara",
+        "Elina"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_51",
+      "tome": 1,
+      "chapitre": 51,
+      "lieu": "São Paulo, Brésil",
+      "heure": "16:45",
+      "tags": [
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_52",
+      "tome": 1,
+      "chapitre": 52,
+      "lieu": "Tallinn, Estonie",
+      "heure": "22:45",
+      "tags": [
+        "Analyste",
+        "Zarmien",
+        "Elina"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_53",
+      "tome": 1,
+      "chapitre": 53,
+      "lieu": "Pago Pago, Samoa américaines",
+      "heure": "8:45",
+      "tags": [
+        "Michele",
+        "USS White Bay",
+        "Sara"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_54",
+      "tome": 1,
+      "chapitre": 54,
+      "lieu": "Tallinn, Estonie",
+      "heure": "22:45",
+      "tags": [
+        "Analyste",
+        "Zarmien",
+        "Elina"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_55",
+      "tome": 1,
+      "chapitre": 55,
+      "lieu": "Portillo, Chili",
+      "heure": "16:45",
+      "tags": [
+        "Quidam",
+        "Signal",
+        "Philo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_56",
+      "tome": 1,
+      "chapitre": 56,
+      "lieu": "Grozny, Tchétchénie",
+      "heure": "22:45",
+      "tags": [
+        "Analyste",
+        "Zarmien",
+        "Elina"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_57",
+      "tome": 1,
+      "chapitre": 57,
+      "lieu": "Essaouira, Maroc",
+      "heure": "20:45",
+      "tags": [
+        "Quidam",
+        "Philo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_58",
+      "tome": 1,
+      "chapitre": 58,
+      "lieu": "Moscou, Russie",
+      "heure": "22:45",
+      "tags": [
+        "Zarmien",
+        "Elina"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_59",
+      "tome": 1,
+      "chapitre": 59,
+      "lieu": "Pago Pago, Samoa américaines",
+      "heure": "8:45",
+      "tags": [
+        "Michele",
+        "Fringe",
+        "USS White Bay",
+        "Gouv"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_60",
+      "tome": 1,
+      "chapitre": 60,
+      "lieu": "Réserve du Néouvielle, France",
+      "heure": "21:45",
+      "tags": [
+        "Quidam",
+        "Gouv"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_61",
+      "tome": 1,
+      "chapitre": 61,
+      "lieu": "Washington, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Gouv",
+        "Gliese",
+        "Philo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_62",
+      "tome": 1,
+      "chapitre": 62,
+      "lieu": "Réserve du Néouvielle, France",
+      "heure": "21:45",
+      "tags": [
+        "Quidam"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_63",
+      "tome": 1,
+      "chapitre": 63,
+      "lieu": "Fort George G. Meade, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Michele",
+        "USS White Bay"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_64",
+      "tome": 1,
+      "chapitre": 64,
+      "lieu": "Mountain View, États-Unis",
+      "heure": "12:45",
+      "tags": [
+        "SETI",
+        "Quidam",
+        "Philo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_65",
+      "tome": 1,
+      "chapitre": 65,
+      "lieu": "Houston, États-Unis",
+      "heure": "14:45",
+      "tags": [
+        "Drone",
+        "Quidam"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_66",
+      "tome": 1,
+      "chapitre": 66,
+      "lieu": "Diego Garcia, Royaume-Uni",
+      "heure": "1:45",
+      "tags": [
+        "Michele",
+        "USS White Bay",
+        "NOSS-55",
+        "Gliese",
+        "Gouv"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_67",
+      "tome": 1,
+      "chapitre": 67,
+      "lieu": "Barcelone, Espagne",
+      "heure": "21:45",
+      "tags": [
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_68",
+      "tome": 1,
+      "chapitre": 68,
+      "lieu": "Cape Town, Afrique du Sud",
+      "heure": "21:45",
+      "tags": [
+        "Quidam",
+        "Philo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_69",
+      "tome": 1,
+      "chapitre": 69,
+      "lieu": "Barcelone, Espagne",
+      "heure": "21:45",
+      "tags": [
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_70",
+      "tome": 1,
+      "chapitre": 70,
+      "lieu": "Honolulu, États-Unis",
+      "heure": "9:45",
+      "tags": [
+        "Quidam",
+        "Blackout"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_71",
+      "tome": 1,
+      "chapitre": 71,
+      "lieu": "Monaco, Monaco",
+      "heure": "21:45",
+      "tags": [
+        "Michele",
+        "3DTechnology",
+        "Drone",
+        "Zarmina"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_72",
+      "tome": 1,
+      "chapitre": 72,
+      "lieu": "Tokyo, Japon",
+      "heure": "4:45",
+      "tags": [
+        "Analyste",
+        "Yeux"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_73",
+      "tome": 1,
+      "chapitre": 73,
+      "lieu": "Base Dumont d'Urville, Antarctique",
+      "heure": "5:45",
+      "tags": [
+        "Quidam",
+        "Explosion"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_74",
+      "tome": 1,
+      "chapitre": 74,
+      "lieu": "Base Dumont d'Urville, Antarctique",
+      "heure": "5:45",
+      "tags": [
+        "Quidam",
+        "Explosion"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_75",
+      "tome": 1,
+      "chapitre": 75,
+      "lieu": "Lisbonne, Portugal",
+      "heure": "20:45",
+      "tags": [
+        "Code",
+        "Zarmina"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_76",
+      "tome": 1,
+      "chapitre": 76,
+      "lieu": "Newport, États-Unis",
+      "heure": "12:45",
+      "tags": [
+        "Michele",
+        "Fringe",
+        "USS White Bay"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_77",
+      "tome": 1,
+      "chapitre": 77,
+      "lieu": "Tikal, Honduras",
+      "heure": "13:45",
+      "tags": [
+        "Analyste",
+        "Sara"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_78",
+      "tome": 1,
+      "chapitre": 78,
+      "lieu": "Tikal, Honduras",
+      "heure": "13:45",
+      "tags": [
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_79",
+      "tome": 1,
+      "chapitre": 79,
+      "lieu": "New York, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Sara",
+        "Quidam"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_80",
+      "tome": 1,
+      "chapitre": 80,
+      "lieu": "Washington, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Gouv",
+        "Michele",
+        "Li Li",
+        "Code",
+        "Gliese",
+        "Fringe"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_81",
+      "tome": 1,
+      "chapitre": 81,
+      "lieu": "Fort George G. Meade, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Sara",
+        "Gouv"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_82",
+      "tome": 1,
+      "chapitre": 82,
+      "lieu": "Kirkkonummi, Finlande",
+      "heure": "22:45",
+      "tags": [
+        "SETI",
+        "Gliese",
+        "Signal",
+        "Blackout"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_83",
+      "tome": 1,
+      "chapitre": 83,
+      "lieu": "Anchorage, États-Unis",
+      "heure": "11:45",
+      "tags": [
+        "Quidam",
+        "Hypo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_84",
+      "tome": 1,
+      "chapitre": 84,
+      "lieu": "Valencia, Vénézuéla",
+      "heure": "15:15",
+      "tags": [
+        "Analyste",
+        "Trame"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_85",
+      "tome": 1,
+      "chapitre": 85,
+      "lieu": "Arecibo, Porto Rico",
+      "heure": "15:45",
+      "tags": [
+        "Michele",
+        "USS White Bay",
+        "Fringe"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_86",
+      "tome": 1,
+      "chapitre": 86,
+      "lieu": "Bangkok, Thaïlande",
+      "heure": "2:45",
+      "tags": [
+        "Analyste",
+        "Zarmien"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_87",
+      "tome": 1,
+      "chapitre": 87,
+      "lieu": "Arecibo, Porto Rico",
+      "heure": "15:45",
+      "tags": [
+        "Michele",
+        "Analyste",
+        "Zarmien"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_88",
+      "tome": 1,
+      "chapitre": 88,
+      "lieu": "Byurakan, Arménie",
+      "heure": "23:45",
+      "tags": [
+        "SETI",
+        "Signal",
+        "Sara",
+        "Quidam",
+        "Zarmina"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_89",
+      "tome": 1,
+      "chapitre": 89,
+      "lieu": "Arecibo, Porto Rico",
+      "heure": "15:45",
+      "tags": [
+        "Michele",
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_90",
+      "tome": 1,
+      "chapitre": 90,
+      "lieu": "Toronto, Canada",
+      "heure": "15:45",
+      "tags": [
+        "Hypo",
+        "Quidam",
+        "Code"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_91",
+      "tome": 1,
+      "chapitre": 91,
+      "lieu": "Tunis, Tunisie",
+      "heure": "20:45",
+      "tags": [
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_92",
+      "tome": 1,
+      "chapitre": 92,
+      "lieu": "Paris, France",
+      "heure": "21:45",
+      "tags": [
+        "Quidam",
+        "Sara"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_93",
+      "tome": 1,
+      "chapitre": 93,
+      "lieu": "Portsmouth, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Michele",
+        "USS White Bay",
+        "Trame",
+        "Gardien",
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_94",
+      "tome": 1,
+      "chapitre": 94,
+      "lieu": "Resolute, Canada",
+      "heure": "14:45",
+      "tags": [
+        "USS White Bay",
+        "Drone",
+        "Gouv"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "1_95",
+      "tome": 1,
+      "chapitre": 95,
+      "lieu": "Arecibo, Porto Rico",
+      "heure": "15:45",
+      "tags": [
+        "Michele",
+        "USS White Bay",
+        "Fringe",
+        "Analyste",
+        "Zarmien"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_1",
+      "tome": 2,
+      "chapitre": 1,
+      "lieu": "Milan, Italie",
+      "heure": "21:45",
+      "tags": [
+        "Quidam"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_2",
+      "tome": 2,
+      "chapitre": 2,
+      "lieu": "Amsterdam, Pays-Bas",
+      "heure": "21:45",
+      "tags": [
+        "Hypo",
+        "Gouv",
+        "Loi001"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_3",
+      "tome": 2,
+      "chapitre": 3,
+      "lieu": "Kuda Hithi, Maldive",
+      "heure": "00:45",
+      "tags": [
+        "Longue Vie",
+        "Club"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_4",
+      "tome": 2,
+      "chapitre": 4,
+      "lieu": "Snow Lake, États-Unis",
+      "heure": "12:45",
+      "tags": [
+        "Hypo",
+        "Chamane"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_5",
+      "tome": 2,
+      "chapitre": 5,
+      "lieu": "Alexandrie, Égypte",
+      "heure": "21:45",
+      "tags": [
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_6",
+      "tome": 2,
+      "chapitre": 6,
+      "lieu": "Honolulu, États-Unis",
+      "heure": "9:45",
+      "tags": [
+        "Message"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_7",
+      "tome": 2,
+      "chapitre": 7,
+      "lieu": "Oklahoma City, États-Unis",
+      "heure": "14:45",
+      "tags": [
+        "Hypo",
+        "Code",
+        "Loi001"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_8",
+      "tome": 2,
+      "chapitre": 8,
+      "lieu": "Kowloon, Hong Kong",
+      "heure": "3:45",
+      "tags": [
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_9",
+      "tome": 2,
+      "chapitre": 9,
+      "lieu": "Freetown, Sierra Leone",
+      "heure": "19:45",
+      "tags": [
+        "Hypo",
+        "Dead Drop"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_10",
+      "tome": 2,
+      "chapitre": 10,
+      "lieu": "Cambridge, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Code",
+        "Quidam",
+        "Philo",
+        "Morgan"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_11",
+      "tome": 2,
+      "chapitre": 11,
+      "lieu": "Annaba, Algérie",
+      "heure": "20:45",
+      "tags": [
+        "Hypo",
+        "Dead Drop"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_12",
+      "tome": 2,
+      "chapitre": 12,
+      "lieu": "Cambridge, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Code",
+        "Philo",
+        "Analyste",
+        "Mackenzie",
+        "Morgan"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_13",
+      "tome": 2,
+      "chapitre": 13,
+      "lieu": "Annaba, Algérie",
+      "heure": "20:45",
+      "tags": [
+        "Hypo",
+        "Dead Drop"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_14",
+      "tome": 2,
+      "chapitre": 14,
+      "lieu": "Cambridge, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Analyste",
+        "Mackenzie",
+        "IA",
+        "Philo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_15",
+      "tome": 2,
+      "chapitre": 15,
+      "lieu": "Alger, Algérie",
+      "heure": "20:45",
+      "tags": [
+        "Hypo",
+        "Dead Drop"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_16",
+      "tome": 2,
+      "chapitre": 16,
+      "lieu": "Nouadhibou, Mauritanie",
+      "heure": "19:45",
+      "tags": [
+        "Quidam"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_17",
+      "tome": 2,
+      "chapitre": 17,
+      "lieu": "Cambridge, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Mackenzie",
+        "Morgan",
+        "Philo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_18",
+      "tome": 2,
+      "chapitre": 18,
+      "lieu": "Ponta Delgada, Portugal",
+      "heure": "19:45",
+      "tags": [
+        "Hypo",
+        "USS White Bay"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_19",
+      "tome": 2,
+      "chapitre": 19,
+      "lieu": "Karnak, Égypte",
+      "heure": "21:45",
+      "tags": [
+        "Mackenzie",
+        "Philo",
+        "Quidam"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_20",
+      "tome": 2,
+      "chapitre": 20,
+      "lieu": "Tórshavn, Îles Féroé",
+      "heure": "20:45",
+      "tags": [
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_21",
+      "tome": 2,
+      "chapitre": 21,
+      "lieu": "Santa Fe, États-Unis",
+      "heure": "13:45",
+      "tags": [
+        "Mackenzie",
+        "Philo",
+        "Quidam"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_22",
+      "tome": 2,
+      "chapitre": 22,
+      "lieu": "Cambridge, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Mackenzie",
+        "Morgan",
+        "Philo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_23",
+      "tome": 2,
+      "chapitre": 23,
+      "lieu": "Tórshavn, Îles Féroé",
+      "heure": "20:45",
+      "tags": [
+        "Analyste",
+        "Dauphins"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_24",
+      "tome": 2,
+      "chapitre": 24,
+      "lieu": "Kingston, Jamaïque",
+      "heure": "14:45",
+      "tags": [
+        "Hypo",
+        "USS White Bay"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_25",
+      "tome": 2,
+      "chapitre": 25,
+      "lieu": "Tórshavn, Îles Féroé",
+      "heure": "20:45",
+      "tags": [
+        "Analyste",
+        "Trame",
+        "Dauphins"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_26",
+      "tome": 2,
+      "chapitre": 26,
+      "lieu": "Rangoon, Myanmar",
+      "heure": "2:30",
+      "tags": [
+        "Analyste",
+        "Explosion"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_27",
+      "tome": 2,
+      "chapitre": 27,
+      "lieu": "Oslo, Norvège",
+      "heure": "21:45",
+      "tags": [
+        "Hypo",
+        "Quidam",
+        "Philo",
+        "InLine"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_28",
+      "tome": 2,
+      "chapitre": 28,
+      "lieu": "Budapest, Hongrie",
+      "heure": "21:45",
+      "tags": [
+        "SETI",
+        "Signal",
+        "Sara"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_29",
+      "tome": 2,
+      "chapitre": 29,
+      "lieu": "Florac, France",
+      "heure": "21:45",
+      "tags": [
+        "Hypolite",
+        "Hypo",
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_30",
+      "tome": 2,
+      "chapitre": 30,
+      "lieu": "Yevpatoria, Crimée",
+      "heure": "22:45",
+      "tags": [
+        "Signal",
+        "Gliese"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_31",
+      "tome": 2,
+      "chapitre": 31,
+      "lieu": "Florac, France",
+      "heure": "21:45",
+      "tags": [
+        "Hypolite",
+        "Hypo",
+        "Analyste",
+        "Zarmien",
+        "Sara",
+        "USS White Bay"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_32",
+      "tome": 2,
+      "chapitre": 32,
+      "lieu": "Berlin, Allemagne",
+      "heure": "21:45",
+      "tags": [
+        "Analyste",
+        "Quidam"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_33",
+      "tome": 2,
+      "chapitre": 33,
+      "lieu": "Key Largo, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Philo",
+        "Signal",
+        "Dauphins"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_34",
+      "tome": 2,
+      "chapitre": 34,
+      "lieu": "Florac, France",
+      "heure": "21:45",
+      "tags": [
+        "Hypo",
+        "Drone",
+        "Hypolite"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_35",
+      "tome": 2,
+      "chapitre": 35,
+      "lieu": "Castel Gandolfo, Italie",
+      "heure": "21:45",
+      "tags": [
+        "Quidam",
+        "Philo",
+        "Michele"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_36",
+      "tome": 2,
+      "chapitre": 36,
+      "lieu": "Florac, France",
+      "heure": "21:45",
+      "tags": [
+        "Hypolite",
+        "Hypo",
+        "Analyste",
+        "Zarmien"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_37",
+      "tome": 2,
+      "chapitre": 37,
+      "lieu": "CERN, Suisse",
+      "heure": "21:45",
+      "tags": [
+        "Quidam",
+        "Philo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_38",
+      "tome": 2,
+      "chapitre": 38,
+      "lieu": "Florac, France",
+      "heure": "21:45",
+      "tags": [
+        "Hypo",
+        "ADN"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_39",
+      "tome": 2,
+      "chapitre": 39,
+      "lieu": "Monkey Bay, Malawi",
+      "heure": "21:45",
+      "tags": [
+        "Analyste",
+        "Aba",
+        "Blackout"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_40",
+      "tome": 2,
+      "chapitre": 40,
+      "lieu": "Florac, France",
+      "heure": "21:45",
+      "tags": [
+        "Hypolite",
+        "Drone"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_41",
+      "tome": 2,
+      "chapitre": 41,
+      "lieu": "Washington, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Gouv",
+        "Club",
+        "Zarmien"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_42",
+      "tome": 2,
+      "chapitre": 42,
+      "lieu": "Washington, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Analyste",
+        "Gardien",
+        "LX"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_43",
+      "tome": 2,
+      "chapitre": 43,
+      "lieu": "New York, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Analyste",
+        "Aba",
+        "Blackout"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_44",
+      "tome": 2,
+      "chapitre": 44,
+      "lieu": "Vienne, Autriche",
+      "heure": "21:45",
+      "tags": [
+        "Marga"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_45",
+      "tome": 2,
+      "chapitre": 45,
+      "lieu": "Bureh Beach, Sierra Leone",
+      "heure": "19:45",
+      "tags": [
+        "Analyste",
+        "Aba",
+        "Blackout"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_46",
+      "tome": 2,
+      "chapitre": 46,
+      "lieu": "Lyon, France",
+      "heure": "21:45",
+      "tags": [
+        "Marga",
+        "Sara"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_47",
+      "tome": 2,
+      "chapitre": 47,
+      "lieu": "Istanbul, Turquie",
+      "heure": "22:45",
+      "tags": [
+        "LX",
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_48",
+      "tome": 2,
+      "chapitre": 48,
+      "lieu": "Fort George G. Meade, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "LX",
+        "Sara",
+        "Gardien"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_49",
+      "tome": 2,
+      "chapitre": 49,
+      "lieu": "Londres, Angleterre",
+      "heure": "20:45",
+      "tags": [
+        "Aba",
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_50",
+      "tome": 2,
+      "chapitre": 50,
+      "lieu": "Mashhad, Iran",
+      "heure": "00:15",
+      "tags": [
+        "LX",
+        "N",
+        "Sara"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_51",
+      "tome": 2,
+      "chapitre": 51,
+      "lieu": "Lyon, France",
+      "heure": "21:45",
+      "tags": [
+        "Hypo",
+        "Sara",
+        "Marga"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_52",
+      "tome": 2,
+      "chapitre": 52,
+      "lieu": "Lisbonne, Portugal",
+      "heure": "20:45",
+      "tags": [
+        "Sara"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_53",
+      "tome": 2,
+      "chapitre": 53,
+      "lieu": "Poznań, Pologne",
+      "heure": "21:45",
+      "tags": [
+        "Hypo",
+        "Aba",
+        "Analyste",
+        "Blackout",
+        "N",
+        "Sara"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_54",
+      "tome": 2,
+      "chapitre": 54,
+      "lieu": "New York, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Quidam"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_55",
+      "tome": 2,
+      "chapitre": 55,
+      "lieu": "Lyon, France",
+      "heure": "21:45",
+      "tags": [
+        "Marga",
+        "Sara",
+        "Gouv"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_56",
+      "tome": 2,
+      "chapitre": 56,
+      "lieu": "Aogashima, Japon",
+      "heure": "4:45",
+      "tags": [
+        "Hypo",
+        "Aba",
+        "Analyste",
+        "Blackout"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_57",
+      "tome": 2,
+      "chapitre": 57,
+      "lieu": "Réserve du Paracas, Pérou",
+      "heure": "14:45",
+      "tags": [
+        "Analyste",
+        "Dauphins"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_58",
+      "tome": 2,
+      "chapitre": 58,
+      "lieu": "Mashhad, Iran",
+      "heure": "00:15",
+      "tags": [
+        "Analyste",
+        "LX",
+        "N"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_59",
+      "tome": 2,
+      "chapitre": 59,
+      "lieu": "Lokolama, Congo",
+      "heure": "21:45",
+      "tags": [
+        "Aba",
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_60",
+      "tome": 2,
+      "chapitre": 60,
+      "lieu": "Madrid, Espagne",
+      "heure": "21:45",
+      "tags": [
+        "Hypo",
+        "Hypolite"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_61",
+      "tome": 2,
+      "chapitre": 61,
+      "lieu": "Washington, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "LX"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_62",
+      "tome": 2,
+      "chapitre": 62,
+      "lieu": "Djibouti, Djibouti",
+      "heure": "22:45",
+      "tags": [
+        "Sara",
+        "Boulard"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_63",
+      "tome": 2,
+      "chapitre": 63,
+      "lieu": "Copenhague, Danemark",
+      "heure": "21:45",
+      "tags": [
+        "Sara",
+        "Hypolite"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_64",
+      "tome": 2,
+      "chapitre": 64,
+      "lieu": "Santa Fe, États-Unis",
+      "heure": "13:45",
+      "tags": [
+        "Hypo",
+        "Dead Drop",
+        "Hypolite"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_65",
+      "tome": 2,
+      "chapitre": 65,
+      "lieu": "Helsinki, Finlande",
+      "heure": "22:45",
+      "tags": [
+        "Boulard",
+        "Hypolite",
+        "InLine"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_66",
+      "tome": 2,
+      "chapitre": 66,
+      "lieu": "Santa Fe, États-Unis",
+      "heure": "13:45",
+      "tags": [
+        "Hypo",
+        "Drone",
+        "Zarmien"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_67",
+      "tome": 2,
+      "chapitre": 67,
+      "lieu": "Heidelberg, Allemagne",
+      "heure": "21:45",
+      "tags": [
+        "Sara",
+        "Boulard",
+        "Marga"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_68",
+      "tome": 2,
+      "chapitre": 68,
+      "lieu": "Santa Fe, États-Unis",
+      "heure": "13:45",
+      "tags": [
+        "Hypo",
+        "Drone"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_69",
+      "tome": 2,
+      "chapitre": 69,
+      "lieu": "Lancaster, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Aba",
+        "Analyste",
+        "Blackout",
+        "Quidam"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_70",
+      "tome": 2,
+      "chapitre": 70,
+      "lieu": "Santa Fe, États-Unis",
+      "heure": "13:45",
+      "tags": [
+        "Hypo",
+        "Drone",
+        "Dead Drop"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_71",
+      "tome": 2,
+      "chapitre": 71,
+      "lieu": "Bugarach, France",
+      "heure": "21:45",
+      "tags": [
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_72",
+      "tome": 2,
+      "chapitre": 72,
+      "lieu": "Santa Fe, États-Unis",
+      "heure": "13:45",
+      "tags": [
+        "Hypo",
+        "Dead Drop",
+        "Zarmien"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_73",
+      "tome": 2,
+      "chapitre": 73,
+      "lieu": "Washington, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Hypo",
+        "Sara",
+        "Gouv"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_74",
+      "tome": 2,
+      "chapitre": 74,
+      "lieu": "Christmas Island, Kiribati",
+      "heure": "9:45",
+      "tags": [
+        "Longue Vie",
+        "Analyste",
+        "Dauphins"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_75",
+      "tome": 2,
+      "chapitre": 75,
+      "lieu": "Sète, France",
+      "heure": "21:45",
+      "tags": [
+        "Hypo",
+        "Gouv",
+        "Dead Drop",
+        "Loi001"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_76",
+      "tome": 2,
+      "chapitre": 76,
+      "lieu": "Séville, Espagne",
+      "heure": "21:45",
+      "tags": [
+        "Hypo",
+        "Analyste",
+        "Trame",
+        "InLine"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_77",
+      "tome": 2,
+      "chapitre": 77,
+      "lieu": "Älvdalen, Suède",
+      "heure": "21:45",
+      "tags": [
+        "Analyste",
+        "Trame",
+        "Réplicants",
+        "Zarmien"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_78",
+      "tome": 2,
+      "chapitre": 78,
+      "lieu": "Christmas Island, Kiribati",
+      "heure": "9:45",
+      "tags": [
+        "Analyste",
+        "Trame",
+        "Dauphins"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_79",
+      "tome": 2,
+      "chapitre": 79,
+      "lieu": "Reykjavik, Islande",
+      "heure": "19:45",
+      "tags": [
+        "Hypo",
+        "Quidam"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_80",
+      "tome": 2,
+      "chapitre": 80,
+      "lieu": "Vladivostok, Russie",
+      "heure": "5:45",
+      "tags": [
+        "Hypo",
+        "Sara"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_81",
+      "tome": 2,
+      "chapitre": 81,
+      "lieu": "Vladivostok, Russie",
+      "heure": "5:45",
+      "tags": [
+        "Hypo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_82",
+      "tome": 2,
+      "chapitre": 82,
+      "lieu": "Discovery Island, Bahamas",
+      "heure": "15:45",
+      "tags": [
+        "Analyste",
+        "Trame"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_83",
+      "tome": 2,
+      "chapitre": 83,
+      "lieu": "Venise, Italie",
+      "heure": "21:45",
+      "tags": [
+        "Hypo",
+        "Quidam"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_84",
+      "tome": 2,
+      "chapitre": 84,
+      "lieu": "Discovery Island, Bahamas",
+      "heure": "15:45",
+      "tags": [
+        "Analyste",
+        "Trame"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_85",
+      "tome": 2,
+      "chapitre": 85,
+      "lieu": "Colobraro, Italie",
+      "heure": "21:45",
+      "tags": [
+        "Hypo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_86",
+      "tome": 2,
+      "chapitre": 86,
+      "lieu": "Discovery Island, Bahamas",
+      "heure": "15:45",
+      "tags": [
+        "Analyste",
+        "Trame",
+        "Gardien"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_87",
+      "tome": 2,
+      "chapitre": 87,
+      "lieu": "Xunantunich, Bélize",
+      "heure": "13:45",
+      "tags": [
+        "Hypo",
+        "Quidam",
+        "Philo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_88",
+      "tome": 2,
+      "chapitre": 88,
+      "lieu": "Discovery Island, Bahamas",
+      "heure": "15:45",
+      "tags": [
+        "Analyste",
+        "Trame"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_89",
+      "tome": 2,
+      "chapitre": 89,
+      "lieu": "Samara, Russie",
+      "heure": "23:45",
+      "tags": [
+        "Hypo",
+        "Dead Drop",
+        "Analyste",
+        "Zarmien"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_90",
+      "tome": 2,
+      "chapitre": 90,
+      "lieu": "Discovery Island, Bahamas",
+      "heure": "15:45",
+      "tags": [
+        "Aba",
+        "Analyste",
+        "Trame"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_91",
+      "tome": 2,
+      "chapitre": 91,
+      "lieu": "Samara, Russie",
+      "heure": "23:45",
+      "tags": [
+        "Hypo",
+        "Zarmien",
+        "Analyste",
+        "Yeux"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_92",
+      "tome": 2,
+      "chapitre": 92,
+      "lieu": "Discovery Island, Bahamas",
+      "heure": "15:45",
+      "tags": [
+        "Aba",
+        "Zarmien",
+        "Shutdown",
+        "Gardien",
+        "LX"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_93",
+      "tome": 2,
+      "chapitre": 93,
+      "lieu": "Samara, Russie",
+      "heure": "23:45",
+      "tags": [
+        "Hypo",
+        "Analyste",
+        "Tanya",
+        "Trame",
+        "Cyborg"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_94",
+      "tome": 2,
+      "chapitre": 94,
+      "lieu": "Discovery Island, Bahamas",
+      "heure": "15:45",
+      "tags": [
+        "Aba",
+        "Analyste",
+        "Trame",
+        "Hypo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "2_95",
+      "tome": 2,
+      "chapitre": 95,
+      "lieu": "Florac, France",
+      "heure": "21:45",
+      "tags": [
+        "Hypolite",
+        "Hypo",
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_1",
+      "tome": 3,
+      "chapitre": 1,
+      "lieu": "Munich, Allemagne",
+      "heure": "21:45",
+      "tags": [
+        "Code",
+        "Quidam"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_2",
+      "tome": 3,
+      "chapitre": 2,
+      "lieu": "Akademgorodok, Russie",
+      "heure": "1:45",
+      "tags": [
+        "Code",
+        "InLine"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_3",
+      "tome": 3,
+      "chapitre": 3,
+      "lieu": "Ottawa, Canada",
+      "heure": "15:45",
+      "tags": [
+        "Analyste",
+        "Gouv"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_4",
+      "tome": 3,
+      "chapitre": 4,
+      "lieu": "Sofia, Bulgarie",
+      "heure": "22:45",
+      "tags": [
+        "Quidam"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_5",
+      "tome": 3,
+      "chapitre": 5,
+      "lieu": "Ottawa, Canada",
+      "heure": "15:45",
+      "tags": [
+        "Analyste",
+        "Gouv"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_6",
+      "tome": 3,
+      "chapitre": 6,
+      "lieu": "Stone Town, Zanzibar",
+      "heure": "22:45",
+      "tags": [
+        "ADN",
+        "Analyste",
+        "N",
+        "Samwell",
+        "Sara"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_7",
+      "tome": 3,
+      "chapitre": 7,
+      "lieu": "Fort George G. Meade, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Sara"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_8",
+      "tome": 3,
+      "chapitre": 8,
+      "lieu": "Station spatiale, orbite terrestre",
+      "heure": "19:45",
+      "tags": [
+        "Zarmien",
+        "Signal",
+        "Gliese",
+        "Zarmina"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_9",
+      "tome": 3,
+      "chapitre": 9,
+      "lieu": "Johannesburg, Afrique du Sud",
+      "heure": "21:45",
+      "tags": [
+        "ADN",
+        "Analyste",
+        "Samwell"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_10",
+      "tome": 3,
+      "chapitre": 10,
+      "lieu": "Alto Lucero, Mexique",
+      "heure": "14:45",
+      "tags": [
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_11",
+      "tome": 3,
+      "chapitre": 11,
+      "lieu": "Alto Lucero, Mexique",
+      "heure": "14:45",
+      "tags": [
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_12",
+      "tome": 3,
+      "chapitre": 12,
+      "lieu": "Panama City, Panama",
+      "heure": "14:45",
+      "tags": [
+        "ADN",
+        "Analyste",
+        "Samwell"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_13",
+      "tome": 3,
+      "chapitre": 13,
+      "lieu": "Atlanta, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Code",
+        "Quidam",
+        "Blackout"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_14",
+      "tome": 3,
+      "chapitre": 14,
+      "lieu": "Melbourne, Australie",
+      "heure": "5:45",
+      "tags": [
+        "Code",
+        "Blackout"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_15",
+      "tome": 3,
+      "chapitre": 15,
+      "lieu": "Bruxelles, Belgique",
+      "heure": "21:45",
+      "tags": [
+        "Code",
+        "Philo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_16",
+      "tome": 3,
+      "chapitre": 16,
+      "lieu": "Chongqing, Chine",
+      "heure": "3:45",
+      "tags": [
+        "Analyste",
+        "Drone"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_17",
+      "tome": 3,
+      "chapitre": 17,
+      "lieu": "Los Angeles, États-Unis",
+      "heure": "12:45",
+      "tags": [
+        "Blackout"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_18",
+      "tome": 3,
+      "chapitre": 18,
+      "lieu": "Rawalpindi, Pakistan",
+      "heure": "00:45",
+      "tags": [
+        "Code",
+        "Blackout",
+        "IA"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_19",
+      "tome": 3,
+      "chapitre": 19,
+      "lieu": "Redmond, États-Unis",
+      "heure": "12:45",
+      "tags": [
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_20",
+      "tome": 3,
+      "chapitre": 20,
+      "lieu": "Montevideo, Uruguay",
+      "heure": "16:45",
+      "tags": [
+        "Code"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_21",
+      "tome": 3,
+      "chapitre": 21,
+      "lieu": "Pebbly Beach, Australie",
+      "heure": "5:45",
+      "tags": [
+        "Analyste",
+        "Trame",
+        "Yeux"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_22",
+      "tome": 3,
+      "chapitre": 22,
+      "lieu": "Ashburn, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Code"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_23",
+      "tome": 3,
+      "chapitre": 23,
+      "lieu": "Washington, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Gouv"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_24",
+      "tome": 3,
+      "chapitre": 24,
+      "lieu": "Goa, Inde",
+      "heure": "1:15",
+      "tags": [
+        "Analyste",
+        "Trame",
+        "Li Li"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_25",
+      "tome": 3,
+      "chapitre": 25,
+      "lieu": "Hat Creek, États-Unis",
+      "heure": "13:45",
+      "tags": [
+        "Gliese",
+        "Code",
+        "Philo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_26",
+      "tome": 3,
+      "chapitre": 26,
+      "lieu": "Goa, Inde",
+      "heure": "1:15",
+      "tags": [
+        "Analyste",
+        "Trame",
+        "Cyborg"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_27",
+      "tome": 3,
+      "chapitre": 27,
+      "lieu": "Buenos Aires, Argentine",
+      "heure": "16:45",
+      "tags": [
+        "Code",
+        "Philo",
+        "Oméga"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_28",
+      "tome": 3,
+      "chapitre": 28,
+      "lieu": "Goa, Inde",
+      "heure": "1:15",
+      "tags": [
+        "Analyste",
+        "Zarmien",
+        "Cyborg"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_29",
+      "tome": 3,
+      "chapitre": 29,
+      "lieu": "Buenos Aires, Argentine",
+      "heure": "16:45",
+      "tags": [
+        "Code",
+        "Philo",
+        "Oméga"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_30",
+      "tome": 3,
+      "chapitre": 30,
+      "lieu": "Auckland, Nouvelle-Zélande",
+      "heure": "7:45",
+      "tags": [
+        "Quidam"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_31",
+      "tome": 3,
+      "chapitre": 31,
+      "lieu": "Buenos Aires, Argentine",
+      "heure": "16:45",
+      "tags": [
+        "Code",
+        "Philo",
+        "Analyste",
+        "Oméga"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_32",
+      "tome": 3,
+      "chapitre": 32,
+      "lieu": "Dar es Salaam, Tanzanie",
+      "heure": "22:45",
+      "tags": [
+        "ADN",
+        "Samwell",
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_33",
+      "tome": 3,
+      "chapitre": 33,
+      "lieu": "Buenos Aires, Argentine",
+      "heure": "16:45",
+      "tags": [
+        "Code",
+        "Philo",
+        "Analyste",
+        "Oméga"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_34",
+      "tome": 3,
+      "chapitre": 34,
+      "lieu": "Dar es Salaam, Tanzanie",
+      "heure": "22:45",
+      "tags": [
+        "ADN",
+        "Samwell",
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_35",
+      "tome": 3,
+      "chapitre": 35,
+      "lieu": "La Croix-de-Rozon, Suisse",
+      "heure": "21:45",
+      "tags": [
+        "Code",
+        "Philo",
+        "Oméga"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_36",
+      "tome": 3,
+      "chapitre": 36,
+      "lieu": "La Croix-de-Rozon, Suisse",
+      "heure": "21:45",
+      "tags": [
+        "Code",
+        "Philo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_37",
+      "tome": 3,
+      "chapitre": 37,
+      "lieu": "Praia, Cap Vert",
+      "heure": "18:45",
+      "tags": [
+        "Sara",
+        "Quidam"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_38",
+      "tome": 3,
+      "chapitre": 38,
+      "lieu": "Dar es Salaam, Tanzanie",
+      "heure": "22:45",
+      "tags": [
+        "Samwell",
+        "Li Li",
+        "3DTechnology",
+        "Drone"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_39",
+      "tome": 3,
+      "chapitre": 39,
+      "lieu": "Porto, Portugal",
+      "heure": "20:45",
+      "tags": [
+        "Code",
+        "Philo",
+        "Quidam",
+        "Oméga"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_40",
+      "tome": 3,
+      "chapitre": 40,
+      "lieu": "Porto, Portugal",
+      "heure": "20:45",
+      "tags": [
+        "Code",
+        "Philo",
+        "Quidam",
+        "Oméga"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_41",
+      "tome": 3,
+      "chapitre": 41,
+      "lieu": "Caracas, Vénézuéla",
+      "heure": "15:15",
+      "tags": [
+        "ADN",
+        "Samwell",
+        "Analyste",
+        "Drone"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_42",
+      "tome": 3,
+      "chapitre": 42,
+      "lieu": "Buenos Aires, Argentine",
+      "heure": "16:45",
+      "tags": [
+        "Code",
+        "Hypolite",
+        "Oméga"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_43",
+      "tome": 3,
+      "chapitre": 43,
+      "lieu": "Fort George G. Meade, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "signal",
+        "Gouv"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_44",
+      "tome": 3,
+      "chapitre": 44,
+      "lieu": "Fort George G. Meade, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Signal",
+        "Zarmien"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_45",
+      "tome": 3,
+      "chapitre": 45,
+      "lieu": "Kingston, Australie",
+      "heure": "7:15",
+      "tags": [
+        "Samwell",
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_46",
+      "tome": 3,
+      "chapitre": 46,
+      "lieu": "Rome, Italie",
+      "heure": "21:45",
+      "tags": [
+        "Blackout",
+        "Reboot"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_47",
+      "tome": 3,
+      "chapitre": 47,
+      "lieu": "Caracas, Vénézuéla",
+      "heure": "15:15",
+      "tags": [
+        "ADN",
+        "Analyste",
+        "DR",
+        "Gardien",
+        "Rosal"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_48",
+      "tome": 3,
+      "chapitre": 48,
+      "lieu": "Nuuk, Groenland",
+      "heure": "17:45",
+      "tags": [
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_49",
+      "tome": 3,
+      "chapitre": 49,
+      "lieu": "Nuuk, Groenland",
+      "heure": "17:45",
+      "tags": [
+        "Analyste",
+        "Zarmien"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_50",
+      "tome": 3,
+      "chapitre": 50,
+      "lieu": "Buenos Aires, Argentine",
+      "heure": "16:45",
+      "tags": [
+        "Code",
+        "Oméga"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_51",
+      "tome": 3,
+      "chapitre": 51,
+      "lieu": "Shenzhen, Chine",
+      "heure": "3:45",
+      "tags": [
+        "Zarmien",
+        "3DTechnology",
+        "Drone"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_52",
+      "tome": 3,
+      "chapitre": 52,
+      "lieu": "Salto Ángel, Vénézuéla",
+      "heure": "15:15",
+      "tags": [
+        "ADN",
+        "Analyste",
+        "DR",
+        "Gardien",
+        "Rosal"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_53",
+      "tome": 3,
+      "chapitre": 53,
+      "lieu": "Honolulu, États-Unis",
+      "heure": "9:45",
+      "tags": [
+        "Hypo",
+        "Drone",
+        "Reboot"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_54",
+      "tome": 3,
+      "chapitre": 54,
+      "lieu": "Salto Ángel, Vénézuéla",
+      "heure": "15:15",
+      "tags": [
+        "ADN",
+        "Analyste",
+        "Zarmien",
+        "Club",
+        "DR",
+        "Gardien",
+        "Rosal"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_55",
+      "tome": 3,
+      "chapitre": 55,
+      "lieu": "Honolulu, États-Unis",
+      "heure": "9:45",
+      "tags": [
+        "Hypo",
+        "Drone",
+        "Reboot"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_56",
+      "tome": 3,
+      "chapitre": 56,
+      "lieu": "Chatham Island, Nouvelle-Zélande",
+      "heure": "8:30",
+      "tags": [
+        "Club",
+        "DR",
+        "Gardien",
+        "Longue Vie",
+        "ADN",
+        "Zarmina",
+        "Rosal"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_57",
+      "tome": 3,
+      "chapitre": 57,
+      "lieu": "Petropavlovsk-Kamchatsky, Russie",
+      "heure": "7:45",
+      "tags": [
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_58",
+      "tome": 3,
+      "chapitre": 58,
+      "lieu": "Caracas, Vénézuéla",
+      "heure": "15:15",
+      "tags": [
+        "ADN",
+        "Analyste",
+        "DR",
+        "Gardien",
+        "Rosal"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_59",
+      "tome": 3,
+      "chapitre": 59,
+      "lieu": "Petropavlovsk-Kamchatsky, Russie",
+      "heure": "7:45",
+      "tags": [
+        "Sara",
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_60",
+      "tome": 3,
+      "chapitre": 60,
+      "lieu": "Atuona, Îles Marquises",
+      "heure": "10:15",
+      "tags": [
+        "Analyste",
+        "DR",
+        "Gardien",
+        "Club"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_61",
+      "tome": 3,
+      "chapitre": 61,
+      "lieu": "Puerto Isidro Ayora, Équateur",
+      "heure": "14:45",
+      "tags": [
+        "Analyste",
+        "Trame",
+        "Explosion"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_62",
+      "tome": 3,
+      "chapitre": 62,
+      "lieu": "Caracas, Vénézuéla",
+      "heure": "15:15",
+      "tags": [
+        "Analyste",
+        "Club",
+        "Zarmien"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_63",
+      "tome": 3,
+      "chapitre": 63,
+      "lieu": "Caracas, Vénézuéla",
+      "heure": "15:15",
+      "tags": [
+        "ADN",
+        "Analyste",
+        "Club",
+        "Gardien",
+        "DR",
+        "LX",
+        "N"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_64",
+      "tome": 3,
+      "chapitre": 64,
+      "lieu": "Seattle, États-Unis",
+      "heure": "12:45",
+      "tags": [
+        "ADN",
+        "Gouv",
+        "Drone",
+        "Sara"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_65",
+      "tome": 3,
+      "chapitre": 65,
+      "lieu": "Salto Ángel, Vénézuéla",
+      "heure": "15:15",
+      "tags": [
+        "Analyste",
+        "Gardien",
+        "Club",
+        "Zarmien",
+        "Samwell"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_66",
+      "tome": 3,
+      "chapitre": 66,
+      "lieu": "Seattle, États-Unis",
+      "heure": "12:45",
+      "tags": [
+        "Gouv",
+        "Drone"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_67",
+      "tome": 3,
+      "chapitre": 67,
+      "lieu": "Sheffield, Angleterre",
+      "heure": "20:45",
+      "tags": [
+        "Analyste",
+        "Gardien"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_68",
+      "tome": 3,
+      "chapitre": 68,
+      "lieu": "Sheffield, Angleterre",
+      "heure": "20:45",
+      "tags": [
+        "Analyste",
+        "Gardien"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_69",
+      "tome": 3,
+      "chapitre": 69,
+      "lieu": "Seattle, États-Unis",
+      "heure": "12:45",
+      "tags": [
+        "Drone",
+        "Sara"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_70",
+      "tome": 3,
+      "chapitre": 70,
+      "lieu": "Station Princesse-Élisabeth, Antarctique",
+      "heure": "17:45",
+      "tags": [
+        "ADN",
+        "Vesta",
+        "Explosion"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_71",
+      "tome": 3,
+      "chapitre": 71,
+      "lieu": "Seattle, États-Unis",
+      "heure": "12:45",
+      "tags": [
+        "Sara",
+        "Drone",
+        "Gouv"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_72",
+      "tome": 3,
+      "chapitre": 72,
+      "lieu": "Kyoto, Japon",
+      "heure": "4:45",
+      "tags": [
+        "Analyste",
+        "Hypo",
+        "Trame",
+        "Drone"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_73",
+      "tome": 3,
+      "chapitre": 73,
+      "lieu": "Station Princesse-Élisabeth, Antarctique",
+      "heure": "17:45",
+      "tags": [
+        "ADN",
+        "Club",
+        "Vesta",
+        "Trame",
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_74",
+      "tome": 3,
+      "chapitre": 74,
+      "lieu": "Kyoto, Japon",
+      "heure": "4:45",
+      "tags": [
+        "Analyste",
+        "Trame",
+        "Reboot",
+        "Blackout",
+        "Drone"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_75",
+      "tome": 3,
+      "chapitre": 75,
+      "lieu": "Seattle, États-Unis",
+      "heure": "12:45",
+      "tags": [
+        "Analyste",
+        "Drone",
+        "Trame",
+        "Sara"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_76",
+      "tome": 3,
+      "chapitre": 76,
+      "lieu": "Station Princesse-Élisabeth, Antarctique",
+      "heure": "17:45",
+      "tags": [
+        "Club",
+        "Vesta",
+        "Analyste",
+        "InLine"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_77",
+      "tome": 3,
+      "chapitre": 77,
+      "lieu": "Kyoto, Japon",
+      "heure": "4:45",
+      "tags": [
+        "Drone",
+        "Réplicants"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_78",
+      "tome": 3,
+      "chapitre": 78,
+      "lieu": "Point de Lagrange 5, Orbite terrestre",
+      "heure": "19:45",
+      "tags": [
+        "Trame"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_79",
+      "tome": 3,
+      "chapitre": 79,
+      "lieu": "Seattle, États-Unis",
+      "heure": "12:45",
+      "tags": [
+        "Analyste",
+        "Gardien"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_80",
+      "tome": 3,
+      "chapitre": 80,
+      "lieu": "San Francisco, États-Unis",
+      "heure": "12:45",
+      "tags": [
+        "Cyborg",
+        "Zarmien",
+        "Drone",
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_81",
+      "tome": 3,
+      "chapitre": 81,
+      "lieu": "Washington, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Gouv",
+        "Quidam",
+        "Sara"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_82",
+      "tome": 3,
+      "chapitre": 82,
+      "lieu": "New York, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Quidam"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_83",
+      "tome": 3,
+      "chapitre": 83,
+      "lieu": "San Francisco, États-Unis",
+      "heure": "12:45",
+      "tags": [
+        "Zarmien",
+        "Cyborg"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_84",
+      "tome": 3,
+      "chapitre": 84,
+      "lieu": "Bodrum, Turquie",
+      "heure": "22:45",
+      "tags": [
+        "Analyste",
+        "Yeux"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_85",
+      "tome": 3,
+      "chapitre": 85,
+      "lieu": "San Francisco, États-Unis",
+      "heure": "12:45",
+      "tags": [
+        "Cyborg",
+        "Zarmien",
+        "Analyste",
+        "Drone"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_86",
+      "tome": 3,
+      "chapitre": 86,
+      "lieu": "Türkmenbaşy, Turkménistan",
+      "heure": "00:45",
+      "tags": [
+        "ADN",
+        "Analyste",
+        "Tanya",
+        "Sentient",
+        "InLine"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_87",
+      "tome": 3,
+      "chapitre": 87,
+      "lieu": "San Francisco, États-Unis",
+      "heure": "12:45",
+      "tags": [
+        "Zarmien",
+        "Cyborg",
+        "Analyste",
+        "IA"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_88",
+      "tome": 3,
+      "chapitre": 88,
+      "lieu": "Türkmenbaşy, Turkménistan",
+      "heure": "00:45",
+      "tags": [
+        "Sentient",
+        "Code",
+        "Tanya"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_89",
+      "tome": 3,
+      "chapitre": 89,
+      "lieu": "Port Moresby, Nouvelle-Guinée",
+      "heure": "5:45",
+      "tags": [
+        "Code",
+        "ADN",
+        "Samwell",
+        "Sara"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_90",
+      "tome": 3,
+      "chapitre": 90,
+      "lieu": "Türkmenbaşy, Turkménistan",
+      "heure": "00:45",
+      "tags": [
+        "Tanya"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_91",
+      "tome": 3,
+      "chapitre": 91,
+      "lieu": "Bangalore, Inde",
+      "heure": "1:15",
+      "tags": [
+        "Code",
+        "Zarmien",
+        "Drone",
+        "3DTechnology",
+        "USS White Bay",
+        "NOSS-55",
+        "Li Li",
+        "Gliese",
+        "Fringe"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_92",
+      "tome": 3,
+      "chapitre": 92,
+      "lieu": "Astana, Kazakhstan",
+      "heure": "1:45",
+      "tags": [
+        "Analyste",
+        "Trame",
+        "Explosion"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_93",
+      "tome": 3,
+      "chapitre": 93,
+      "lieu": "Bangalore, Inde",
+      "heure": "1:15",
+      "tags": [
+        "Code",
+        "Zarmien",
+        "3DTechnology",
+        "Drone",
+        "Li Li",
+        "USS White Bay"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_94",
+      "tome": 3,
+      "chapitre": 94,
+      "lieu": "Islamorada, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Dauphins",
+        "Trame",
+        "Quidam"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "3_95",
+      "tome": 3,
+      "chapitre": 95,
+      "lieu": "Buenos Aires, Argentine",
+      "heure": "16:45",
+      "tags": [
+        "Code"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_1",
+      "tome": 4,
+      "chapitre": 1,
+      "lieu": "Montpellier, France",
+      "heure": "21:45",
+      "tags": [
+        "Quidam",
+        "Zarmina"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_2",
+      "tome": 4,
+      "chapitre": 2,
+      "lieu": "Jérusalem, Israël",
+      "heure": "22:45",
+      "tags": [
+        "Drone",
+        "Quidam"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_3",
+      "tome": 4,
+      "chapitre": 3,
+      "lieu": "Fort George G. Meade, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Devora",
+        "Sara"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_4",
+      "tome": 4,
+      "chapitre": 4,
+      "lieu": "New York, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Drone",
+        "Li Li",
+        "Analyste",
+        "Sara",
+        "3DTechnology"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_5",
+      "tome": 4,
+      "chapitre": 5,
+      "lieu": "Taipei, Taiwan",
+      "heure": "3:45",
+      "tags": [
+        "SETI",
+        "Code",
+        "Réplicants",
+        "Gliese",
+        "Philo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_6",
+      "tome": 4,
+      "chapitre": 6,
+      "lieu": "Oxford, Angleterre",
+      "heure": "20:45",
+      "tags": [
+        "Philo",
+        "Mackenzie",
+        "Devora",
+        "Quidam"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_7",
+      "tome": 4,
+      "chapitre": 7,
+      "lieu": "Kashgar, Chine",
+      "heure": "3:45",
+      "tags": [
+        "Drone"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_8",
+      "tome": 4,
+      "chapitre": 8,
+      "lieu": "Montauk, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Réplicants",
+        "Philo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_9",
+      "tome": 4,
+      "chapitre": 9,
+      "lieu": "Mutitjulu, Australie",
+      "heure": "5:15",
+      "tags": [
+        "Longue Vie"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_10",
+      "tome": 4,
+      "chapitre": 10,
+      "lieu": "Goheung, Corée du Sud",
+      "heure": "4:45",
+      "tags": [
+        "Drone",
+        "3DTechnology",
+        "Li Li",
+        "Sara",
+        "InLine"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_11",
+      "tome": 4,
+      "chapitre": 11,
+      "lieu": "Goheung, Corée du Sud",
+      "heure": "4:45",
+      "tags": [
+        "Drone",
+        "Analyste",
+        "3DTechnology"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_12",
+      "tome": 4,
+      "chapitre": 12,
+      "lieu": "Vancouver, Canada",
+      "heure": "12:45",
+      "tags": [
+        "Sara",
+        "Josh",
+        "Analyste",
+        "InLine"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_13",
+      "tome": 4,
+      "chapitre": 13,
+      "lieu": "Anchorage, États-Unis",
+      "heure": "11:45",
+      "tags": [
+        "IA",
+        "Devora",
+        "Philo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_14",
+      "tome": 4,
+      "chapitre": 14,
+      "lieu": "Vancouver, Canada",
+      "heure": "12:45",
+      "tags": [
+        "Analyste",
+        "Trame",
+        "Devora",
+        "Josh"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_15",
+      "tome": 4,
+      "chapitre": 15,
+      "lieu": "Oxford, Angleterre",
+      "heure": "20:45",
+      "tags": [
+        "Devora",
+        "Réplicants",
+        "Philo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_16",
+      "tome": 4,
+      "chapitre": 16,
+      "lieu": "Jackson Hole, États-Unis",
+      "heure": "13:45",
+      "tags": [
+        "Code",
+        "Devora",
+        "LVC",
+        "Longue Vie",
+        "Dauphins"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_17",
+      "tome": 4,
+      "chapitre": 17,
+      "lieu": "Koyasan, Japon",
+      "heure": "4:45",
+      "tags": [
+        "Analyste",
+        "Drone",
+        "3DTechnology",
+        "Réplicants",
+        "Yeux",
+        "Top"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_18",
+      "tome": 4,
+      "chapitre": 18,
+      "lieu": "Jackson Hole, États-Unis",
+      "heure": "13:45",
+      "tags": [
+        "LVC",
+        "Devora"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_19",
+      "tome": 4,
+      "chapitre": 19,
+      "lieu": "Koyasan, Japon",
+      "heure": "4:45",
+      "tags": [
+        "Analyste",
+        "Trame"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_20",
+      "tome": 4,
+      "chapitre": 20,
+      "lieu": "Jackson Hole, États-Unis",
+      "heure": "13:45",
+      "tags": [
+        "LVC",
+        "Devora",
+        "Dauphins"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_21",
+      "tome": 4,
+      "chapitre": 21,
+      "lieu": "Koyasan, Japon",
+      "heure": "4:45",
+      "tags": [
+        "Drone",
+        "Réplicants",
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_22",
+      "tome": 4,
+      "chapitre": 22,
+      "lieu": "Jackson Hole, États-Unis",
+      "heure": "13:45",
+      "tags": [
+        "Devora",
+        "LVC",
+        "Zarmien"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_23",
+      "tome": 4,
+      "chapitre": 23,
+      "lieu": "Fort George G. Meade, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Sara"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_24",
+      "tome": 4,
+      "chapitre": 24,
+      "lieu": "Jackson Hole, États-Unis",
+      "heure": "13:45",
+      "tags": [
+        "Devora",
+        "IA"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_25",
+      "tome": 4,
+      "chapitre": 25,
+      "lieu": "Archipel des Gambier, Polynésie française",
+      "heure": "10:45",
+      "tags": [
+        "USS White Bay",
+        "Sara",
+        "NOSS-55",
+        "Gouv"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_26",
+      "tome": 4,
+      "chapitre": 26,
+      "lieu": "Teton Village, États-Unis",
+      "heure": "13:45",
+      "tags": [
+        "Devora",
+        "LVC",
+        "Club",
+        "Trame",
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_27",
+      "tome": 4,
+      "chapitre": 27,
+      "lieu": "San Diego, États-Unis",
+      "heure": "12:45",
+      "tags": [
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_28",
+      "tome": 4,
+      "chapitre": 28,
+      "lieu": "Jackson Hole, États-Unis",
+      "heure": "13:45",
+      "tags": [
+        "Zarmien",
+        "Devora",
+        "LX",
+        "Trame",
+        "Club",
+        "Analyste",
+        "N",
+        "Gardien",
+        "InLine"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_29",
+      "tome": 4,
+      "chapitre": 29,
+      "lieu": "Chongjin, Corée du Nord",
+      "heure": "4:15",
+      "tags": [
+        "Trame",
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_30",
+      "tome": 4,
+      "chapitre": 30,
+      "lieu": "Jackson Hole, États-Unis",
+      "heure": "13:45",
+      "tags": [
+        "Cyborg",
+        "Zarmien",
+        "Devora"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_31",
+      "tome": 4,
+      "chapitre": 31,
+      "lieu": "Turin, Italie",
+      "heure": "21:45",
+      "tags": [
+        "Devora",
+        "Philo",
+        "Code",
+        "Quidam"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_32",
+      "tome": 4,
+      "chapitre": 32,
+      "lieu": "Jackson Hole, États-Unis",
+      "heure": "13:45",
+      "tags": [
+        "Cyborg",
+        "Hypo",
+        "Devora"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_33",
+      "tome": 4,
+      "chapitre": 33,
+      "lieu": "Winnipeg, Canada",
+      "heure": "14:45",
+      "tags": [
+        "Analyste",
+        "Code",
+        "Devora",
+        "Club",
+        "Hypo",
+        "Philo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_34",
+      "tome": 4,
+      "chapitre": 34,
+      "lieu": "Thermosphère, Pacifique Sud",
+      "heure": "19:45",
+      "tags": [
+        "Zarmien",
+        "3DTechnology",
+        "Drone",
+        "NOSS-55",
+        "Tanya"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_35",
+      "tome": 4,
+      "chapitre": 35,
+      "lieu": "Haïfa, Israël",
+      "heure": "22:45",
+      "tags": [
+        "Quidam",
+        "Longue Vie"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_36",
+      "tome": 4,
+      "chapitre": 36,
+      "lieu": "Chobar, Népal",
+      "heure": "1:30",
+      "tags": [
+        "Drone",
+        "Réplicants"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_37",
+      "tome": 4,
+      "chapitre": 37,
+      "lieu": "Thermosphère, Pacifique Sud",
+      "heure": "19:45",
+      "tags": [
+        "Drone",
+        "3DTechnology",
+        "Zarmien",
+        "NOSS-55",
+        "IA"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_38",
+      "tome": 4,
+      "chapitre": 38,
+      "lieu": "San Diego, États-Unis",
+      "heure": "12:45",
+      "tags": [
+        "Analyste",
+        "Trame",
+        "Zarmien",
+        "Hunter",
+        "Gardien"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_39",
+      "tome": 4,
+      "chapitre": 39,
+      "lieu": "Plateforme Elgin, Mer du Nord",
+      "heure": "20:45",
+      "tags": [
+        "Longue Vie",
+        "USS White Bay"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_40",
+      "tome": 4,
+      "chapitre": 40,
+      "lieu": "Auckland, Nouvelle-Zélande",
+      "heure": "7:45",
+      "tags": [
+        "Code",
+        "Reboot"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_41",
+      "tome": 4,
+      "chapitre": 41,
+      "lieu": "Cristal Bay, États-Unis",
+      "heure": "12:45",
+      "tags": [
+        "Quidam",
+        "Philo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_42",
+      "tome": 4,
+      "chapitre": 42,
+      "lieu": "San Diego, États-Unis",
+      "heure": "12:45",
+      "tags": [
+        "Gardien",
+        "Hunter",
+        "Sara"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_43",
+      "tome": 4,
+      "chapitre": 43,
+      "lieu": "Lake Tahoe, États-Unis",
+      "heure": "12:45",
+      "tags": [
+        "Quidam",
+        "Philo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_44",
+      "tome": 4,
+      "chapitre": 44,
+      "lieu": "Station spatiale, orbite terrestre",
+      "heure": "19:45",
+      "tags": [
+        "Drone",
+        "Réplicants",
+        "Zarmien"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_45",
+      "tome": 4,
+      "chapitre": 45,
+      "lieu": "Kaboul, Afghanistan",
+      "heure": "0:15",
+      "tags": [
+        "Devora",
+        "Sara"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_46",
+      "tome": 4,
+      "chapitre": 46,
+      "lieu": "Lord Howe Island, Australie",
+      "heure": "6:15",
+      "tags": [
+        "Gouv",
+        "Analyste",
+        "Zarmien",
+        "NOSS-55",
+        "USS White Bay",
+        "Deep Prospecting",
+        "Cyborg",
+        "Walker"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_47",
+      "tome": 4,
+      "chapitre": 47,
+      "lieu": "New York, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Zarmien",
+        "3DTechnology",
+        "Drone",
+        "Deep Prospecting",
+        "Walker",
+        "Longue Vie"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_48",
+      "tome": 4,
+      "chapitre": 48,
+      "lieu": "Malmö, Suède",
+      "heure": "21:45",
+      "tags": [
+        "Hypo",
+        "USS White Bay",
+        "InLine"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_49",
+      "tome": 4,
+      "chapitre": 49,
+      "lieu": "The Dalles, États-Unis",
+      "heure": "12:45",
+      "tags": [
+        "Zarmien",
+        "NOSS-55",
+        "Gliese",
+        "Sara",
+        "Zarmina"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_50",
+      "tome": 4,
+      "chapitre": 50,
+      "lieu": "Lord Howe Island, Australie",
+      "heure": "6:15",
+      "tags": [
+        "Analyste",
+        "Zarmien",
+        "Walker",
+        "Trame",
+        "Cyborg"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_51",
+      "tome": 4,
+      "chapitre": 51,
+      "lieu": "Nairobi, Kenya",
+      "heure": "22:45",
+      "tags": [
+        "IA",
+        "Quidam"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_52",
+      "tome": 4,
+      "chapitre": 52,
+      "lieu": "Lord Howe Island, Australie",
+      "heure": "6:15",
+      "tags": [
+        "Zarmien",
+        "Cyborg",
+        "Longue Vie",
+        "Drone"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_53",
+      "tome": 4,
+      "chapitre": 53,
+      "lieu": "Errázuriz, Chili",
+      "heure": "16:45",
+      "tags": [
+        "Zarmien",
+        "IA",
+        "Quidam"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_54",
+      "tome": 4,
+      "chapitre": 54,
+      "lieu": "Nuku’alofa, Tonga",
+      "heure": "8:45",
+      "tags": [
+        "Signal",
+        "Sara",
+        "Gliese",
+        "Deep Prospecting"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_55",
+      "tome": 4,
+      "chapitre": 55,
+      "lieu": "Malaga, Espagne",
+      "heure": "21:45",
+      "tags": [
+        "Quidam",
+        "Philo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_56",
+      "tome": 4,
+      "chapitre": 56,
+      "lieu": "Sydney, Australie",
+      "heure": "5:45",
+      "tags": [
+        "Zarmien",
+        "Walker",
+        "Longue Vie",
+        "Drone",
+        "Deep Prospecting",
+        "Cyborg",
+        "Blackout",
+        "InLine"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_57",
+      "tome": 4,
+      "chapitre": 57,
+      "lieu": "Paris, France",
+      "heure": "21:45",
+      "tags": [
+        "Quidam",
+        "Bof"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_58",
+      "tome": 4,
+      "chapitre": 58,
+      "lieu": "Hohhot, Chine",
+      "heure": "3:45",
+      "tags": [
+        "Shutdown",
+        "Carver",
+        "N",
+        "IA"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_59",
+      "tome": 4,
+      "chapitre": 59,
+      "lieu": "San Diego, États-Unis",
+      "heure": "12:45",
+      "tags": [
+        "Analyste",
+        "Philo",
+        "Hunter",
+        "IA",
+        "Gardien",
+        "Yeux",
+        "Top"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_60",
+      "tome": 4,
+      "chapitre": 60,
+      "lieu": "The Dalles, États-Unis",
+      "heure": "12:45",
+      "tags": [
+        "Tanya",
+        "Sentient",
+        "IA",
+        "Longue Vie",
+        "InLine"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_61",
+      "tome": 4,
+      "chapitre": 61,
+      "lieu": "The Dalles, États-Unis",
+      "heure": "12:45",
+      "tags": [
+        "Tanya",
+        "Sentient",
+        "Longue Vie",
+        "Hypolite",
+        "InLine"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_62",
+      "tome": 4,
+      "chapitre": 62,
+      "lieu": "Fort George G. Maeade, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Mackenzie",
+        "Sentient",
+        "Sara",
+        "IA"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_63",
+      "tome": 4,
+      "chapitre": 63,
+      "lieu": "Varsovie, Pologne",
+      "heure": "21:45",
+      "tags": [
+        "Mackenzie",
+        "Devora",
+        "IA",
+        "Philo"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_64",
+      "tome": 4,
+      "chapitre": 64,
+      "lieu": "Londres, Angleterre",
+      "heure": "20:45",
+      "tags": [
+        "Analyste",
+        "Trame"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_65",
+      "tome": 4,
+      "chapitre": 65,
+      "lieu": "Réserve de Sarakawa, Togo",
+      "heure": "19:45",
+      "tags": [
+        "Trame",
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_66",
+      "tome": 4,
+      "chapitre": 66,
+      "lieu": "San Diego, États-Unis",
+      "heure": "12:45",
+      "tags": [
+        "Sara",
+        "Hunter",
+        "Gardien",
+        "Analyste",
+        "Trame",
+        "N"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_67",
+      "tome": 4,
+      "chapitre": 67,
+      "lieu": "Kasei Vallis, Mars",
+      "heure": "19:45",
+      "tags": [
+        "Drone",
+        "3DTechnology",
+        "Reboot",
+        "Deep Prospecting",
+        "Espace"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_68",
+      "tome": 4,
+      "chapitre": 68,
+      "lieu": "San Diego, États-Unis",
+      "heure": "12:45",
+      "tags": [
+        "Analyste",
+        "Sara",
+        "Hunter",
+        "Gardien",
+        "Trame"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_69",
+      "tome": 4,
+      "chapitre": 69,
+      "lieu": "Éros, Ceinture d’astéroïdes",
+      "heure": "19:45",
+      "tags": [
+        "Espace",
+        "Drone",
+        "Zarmien",
+        "IA"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_70",
+      "tome": 4,
+      "chapitre": 70,
+      "lieu": "Jackson Hole, États-Unis",
+      "heure": "13:45",
+      "tags": [
+        "Devora",
+        "Hypo",
+        "Zarmien",
+        "IA"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_71",
+      "tome": 4,
+      "chapitre": 71,
+      "lieu": "Irbe lighthouse, Lettonie",
+      "heure": "22:45",
+      "tags": [
+        "Trame",
+        "Analyste",
+        "USS White Bay",
+        "Zarmien",
+        "Drone"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_72",
+      "tome": 4,
+      "chapitre": 72,
+      "lieu": "Station Deep Prospecting, Orbite de Vesta",
+      "heure": "19:45",
+      "tags": [
+        "Réplicants",
+        "Trame",
+        "Zarmien",
+        "Explosion",
+        "Espace"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_73",
+      "tome": 4,
+      "chapitre": 73,
+      "lieu": "Kolka, Lettonie",
+      "heure": "22:45",
+      "tags": [
+        "USS White Bay",
+        "Zarmien",
+        "Drone",
+        "Longue Vie"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_74",
+      "tome": 4,
+      "chapitre": 74,
+      "lieu": "Paris, France",
+      "heure": "21:45",
+      "tags": [
+        "Reboot",
+        "Réplicants"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_75",
+      "tome": 4,
+      "chapitre": 75,
+      "lieu": "Ruhnu, Estonie",
+      "heure": "22:45",
+      "tags": [
+        "IA",
+        "USS White Bay",
+        "Drone",
+        "Gouv"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_76",
+      "tome": 4,
+      "chapitre": 76,
+      "lieu": "Base réplicants, Vesta",
+      "heure": "19:45",
+      "tags": [
+        "Réplicants",
+        "Vesta",
+        "Espace",
+        "Deep Prospecting"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_77",
+      "tome": 4,
+      "chapitre": 77,
+      "lieu": "Ruhnu, Estonie",
+      "heure": "22:45",
+      "tags": [
+        "Zarmien",
+        "Gouv",
+        "Drone",
+        "Sara",
+        "Explosion"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_78",
+      "tome": 4,
+      "chapitre": 78,
+      "lieu": "Washington, États-Unis",
+      "heure": "15:45",
+      "tags": [
+        "Réplicants",
+        "Zarmien",
+        "Analyste",
+        "Gouv",
+        "IA",
+        "Trame",
+        "Sara"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_79",
+      "tome": 4,
+      "chapitre": 79,
+      "lieu": "Ruhnu, Estonie",
+      "heure": "22:45",
+      "tags": [
+        "USS White Bay",
+        "Zarmien",
+        "Explosion"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_80",
+      "tome": 4,
+      "chapitre": 80,
+      "lieu": "Base réplicants, Vesta",
+      "heure": "19:45",
+      "tags": [
+        "Réplicants",
+        "Vesta",
+        "Espace"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_81",
+      "tome": 4,
+      "chapitre": 81,
+      "lieu": "Ruhnu, Estonie",
+      "heure": "22:45",
+      "tags": [
+        "Cyborg",
+        "Sara",
+        "Explosion",
+        "Zarmien"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_82",
+      "tome": 4,
+      "chapitre": 82,
+      "lieu": "Base réplicants, Vesta",
+      "heure": "19:45",
+      "tags": [
+        "Réplicants",
+        "Vesta",
+        "Espace"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_83",
+      "tome": 4,
+      "chapitre": 83,
+      "lieu": "Ruhnu, Estonie",
+      "heure": "22:45",
+      "tags": [
+        "Tanya",
+        "USS White Bay",
+        "Drone"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_84",
+      "tome": 4,
+      "chapitre": 84,
+      "lieu": "Base réplicants, Vesta",
+      "heure": "19:45",
+      "tags": [
+        "Réplicants",
+        "Vesta",
+        "Espace"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_85",
+      "tome": 4,
+      "chapitre": 85,
+      "lieu": "Ruhnu, Estonie",
+      "heure": "22:45",
+      "tags": [
+        "Tanya",
+        "Sara",
+        "Trame"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_86",
+      "tome": 4,
+      "chapitre": 86,
+      "lieu": "Jackson Hole, États-Unis",
+      "heure": "13:45",
+      "tags": [
+        "Tanya",
+        "Li Li",
+        "Analyste",
+        "LVC",
+        "Blackout",
+        "Longue Vie",
+        "Zarmien"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_87",
+      "tome": 4,
+      "chapitre": 87,
+      "lieu": "Base réplicants, Vesta",
+      "heure": "19:45",
+      "tags": [
+        "Réplicants",
+        "Vesta",
+        "Espace"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_88",
+      "tome": 4,
+      "chapitre": 88,
+      "lieu": "Irbe lighthouse, Lettonie",
+      "heure": "22:45",
+      "tags": [
+        "Tanya",
+        "N",
+        "Sara",
+        "IA",
+        "Hypolite"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_89",
+      "tome": 4,
+      "chapitre": 89,
+      "lieu": "Base réplicants, Vesta",
+      "heure": "19:45",
+      "tags": [
+        "Réplicants",
+        "Vesta",
+        "Explosion",
+        "Trame"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_90",
+      "tome": 4,
+      "chapitre": 90,
+      "lieu": "Ruhnu, Estonie",
+      "heure": "22:45",
+      "tags": [
+        "Tanya",
+        "N",
+        "Sara",
+        "USS White Bay",
+        "Trame",
+        "Cyborg",
+        "Shutdown",
+        "Explosion",
+        "Carver"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_91",
+      "tome": 4,
+      "chapitre": 91,
+      "lieu": "Base réplicants, Vesta",
+      "heure": "19:45",
+      "tags": [
+        "Réplicants"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_92",
+      "tome": 4,
+      "chapitre": 92,
+      "lieu": "La lagune, France",
+      "heure": "21:45",
+      "tags": [
+        "Analyste",
+        "Réplicants"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_93",
+      "tome": 4,
+      "chapitre": 93,
+      "lieu": "La lagune, France",
+      "heure": "21:45",
+      "tags": [
+        "Zarmien",
+        "Sara",
+        "Réplicants",
+        "Analyste",
+        "Hypolite"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_94",
+      "tome": 4,
+      "chapitre": 94,
+      "lieu": "Nuage d’Oort, Système solaire",
+      "heure": "19:45",
+      "tags": [
+        "Réplicants",
+        "Trame",
+        "Analyste"
+      ],
+      "avertissements": []
+    },
+    {
+      "id": "4_95",
+      "tome": 4,
+      "chapitre": 95,
+      "lieu": "Parkes, Australie",
+      "heure": "5:45",
+      "tags": [
+        "Analyste",
+        "Réplicants"
+      ],
+      "avertissements": []
+    }
+  ],
+  "total": 380,
+  "erreurs_globales": []
+}

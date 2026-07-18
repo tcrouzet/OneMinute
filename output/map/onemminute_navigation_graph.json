@@ -1,0 +1,7005 @@
+{
+  "meta": {
+    "total_chapters": 380,
+    "total_locations": 210,
+    "constrained_locations": 66,
+    "free_locations": 144,
+    "total_precedence_edges": 170,
+    "rule": "Au sein d'un même lieu, les chapitres doivent être lus dans l'ordre du manuscrit original (tome puis numéro de chapitre). Entre lieux différents, l'ordre de lecture est libre (sous réserve des zones débloquées par XP)."
+  },
+  "nodes": [
+    {
+      "id": "1_1",
+      "tome": 1,
+      "chapitre": 1,
+      "lieu": "Versailles, France",
+      "zone": "Europe de l'Ouest",
+      "heure": "21:45",
+      "tags": [
+        "Analyste",
+        "Sara",
+        "Gliese",
+        "Message"
+      ]
+    },
+    {
+      "id": "1_2",
+      "tome": 1,
+      "chapitre": 2,
+      "lieu": "New York, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Club",
+        "Sara",
+        "Message"
+      ]
+    },
+    {
+      "id": "1_3",
+      "tome": 1,
+      "chapitre": 3,
+      "lieu": "Atacama, Chili",
+      "zone": "Amérique du Sud",
+      "heure": "16:45",
+      "tags": [
+        "Michele",
+        "Gliese",
+        "Philo"
+      ]
+    },
+    {
+      "id": "1_4",
+      "tome": 1,
+      "chapitre": 4,
+      "lieu": "Versailles, France",
+      "zone": "Europe de l'Ouest",
+      "heure": "21:45",
+      "tags": [
+        "Analyste",
+        "Sara",
+        "Gliese",
+        "Trame",
+        "Code",
+        "Contact"
+      ]
+    },
+    {
+      "id": "1_5",
+      "tome": 1,
+      "chapitre": 5,
+      "lieu": "Mumbai, Inde",
+      "zone": "Asie du Sud",
+      "heure": "1:15",
+      "tags": [
+        "Hypo",
+        "Sara",
+        "Loi001",
+        "InLine",
+        "Hypos"
+      ]
+    },
+    {
+      "id": "1_6",
+      "tome": 1,
+      "chapitre": 6,
+      "lieu": "Bordeaux, France",
+      "zone": "Europe de l'Ouest",
+      "heure": "21:45",
+      "tags": [
+        "Analyste",
+        "Sara",
+        "Gliese",
+        "Trame",
+        "ADN",
+        "Microchimérisme"
+      ]
+    },
+    {
+      "id": "1_7",
+      "tome": 1,
+      "chapitre": 7,
+      "lieu": "Arecibo, Porto Rico",
+      "zone": "Caraïbes",
+      "heure": "15:45",
+      "tags": [
+        "Michele",
+        "Gliese",
+        "Fringe",
+        "Contact",
+        "Constellation de la Lyre"
+      ]
+    },
+    {
+      "id": "1_8",
+      "tome": 1,
+      "chapitre": 8,
+      "lieu": "Singapour, République de Singapour",
+      "zone": "Asie du Sud-Est",
+      "heure": "3:45",
+      "tags": [
+        "Quidam",
+        "Zarmina",
+        "Gliese",
+        "Infarctus"
+      ]
+    },
+    {
+      "id": "1_9",
+      "tome": 1,
+      "chapitre": 9,
+      "lieu": "Washington, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Hypo",
+        "Sara",
+        "Michele",
+        "Loi001",
+        "Gouv",
+        "Gliese",
+        "InLine",
+        "Hypos"
+      ]
+    },
+    {
+      "id": "1_10",
+      "tome": 1,
+      "chapitre": 10,
+      "lieu": "Santa Cruz, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Gliese",
+        "Philo",
+        "Zarmina",
+        "Zarmiens"
+      ]
+    },
+    {
+      "id": "1_11",
+      "tome": 1,
+      "chapitre": 11,
+      "lieu": "Majuro, Marshall Islands",
+      "zone": "Océanie/Pacifique",
+      "heure": "7:45",
+      "tags": [
+        "Sara",
+        "Quidam",
+        "Code"
+      ]
+    },
+    {
+      "id": "1_12",
+      "tome": 1,
+      "chapitre": 12,
+      "lieu": "Mountain View, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Michele",
+        "SETI"
+      ]
+    },
+    {
+      "id": "1_13",
+      "tome": 1,
+      "chapitre": 13,
+      "lieu": "Saint-Pétersbourg, Russie",
+      "zone": "Europe de l'Est",
+      "heure": "22:45",
+      "tags": [
+        "Réplicants",
+        "Quidam",
+        "Drone"
+      ]
+    },
+    {
+      "id": "1_14",
+      "tome": 1,
+      "chapitre": 14,
+      "lieu": "Londres, Angleterre",
+      "zone": "Europe de l'Ouest",
+      "heure": "20:45",
+      "tags": [
+        "Sara",
+        "InLine",
+        "Vancouver"
+      ]
+    },
+    {
+      "id": "1_15",
+      "tome": 1,
+      "chapitre": 15,
+      "lieu": "Vancouver, Canada",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Zarmien",
+        "Gouv",
+        "Drone"
+      ]
+    },
+    {
+      "id": "1_16",
+      "tome": 1,
+      "chapitre": 16,
+      "lieu": "Washington, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Gouv",
+        "Sara",
+        "Vancouver"
+      ]
+    },
+    {
+      "id": "1_17",
+      "tome": 1,
+      "chapitre": 17,
+      "lieu": "Vancouver, Canada",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Zarmien",
+        "Cyborg",
+        "Hypo",
+        "Gouv",
+        "Hypos"
+      ]
+    },
+    {
+      "id": "1_18",
+      "tome": 1,
+      "chapitre": 18,
+      "lieu": "Vancouver, Canada",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Analyste",
+        "Zarmien",
+        "Gardien",
+        "Yeux"
+      ]
+    },
+    {
+      "id": "1_19",
+      "tome": 1,
+      "chapitre": 19,
+      "lieu": "Zelenchukskaya, Russie",
+      "zone": "Europe de l'Est",
+      "heure": "22:45",
+      "tags": [
+        "Michele",
+        "Gliese",
+        "Philo",
+        "Triangulation"
+      ]
+    },
+    {
+      "id": "1_20",
+      "tome": 1,
+      "chapitre": 20,
+      "lieu": "Moscou, Russie",
+      "zone": "Europe de l'Est",
+      "heure": "22:45",
+      "tags": [
+        "Analyste",
+        "Sara",
+        "Hypo"
+      ]
+    },
+    {
+      "id": "1_21",
+      "tome": 1,
+      "chapitre": 21,
+      "lieu": "Necker Island, îles Vierges",
+      "zone": "Caraïbes",
+      "heure": "15:45",
+      "tags": [
+        "Longue Vie",
+        "Club",
+        "Sara",
+        "Traitement Longue Vie"
+      ]
+    },
+    {
+      "id": "1_22",
+      "tome": 1,
+      "chapitre": 22,
+      "lieu": "Station spatiale, orbite terrestre",
+      "zone": "Espace/orbite",
+      "heure": "19:45",
+      "tags": [
+        "Blackout",
+        "Espace"
+      ]
+    },
+    {
+      "id": "1_23",
+      "tome": 1,
+      "chapitre": 23,
+      "lieu": "Fort George G. Meade, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Michele",
+        "Gliese",
+        "Sara",
+        "Gouv",
+        "Zarmina",
+        "Li Li",
+        "3DTechnologie",
+        "Ooty"
+      ]
+    },
+    {
+      "id": "1_24",
+      "tome": 1,
+      "chapitre": 24,
+      "lieu": "Naples, Italie",
+      "zone": "Europe du Sud",
+      "heure": "21:45",
+      "tags": [
+        "Sara",
+        "Gliese",
+        "Philo"
+      ]
+    },
+    {
+      "id": "1_25",
+      "tome": 1,
+      "chapitre": 25,
+      "lieu": "Puerto Montt, Chili",
+      "zone": "Amérique du Sud",
+      "heure": "16:45",
+      "tags": [
+        "Analyste",
+        "Trame"
+      ]
+    },
+    {
+      "id": "1_26",
+      "tome": 1,
+      "chapitre": 26,
+      "lieu": "Wellington, Nouvelle-Zélande",
+      "zone": "Océanie/Pacifique",
+      "heure": "7:45",
+      "tags": [
+        "Quidam"
+      ]
+    },
+    {
+      "id": "1_27",
+      "tome": 1,
+      "chapitre": 27,
+      "lieu": "Muthorai, Inde",
+      "zone": "Asie du Sud",
+      "heure": "1:15",
+      "tags": [
+        "Michele",
+        "Sara",
+        "Message",
+        "Triangulation",
+        "Ooty",
+        "3DTechnologie"
+      ]
+    },
+    {
+      "id": "1_28",
+      "tome": 1,
+      "chapitre": 28,
+      "lieu": "Montréal, Canada",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Analyste",
+        "Trame"
+      ]
+    },
+    {
+      "id": "1_29",
+      "tome": 1,
+      "chapitre": 29,
+      "lieu": "Thessalonique, Grèce",
+      "zone": "Europe du Sud/Balkans",
+      "heure": "22:45",
+      "tags": [
+        "Analyste",
+        "Sara",
+        "Enlèvement"
+      ]
+    },
+    {
+      "id": "1_30",
+      "tome": 1,
+      "chapitre": 30,
+      "lieu": "Lhassa, Tibet",
+      "zone": "Asie de l'Est",
+      "heure": "3:45",
+      "tags": [
+        "Drone",
+        "Quidam"
+      ]
+    },
+    {
+      "id": "1_31",
+      "tome": 1,
+      "chapitre": 31,
+      "lieu": "Arecibo, Porto Rico",
+      "zone": "Caraïbes",
+      "heure": "15:45",
+      "tags": [
+        "Michele",
+        "Gliese",
+        "Signal"
+      ]
+    },
+    {
+      "id": "1_32",
+      "tome": 1,
+      "chapitre": 32,
+      "lieu": "Vienne, Autriche",
+      "zone": "Europe centrale",
+      "heure": "21:45",
+      "tags": [
+        "Club",
+        "Longue Vie",
+        "Traitement Longue Vie"
+      ]
+    },
+    {
+      "id": "1_33",
+      "tome": 1,
+      "chapitre": 33,
+      "lieu": "Nagoya, Japon",
+      "zone": "Asie de l'Est",
+      "heure": "4:45",
+      "tags": [
+        "Sara",
+        "Code"
+      ]
+    },
+    {
+      "id": "1_34",
+      "tome": 1,
+      "chapitre": 34,
+      "lieu": "Vatican, Italie",
+      "zone": "Europe du Sud",
+      "heure": "21:45",
+      "tags": [
+        "Sara"
+      ]
+    },
+    {
+      "id": "1_35",
+      "tome": 1,
+      "chapitre": 35,
+      "lieu": "Washington, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "USS White Bay",
+        "Michele",
+        "Gliese",
+        "Signal",
+        "Fringe",
+        "SEAL Team Six"
+      ]
+    },
+    {
+      "id": "1_36",
+      "tome": 1,
+      "chapitre": 36,
+      "lieu": "Portsmouth, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "USS White Bay",
+        "Fringe",
+        "Gardien"
+      ]
+    },
+    {
+      "id": "1_37",
+      "tome": 1,
+      "chapitre": 37,
+      "lieu": "Portsmouth, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Analyste",
+        "Fringe",
+        "USS White Bay",
+        "Coma"
+      ]
+    },
+    {
+      "id": "1_38",
+      "tome": 1,
+      "chapitre": 38,
+      "lieu": "Mascate, Sultanat d’Oman",
+      "zone": "Moyen-Orient",
+      "heure": "23:45",
+      "tags": [
+        "Analyste"
+      ]
+    },
+    {
+      "id": "1_39",
+      "tome": 1,
+      "chapitre": 39,
+      "lieu": "Mascate, Sultanat d’Oman",
+      "zone": "Moyen-Orient",
+      "heure": "23:45",
+      "tags": [
+        "Analyste",
+        "Trame"
+      ]
+    },
+    {
+      "id": "1_40",
+      "tome": 1,
+      "chapitre": 40,
+      "lieu": "Washington, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Sara",
+        "Gouv",
+        "Séduction"
+      ]
+    },
+    {
+      "id": "1_41",
+      "tome": 1,
+      "chapitre": 41,
+      "lieu": "Arlington County, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Michele",
+        "Analyste",
+        "USS White Bay",
+        "Fringe",
+        "Code",
+        "Physionomiste"
+      ]
+    },
+    {
+      "id": "1_42",
+      "tome": 1,
+      "chapitre": 42,
+      "lieu": "Seattle, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Analyste",
+        "Trame",
+        "Déconnexion"
+      ]
+    },
+    {
+      "id": "1_43",
+      "tome": 1,
+      "chapitre": 43,
+      "lieu": "San Andrés Zabache, Mexique",
+      "zone": "Amérique du Nord",
+      "heure": "14:45",
+      "tags": [
+        "Hypo",
+        "Quidam",
+        "Philo",
+        "Hypos"
+      ]
+    },
+    {
+      "id": "1_44",
+      "tome": 1,
+      "chapitre": 44,
+      "lieu": "Pearl Harbor, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "9:45",
+      "tags": [
+        "Michele",
+        "Analyste",
+        "USS White Bay",
+        "Fringe",
+        "Code",
+        "Interrogatoire"
+      ]
+    },
+    {
+      "id": "1_45",
+      "tome": 1,
+      "chapitre": 45,
+      "lieu": "Jérusalem, Israël",
+      "zone": "Moyen-Orient",
+      "heure": "22:45",
+      "tags": [
+        "Quidam",
+        "Signal"
+      ]
+    },
+    {
+      "id": "1_46",
+      "tome": 1,
+      "chapitre": 46,
+      "lieu": "Mendoza, Argentine",
+      "zone": "Amérique du Sud",
+      "heure": "16:45",
+      "tags": [
+        "Analyste",
+        "Communion",
+        "Signal"
+      ]
+    },
+    {
+      "id": "1_47",
+      "tome": 1,
+      "chapitre": 47,
+      "lieu": "Mountain View, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Michele",
+        "USS White Bay",
+        "SETI",
+        "Gouv",
+        "Jalousie",
+        "Constellation de la Lyre"
+      ]
+    },
+    {
+      "id": "1_48",
+      "tome": 1,
+      "chapitre": 48,
+      "lieu": "Mousehole, Angleterre",
+      "zone": "Europe de l'Ouest",
+      "heure": "20:45",
+      "tags": [
+        "Quidam",
+        "Hypo",
+        "Sara",
+        "Philo"
+      ]
+    },
+    {
+      "id": "1_49",
+      "tome": 1,
+      "chapitre": 49,
+      "lieu": "Artarmon, Australie",
+      "zone": "Océanie/Pacifique",
+      "heure": "5:45",
+      "tags": [
+        "Sara"
+      ]
+    },
+    {
+      "id": "1_50",
+      "tome": 1,
+      "chapitre": 50,
+      "lieu": "Tallinn, Estonie",
+      "zone": "Europe de l'Est/Baltique",
+      "heure": "22:45",
+      "tags": [
+        "Analyste",
+        "Sara",
+        "Elina",
+        "Trame",
+        "Marée noire"
+      ]
+    },
+    {
+      "id": "1_51",
+      "tome": 1,
+      "chapitre": 51,
+      "lieu": "São Paulo, Brésil",
+      "zone": "Amérique du Sud",
+      "heure": "16:45",
+      "tags": [
+        "Analyste",
+        "Yeux"
+      ]
+    },
+    {
+      "id": "1_52",
+      "tome": 1,
+      "chapitre": 52,
+      "lieu": "Tallinn, Estonie",
+      "zone": "Europe de l'Est/Baltique",
+      "heure": "22:45",
+      "tags": [
+        "Analyste",
+        "Zarmien",
+        "Elina"
+      ]
+    },
+    {
+      "id": "1_53",
+      "tome": 1,
+      "chapitre": 53,
+      "lieu": "Pago Pago, Samoa américaines",
+      "zone": "Océanie/Pacifique",
+      "heure": "8:45",
+      "tags": [
+        "Michele",
+        "USS White Bay",
+        "Sara"
+      ]
+    },
+    {
+      "id": "1_54",
+      "tome": 1,
+      "chapitre": 54,
+      "lieu": "Tallinn, Estonie",
+      "zone": "Europe de l'Est/Baltique",
+      "heure": "22:45",
+      "tags": [
+        "Analyste",
+        "Zarmien",
+        "Elina",
+        "Intégrisme religieux"
+      ]
+    },
+    {
+      "id": "1_55",
+      "tome": 1,
+      "chapitre": 55,
+      "lieu": "Portillo, Chili",
+      "zone": "Amérique du Sud",
+      "heure": "16:45",
+      "tags": [
+        "Quidam",
+        "Signal",
+        "Philo",
+        "Paradoxe de Fermi",
+        "Scepticisme scientifique"
+      ]
+    },
+    {
+      "id": "1_56",
+      "tome": 1,
+      "chapitre": 56,
+      "lieu": "Grozny, Tchétchénie",
+      "zone": "Europe de l'Est/Caucase",
+      "heure": "22:45",
+      "tags": [
+        "Analyste",
+        "Zarmien",
+        "Elina",
+        "Intégrisme religieux",
+        "Sara"
+      ]
+    },
+    {
+      "id": "1_57",
+      "tome": 1,
+      "chapitre": 57,
+      "lieu": "Essaouira, Maroc",
+      "zone": "Afrique du Nord",
+      "heure": "20:45",
+      "tags": [
+        "Quidam",
+        "Philo"
+      ]
+    },
+    {
+      "id": "1_58",
+      "tome": 1,
+      "chapitre": 58,
+      "lieu": "Moscou, Russie",
+      "zone": "Europe de l'Est",
+      "heure": "22:45",
+      "tags": [
+        "Zarmien",
+        "Elina",
+        "Bratva"
+      ]
+    },
+    {
+      "id": "1_59",
+      "tome": 1,
+      "chapitre": 59,
+      "lieu": "Pago Pago, Samoa américaines",
+      "zone": "Océanie/Pacifique",
+      "heure": "8:45",
+      "tags": [
+        "Michele",
+        "Fringe",
+        "USS White Bay",
+        "Gouv",
+        "Stéganographie",
+        "Li Li"
+      ]
+    },
+    {
+      "id": "1_60",
+      "tome": 1,
+      "chapitre": 60,
+      "lieu": "Réserve du Néouvielle, France",
+      "zone": "Europe de l'Ouest",
+      "heure": "21:45",
+      "tags": [
+        "Quidam",
+        "Gouv"
+      ]
+    },
+    {
+      "id": "1_61",
+      "tome": 1,
+      "chapitre": 61,
+      "lieu": "Washington, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Gouv",
+        "Gliese",
+        "Philo",
+        "Zarmiens"
+      ]
+    },
+    {
+      "id": "1_62",
+      "tome": 1,
+      "chapitre": 62,
+      "lieu": "Réserve du Néouvielle, France",
+      "zone": "Europe de l'Ouest",
+      "heure": "21:45",
+      "tags": [
+        "Quidam"
+      ]
+    },
+    {
+      "id": "1_63",
+      "tome": 1,
+      "chapitre": 63,
+      "lieu": "Fort George G. Meade, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Michele",
+        "USS White Bay",
+        "Stéganographie"
+      ]
+    },
+    {
+      "id": "1_64",
+      "tome": 1,
+      "chapitre": 64,
+      "lieu": "Mountain View, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "SETI",
+        "Quidam",
+        "Philo"
+      ]
+    },
+    {
+      "id": "1_65",
+      "tome": 1,
+      "chapitre": 65,
+      "lieu": "Houston, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "14:45",
+      "tags": [
+        "Drone",
+        "Quidam"
+      ]
+    },
+    {
+      "id": "1_66",
+      "tome": 1,
+      "chapitre": 66,
+      "lieu": "Diego Garcia, Royaume-Uni",
+      "zone": "Océan Indien",
+      "heure": "1:45",
+      "tags": [
+        "Michele",
+        "USS White Bay",
+        "NOSS-55",
+        "Gliese",
+        "Gouv",
+        "Constellation de la Lyre"
+      ]
+    },
+    {
+      "id": "1_67",
+      "tome": 1,
+      "chapitre": 67,
+      "lieu": "Barcelone, Espagne",
+      "zone": "Europe de l'Ouest",
+      "heure": "21:45",
+      "tags": [
+        "Analyste"
+      ]
+    },
+    {
+      "id": "1_68",
+      "tome": 1,
+      "chapitre": 68,
+      "lieu": "Cape Town, Afrique du Sud",
+      "zone": "Afrique",
+      "heure": "21:45",
+      "tags": [
+        "Quidam",
+        "Philo",
+        "Contact"
+      ]
+    },
+    {
+      "id": "1_69",
+      "tome": 1,
+      "chapitre": 69,
+      "lieu": "Barcelone, Espagne",
+      "zone": "Europe de l'Ouest",
+      "heure": "21:45",
+      "tags": [
+        "Analyste",
+        "Marée noire",
+        "Trame",
+        "Hypos"
+      ]
+    },
+    {
+      "id": "1_70",
+      "tome": 1,
+      "chapitre": 70,
+      "lieu": "Honolulu, États-Unis",
+      "zone": "Océanie/Pacifique",
+      "heure": "9:45",
+      "tags": [
+        "Quidam",
+        "Blackout",
+        "Embouteillage"
+      ]
+    },
+    {
+      "id": "1_71",
+      "tome": 1,
+      "chapitre": 71,
+      "lieu": "Monaco, Monaco",
+      "zone": "Europe de l'Ouest",
+      "heure": "21:45",
+      "tags": [
+        "Michele",
+        "3DTechnologie",
+        "Drone",
+        "Zarmina"
+      ]
+    },
+    {
+      "id": "1_72",
+      "tome": 1,
+      "chapitre": 72,
+      "lieu": "Tokyo, Japon",
+      "zone": "Asie de l'Est",
+      "heure": "4:45",
+      "tags": [
+        "Analyste",
+        "Yeux"
+      ]
+    },
+    {
+      "id": "1_73",
+      "tome": 1,
+      "chapitre": 73,
+      "lieu": "Base Dumont d'Urville, Antarctique",
+      "zone": "Antarctique",
+      "heure": "5:45",
+      "tags": [
+        "Quidam",
+        "Explosion"
+      ]
+    },
+    {
+      "id": "1_74",
+      "tome": 1,
+      "chapitre": 74,
+      "lieu": "Base Dumont d'Urville, Antarctique",
+      "zone": "Antarctique",
+      "heure": "5:45",
+      "tags": [
+        "Quidam",
+        "Explosion"
+      ]
+    },
+    {
+      "id": "1_75",
+      "tome": 1,
+      "chapitre": 75,
+      "lieu": "Lisbonne, Portugal",
+      "zone": "Europe de l'Ouest",
+      "heure": "20:45",
+      "tags": [
+        "Code",
+        "Zarmina"
+      ]
+    },
+    {
+      "id": "1_76",
+      "tome": 1,
+      "chapitre": 76,
+      "lieu": "Newport, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Michele",
+        "Fringe",
+        "USS White Bay",
+        "Interrogatoire"
+      ]
+    },
+    {
+      "id": "1_77",
+      "tome": 1,
+      "chapitre": 77,
+      "lieu": "Tikal, Honduras",
+      "zone": "Amérique centrale",
+      "heure": "13:45",
+      "tags": [
+        "Analyste",
+        "Sara",
+        "Communion",
+        "Civilisation maya"
+      ]
+    },
+    {
+      "id": "1_78",
+      "tome": 1,
+      "chapitre": 78,
+      "lieu": "Tikal, Honduras",
+      "zone": "Amérique centrale",
+      "heure": "13:45",
+      "tags": [
+        "Analyste",
+        "Trame"
+      ]
+    },
+    {
+      "id": "1_79",
+      "tome": 1,
+      "chapitre": 79,
+      "lieu": "New York, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Sara",
+        "Quidam",
+        "Communion"
+      ]
+    },
+    {
+      "id": "1_80",
+      "tome": 1,
+      "chapitre": 80,
+      "lieu": "Washington, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Gouv",
+        "Michele",
+        "Li Li",
+        "Code",
+        "Gliese",
+        "Fringe"
+      ]
+    },
+    {
+      "id": "1_81",
+      "tome": 1,
+      "chapitre": 81,
+      "lieu": "Fort George G. Meade, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Sara",
+        "Gouv"
+      ]
+    },
+    {
+      "id": "1_82",
+      "tome": 1,
+      "chapitre": 82,
+      "lieu": "Kirkkonummi, Finlande",
+      "zone": "Europe du Nord",
+      "heure": "22:45",
+      "tags": [
+        "SETI",
+        "Gliese",
+        "Signal",
+        "Blackout",
+        "Message"
+      ]
+    },
+    {
+      "id": "1_83",
+      "tome": 1,
+      "chapitre": 83,
+      "lieu": "Anchorage, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "11:45",
+      "tags": [
+        "Quidam",
+        "Hypo"
+      ]
+    },
+    {
+      "id": "1_84",
+      "tome": 1,
+      "chapitre": 84,
+      "lieu": "Valencia, Vénézuéla",
+      "zone": "Amérique du Sud",
+      "heure": "15:15",
+      "tags": [
+        "Analyste",
+        "Trame"
+      ]
+    },
+    {
+      "id": "1_85",
+      "tome": 1,
+      "chapitre": 85,
+      "lieu": "Arecibo, Porto Rico",
+      "zone": "Caraïbes",
+      "heure": "15:45",
+      "tags": [
+        "Michele",
+        "USS White Bay",
+        "Fringe",
+        "SEAL Team Six",
+        "Nerf"
+      ]
+    },
+    {
+      "id": "1_86",
+      "tome": 1,
+      "chapitre": 86,
+      "lieu": "Bangkok, Thaïlande",
+      "zone": "Asie du Sud-Est",
+      "heure": "2:45",
+      "tags": [
+        "Analyste",
+        "Zarmien"
+      ]
+    },
+    {
+      "id": "1_87",
+      "tome": 1,
+      "chapitre": 87,
+      "lieu": "Arecibo, Porto Rico",
+      "zone": "Caraïbes",
+      "heure": "15:45",
+      "tags": [
+        "Michele",
+        "Analyste",
+        "Zarmien",
+        "Nerf"
+      ]
+    },
+    {
+      "id": "1_88",
+      "tome": 1,
+      "chapitre": 88,
+      "lieu": "Byurakan, Arménie",
+      "zone": "Europe de l'Est/Caucase",
+      "heure": "23:45",
+      "tags": [
+        "SETI",
+        "Signal",
+        "Sara",
+        "Quidam",
+        "Zarmina"
+      ]
+    },
+    {
+      "id": "1_89",
+      "tome": 1,
+      "chapitre": 89,
+      "lieu": "Arecibo, Porto Rico",
+      "zone": "Caraïbes",
+      "heure": "15:45",
+      "tags": [
+        "Michele",
+        "Analyste",
+        "Trame"
+      ]
+    },
+    {
+      "id": "1_90",
+      "tome": 1,
+      "chapitre": 90,
+      "lieu": "Toronto, Canada",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Hypo",
+        "Quidam",
+        "Code",
+        "Hypos"
+      ]
+    },
+    {
+      "id": "1_91",
+      "tome": 1,
+      "chapitre": 91,
+      "lieu": "Tunis, Tunisie",
+      "zone": "Afrique du Nord",
+      "heure": "20:45",
+      "tags": [
+        "Analyste",
+        "Sara"
+      ]
+    },
+    {
+      "id": "1_92",
+      "tome": 1,
+      "chapitre": 92,
+      "lieu": "Paris, France",
+      "zone": "Europe de l'Ouest",
+      "heure": "21:45",
+      "tags": [
+        "Quidam",
+        "Sara"
+      ]
+    },
+    {
+      "id": "1_93",
+      "tome": 1,
+      "chapitre": 93,
+      "lieu": "Portsmouth, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Michele",
+        "USS White Bay",
+        "Trame",
+        "Gardien",
+        "Analyste",
+        "Coma"
+      ]
+    },
+    {
+      "id": "1_94",
+      "tome": 1,
+      "chapitre": 94,
+      "lieu": "Resolute, Canada",
+      "zone": "Arctique/Amérique du Nord",
+      "heure": "14:45",
+      "tags": [
+        "USS White Bay",
+        "Drone",
+        "Gouv"
+      ]
+    },
+    {
+      "id": "1_95",
+      "tome": 1,
+      "chapitre": 95,
+      "lieu": "Arecibo, Porto Rico",
+      "zone": "Caraïbes",
+      "heure": "15:45",
+      "tags": [
+        "Michele",
+        "USS White Bay",
+        "Fringe",
+        "Analyste",
+        "Zarmien",
+        "Trame",
+        "Microchimérisme"
+      ]
+    },
+    {
+      "id": "2_1",
+      "tome": 2,
+      "chapitre": 1,
+      "lieu": "Milan, Italie",
+      "zone": "Europe du Sud",
+      "heure": "21:45",
+      "tags": [
+        "Quidam"
+      ]
+    },
+    {
+      "id": "2_2",
+      "tome": 2,
+      "chapitre": 2,
+      "lieu": "Amsterdam, Pays-Bas",
+      "zone": "Europe de l'Ouest",
+      "heure": "21:45",
+      "tags": [
+        "Hypo",
+        "Gouv",
+        "Loi001"
+      ]
+    },
+    {
+      "id": "2_3",
+      "tome": 2,
+      "chapitre": 3,
+      "lieu": "Kuda Hithi, Maldive",
+      "zone": "Asie du Sud",
+      "heure": "00:45",
+      "tags": [
+        "Longue Vie",
+        "Club",
+        "Traitement Longue Vie"
+      ]
+    },
+    {
+      "id": "2_4",
+      "tome": 2,
+      "chapitre": 4,
+      "lieu": "Snow Lake, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Hypo",
+        "Déconnexion"
+      ]
+    },
+    {
+      "id": "2_5",
+      "tome": 2,
+      "chapitre": 5,
+      "lieu": "Alexandrie, Égypte",
+      "zone": "Afrique du Nord",
+      "heure": "21:45",
+      "tags": [
+        "Analyste"
+      ]
+    },
+    {
+      "id": "2_6",
+      "tome": 2,
+      "chapitre": 6,
+      "lieu": "Honolulu, États-Unis",
+      "zone": "Océanie/Pacifique",
+      "heure": "9:45",
+      "tags": [
+        "Message",
+        "Gliese",
+        "Embouteillage"
+      ]
+    },
+    {
+      "id": "2_7",
+      "tome": 2,
+      "chapitre": 7,
+      "lieu": "Oklahoma City, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "14:45",
+      "tags": [
+        "Hypo",
+        "Code",
+        "Loi001",
+        "Puce abdominale"
+      ]
+    },
+    {
+      "id": "2_8",
+      "tome": 2,
+      "chapitre": 8,
+      "lieu": "Kowloon, Hong Kong",
+      "zone": "Asie de l'Est",
+      "heure": "3:45",
+      "tags": [
+        "Analyste"
+      ]
+    },
+    {
+      "id": "2_9",
+      "tome": 2,
+      "chapitre": 9,
+      "lieu": "Freetown, Sierra Leone",
+      "zone": "Afrique",
+      "heure": "19:45",
+      "tags": [
+        "Hypo",
+        "Dead Drop",
+        "Manifeste hypo"
+      ]
+    },
+    {
+      "id": "2_10",
+      "tome": 2,
+      "chapitre": 10,
+      "lieu": "Cambridge, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Code",
+        "Quidam",
+        "Philo",
+        "Morgan"
+      ]
+    },
+    {
+      "id": "2_11",
+      "tome": 2,
+      "chapitre": 11,
+      "lieu": "Annaba, Algérie",
+      "zone": "Afrique du Nord",
+      "heure": "20:45",
+      "tags": [
+        "Hypo",
+        "Dead Drop",
+        "Foulard bleu"
+      ]
+    },
+    {
+      "id": "2_12",
+      "tome": 2,
+      "chapitre": 12,
+      "lieu": "Cambridge, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Code",
+        "Philo",
+        "Analyste",
+        "Mackenzie",
+        "Morgan",
+        "Conscience quantique"
+      ]
+    },
+    {
+      "id": "2_13",
+      "tome": 2,
+      "chapitre": 13,
+      "lieu": "Annaba, Algérie",
+      "zone": "Afrique du Nord",
+      "heure": "20:45",
+      "tags": [
+        "Hypo",
+        "Dead Drop",
+        "Communauté hypo"
+      ]
+    },
+    {
+      "id": "2_14",
+      "tome": 2,
+      "chapitre": 14,
+      "lieu": "Cambridge, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Analyste",
+        "Mackenzie",
+        "IA",
+        "Philo"
+      ]
+    },
+    {
+      "id": "2_15",
+      "tome": 2,
+      "chapitre": 15,
+      "lieu": "Alger, Algérie",
+      "zone": "Afrique du Nord",
+      "heure": "20:45",
+      "tags": [
+        "Hypo",
+        "Dead Drop",
+        "Communauté hypo"
+      ]
+    },
+    {
+      "id": "2_16",
+      "tome": 2,
+      "chapitre": 16,
+      "lieu": "Nouadhibou, Mauritanie",
+      "zone": "Afrique",
+      "heure": "19:45",
+      "tags": [
+        "Quidam"
+      ]
+    },
+    {
+      "id": "2_17",
+      "tome": 2,
+      "chapitre": 17,
+      "lieu": "Cambridge, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Mackenzie",
+        "Morgan",
+        "Philo",
+        "Analyste"
+      ]
+    },
+    {
+      "id": "2_18",
+      "tome": 2,
+      "chapitre": 18,
+      "lieu": "Ponta Delgada, Portugal",
+      "zone": "Europe de l'Ouest",
+      "heure": "19:45",
+      "tags": [
+        "Hypo",
+        "USS White Bay",
+        "Zarmiens"
+      ]
+    },
+    {
+      "id": "2_19",
+      "tome": 2,
+      "chapitre": 19,
+      "lieu": "Karnak, Égypte",
+      "zone": "Afrique du Nord",
+      "heure": "21:45",
+      "tags": [
+        "Mackenzie",
+        "Philo",
+        "Quidam"
+      ]
+    },
+    {
+      "id": "2_20",
+      "tome": 2,
+      "chapitre": 20,
+      "lieu": "Tórshavn, Îles Féroé",
+      "zone": "Europe du Nord",
+      "heure": "20:45",
+      "tags": [
+        "Analyste"
+      ]
+    },
+    {
+      "id": "2_21",
+      "tome": 2,
+      "chapitre": 21,
+      "lieu": "Santa Fe, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "13:45",
+      "tags": [
+        "Mackenzie",
+        "Philo",
+        "Quidam"
+      ]
+    },
+    {
+      "id": "2_22",
+      "tome": 2,
+      "chapitre": 22,
+      "lieu": "Cambridge, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Mackenzie",
+        "Morgan",
+        "Philo"
+      ]
+    },
+    {
+      "id": "2_23",
+      "tome": 2,
+      "chapitre": 23,
+      "lieu": "Tórshavn, Îles Féroé",
+      "zone": "Europe du Nord",
+      "heure": "20:45",
+      "tags": [
+        "Analyste",
+        "Dauphins",
+        "Communion"
+      ]
+    },
+    {
+      "id": "2_24",
+      "tome": 2,
+      "chapitre": 24,
+      "lieu": "Kingston, Jamaïque",
+      "zone": "Caraïbes",
+      "heure": "14:45",
+      "tags": [
+        "Hypo",
+        "USS White Bay",
+        "Manifeste hypo"
+      ]
+    },
+    {
+      "id": "2_25",
+      "tome": 2,
+      "chapitre": 25,
+      "lieu": "Tórshavn, Îles Féroé",
+      "zone": "Europe du Nord",
+      "heure": "20:45",
+      "tags": [
+        "Analyste",
+        "Trame",
+        "Dauphins"
+      ]
+    },
+    {
+      "id": "2_26",
+      "tome": 2,
+      "chapitre": 26,
+      "lieu": "Rangoon, Myanmar",
+      "zone": "Asie du Sud-Est",
+      "heure": "2:30",
+      "tags": [
+        "Analyste",
+        "Explosion"
+      ]
+    },
+    {
+      "id": "2_27",
+      "tome": 2,
+      "chapitre": 27,
+      "lieu": "Oslo, Norvège",
+      "zone": "Europe du Nord",
+      "heure": "21:45",
+      "tags": [
+        "Hypo",
+        "Quidam",
+        "Philo",
+        "InLine"
+      ]
+    },
+    {
+      "id": "2_28",
+      "tome": 2,
+      "chapitre": 28,
+      "lieu": "Budapest, Hongrie",
+      "zone": "Europe centrale",
+      "heure": "21:45",
+      "tags": [
+        "SETI",
+        "Signal",
+        "Sara"
+      ]
+    },
+    {
+      "id": "2_29",
+      "tome": 2,
+      "chapitre": 29,
+      "lieu": "Florac, France",
+      "zone": "Europe de l'Ouest",
+      "heure": "21:45",
+      "tags": [
+        "Hypolite",
+        "Hypo",
+        "Analyste",
+        "Manifeste hypo",
+        "Cabane de pierres sèches",
+        "Cévennes"
+      ]
+    },
+    {
+      "id": "2_30",
+      "tome": 2,
+      "chapitre": 30,
+      "lieu": "Yevpatoria, Crimée",
+      "zone": "Europe de l'Est",
+      "heure": "22:45",
+      "tags": [
+        "Signal",
+        "Gliese",
+        "Message"
+      ]
+    },
+    {
+      "id": "2_31",
+      "tome": 2,
+      "chapitre": 31,
+      "lieu": "Florac, France",
+      "zone": "Europe de l'Ouest",
+      "heure": "21:45",
+      "tags": [
+        "Hypolite",
+        "Hypo",
+        "Analyste",
+        "Zarmien",
+        "Sara",
+        "USS White Bay",
+        "Cabane de pierres sèches",
+        "Cévennes"
+      ]
+    },
+    {
+      "id": "2_32",
+      "tome": 2,
+      "chapitre": 32,
+      "lieu": "Berlin, Allemagne",
+      "zone": "Europe centrale",
+      "heure": "21:45",
+      "tags": [
+        "Analyste",
+        "Quidam",
+        "Yeux"
+      ]
+    },
+    {
+      "id": "2_33",
+      "tome": 2,
+      "chapitre": 33,
+      "lieu": "Key Largo, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Philo",
+        "Signal",
+        "Dauphins",
+        "Scepticisme scientifique"
+      ]
+    },
+    {
+      "id": "2_34",
+      "tome": 2,
+      "chapitre": 34,
+      "lieu": "Florac, France",
+      "zone": "Europe de l'Ouest",
+      "heure": "21:45",
+      "tags": [
+        "Hypo",
+        "Drone",
+        "Hypolite",
+        "POV non-humain"
+      ]
+    },
+    {
+      "id": "2_35",
+      "tome": 2,
+      "chapitre": 35,
+      "lieu": "Castel Gandolfo, Italie",
+      "zone": "Europe du Sud",
+      "heure": "21:45",
+      "tags": [
+        "Quidam",
+        "Philo",
+        "Michele"
+      ]
+    },
+    {
+      "id": "2_36",
+      "tome": 2,
+      "chapitre": 36,
+      "lieu": "Florac, France",
+      "zone": "Europe de l'Ouest",
+      "heure": "21:45",
+      "tags": [
+        "Hypolite",
+        "Hypo",
+        "Analyste",
+        "Zarmien",
+        "Mercenaires"
+      ]
+    },
+    {
+      "id": "2_37",
+      "tome": 2,
+      "chapitre": 37,
+      "lieu": "CERN, Suisse",
+      "zone": "Europe centrale",
+      "heure": "21:45",
+      "tags": [
+        "Quidam",
+        "Philo"
+      ]
+    },
+    {
+      "id": "2_38",
+      "tome": 2,
+      "chapitre": 38,
+      "lieu": "Florac, France",
+      "zone": "Europe de l'Ouest",
+      "heure": "21:45",
+      "tags": [
+        "Hypo",
+        "ADN"
+      ]
+    },
+    {
+      "id": "2_39",
+      "tome": 2,
+      "chapitre": 39,
+      "lieu": "Monkey Bay, Malawi",
+      "zone": "Afrique",
+      "heure": "21:45",
+      "tags": [
+        "Analyste",
+        "Aba",
+        "Blackout"
+      ]
+    },
+    {
+      "id": "2_40",
+      "tome": 2,
+      "chapitre": 40,
+      "lieu": "Florac, France",
+      "zone": "Europe de l'Ouest",
+      "heure": "21:45",
+      "tags": [
+        "Hypolite",
+        "Drone"
+      ]
+    },
+    {
+      "id": "2_41",
+      "tome": 2,
+      "chapitre": 41,
+      "lieu": "Washington, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Gouv",
+        "Club",
+        "Zarmien",
+        "Surveillance de masse"
+      ]
+    },
+    {
+      "id": "2_42",
+      "tome": 2,
+      "chapitre": 42,
+      "lieu": "Washington, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Analyste",
+        "Gardien",
+        "LX",
+        "Calculateur quantique naturel"
+      ]
+    },
+    {
+      "id": "2_43",
+      "tome": 2,
+      "chapitre": 43,
+      "lieu": "New York, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Analyste",
+        "Aba",
+        "Blackout"
+      ]
+    },
+    {
+      "id": "2_44",
+      "tome": 2,
+      "chapitre": 44,
+      "lieu": "Vienne, Autriche",
+      "zone": "Europe centrale",
+      "heure": "21:45",
+      "tags": [
+        "Marga"
+      ]
+    },
+    {
+      "id": "2_45",
+      "tome": 2,
+      "chapitre": 45,
+      "lieu": "Bureh Beach, Sierra Leone",
+      "zone": "Afrique",
+      "heure": "19:45",
+      "tags": [
+        "Analyste",
+        "Aba",
+        "Blackout",
+        "Protoanalystes"
+      ]
+    },
+    {
+      "id": "2_46",
+      "tome": 2,
+      "chapitre": 46,
+      "lieu": "Lyon, France",
+      "zone": "Europe de l'Ouest",
+      "heure": "21:45",
+      "tags": [
+        "Marga",
+        "Sara",
+        "Physionomiste"
+      ]
+    },
+    {
+      "id": "2_47",
+      "tome": 2,
+      "chapitre": 47,
+      "lieu": "Istanbul, Turquie",
+      "zone": "Europe de l'Est",
+      "heure": "22:45",
+      "tags": [
+        "LX",
+        "Analyste",
+        "Calculateur quantique naturel"
+      ]
+    },
+    {
+      "id": "2_48",
+      "tome": 2,
+      "chapitre": 48,
+      "lieu": "Fort George G. Meade, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "LX",
+        "Sara",
+        "Gardien",
+        "Révolution des foulards"
+      ]
+    },
+    {
+      "id": "2_49",
+      "tome": 2,
+      "chapitre": 49,
+      "lieu": "Londres, Angleterre",
+      "zone": "Europe de l'Ouest",
+      "heure": "20:45",
+      "tags": [
+        "Aba",
+        "Analyste",
+        "Blackout",
+        "Drone"
+      ]
+    },
+    {
+      "id": "2_50",
+      "tome": 2,
+      "chapitre": 50,
+      "lieu": "Mashhad, Iran",
+      "zone": "Moyen-Orient",
+      "heure": "00:15",
+      "tags": [
+        "LX",
+        "N",
+        "Sara",
+        "Révolution des foulards",
+        "Foulard bleu"
+      ]
+    },
+    {
+      "id": "2_51",
+      "tome": 2,
+      "chapitre": 51,
+      "lieu": "Lyon, France",
+      "zone": "Europe de l'Ouest",
+      "heure": "21:45",
+      "tags": [
+        "Hypo",
+        "Sara",
+        "Marga"
+      ]
+    },
+    {
+      "id": "2_52",
+      "tome": 2,
+      "chapitre": 52,
+      "lieu": "Lisbonne, Portugal",
+      "zone": "Europe du Sud",
+      "heure": "20:45",
+      "tags": [
+        "Sara"
+      ]
+    },
+    {
+      "id": "2_53",
+      "tome": 2,
+      "chapitre": 53,
+      "lieu": "Poznań, Pologne",
+      "zone": "Europe centrale",
+      "heure": "21:45",
+      "tags": [
+        "Hypo",
+        "Aba",
+        "Analyste",
+        "Blackout",
+        "N",
+        "Sara",
+        "Conscience quantique"
+      ]
+    },
+    {
+      "id": "2_54",
+      "tome": 2,
+      "chapitre": 54,
+      "lieu": "New York, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Quidam"
+      ]
+    },
+    {
+      "id": "2_55",
+      "tome": 2,
+      "chapitre": 55,
+      "lieu": "Lyon, France",
+      "zone": "Europe de l'Ouest",
+      "heure": "21:45",
+      "tags": [
+        "Marga",
+        "Sara",
+        "Gouv",
+        "Séduction"
+      ]
+    },
+    {
+      "id": "2_56",
+      "tome": 2,
+      "chapitre": 56,
+      "lieu": "Aogashima, Japon",
+      "zone": "Asie de l'Est",
+      "heure": "4:45",
+      "tags": [
+        "Hypo",
+        "Aba",
+        "Analyste",
+        "Blackout"
+      ]
+    },
+    {
+      "id": "2_57",
+      "tome": 2,
+      "chapitre": 57,
+      "lieu": "Réserve du Paracas, Pérou",
+      "zone": "Amérique du Sud",
+      "heure": "14:45",
+      "tags": [
+        "Analyste",
+        "Dauphins",
+        "Communion"
+      ]
+    },
+    {
+      "id": "2_58",
+      "tome": 2,
+      "chapitre": 58,
+      "lieu": "Mashhad, Iran",
+      "zone": "Moyen-Orient",
+      "heure": "00:15",
+      "tags": [
+        "Analyste",
+        "LX",
+        "N",
+        "Yeux"
+      ]
+    },
+    {
+      "id": "2_59",
+      "tome": 2,
+      "chapitre": 59,
+      "lieu": "Lokolama, Congo",
+      "zone": "Afrique",
+      "heure": "21:45",
+      "tags": [
+        "Aba",
+        "Analyste"
+      ]
+    },
+    {
+      "id": "2_60",
+      "tome": 2,
+      "chapitre": 60,
+      "lieu": "Madrid, Espagne",
+      "zone": "Europe du Sud",
+      "heure": "21:45",
+      "tags": [
+        "Hypo",
+        "Hypolite",
+        "Surveillance de masse"
+      ]
+    },
+    {
+      "id": "2_61",
+      "tome": 2,
+      "chapitre": 61,
+      "lieu": "Washington, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "LX",
+        "Club"
+      ]
+    },
+    {
+      "id": "2_62",
+      "tome": 2,
+      "chapitre": 62,
+      "lieu": "Djibouti, Djibouti",
+      "zone": "Afrique",
+      "heure": "22:45",
+      "tags": [
+        "Sara",
+        "Boulard"
+      ]
+    },
+    {
+      "id": "2_63",
+      "tome": 2,
+      "chapitre": 63,
+      "lieu": "Copenhague, Danemark",
+      "zone": "Europe du Nord",
+      "heure": "21:45",
+      "tags": [
+        "Sara",
+        "Hypolite",
+        "Christina O'Gorman (photos 1913)"
+      ]
+    },
+    {
+      "id": "2_64",
+      "tome": 2,
+      "chapitre": 64,
+      "lieu": "Santa Fe, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "13:45",
+      "tags": [
+        "Hypo",
+        "Dead Drop",
+        "Hypolite"
+      ]
+    },
+    {
+      "id": "2_65",
+      "tome": 2,
+      "chapitre": 65,
+      "lieu": "Helsinki, Finlande",
+      "zone": "Europe du Nord",
+      "heure": "22:45",
+      "tags": [
+        "Boulard",
+        "Hypolite",
+        "InLine",
+        "Christina O'Gorman (photos 1913)"
+      ]
+    },
+    {
+      "id": "2_66",
+      "tome": 2,
+      "chapitre": 66,
+      "lieu": "Santa Fe, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "13:45",
+      "tags": [
+        "Hypo",
+        "Drone",
+        "Zarmien",
+        "POV non-humain",
+        "Traque des hypos"
+      ]
+    },
+    {
+      "id": "2_67",
+      "tome": 2,
+      "chapitre": 67,
+      "lieu": "Heidelberg, Allemagne",
+      "zone": "Europe centrale",
+      "heure": "21:45",
+      "tags": [
+        "Sara",
+        "Boulard",
+        "Marga"
+      ]
+    },
+    {
+      "id": "2_68",
+      "tome": 2,
+      "chapitre": 68,
+      "lieu": "Santa Fe, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "13:45",
+      "tags": [
+        "Hypo",
+        "Drone"
+      ]
+    },
+    {
+      "id": "2_69",
+      "tome": 2,
+      "chapitre": 69,
+      "lieu": "Lancaster, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Aba",
+        "Analyste",
+        "Blackout",
+        "Quidam"
+      ]
+    },
+    {
+      "id": "2_70",
+      "tome": 2,
+      "chapitre": 70,
+      "lieu": "Santa Fe, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "13:45",
+      "tags": [
+        "Hypo",
+        "Drone",
+        "Dead Drop",
+        "POV non-humain"
+      ]
+    },
+    {
+      "id": "2_71",
+      "tome": 2,
+      "chapitre": 71,
+      "lieu": "Bugarach, France",
+      "zone": "Europe de l'Ouest",
+      "heure": "21:45",
+      "tags": [
+        "Analyste"
+      ]
+    },
+    {
+      "id": "2_72",
+      "tome": 2,
+      "chapitre": 72,
+      "lieu": "Santa Fe, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "13:45",
+      "tags": [
+        "Hypo",
+        "Dead Drop",
+        "Zarmien"
+      ]
+    },
+    {
+      "id": "2_73",
+      "tome": 2,
+      "chapitre": 73,
+      "lieu": "Washington, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Hypo",
+        "Sara",
+        "Gouv"
+      ]
+    },
+    {
+      "id": "2_74",
+      "tome": 2,
+      "chapitre": 74,
+      "lieu": "Christmas Island, Kiribati",
+      "zone": "Océanie/Pacifique",
+      "heure": "9:45",
+      "tags": [
+        "Longue Vie",
+        "Analyste",
+        "Dauphins",
+        "Traitement Longue Vie"
+      ]
+    },
+    {
+      "id": "2_75",
+      "tome": 2,
+      "chapitre": 75,
+      "lieu": "Sète, France",
+      "zone": "Europe de l'Ouest",
+      "heure": "21:45",
+      "tags": [
+        "Hypo",
+        "Gouv",
+        "Dead Drop",
+        "Loi001",
+        "Traque des hypos"
+      ]
+    },
+    {
+      "id": "2_76",
+      "tome": 2,
+      "chapitre": 76,
+      "lieu": "Séville, Espagne",
+      "zone": "Europe du Sud",
+      "heure": "21:45",
+      "tags": [
+        "Hypo",
+        "Analyste",
+        "Trame",
+        "InLine",
+        "Puce abdominale",
+        "Rendez-vous hypo"
+      ]
+    },
+    {
+      "id": "2_77",
+      "tome": 2,
+      "chapitre": 77,
+      "lieu": "Älvdalen, Suède",
+      "zone": "Europe du Nord",
+      "heure": "21:45",
+      "tags": [
+        "Analyste",
+        "Trame",
+        "Réplicants",
+        "Zarmien"
+      ]
+    },
+    {
+      "id": "2_78",
+      "tome": 2,
+      "chapitre": 78,
+      "lieu": "Christmas Island, Kiribati",
+      "zone": "Océanie/Pacifique",
+      "heure": "9:45",
+      "tags": [
+        "Analyste",
+        "Trame",
+        "Dauphins",
+        "Communion"
+      ]
+    },
+    {
+      "id": "2_79",
+      "tome": 2,
+      "chapitre": 79,
+      "lieu": "Reykjavik, Islande",
+      "zone": "Europe du Nord",
+      "heure": "19:45",
+      "tags": [
+        "Hypo",
+        "Quidam"
+      ]
+    },
+    {
+      "id": "2_80",
+      "tome": 2,
+      "chapitre": 80,
+      "lieu": "Vladivostok, Russie",
+      "zone": "Europe de l'Est",
+      "heure": "5:45",
+      "tags": [
+        "Hypo",
+        "Sara",
+        "Manifeste hypo"
+      ]
+    },
+    {
+      "id": "2_81",
+      "tome": 2,
+      "chapitre": 81,
+      "lieu": "Vladivostok, Russie",
+      "zone": "Europe de l'Est",
+      "heure": "5:45",
+      "tags": [
+        "Hypo",
+        "Bratva"
+      ]
+    },
+    {
+      "id": "2_82",
+      "tome": 2,
+      "chapitre": 82,
+      "lieu": "Discovery Island, Bahamas",
+      "zone": "Caraïbes",
+      "heure": "15:45",
+      "tags": [
+        "Analyste",
+        "Trame"
+      ]
+    },
+    {
+      "id": "2_83",
+      "tome": 2,
+      "chapitre": 83,
+      "lieu": "Venise, Italie",
+      "zone": "Europe du Sud",
+      "heure": "21:45",
+      "tags": [
+        "Hypo",
+        "Quidam",
+        "Survivalisme"
+      ]
+    },
+    {
+      "id": "2_84",
+      "tome": 2,
+      "chapitre": 84,
+      "lieu": "Discovery Island, Bahamas",
+      "zone": "Caraïbes",
+      "heure": "15:45",
+      "tags": [
+        "Analyste",
+        "Trame"
+      ]
+    },
+    {
+      "id": "2_85",
+      "tome": 2,
+      "chapitre": 85,
+      "lieu": "Colobraro, Italie",
+      "zone": "Europe du Sud",
+      "heure": "21:45",
+      "tags": [
+        "Hypo",
+        "Manifeste hypo",
+        "Survivalisme"
+      ]
+    },
+    {
+      "id": "2_86",
+      "tome": 2,
+      "chapitre": 86,
+      "lieu": "Discovery Island, Bahamas",
+      "zone": "Caraïbes",
+      "heure": "15:45",
+      "tags": [
+        "Analyste",
+        "Trame",
+        "Gardien"
+      ]
+    },
+    {
+      "id": "2_87",
+      "tome": 2,
+      "chapitre": 87,
+      "lieu": "Xunantunich, Bélize",
+      "zone": "Amérique centrale",
+      "heure": "13:45",
+      "tags": [
+        "Hypo",
+        "Quidam",
+        "Philo",
+        "Civilisation maya"
+      ]
+    },
+    {
+      "id": "2_88",
+      "tome": 2,
+      "chapitre": 88,
+      "lieu": "Discovery Island, Bahamas",
+      "zone": "Caraïbes",
+      "heure": "15:45",
+      "tags": [
+        "Analyste",
+        "Trame"
+      ]
+    },
+    {
+      "id": "2_89",
+      "tome": 2,
+      "chapitre": 89,
+      "lieu": "Samara, Russie",
+      "zone": "Europe de l'Est",
+      "heure": "23:45",
+      "tags": [
+        "Hypo",
+        "Dead Drop",
+        "Analyste",
+        "Zarmien",
+        "Bratva",
+        "Rendez-vous hypo"
+      ]
+    },
+    {
+      "id": "2_90",
+      "tome": 2,
+      "chapitre": 90,
+      "lieu": "Discovery Island, Bahamas",
+      "zone": "Caraïbes",
+      "heure": "15:45",
+      "tags": [
+        "Aba",
+        "Analyste",
+        "Trame",
+        "Jalousie"
+      ]
+    },
+    {
+      "id": "2_91",
+      "tome": 2,
+      "chapitre": 91,
+      "lieu": "Samara, Russie",
+      "zone": "Europe de l'Est",
+      "heure": "23:45",
+      "tags": [
+        "Hypo",
+        "Zarmien",
+        "Analyste",
+        "Yeux",
+        "Bratva",
+        "Zarmiens"
+      ]
+    },
+    {
+      "id": "2_92",
+      "tome": 2,
+      "chapitre": 92,
+      "lieu": "Discovery Island, Bahamas",
+      "zone": "Caraïbes",
+      "heure": "15:45",
+      "tags": [
+        "Aba",
+        "Zarmien",
+        "Shutdown",
+        "Gardien",
+        "LX",
+        "Protoanalystes"
+      ]
+    },
+    {
+      "id": "2_93",
+      "tome": 2,
+      "chapitre": 93,
+      "lieu": "Samara, Russie",
+      "zone": "Europe de l'Est",
+      "heure": "23:45",
+      "tags": [
+        "Hypo",
+        "Analyste",
+        "Tanya",
+        "Trame",
+        "Cyborg"
+      ]
+    },
+    {
+      "id": "2_94",
+      "tome": 2,
+      "chapitre": 94,
+      "lieu": "Discovery Island, Bahamas",
+      "zone": "Caraïbes",
+      "heure": "15:45",
+      "tags": [
+        "Aba",
+        "Analyste",
+        "Trame",
+        "Hypo"
+      ]
+    },
+    {
+      "id": "2_95",
+      "tome": 2,
+      "chapitre": 95,
+      "lieu": "Florac, France",
+      "zone": "Europe de l'Ouest",
+      "heure": "21:45",
+      "tags": [
+        "Hypolite",
+        "Hypo",
+        "Analyste",
+        "Déconnexion"
+      ]
+    },
+    {
+      "id": "3_1",
+      "tome": 3,
+      "chapitre": 1,
+      "lieu": "Munich, Allemagne",
+      "zone": "Europe centrale",
+      "heure": "21:45",
+      "tags": [
+        "Code",
+        "Quidam",
+        "Infarctus"
+      ]
+    },
+    {
+      "id": "3_2",
+      "tome": 3,
+      "chapitre": 2,
+      "lieu": "Akademgorodok, Russie",
+      "zone": "Europe de l'Est",
+      "heure": "1:45",
+      "tags": [
+        "Code",
+        "InLine"
+      ]
+    },
+    {
+      "id": "3_3",
+      "tome": 3,
+      "chapitre": 3,
+      "lieu": "Ottawa, Canada",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Analyste",
+        "Gouv"
+      ]
+    },
+    {
+      "id": "3_4",
+      "tome": 3,
+      "chapitre": 4,
+      "lieu": "Sofia, Bulgarie",
+      "zone": "Europe du Sud/Balkans",
+      "heure": "22:45",
+      "tags": [
+        "Quidam"
+      ]
+    },
+    {
+      "id": "3_5",
+      "tome": 3,
+      "chapitre": 5,
+      "lieu": "Ottawa, Canada",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Analyste",
+        "Gouv"
+      ]
+    },
+    {
+      "id": "3_6",
+      "tome": 3,
+      "chapitre": 6,
+      "lieu": "Stone Town, Zanzibar",
+      "zone": "Afrique",
+      "heure": "22:45",
+      "tags": [
+        "ADN",
+        "Analyste",
+        "N",
+        "Samwell",
+        "Sara"
+      ]
+    },
+    {
+      "id": "3_7",
+      "tome": 3,
+      "chapitre": 7,
+      "lieu": "Fort George G. Meade, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Sara"
+      ]
+    },
+    {
+      "id": "3_8",
+      "tome": 3,
+      "chapitre": 8,
+      "lieu": "Station spatiale, orbite terrestre",
+      "zone": "Espace/orbite",
+      "heure": "19:45",
+      "tags": [
+        "Zarmien",
+        "Signal",
+        "Gliese",
+        "Zarmina"
+      ]
+    },
+    {
+      "id": "3_9",
+      "tome": 3,
+      "chapitre": 9,
+      "lieu": "Johannesburg, Afrique du Sud",
+      "zone": "Afrique",
+      "heure": "21:45",
+      "tags": [
+        "ADN",
+        "Analyste",
+        "Samwell"
+      ]
+    },
+    {
+      "id": "3_10",
+      "tome": 3,
+      "chapitre": 10,
+      "lieu": "Alto Lucero, Mexique",
+      "zone": "Amérique du Nord",
+      "heure": "14:45",
+      "tags": [
+        "Analyste",
+        "Enfant analyste"
+      ]
+    },
+    {
+      "id": "3_11",
+      "tome": 3,
+      "chapitre": 11,
+      "lieu": "Alto Lucero, Mexique",
+      "zone": "Amérique du Nord",
+      "heure": "14:45",
+      "tags": [
+        "Analyste",
+        "Enfant analyste"
+      ]
+    },
+    {
+      "id": "3_12",
+      "tome": 3,
+      "chapitre": 12,
+      "lieu": "Panama City, Panama",
+      "zone": "Amérique centrale",
+      "heure": "14:45",
+      "tags": [
+        "ADN",
+        "Analyste",
+        "Samwell",
+        "SETI"
+      ]
+    },
+    {
+      "id": "3_13",
+      "tome": 3,
+      "chapitre": 13,
+      "lieu": "Atlanta, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Code",
+        "Quidam",
+        "Blackout"
+      ]
+    },
+    {
+      "id": "3_14",
+      "tome": 3,
+      "chapitre": 14,
+      "lieu": "Melbourne, Australie",
+      "zone": "Océanie/Pacifique",
+      "heure": "5:45",
+      "tags": [
+        "Code",
+        "Blackout"
+      ]
+    },
+    {
+      "id": "3_15",
+      "tome": 3,
+      "chapitre": 15,
+      "lieu": "Bruxelles, Belgique",
+      "zone": "Europe de l'Ouest",
+      "heure": "21:45",
+      "tags": [
+        "Code",
+        "Philo"
+      ]
+    },
+    {
+      "id": "3_16",
+      "tome": 3,
+      "chapitre": 16,
+      "lieu": "Chongqing, Chine",
+      "zone": "Asie de l'Est",
+      "heure": "3:45",
+      "tags": [
+        "Analyste",
+        "Drone"
+      ]
+    },
+    {
+      "id": "3_17",
+      "tome": 3,
+      "chapitre": 17,
+      "lieu": "Los Angeles, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Blackout"
+      ]
+    },
+    {
+      "id": "3_18",
+      "tome": 3,
+      "chapitre": 18,
+      "lieu": "Rawalpindi, Pakistan",
+      "zone": "Asie du Sud",
+      "heure": "00:45",
+      "tags": [
+        "Code",
+        "Blackout",
+        "IA",
+        "Module sentient"
+      ]
+    },
+    {
+      "id": "3_19",
+      "tome": 3,
+      "chapitre": 19,
+      "lieu": "Redmond, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Analyste"
+      ]
+    },
+    {
+      "id": "3_20",
+      "tome": 3,
+      "chapitre": 20,
+      "lieu": "Montevideo, Uruguay",
+      "zone": "Amérique du Sud",
+      "heure": "16:45",
+      "tags": [
+        "Code",
+        "Wikipédia"
+      ]
+    },
+    {
+      "id": "3_21",
+      "tome": 3,
+      "chapitre": 21,
+      "lieu": "Pebbly Beach, Australie",
+      "zone": "Océanie/Pacifique",
+      "heure": "5:45",
+      "tags": [
+        "Analyste",
+        "Trame",
+        "Yeux"
+      ]
+    },
+    {
+      "id": "3_22",
+      "tome": 3,
+      "chapitre": 22,
+      "lieu": "Ashburn, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Code",
+        "Wikipédia"
+      ]
+    },
+    {
+      "id": "3_23",
+      "tome": 3,
+      "chapitre": 23,
+      "lieu": "Washington, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Gouv"
+      ]
+    },
+    {
+      "id": "3_24",
+      "tome": 3,
+      "chapitre": 24,
+      "lieu": "Goa, Inde",
+      "zone": "Asie du Sud",
+      "heure": "1:15",
+      "tags": [
+        "Analyste",
+        "Trame",
+        "Li Li",
+        "Club"
+      ]
+    },
+    {
+      "id": "3_25",
+      "tome": 3,
+      "chapitre": 25,
+      "lieu": "Hat Creek, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "13:45",
+      "tags": [
+        "Gliese",
+        "Code",
+        "Philo"
+      ]
+    },
+    {
+      "id": "3_26",
+      "tome": 3,
+      "chapitre": 26,
+      "lieu": "Goa, Inde",
+      "zone": "Asie du Sud",
+      "heure": "1:15",
+      "tags": [
+        "Analyste",
+        "Trame",
+        "Cyborg",
+        "Club"
+      ]
+    },
+    {
+      "id": "3_27",
+      "tome": 3,
+      "chapitre": 27,
+      "lieu": "Buenos Aires, Argentine",
+      "zone": "Amérique du Sud",
+      "heure": "16:45",
+      "tags": [
+        "Code",
+        "Philo",
+        "Oméga",
+        "Procès d'une IA",
+        "Point Oméga (Teilhard de Chardin)"
+      ]
+    },
+    {
+      "id": "3_28",
+      "tome": 3,
+      "chapitre": 28,
+      "lieu": "Goa, Inde",
+      "zone": "Asie du Sud",
+      "heure": "1:15",
+      "tags": [
+        "Analyste",
+        "Zarmien",
+        "Cyborg",
+        "Club"
+      ]
+    },
+    {
+      "id": "3_29",
+      "tome": 3,
+      "chapitre": 29,
+      "lieu": "Buenos Aires, Argentine",
+      "zone": "Amérique du Sud",
+      "heure": "16:45",
+      "tags": [
+        "Code",
+        "Philo",
+        "Oméga",
+        "Procès d'une IA"
+      ]
+    },
+    {
+      "id": "3_30",
+      "tome": 3,
+      "chapitre": 30,
+      "lieu": "Auckland, Nouvelle-Zélande",
+      "zone": "Océanie/Pacifique",
+      "heure": "7:45",
+      "tags": [
+        "Quidam"
+      ]
+    },
+    {
+      "id": "3_31",
+      "tome": 3,
+      "chapitre": 31,
+      "lieu": "Buenos Aires, Argentine",
+      "zone": "Amérique du Sud",
+      "heure": "16:45",
+      "tags": [
+        "Code",
+        "Philo",
+        "Analyste",
+        "Oméga",
+        "Procès d'une IA"
+      ]
+    },
+    {
+      "id": "3_32",
+      "tome": 3,
+      "chapitre": 32,
+      "lieu": "Dar es Salaam, Tanzanie",
+      "zone": "Afrique",
+      "heure": "22:45",
+      "tags": [
+        "ADN",
+        "Samwell",
+        "Analyste"
+      ]
+    },
+    {
+      "id": "3_33",
+      "tome": 3,
+      "chapitre": 33,
+      "lieu": "Buenos Aires, Argentine",
+      "zone": "Amérique du Sud",
+      "heure": "16:45",
+      "tags": [
+        "Code",
+        "Philo",
+        "Analyste",
+        "Oméga",
+        "Procès d'une IA"
+      ]
+    },
+    {
+      "id": "3_34",
+      "tome": 3,
+      "chapitre": 34,
+      "lieu": "Dar es Salaam, Tanzanie",
+      "zone": "Afrique",
+      "heure": "22:45",
+      "tags": [
+        "ADN",
+        "Samwell",
+        "Analyste",
+        "Enlèvement",
+        "Mercenaires"
+      ]
+    },
+    {
+      "id": "3_35",
+      "tome": 3,
+      "chapitre": 35,
+      "lieu": "La Croix-de-Rozon, Suisse",
+      "zone": "Europe centrale",
+      "heure": "21:45",
+      "tags": [
+        "Code",
+        "Philo",
+        "Oméga"
+      ]
+    },
+    {
+      "id": "3_36",
+      "tome": 3,
+      "chapitre": 36,
+      "lieu": "La Croix-de-Rozon, Suisse",
+      "zone": "Europe centrale",
+      "heure": "21:45",
+      "tags": [
+        "Code",
+        "Philo"
+      ]
+    },
+    {
+      "id": "3_37",
+      "tome": 3,
+      "chapitre": 37,
+      "lieu": "Praia, Cap Vert",
+      "zone": "Afrique",
+      "heure": "18:45",
+      "tags": [
+        "Sara",
+        "Quidam"
+      ]
+    },
+    {
+      "id": "3_38",
+      "tome": 3,
+      "chapitre": 38,
+      "lieu": "Dar es Salaam, Tanzanie",
+      "zone": "Afrique",
+      "heure": "22:45",
+      "tags": [
+        "Samwell",
+        "Li Li",
+        "3DTechnologie",
+        "Drone"
+      ]
+    },
+    {
+      "id": "3_39",
+      "tome": 3,
+      "chapitre": 39,
+      "lieu": "Porto, Portugal",
+      "zone": "Europe du Sud",
+      "heure": "20:45",
+      "tags": [
+        "Code",
+        "Philo",
+        "Quidam",
+        "Oméga"
+      ]
+    },
+    {
+      "id": "3_40",
+      "tome": 3,
+      "chapitre": 40,
+      "lieu": "Porto, Portugal",
+      "zone": "Europe du Sud",
+      "heure": "20:45",
+      "tags": [
+        "Code",
+        "Philo",
+        "Quidam",
+        "Oméga"
+      ]
+    },
+    {
+      "id": "3_41",
+      "tome": 3,
+      "chapitre": 41,
+      "lieu": "Caracas, Vénézuéla",
+      "zone": "Amérique du Sud",
+      "heure": "15:15",
+      "tags": [
+        "ADN",
+        "Samwell",
+        "Analyste",
+        "Drone"
+      ]
+    },
+    {
+      "id": "3_42",
+      "tome": 3,
+      "chapitre": 42,
+      "lieu": "Buenos Aires, Argentine",
+      "zone": "Amérique du Sud",
+      "heure": "16:45",
+      "tags": [
+        "Code",
+        "Hypolite",
+        "Oméga",
+        "Module sentient"
+      ]
+    },
+    {
+      "id": "3_43",
+      "tome": 3,
+      "chapitre": 43,
+      "lieu": "Fort George G. Meade, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Signal",
+        "Gouv"
+      ]
+    },
+    {
+      "id": "3_44",
+      "tome": 3,
+      "chapitre": 44,
+      "lieu": "Fort George G. Meade, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Signal",
+        "Zarmien"
+      ]
+    },
+    {
+      "id": "3_45",
+      "tome": 3,
+      "chapitre": 45,
+      "lieu": "Kingston, Australie",
+      "zone": "Océanie/Pacifique",
+      "heure": "7:15",
+      "tags": [
+        "Samwell",
+        "Analyste"
+      ]
+    },
+    {
+      "id": "3_46",
+      "tome": 3,
+      "chapitre": 46,
+      "lieu": "Rome, Italie",
+      "zone": "Europe du Sud",
+      "heure": "21:45",
+      "tags": [
+        "Blackout",
+        "Reboot"
+      ]
+    },
+    {
+      "id": "3_47",
+      "tome": 3,
+      "chapitre": 47,
+      "lieu": "Caracas, Vénézuéla",
+      "zone": "Amérique du Sud",
+      "heure": "15:15",
+      "tags": [
+        "ADN",
+        "Analyste",
+        "DR",
+        "Gardien",
+        "Rosal"
+      ]
+    },
+    {
+      "id": "3_48",
+      "tome": 3,
+      "chapitre": 48,
+      "lieu": "Nuuk, Groenland",
+      "zone": "Arctique/Amérique du Nord",
+      "heure": "17:45",
+      "tags": [
+        "Analyste"
+      ]
+    },
+    {
+      "id": "3_49",
+      "tome": 3,
+      "chapitre": 49,
+      "lieu": "Nuuk, Groenland",
+      "zone": "Arctique/Amérique du Nord",
+      "heure": "17:45",
+      "tags": [
+        "Analyste",
+        "Zarmien"
+      ]
+    },
+    {
+      "id": "3_50",
+      "tome": 3,
+      "chapitre": 50,
+      "lieu": "Buenos Aires, Argentine",
+      "zone": "Amérique du Sud",
+      "heure": "16:45",
+      "tags": [
+        "Code",
+        "Oméga"
+      ]
+    },
+    {
+      "id": "3_51",
+      "tome": 3,
+      "chapitre": 51,
+      "lieu": "Shenzhen, Chine",
+      "zone": "Asie de l'Est",
+      "heure": "3:45",
+      "tags": [
+        "Zarmien",
+        "3DTechnologie",
+        "Drone"
+      ]
+    },
+    {
+      "id": "3_52",
+      "tome": 3,
+      "chapitre": 52,
+      "lieu": "Salto Ángel, Vénézuéla",
+      "zone": "Amérique du Sud",
+      "heure": "15:15",
+      "tags": [
+        "ADN",
+        "Analyste",
+        "DR",
+        "Gardien",
+        "Rosal",
+        "Interrogatoire"
+      ]
+    },
+    {
+      "id": "3_53",
+      "tome": 3,
+      "chapitre": 53,
+      "lieu": "Honolulu, États-Unis",
+      "zone": "Océanie/Pacifique",
+      "heure": "9:45",
+      "tags": [
+        "Hypo",
+        "Drone",
+        "Reboot"
+      ]
+    },
+    {
+      "id": "3_54",
+      "tome": 3,
+      "chapitre": 54,
+      "lieu": "Salto Ángel, Vénézuéla",
+      "zone": "Amérique du Sud",
+      "heure": "15:15",
+      "tags": [
+        "ADN",
+        "Analyste",
+        "Zarmien",
+        "Club",
+        "DR",
+        "Gardien",
+        "Rosal",
+        "Interrogatoire"
+      ]
+    },
+    {
+      "id": "3_55",
+      "tome": 3,
+      "chapitre": 55,
+      "lieu": "Honolulu, États-Unis",
+      "zone": "Océanie/Pacifique",
+      "heure": "9:45",
+      "tags": [
+        "Hypo",
+        "Drone",
+        "Reboot"
+      ]
+    },
+    {
+      "id": "3_56",
+      "tome": 3,
+      "chapitre": 56,
+      "lieu": "Chatham Island, Nouvelle-Zélande",
+      "zone": "Océanie/Pacifique",
+      "heure": "8:30",
+      "tags": [
+        "Club",
+        "DR",
+        "Gardien",
+        "Longue Vie",
+        "ADN",
+        "Zarmina",
+        "Rosal"
+      ]
+    },
+    {
+      "id": "3_57",
+      "tome": 3,
+      "chapitre": 57,
+      "lieu": "Petropavlovsk-Kamchatsky, Russie",
+      "zone": "Asie de l'Est",
+      "heure": "7:45",
+      "tags": [
+        "Analyste"
+      ]
+    },
+    {
+      "id": "3_58",
+      "tome": 3,
+      "chapitre": 58,
+      "lieu": "Caracas, Vénézuéla",
+      "zone": "Amérique du Sud",
+      "heure": "15:15",
+      "tags": [
+        "ADN",
+        "Analyste",
+        "DR",
+        "Gardien",
+        "Rosal"
+      ]
+    },
+    {
+      "id": "3_59",
+      "tome": 3,
+      "chapitre": 59,
+      "lieu": "Petropavlovsk-Kamchatsky, Russie",
+      "zone": "Asie de l'Est",
+      "heure": "7:45",
+      "tags": [
+        "Sara",
+        "Analyste"
+      ]
+    },
+    {
+      "id": "3_60",
+      "tome": 3,
+      "chapitre": 60,
+      "lieu": "Atuona, Îles Marquises",
+      "zone": "Océanie/Pacifique",
+      "heure": "10:15",
+      "tags": [
+        "Analyste",
+        "DR",
+        "Gardien",
+        "Club"
+      ]
+    },
+    {
+      "id": "3_61",
+      "tome": 3,
+      "chapitre": 61,
+      "lieu": "Puerto Isidro Ayora, Équateur",
+      "zone": "Amérique du Sud",
+      "heure": "14:45",
+      "tags": [
+        "Analyste",
+        "Trame",
+        "Explosion"
+      ]
+    },
+    {
+      "id": "3_62",
+      "tome": 3,
+      "chapitre": 62,
+      "lieu": "Caracas, Vénézuéla",
+      "zone": "Amérique du Sud",
+      "heure": "15:15",
+      "tags": [
+        "Analyste",
+        "Club",
+        "Zarmien"
+      ]
+    },
+    {
+      "id": "3_63",
+      "tome": 3,
+      "chapitre": 63,
+      "lieu": "Caracas, Vénézuéla",
+      "zone": "Amérique du Sud",
+      "heure": "15:15",
+      "tags": [
+        "ADN",
+        "Analyste",
+        "Club",
+        "Gardien",
+        "DR",
+        "LX",
+        "N"
+      ]
+    },
+    {
+      "id": "3_64",
+      "tome": 3,
+      "chapitre": 64,
+      "lieu": "Seattle, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "ADN",
+        "Gouv",
+        "Drone",
+        "Sara",
+        "Raid policier"
+      ]
+    },
+    {
+      "id": "3_65",
+      "tome": 3,
+      "chapitre": 65,
+      "lieu": "Salto Ángel, Vénézuéla",
+      "zone": "Amérique du Sud",
+      "heure": "15:15",
+      "tags": [
+        "Analyste",
+        "Gardien",
+        "Club",
+        "Zarmien",
+        "Samwell"
+      ]
+    },
+    {
+      "id": "3_66",
+      "tome": 3,
+      "chapitre": 66,
+      "lieu": "Seattle, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Gouv",
+        "Drone",
+        "Raid policier"
+      ]
+    },
+    {
+      "id": "3_67",
+      "tome": 3,
+      "chapitre": 67,
+      "lieu": "Sheffield, Angleterre",
+      "zone": "Europe de l'Ouest",
+      "heure": "20:45",
+      "tags": [
+        "Analyste",
+        "Gardien"
+      ]
+    },
+    {
+      "id": "3_68",
+      "tome": 3,
+      "chapitre": 68,
+      "lieu": "Sheffield, Angleterre",
+      "zone": "Europe de l'Ouest",
+      "heure": "20:45",
+      "tags": [
+        "Analyste",
+        "Gardien"
+      ]
+    },
+    {
+      "id": "3_69",
+      "tome": 3,
+      "chapitre": 69,
+      "lieu": "Seattle, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Drone",
+        "Sara",
+        "Raid policier"
+      ]
+    },
+    {
+      "id": "3_70",
+      "tome": 3,
+      "chapitre": 70,
+      "lieu": "Station Princesse-Élisabeth, Antarctique",
+      "zone": "Antarctique",
+      "heure": "17:45",
+      "tags": [
+        "ADN",
+        "Vesta",
+        "Explosion"
+      ]
+    },
+    {
+      "id": "3_71",
+      "tome": 3,
+      "chapitre": 71,
+      "lieu": "Seattle, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Sara",
+        "Drone",
+        "Gouv",
+        "Raid policier"
+      ]
+    },
+    {
+      "id": "3_72",
+      "tome": 3,
+      "chapitre": 72,
+      "lieu": "Kyoto, Japon",
+      "zone": "Asie de l'Est",
+      "heure": "4:45",
+      "tags": [
+        "Analyste",
+        "Hypo",
+        "Trame",
+        "Drone"
+      ]
+    },
+    {
+      "id": "3_73",
+      "tome": 3,
+      "chapitre": 73,
+      "lieu": "Station Princesse-Élisabeth, Antarctique",
+      "zone": "Antarctique",
+      "heure": "17:45",
+      "tags": [
+        "ADN",
+        "Club",
+        "Vesta",
+        "Trame",
+        "Analyste"
+      ]
+    },
+    {
+      "id": "3_74",
+      "tome": 3,
+      "chapitre": 74,
+      "lieu": "Kyoto, Japon",
+      "zone": "Asie de l'Est",
+      "heure": "4:45",
+      "tags": [
+        "Analyste",
+        "Trame",
+        "Reboot",
+        "Blackout",
+        "Drone"
+      ]
+    },
+    {
+      "id": "3_75",
+      "tome": 3,
+      "chapitre": 75,
+      "lieu": "Seattle, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Analyste",
+        "Drone",
+        "Trame",
+        "Sara"
+      ]
+    },
+    {
+      "id": "3_76",
+      "tome": 3,
+      "chapitre": 76,
+      "lieu": "Station Princesse-Élisabeth, Antarctique",
+      "zone": "Antarctique",
+      "heure": "17:45",
+      "tags": [
+        "Club",
+        "Vesta",
+        "Analyste",
+        "InLine"
+      ]
+    },
+    {
+      "id": "3_77",
+      "tome": 3,
+      "chapitre": 77,
+      "lieu": "Kyoto, Japon",
+      "zone": "Asie de l'Est",
+      "heure": "4:45",
+      "tags": [
+        "Drone",
+        "Réplicants"
+      ]
+    },
+    {
+      "id": "3_78",
+      "tome": 3,
+      "chapitre": 78,
+      "lieu": "Point de Lagrange 5, Orbite terrestre",
+      "zone": "Espace/orbite",
+      "heure": "19:45",
+      "tags": [
+        "Trame",
+        "POV non-humain"
+      ]
+    },
+    {
+      "id": "3_79",
+      "tome": 3,
+      "chapitre": 79,
+      "lieu": "Seattle, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Analyste",
+        "Gardien"
+      ]
+    },
+    {
+      "id": "3_80",
+      "tome": 3,
+      "chapitre": 80,
+      "lieu": "San Francisco, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Cyborg",
+        "Zarmien",
+        "Drone",
+        "Analyste"
+      ]
+    },
+    {
+      "id": "3_81",
+      "tome": 3,
+      "chapitre": 81,
+      "lieu": "Washington, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Gouv",
+        "Quidam",
+        "Sara"
+      ]
+    },
+    {
+      "id": "3_82",
+      "tome": 3,
+      "chapitre": 82,
+      "lieu": "New York, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Quidam"
+      ]
+    },
+    {
+      "id": "3_83",
+      "tome": 3,
+      "chapitre": 83,
+      "lieu": "San Francisco, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Zarmien",
+        "Cyborg"
+      ]
+    },
+    {
+      "id": "3_84",
+      "tome": 3,
+      "chapitre": 84,
+      "lieu": "Bodrum, Turquie",
+      "zone": "Europe de l'Est",
+      "heure": "22:45",
+      "tags": [
+        "Analyste",
+        "Yeux"
+      ]
+    },
+    {
+      "id": "3_85",
+      "tome": 3,
+      "chapitre": 85,
+      "lieu": "San Francisco, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Cyborg",
+        "Zarmien",
+        "Analyste",
+        "Drone"
+      ]
+    },
+    {
+      "id": "3_86",
+      "tome": 3,
+      "chapitre": 86,
+      "lieu": "Türkmenbaşy, Turkménistan",
+      "zone": "Asie centrale",
+      "heure": "00:45",
+      "tags": [
+        "ADN",
+        "Analyste",
+        "Tanya",
+        "Sentient",
+        "InLine"
+      ]
+    },
+    {
+      "id": "3_87",
+      "tome": 3,
+      "chapitre": 87,
+      "lieu": "San Francisco, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Zarmien",
+        "Cyborg",
+        "Analyste",
+        "IA"
+      ]
+    },
+    {
+      "id": "3_88",
+      "tome": 3,
+      "chapitre": 88,
+      "lieu": "Türkmenbaşy, Turkménistan",
+      "zone": "Asie centrale",
+      "heure": "00:45",
+      "tags": [
+        "Sentient",
+        "Code",
+        "Tanya",
+        "Module sentient"
+      ]
+    },
+    {
+      "id": "3_89",
+      "tome": 3,
+      "chapitre": 89,
+      "lieu": "Port Moresby, Nouvelle-Guinée",
+      "zone": "Océanie/Pacifique",
+      "heure": "5:45",
+      "tags": [
+        "Code",
+        "ADN",
+        "Samwell",
+        "Sara"
+      ]
+    },
+    {
+      "id": "3_90",
+      "tome": 3,
+      "chapitre": 90,
+      "lieu": "Türkmenbaşy, Turkménistan",
+      "zone": "Asie centrale",
+      "heure": "00:45",
+      "tags": [
+        "Tanya"
+      ]
+    },
+    {
+      "id": "3_91",
+      "tome": 3,
+      "chapitre": 91,
+      "lieu": "Bangalore, Inde",
+      "zone": "Asie du Sud",
+      "heure": "1:15",
+      "tags": [
+        "Code",
+        "Zarmien",
+        "Drone",
+        "3DTechnologie",
+        "USS White Bay",
+        "NOSS-55",
+        "Li Li",
+        "Gliese",
+        "Fringe"
+      ]
+    },
+    {
+      "id": "3_92",
+      "tome": 3,
+      "chapitre": 92,
+      "lieu": "Astana, Kazakhstan",
+      "zone": "Asie centrale",
+      "heure": "1:45",
+      "tags": [
+        "Analyste",
+        "Trame",
+        "Explosion"
+      ]
+    },
+    {
+      "id": "3_93",
+      "tome": 3,
+      "chapitre": 93,
+      "lieu": "Bangalore, Inde",
+      "zone": "Asie du Sud",
+      "heure": "1:15",
+      "tags": [
+        "Code",
+        "Zarmien",
+        "3DTechnologie",
+        "Drone",
+        "Li Li",
+        "USS White Bay"
+      ]
+    },
+    {
+      "id": "3_94",
+      "tome": 3,
+      "chapitre": 94,
+      "lieu": "Islamorada, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Dauphins",
+        "Trame",
+        "Quidam"
+      ]
+    },
+    {
+      "id": "3_95",
+      "tome": 3,
+      "chapitre": 95,
+      "lieu": "Buenos Aires, Argentine",
+      "zone": "Amérique du Sud",
+      "heure": "16:45",
+      "tags": [
+        "Code",
+        "Point Oméga (Teilhard de Chardin)",
+        "IA",
+        "Procès d'une IA"
+      ]
+    },
+    {
+      "id": "4_1",
+      "tome": 4,
+      "chapitre": 1,
+      "lieu": "Montpellier, France",
+      "zone": "Europe de l'Ouest",
+      "heure": "21:45",
+      "tags": [
+        "Quidam",
+        "Zarmina",
+        "Blackout"
+      ]
+    },
+    {
+      "id": "4_2",
+      "tome": 4,
+      "chapitre": 2,
+      "lieu": "Jérusalem, Israël",
+      "zone": "Moyen-Orient",
+      "heure": "22:45",
+      "tags": [
+        "Drone",
+        "Quidam"
+      ]
+    },
+    {
+      "id": "4_3",
+      "tome": 4,
+      "chapitre": 3,
+      "lieu": "Fort George G. Meade, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Devora",
+        "Sara"
+      ]
+    },
+    {
+      "id": "4_4",
+      "tome": 4,
+      "chapitre": 4,
+      "lieu": "New York, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Drone",
+        "Li Li",
+        "Analyste",
+        "Sara",
+        "3DTechnologie"
+      ]
+    },
+    {
+      "id": "4_5",
+      "tome": 4,
+      "chapitre": 5,
+      "lieu": "Taipei, Taiwan",
+      "zone": "Asie de l'Est",
+      "heure": "3:45",
+      "tags": [
+        "SETI",
+        "Code",
+        "Réplicants",
+        "Gliese",
+        "Philo",
+        "Paradoxe de Fermi",
+        "Module sentient"
+      ]
+    },
+    {
+      "id": "4_6",
+      "tome": 4,
+      "chapitre": 6,
+      "lieu": "Oxford, Angleterre",
+      "zone": "Europe de l'Ouest",
+      "heure": "20:45",
+      "tags": [
+        "Philo",
+        "Mackenzie",
+        "Devora",
+        "Quidam"
+      ]
+    },
+    {
+      "id": "4_7",
+      "tome": 4,
+      "chapitre": 7,
+      "lieu": "Kashgar, Chine",
+      "zone": "Asie centrale",
+      "heure": "3:45",
+      "tags": [
+        "Drone"
+      ]
+    },
+    {
+      "id": "4_8",
+      "tome": 4,
+      "chapitre": 8,
+      "lieu": "Montauk, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Réplicants",
+        "Philo",
+        "Paradoxe de Fermi"
+      ]
+    },
+    {
+      "id": "4_9",
+      "tome": 4,
+      "chapitre": 9,
+      "lieu": "Mutitjulu, Australie",
+      "zone": "Océanie/Pacifique",
+      "heure": "5:15",
+      "tags": [
+        "Longue Vie"
+      ]
+    },
+    {
+      "id": "4_10",
+      "tome": 4,
+      "chapitre": 10,
+      "lieu": "Goheung, Corée du Sud",
+      "zone": "Asie de l'Est",
+      "heure": "4:45",
+      "tags": [
+        "Drone",
+        "3DTechnologie",
+        "Li Li",
+        "Sara",
+        "InLine",
+        "Explosion"
+      ]
+    },
+    {
+      "id": "4_11",
+      "tome": 4,
+      "chapitre": 11,
+      "lieu": "Goheung, Corée du Sud",
+      "zone": "Asie de l'Est",
+      "heure": "4:45",
+      "tags": [
+        "Drone",
+        "Analyste",
+        "3DTechnologie"
+      ]
+    },
+    {
+      "id": "4_12",
+      "tome": 4,
+      "chapitre": 12,
+      "lieu": "Vancouver, Canada",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Sara",
+        "Analyste",
+        "InLine"
+      ]
+    },
+    {
+      "id": "4_13",
+      "tome": 4,
+      "chapitre": 13,
+      "lieu": "Anchorage, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "11:45",
+      "tags": [
+        "IA",
+        "Devora",
+        "Philo"
+      ]
+    },
+    {
+      "id": "4_14",
+      "tome": 4,
+      "chapitre": 14,
+      "lieu": "Vancouver, Canada",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Analyste",
+        "Trame",
+        "Devora"
+      ]
+    },
+    {
+      "id": "4_15",
+      "tome": 4,
+      "chapitre": 15,
+      "lieu": "Oxford, Angleterre",
+      "zone": "Europe de l'Ouest",
+      "heure": "20:45",
+      "tags": [
+        "Devora",
+        "Réplicants",
+        "Philo",
+        "Jalousie"
+      ]
+    },
+    {
+      "id": "4_16",
+      "tome": 4,
+      "chapitre": 16,
+      "lieu": "Jackson Hole, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "13:45",
+      "tags": [
+        "Code",
+        "Devora",
+        "LVC",
+        "Longue Vie",
+        "Dauphins"
+      ]
+    },
+    {
+      "id": "4_17",
+      "tome": 4,
+      "chapitre": 17,
+      "lieu": "Koyasan, Japon",
+      "zone": "Asie de l'Est",
+      "heure": "4:45",
+      "tags": [
+        "Analyste",
+        "Drone",
+        "3DTechnologie",
+        "Réplicants",
+        "Yeux",
+        "Top"
+      ]
+    },
+    {
+      "id": "4_18",
+      "tome": 4,
+      "chapitre": 18,
+      "lieu": "Jackson Hole, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "13:45",
+      "tags": [
+        "LVC",
+        "Devora"
+      ]
+    },
+    {
+      "id": "4_19",
+      "tome": 4,
+      "chapitre": 19,
+      "lieu": "Koyasan, Japon",
+      "zone": "Asie de l'Est",
+      "heure": "4:45",
+      "tags": [
+        "Analyste",
+        "Trame"
+      ]
+    },
+    {
+      "id": "4_20",
+      "tome": 4,
+      "chapitre": 20,
+      "lieu": "Jackson Hole, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "13:45",
+      "tags": [
+        "LVC",
+        "Devora",
+        "Dauphins",
+        "Signal"
+      ]
+    },
+    {
+      "id": "4_21",
+      "tome": 4,
+      "chapitre": 21,
+      "lieu": "Koyasan, Japon",
+      "zone": "Asie de l'Est",
+      "heure": "4:45",
+      "tags": [
+        "Drone",
+        "Réplicants",
+        "Analyste"
+      ]
+    },
+    {
+      "id": "4_22",
+      "tome": 4,
+      "chapitre": 22,
+      "lieu": "Jackson Hole, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "13:45",
+      "tags": [
+        "Devora",
+        "LVC",
+        "Zarmien",
+        "Signal"
+      ]
+    },
+    {
+      "id": "4_23",
+      "tome": 4,
+      "chapitre": 23,
+      "lieu": "Fort George G. Meade, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Sara",
+        "Message"
+      ]
+    },
+    {
+      "id": "4_24",
+      "tome": 4,
+      "chapitre": 24,
+      "lieu": "Jackson Hole, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "13:45",
+      "tags": [
+        "Devora",
+        "IA"
+      ]
+    },
+    {
+      "id": "4_25",
+      "tome": 4,
+      "chapitre": 25,
+      "lieu": "Archipel des Gambier, Polynésie française",
+      "zone": "Océanie/Pacifique",
+      "heure": "10:45",
+      "tags": [
+        "USS White Bay",
+        "Sara",
+        "NOSS-55",
+        "Gouv"
+      ]
+    },
+    {
+      "id": "4_26",
+      "tome": 4,
+      "chapitre": 26,
+      "lieu": "Teton Village, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "13:45",
+      "tags": [
+        "Devora",
+        "LVC",
+        "Club",
+        "Trame",
+        "Analyste"
+      ]
+    },
+    {
+      "id": "4_27",
+      "tome": 4,
+      "chapitre": 27,
+      "lieu": "San Diego, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Analyste"
+      ]
+    },
+    {
+      "id": "4_28",
+      "tome": 4,
+      "chapitre": 28,
+      "lieu": "Jackson Hole, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "13:45",
+      "tags": [
+        "Zarmien",
+        "Devora",
+        "LX",
+        "Trame",
+        "Club",
+        "Analyste",
+        "N",
+        "Gardien",
+        "InLine"
+      ]
+    },
+    {
+      "id": "4_29",
+      "tome": 4,
+      "chapitre": 29,
+      "lieu": "Chongjin, Corée du Nord",
+      "zone": "Asie de l'Est",
+      "heure": "4:15",
+      "tags": [
+        "Trame",
+        "Analyste",
+        "Signal"
+      ]
+    },
+    {
+      "id": "4_30",
+      "tome": 4,
+      "chapitre": 30,
+      "lieu": "Jackson Hole, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "13:45",
+      "tags": [
+        "Cyborg",
+        "Zarmien",
+        "Devora"
+      ]
+    },
+    {
+      "id": "4_31",
+      "tome": 4,
+      "chapitre": 31,
+      "lieu": "Turin, Italie",
+      "zone": "Europe de l'Ouest",
+      "heure": "21:45",
+      "tags": [
+        "Devora",
+        "Philo",
+        "Code",
+        "Quidam"
+      ]
+    },
+    {
+      "id": "4_32",
+      "tome": 4,
+      "chapitre": 32,
+      "lieu": "Jackson Hole, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "13:45",
+      "tags": [
+        "Cyborg",
+        "Hypo",
+        "Devora"
+      ]
+    },
+    {
+      "id": "4_33",
+      "tome": 4,
+      "chapitre": 33,
+      "lieu": "Winnipeg, Canada",
+      "zone": "Amérique du Nord",
+      "heure": "14:45",
+      "tags": [
+        "Analyste",
+        "Code",
+        "Devora",
+        "Club",
+        "Hypo",
+        "Philo"
+      ]
+    },
+    {
+      "id": "4_34",
+      "tome": 4,
+      "chapitre": 34,
+      "lieu": "Thermosphère, Pacifique Sud",
+      "zone": "Océanie/Pacifique",
+      "heure": "19:45",
+      "tags": [
+        "Zarmien",
+        "3DTechnologie",
+        "Drone",
+        "NOSS-55",
+        "Tanya",
+        "POV drone non-humain"
+      ]
+    },
+    {
+      "id": "4_35",
+      "tome": 4,
+      "chapitre": 35,
+      "lieu": "Haïfa, Israël",
+      "zone": "Moyen-Orient",
+      "heure": "22:45",
+      "tags": [
+        "Quidam",
+        "Longue Vie"
+      ]
+    },
+    {
+      "id": "4_36",
+      "tome": 4,
+      "chapitre": 36,
+      "lieu": "Chobar, Népal",
+      "zone": "Asie du Sud",
+      "heure": "1:30",
+      "tags": [
+        "Drone",
+        "Réplicants"
+      ]
+    },
+    {
+      "id": "4_37",
+      "tome": 4,
+      "chapitre": 37,
+      "lieu": "Thermosphère, Pacifique Sud",
+      "zone": "Océanie/Pacifique",
+      "heure": "19:45",
+      "tags": [
+        "Drone",
+        "3DTechnologie",
+        "Zarmien",
+        "NOSS-55",
+        "IA"
+      ]
+    },
+    {
+      "id": "4_38",
+      "tome": 4,
+      "chapitre": 38,
+      "lieu": "San Diego, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Analyste",
+        "Trame",
+        "Zarmien",
+        "Hunter",
+        "Gardien"
+      ]
+    },
+    {
+      "id": "4_39",
+      "tome": 4,
+      "chapitre": 39,
+      "lieu": "Plateforme Elgin, Mer du Nord",
+      "zone": "Europe de l'Ouest",
+      "heure": "20:45",
+      "tags": [
+        "Longue Vie",
+        "USS White Bay"
+      ]
+    },
+    {
+      "id": "4_40",
+      "tome": 4,
+      "chapitre": 40,
+      "lieu": "Auckland, Nouvelle-Zélande",
+      "zone": "Océanie/Pacifique",
+      "heure": "7:45",
+      "tags": [
+        "Code",
+        "Reboot"
+      ]
+    },
+    {
+      "id": "4_41",
+      "tome": 4,
+      "chapitre": 41,
+      "lieu": "Cristal Bay, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Quidam",
+        "Philo"
+      ]
+    },
+    {
+      "id": "4_42",
+      "tome": 4,
+      "chapitre": 42,
+      "lieu": "San Diego, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Gardien",
+        "Hunter",
+        "Sara"
+      ]
+    },
+    {
+      "id": "4_43",
+      "tome": 4,
+      "chapitre": 43,
+      "lieu": "Lake Tahoe, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Quidam",
+        "Philo"
+      ]
+    },
+    {
+      "id": "4_44",
+      "tome": 4,
+      "chapitre": 44,
+      "lieu": "Station spatiale, orbite terrestre",
+      "zone": "Espace/orbite",
+      "heure": "19:45",
+      "tags": [
+        "Drone",
+        "Réplicants",
+        "Zarmien"
+      ]
+    },
+    {
+      "id": "4_45",
+      "tome": 4,
+      "chapitre": 45,
+      "lieu": "Kaboul, Afghanistan",
+      "zone": "Asie centrale",
+      "heure": "0:15",
+      "tags": [
+        "Devora",
+        "Sara"
+      ]
+    },
+    {
+      "id": "4_46",
+      "tome": 4,
+      "chapitre": 46,
+      "lieu": "Lord Howe Island, Australie",
+      "zone": "Océanie/Pacifique",
+      "heure": "6:15",
+      "tags": [
+        "Gouv",
+        "Analyste",
+        "Zarmien",
+        "NOSS-55",
+        "USS White Bay",
+        "Deep Prospecting",
+        "Cyborg",
+        "Walker"
+      ]
+    },
+    {
+      "id": "4_47",
+      "tome": 4,
+      "chapitre": 47,
+      "lieu": "New York, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Zarmien",
+        "3DTechnologie",
+        "Drone",
+        "Deep Prospecting",
+        "Walker",
+        "Longue Vie"
+      ]
+    },
+    {
+      "id": "4_48",
+      "tome": 4,
+      "chapitre": 48,
+      "lieu": "Malmö, Suède",
+      "zone": "Europe du Nord",
+      "heure": "21:45",
+      "tags": [
+        "Hypo",
+        "USS White Bay",
+        "InLine"
+      ]
+    },
+    {
+      "id": "4_49",
+      "tome": 4,
+      "chapitre": 49,
+      "lieu": "The Dalles, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Zarmien",
+        "NOSS-55",
+        "Gliese",
+        "Sara",
+        "Zarmina"
+      ]
+    },
+    {
+      "id": "4_50",
+      "tome": 4,
+      "chapitre": 50,
+      "lieu": "Lord Howe Island, Australie",
+      "zone": "Océanie/Pacifique",
+      "heure": "6:15",
+      "tags": [
+        "Analyste",
+        "Zarmien",
+        "Walker",
+        "Trame",
+        "Cyborg"
+      ]
+    },
+    {
+      "id": "4_51",
+      "tome": 4,
+      "chapitre": 51,
+      "lieu": "Nairobi, Kenya",
+      "zone": "Afrique",
+      "heure": "22:45",
+      "tags": [
+        "IA",
+        "Quidam"
+      ]
+    },
+    {
+      "id": "4_52",
+      "tome": 4,
+      "chapitre": 52,
+      "lieu": "Lord Howe Island, Australie",
+      "zone": "Océanie/Pacifique",
+      "heure": "6:15",
+      "tags": [
+        "Zarmien",
+        "Cyborg",
+        "Longue Vie",
+        "Drone"
+      ]
+    },
+    {
+      "id": "4_53",
+      "tome": 4,
+      "chapitre": 53,
+      "lieu": "Errázuriz, Chili",
+      "zone": "Amérique du Sud",
+      "heure": "16:45",
+      "tags": [
+        "Zarmien",
+        "IA",
+        "Quidam"
+      ]
+    },
+    {
+      "id": "4_54",
+      "tome": 4,
+      "chapitre": 54,
+      "lieu": "Nuku’alofa, Tonga",
+      "zone": "Océanie/Pacifique",
+      "heure": "8:45",
+      "tags": [
+        "Signal",
+        "Sara",
+        "Gliese",
+        "Deep Prospecting"
+      ]
+    },
+    {
+      "id": "4_55",
+      "tome": 4,
+      "chapitre": 55,
+      "lieu": "Malaga, Espagne",
+      "zone": "Europe du Sud",
+      "heure": "21:45",
+      "tags": [
+        "Quidam",
+        "Philo"
+      ]
+    },
+    {
+      "id": "4_56",
+      "tome": 4,
+      "chapitre": 56,
+      "lieu": "Sydney, Australie",
+      "zone": "Océanie/Pacifique",
+      "heure": "5:45",
+      "tags": [
+        "Zarmien",
+        "Walker",
+        "Longue Vie",
+        "Drone",
+        "Deep Prospecting",
+        "Cyborg",
+        "Blackout",
+        "InLine"
+      ]
+    },
+    {
+      "id": "4_57",
+      "tome": 4,
+      "chapitre": 57,
+      "lieu": "Paris, France",
+      "zone": "Europe de l'Ouest",
+      "heure": "21:45",
+      "tags": [
+        "Quidam"
+      ]
+    },
+    {
+      "id": "4_58",
+      "tome": 4,
+      "chapitre": 58,
+      "lieu": "Hohhot, Chine",
+      "zone": "Asie de l'Est",
+      "heure": "3:45",
+      "tags": [
+        "Shutdown",
+        "Carver",
+        "N",
+        "IA"
+      ]
+    },
+    {
+      "id": "4_59",
+      "tome": 4,
+      "chapitre": 59,
+      "lieu": "San Diego, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Analyste",
+        "Philo",
+        "Hunter",
+        "IA",
+        "Gardien",
+        "Yeux",
+        "Top"
+      ]
+    },
+    {
+      "id": "4_60",
+      "tome": 4,
+      "chapitre": 60,
+      "lieu": "The Dalles, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Tanya",
+        "Sentient",
+        "IA",
+        "Longue Vie",
+        "InLine"
+      ]
+    },
+    {
+      "id": "4_61",
+      "tome": 4,
+      "chapitre": 61,
+      "lieu": "The Dalles, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Tanya",
+        "Sentient",
+        "Longue Vie",
+        "Hypolite",
+        "InLine"
+      ]
+    },
+    {
+      "id": "4_62",
+      "tome": 4,
+      "chapitre": 62,
+      "lieu": "Fort George G. Maeade, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Mackenzie",
+        "Sentient",
+        "Sara",
+        "IA"
+      ]
+    },
+    {
+      "id": "4_63",
+      "tome": 4,
+      "chapitre": 63,
+      "lieu": "Varsovie, Pologne",
+      "zone": "Europe de l'Est",
+      "heure": "21:45",
+      "tags": [
+        "Mackenzie",
+        "Devora",
+        "IA",
+        "Philo",
+        "Paradoxe de Fermi"
+      ]
+    },
+    {
+      "id": "4_64",
+      "tome": 4,
+      "chapitre": 64,
+      "lieu": "Londres, Angleterre",
+      "zone": "Europe de l'Ouest",
+      "heure": "20:45",
+      "tags": [
+        "Analyste",
+        "Trame"
+      ]
+    },
+    {
+      "id": "4_65",
+      "tome": 4,
+      "chapitre": 65,
+      "lieu": "Réserve de Sarakawa, Togo",
+      "zone": "Afrique",
+      "heure": "19:45",
+      "tags": [
+        "Trame",
+        "Analyste"
+      ]
+    },
+    {
+      "id": "4_66",
+      "tome": 4,
+      "chapitre": 66,
+      "lieu": "San Diego, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Sara",
+        "Hunter",
+        "Gardien",
+        "Analyste",
+        "Trame",
+        "N"
+      ]
+    },
+    {
+      "id": "4_67",
+      "tome": 4,
+      "chapitre": 67,
+      "lieu": "Kasei Vallis, Mars",
+      "zone": "Espace/orbite",
+      "heure": "19:45",
+      "tags": [
+        "Drone",
+        "3DTechnologie",
+        "Reboot",
+        "Deep Prospecting",
+        "Espace",
+        "POV drone non-humain"
+      ]
+    },
+    {
+      "id": "4_68",
+      "tome": 4,
+      "chapitre": 68,
+      "lieu": "San Diego, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "12:45",
+      "tags": [
+        "Analyste",
+        "Sara",
+        "Hunter",
+        "Gardien",
+        "Trame",
+        "Yeux"
+      ]
+    },
+    {
+      "id": "4_69",
+      "tome": 4,
+      "chapitre": 69,
+      "lieu": "Éros, Ceinture d’astéroïdes",
+      "zone": "Espace/orbite",
+      "heure": "19:45",
+      "tags": [
+        "Espace",
+        "Drone",
+        "Zarmien",
+        "IA",
+        "POV drone non-humain"
+      ]
+    },
+    {
+      "id": "4_70",
+      "tome": 4,
+      "chapitre": 70,
+      "lieu": "Jackson Hole, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "13:45",
+      "tags": [
+        "Devora",
+        "Hypo",
+        "Zarmien",
+        "IA"
+      ]
+    },
+    {
+      "id": "4_71",
+      "tome": 4,
+      "chapitre": 71,
+      "lieu": "Irbe lighthouse, Lettonie",
+      "zone": "Europe de l'Est",
+      "heure": "22:45",
+      "tags": [
+        "Trame",
+        "Analyste",
+        "USS White Bay",
+        "Zarmien",
+        "Drone"
+      ]
+    },
+    {
+      "id": "4_72",
+      "tome": 4,
+      "chapitre": 72,
+      "lieu": "Station Deep Prospecting, Orbite de Vesta",
+      "zone": "Espace/orbite",
+      "heure": "19:45",
+      "tags": [
+        "Réplicants",
+        "Trame",
+        "Zarmien",
+        "Explosion",
+        "Espace"
+      ]
+    },
+    {
+      "id": "4_73",
+      "tome": 4,
+      "chapitre": 73,
+      "lieu": "Kolka, Lettonie",
+      "zone": "Europe de l'Est",
+      "heure": "22:45",
+      "tags": [
+        "USS White Bay",
+        "Zarmien",
+        "Drone",
+        "Longue Vie"
+      ]
+    },
+    {
+      "id": "4_74",
+      "tome": 4,
+      "chapitre": 74,
+      "lieu": "Paris, France",
+      "zone": "Europe de l'Ouest",
+      "heure": "21:45",
+      "tags": [
+        "Reboot",
+        "Réplicants"
+      ]
+    },
+    {
+      "id": "4_75",
+      "tome": 4,
+      "chapitre": 75,
+      "lieu": "Ruhnu, Estonie",
+      "zone": "Europe de l'Est",
+      "heure": "22:45",
+      "tags": [
+        "IA",
+        "USS White Bay",
+        "Drone",
+        "Gouv"
+      ]
+    },
+    {
+      "id": "4_76",
+      "tome": 4,
+      "chapitre": 76,
+      "lieu": "Base réplicants, Vesta",
+      "zone": "Espace/orbite",
+      "heure": "19:45",
+      "tags": [
+        "Réplicants",
+        "Vesta",
+        "Espace",
+        "Deep Prospecting"
+      ]
+    },
+    {
+      "id": "4_77",
+      "tome": 4,
+      "chapitre": 77,
+      "lieu": "Ruhnu, Estonie",
+      "zone": "Europe de l'Est",
+      "heure": "22:45",
+      "tags": [
+        "Zarmien",
+        "Gouv",
+        "Drone",
+        "Sara",
+        "Explosion"
+      ]
+    },
+    {
+      "id": "4_78",
+      "tome": 4,
+      "chapitre": 78,
+      "lieu": "Washington, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "15:45",
+      "tags": [
+        "Réplicants",
+        "Zarmien",
+        "Analyste",
+        "Gouv",
+        "IA",
+        "Trame",
+        "Sara"
+      ]
+    },
+    {
+      "id": "4_79",
+      "tome": 4,
+      "chapitre": 79,
+      "lieu": "Ruhnu, Estonie",
+      "zone": "Europe de l'Est",
+      "heure": "22:45",
+      "tags": [
+        "USS White Bay",
+        "Zarmien",
+        "Explosion"
+      ]
+    },
+    {
+      "id": "4_80",
+      "tome": 4,
+      "chapitre": 80,
+      "lieu": "Base réplicants, Vesta",
+      "zone": "Espace/orbite",
+      "heure": "19:45",
+      "tags": [
+        "Réplicants",
+        "Vesta",
+        "Espace"
+      ]
+    },
+    {
+      "id": "4_81",
+      "tome": 4,
+      "chapitre": 81,
+      "lieu": "Ruhnu, Estonie",
+      "zone": "Europe de l'Est",
+      "heure": "22:45",
+      "tags": [
+        "Cyborg",
+        "Sara",
+        "Explosion",
+        "Zarmien"
+      ]
+    },
+    {
+      "id": "4_82",
+      "tome": 4,
+      "chapitre": 82,
+      "lieu": "Base réplicants, Vesta",
+      "zone": "Espace/orbite",
+      "heure": "19:45",
+      "tags": [
+        "Réplicants",
+        "Vesta",
+        "Espace"
+      ]
+    },
+    {
+      "id": "4_83",
+      "tome": 4,
+      "chapitre": 83,
+      "lieu": "Ruhnu, Estonie",
+      "zone": "Europe de l'Est",
+      "heure": "22:45",
+      "tags": [
+        "Tanya",
+        "USS White Bay",
+        "Drone"
+      ]
+    },
+    {
+      "id": "4_84",
+      "tome": 4,
+      "chapitre": 84,
+      "lieu": "Base réplicants, Vesta",
+      "zone": "Espace/orbite",
+      "heure": "19:45",
+      "tags": [
+        "Réplicants",
+        "Vesta",
+        "Espace"
+      ]
+    },
+    {
+      "id": "4_85",
+      "tome": 4,
+      "chapitre": 85,
+      "lieu": "Ruhnu, Estonie",
+      "zone": "Europe de l'Est",
+      "heure": "22:45",
+      "tags": [
+        "Tanya",
+        "Sara",
+        "Trame"
+      ]
+    },
+    {
+      "id": "4_86",
+      "tome": 4,
+      "chapitre": 86,
+      "lieu": "Jackson Hole, États-Unis",
+      "zone": "Amérique du Nord",
+      "heure": "13:45",
+      "tags": [
+        "Tanya",
+        "Li Li",
+        "Analyste",
+        "LVC",
+        "Blackout",
+        "Longue Vie",
+        "Zarmien"
+      ]
+    },
+    {
+      "id": "4_87",
+      "tome": 4,
+      "chapitre": 87,
+      "lieu": "Base réplicants, Vesta",
+      "zone": "Espace/orbite",
+      "heure": "19:45",
+      "tags": [
+        "Réplicants",
+        "Vesta",
+        "Espace"
+      ]
+    },
+    {
+      "id": "4_88",
+      "tome": 4,
+      "chapitre": 88,
+      "lieu": "Irbe lighthouse, Lettonie",
+      "zone": "Europe de l'Est",
+      "heure": "22:45",
+      "tags": [
+        "Tanya",
+        "N",
+        "Sara",
+        "IA",
+        "Hypolite"
+      ]
+    },
+    {
+      "id": "4_89",
+      "tome": 4,
+      "chapitre": 89,
+      "lieu": "Base réplicants, Vesta",
+      "zone": "Espace/orbite",
+      "heure": "19:45",
+      "tags": [
+        "Réplicants",
+        "Vesta",
+        "Explosion",
+        "Trame",
+        "Signal"
+      ]
+    },
+    {
+      "id": "4_90",
+      "tome": 4,
+      "chapitre": 90,
+      "lieu": "Ruhnu, Estonie",
+      "zone": "Europe de l'Est",
+      "heure": "22:45",
+      "tags": [
+        "Tanya",
+        "N",
+        "Sara",
+        "USS White Bay",
+        "Trame",
+        "Cyborg",
+        "Shutdown",
+        "Explosion",
+        "Carver"
+      ]
+    },
+    {
+      "id": "4_91",
+      "tome": 4,
+      "chapitre": 91,
+      "lieu": "Base réplicants, Vesta",
+      "zone": "Espace/orbite",
+      "heure": "19:45",
+      "tags": [
+        "Réplicants"
+      ]
+    },
+    {
+      "id": "4_92",
+      "tome": 4,
+      "chapitre": 92,
+      "lieu": "La lagune, France",
+      "zone": "Europe de l'Ouest",
+      "heure": "21:45",
+      "tags": [
+        "Analyste",
+        "Réplicants",
+        "Communion"
+      ]
+    },
+    {
+      "id": "4_93",
+      "tome": 4,
+      "chapitre": 93,
+      "lieu": "La lagune, France",
+      "zone": "Europe de l'Ouest",
+      "heure": "21:45",
+      "tags": [
+        "Zarmien",
+        "Sara",
+        "Réplicants",
+        "Analyste",
+        "Hypolite"
+      ]
+    },
+    {
+      "id": "4_94",
+      "tome": 4,
+      "chapitre": 94,
+      "lieu": "Nuage d’Oort, Système solaire",
+      "zone": "Espace/orbite",
+      "heure": "19:45",
+      "tags": [
+        "Réplicants",
+        "Trame",
+        "Analyste"
+      ]
+    },
+    {
+      "id": "4_95",
+      "tome": 4,
+      "chapitre": 95,
+      "lieu": "Parkes, Australie",
+      "zone": "Océanie/Pacifique",
+      "heure": "5:45",
+      "tags": [
+        "Analyste",
+        "Réplicants"
+      ]
+    }
+  ],
+  "precedence_edges": [
+    {
+      "from": "1_1",
+      "to": "1_4",
+      "type": "lieu_sequence",
+      "lieu": "Versailles, France"
+    },
+    {
+      "from": "1_2",
+      "to": "1_79",
+      "type": "lieu_sequence",
+      "lieu": "New York, États-Unis"
+    },
+    {
+      "from": "1_79",
+      "to": "2_43",
+      "type": "lieu_sequence",
+      "lieu": "New York, États-Unis"
+    },
+    {
+      "from": "2_43",
+      "to": "2_54",
+      "type": "lieu_sequence",
+      "lieu": "New York, États-Unis"
+    },
+    {
+      "from": "2_54",
+      "to": "3_82",
+      "type": "lieu_sequence",
+      "lieu": "New York, États-Unis"
+    },
+    {
+      "from": "3_82",
+      "to": "4_4",
+      "type": "lieu_sequence",
+      "lieu": "New York, États-Unis"
+    },
+    {
+      "from": "4_4",
+      "to": "4_47",
+      "type": "lieu_sequence",
+      "lieu": "New York, États-Unis"
+    },
+    {
+      "from": "1_7",
+      "to": "1_31",
+      "type": "lieu_sequence",
+      "lieu": "Arecibo, Porto Rico"
+    },
+    {
+      "from": "1_31",
+      "to": "1_85",
+      "type": "lieu_sequence",
+      "lieu": "Arecibo, Porto Rico"
+    },
+    {
+      "from": "1_85",
+      "to": "1_87",
+      "type": "lieu_sequence",
+      "lieu": "Arecibo, Porto Rico"
+    },
+    {
+      "from": "1_87",
+      "to": "1_89",
+      "type": "lieu_sequence",
+      "lieu": "Arecibo, Porto Rico"
+    },
+    {
+      "from": "1_89",
+      "to": "1_95",
+      "type": "lieu_sequence",
+      "lieu": "Arecibo, Porto Rico"
+    },
+    {
+      "from": "1_9",
+      "to": "1_16",
+      "type": "lieu_sequence",
+      "lieu": "Washington, États-Unis"
+    },
+    {
+      "from": "1_16",
+      "to": "1_35",
+      "type": "lieu_sequence",
+      "lieu": "Washington, États-Unis"
+    },
+    {
+      "from": "1_35",
+      "to": "1_40",
+      "type": "lieu_sequence",
+      "lieu": "Washington, États-Unis"
+    },
+    {
+      "from": "1_40",
+      "to": "1_61",
+      "type": "lieu_sequence",
+      "lieu": "Washington, États-Unis"
+    },
+    {
+      "from": "1_61",
+      "to": "1_80",
+      "type": "lieu_sequence",
+      "lieu": "Washington, États-Unis"
+    },
+    {
+      "from": "1_80",
+      "to": "2_41",
+      "type": "lieu_sequence",
+      "lieu": "Washington, États-Unis"
+    },
+    {
+      "from": "2_41",
+      "to": "2_42",
+      "type": "lieu_sequence",
+      "lieu": "Washington, États-Unis"
+    },
+    {
+      "from": "2_42",
+      "to": "2_61",
+      "type": "lieu_sequence",
+      "lieu": "Washington, États-Unis"
+    },
+    {
+      "from": "2_61",
+      "to": "2_73",
+      "type": "lieu_sequence",
+      "lieu": "Washington, États-Unis"
+    },
+    {
+      "from": "2_73",
+      "to": "3_23",
+      "type": "lieu_sequence",
+      "lieu": "Washington, États-Unis"
+    },
+    {
+      "from": "3_23",
+      "to": "3_81",
+      "type": "lieu_sequence",
+      "lieu": "Washington, États-Unis"
+    },
+    {
+      "from": "3_81",
+      "to": "4_78",
+      "type": "lieu_sequence",
+      "lieu": "Washington, États-Unis"
+    },
+    {
+      "from": "1_12",
+      "to": "1_47",
+      "type": "lieu_sequence",
+      "lieu": "Mountain View, États-Unis"
+    },
+    {
+      "from": "1_47",
+      "to": "1_64",
+      "type": "lieu_sequence",
+      "lieu": "Mountain View, États-Unis"
+    },
+    {
+      "from": "1_14",
+      "to": "2_49",
+      "type": "lieu_sequence",
+      "lieu": "Londres, Angleterre"
+    },
+    {
+      "from": "2_49",
+      "to": "4_64",
+      "type": "lieu_sequence",
+      "lieu": "Londres, Angleterre"
+    },
+    {
+      "from": "1_15",
+      "to": "1_17",
+      "type": "lieu_sequence",
+      "lieu": "Vancouver, Canada"
+    },
+    {
+      "from": "1_17",
+      "to": "1_18",
+      "type": "lieu_sequence",
+      "lieu": "Vancouver, Canada"
+    },
+    {
+      "from": "1_18",
+      "to": "4_12",
+      "type": "lieu_sequence",
+      "lieu": "Vancouver, Canada"
+    },
+    {
+      "from": "4_12",
+      "to": "4_14",
+      "type": "lieu_sequence",
+      "lieu": "Vancouver, Canada"
+    },
+    {
+      "from": "1_20",
+      "to": "1_58",
+      "type": "lieu_sequence",
+      "lieu": "Moscou, Russie"
+    },
+    {
+      "from": "1_22",
+      "to": "3_8",
+      "type": "lieu_sequence",
+      "lieu": "Station spatiale, orbite terrestre"
+    },
+    {
+      "from": "3_8",
+      "to": "4_44",
+      "type": "lieu_sequence",
+      "lieu": "Station spatiale, orbite terrestre"
+    },
+    {
+      "from": "1_23",
+      "to": "1_63",
+      "type": "lieu_sequence",
+      "lieu": "Fort George G. Meade, États-Unis"
+    },
+    {
+      "from": "1_63",
+      "to": "1_81",
+      "type": "lieu_sequence",
+      "lieu": "Fort George G. Meade, États-Unis"
+    },
+    {
+      "from": "1_81",
+      "to": "2_48",
+      "type": "lieu_sequence",
+      "lieu": "Fort George G. Meade, États-Unis"
+    },
+    {
+      "from": "2_48",
+      "to": "3_7",
+      "type": "lieu_sequence",
+      "lieu": "Fort George G. Meade, États-Unis"
+    },
+    {
+      "from": "3_7",
+      "to": "3_43",
+      "type": "lieu_sequence",
+      "lieu": "Fort George G. Meade, États-Unis"
+    },
+    {
+      "from": "3_43",
+      "to": "3_44",
+      "type": "lieu_sequence",
+      "lieu": "Fort George G. Meade, États-Unis"
+    },
+    {
+      "from": "3_44",
+      "to": "4_3",
+      "type": "lieu_sequence",
+      "lieu": "Fort George G. Meade, États-Unis"
+    },
+    {
+      "from": "4_3",
+      "to": "4_23",
+      "type": "lieu_sequence",
+      "lieu": "Fort George G. Meade, États-Unis"
+    },
+    {
+      "from": "1_32",
+      "to": "2_44",
+      "type": "lieu_sequence",
+      "lieu": "Vienne, Autriche"
+    },
+    {
+      "from": "1_36",
+      "to": "1_37",
+      "type": "lieu_sequence",
+      "lieu": "Portsmouth, États-Unis"
+    },
+    {
+      "from": "1_37",
+      "to": "1_93",
+      "type": "lieu_sequence",
+      "lieu": "Portsmouth, États-Unis"
+    },
+    {
+      "from": "1_38",
+      "to": "1_39",
+      "type": "lieu_sequence",
+      "lieu": "Mascate, Sultanat d’Oman"
+    },
+    {
+      "from": "1_42",
+      "to": "3_64",
+      "type": "lieu_sequence",
+      "lieu": "Seattle, États-Unis"
+    },
+    {
+      "from": "3_64",
+      "to": "3_66",
+      "type": "lieu_sequence",
+      "lieu": "Seattle, États-Unis"
+    },
+    {
+      "from": "3_66",
+      "to": "3_69",
+      "type": "lieu_sequence",
+      "lieu": "Seattle, États-Unis"
+    },
+    {
+      "from": "3_69",
+      "to": "3_71",
+      "type": "lieu_sequence",
+      "lieu": "Seattle, États-Unis"
+    },
+    {
+      "from": "3_71",
+      "to": "3_75",
+      "type": "lieu_sequence",
+      "lieu": "Seattle, États-Unis"
+    },
+    {
+      "from": "3_75",
+      "to": "3_79",
+      "type": "lieu_sequence",
+      "lieu": "Seattle, États-Unis"
+    },
+    {
+      "from": "1_45",
+      "to": "4_2",
+      "type": "lieu_sequence",
+      "lieu": "Jérusalem, Israël"
+    },
+    {
+      "from": "1_50",
+      "to": "1_52",
+      "type": "lieu_sequence",
+      "lieu": "Tallinn, Estonie"
+    },
+    {
+      "from": "1_52",
+      "to": "1_54",
+      "type": "lieu_sequence",
+      "lieu": "Tallinn, Estonie"
+    },
+    {
+      "from": "1_53",
+      "to": "1_59",
+      "type": "lieu_sequence",
+      "lieu": "Pago Pago, Samoa américaines"
+    },
+    {
+      "from": "1_60",
+      "to": "1_62",
+      "type": "lieu_sequence",
+      "lieu": "Réserve du Néouvielle, France"
+    },
+    {
+      "from": "1_67",
+      "to": "1_69",
+      "type": "lieu_sequence",
+      "lieu": "Barcelone, Espagne"
+    },
+    {
+      "from": "1_70",
+      "to": "2_6",
+      "type": "lieu_sequence",
+      "lieu": "Honolulu, États-Unis"
+    },
+    {
+      "from": "2_6",
+      "to": "3_53",
+      "type": "lieu_sequence",
+      "lieu": "Honolulu, États-Unis"
+    },
+    {
+      "from": "3_53",
+      "to": "3_55",
+      "type": "lieu_sequence",
+      "lieu": "Honolulu, États-Unis"
+    },
+    {
+      "from": "1_73",
+      "to": "1_74",
+      "type": "lieu_sequence",
+      "lieu": "Base Dumont d'Urville, Antarctique"
+    },
+    {
+      "from": "1_75",
+      "to": "2_52",
+      "type": "lieu_sequence",
+      "lieu": "Lisbonne, Portugal"
+    },
+    {
+      "from": "1_77",
+      "to": "1_78",
+      "type": "lieu_sequence",
+      "lieu": "Tikal, Honduras"
+    },
+    {
+      "from": "1_83",
+      "to": "4_13",
+      "type": "lieu_sequence",
+      "lieu": "Anchorage, États-Unis"
+    },
+    {
+      "from": "1_92",
+      "to": "4_57",
+      "type": "lieu_sequence",
+      "lieu": "Paris, France"
+    },
+    {
+      "from": "4_57",
+      "to": "4_74",
+      "type": "lieu_sequence",
+      "lieu": "Paris, France"
+    },
+    {
+      "from": "2_10",
+      "to": "2_12",
+      "type": "lieu_sequence",
+      "lieu": "Cambridge, États-Unis"
+    },
+    {
+      "from": "2_12",
+      "to": "2_14",
+      "type": "lieu_sequence",
+      "lieu": "Cambridge, États-Unis"
+    },
+    {
+      "from": "2_14",
+      "to": "2_17",
+      "type": "lieu_sequence",
+      "lieu": "Cambridge, États-Unis"
+    },
+    {
+      "from": "2_17",
+      "to": "2_22",
+      "type": "lieu_sequence",
+      "lieu": "Cambridge, États-Unis"
+    },
+    {
+      "from": "2_11",
+      "to": "2_13",
+      "type": "lieu_sequence",
+      "lieu": "Annaba, Algérie"
+    },
+    {
+      "from": "2_20",
+      "to": "2_23",
+      "type": "lieu_sequence",
+      "lieu": "Tórshavn, Îles Féroé"
+    },
+    {
+      "from": "2_23",
+      "to": "2_25",
+      "type": "lieu_sequence",
+      "lieu": "Tórshavn, Îles Féroé"
+    },
+    {
+      "from": "2_21",
+      "to": "2_64",
+      "type": "lieu_sequence",
+      "lieu": "Santa Fe, États-Unis"
+    },
+    {
+      "from": "2_64",
+      "to": "2_66",
+      "type": "lieu_sequence",
+      "lieu": "Santa Fe, États-Unis"
+    },
+    {
+      "from": "2_66",
+      "to": "2_68",
+      "type": "lieu_sequence",
+      "lieu": "Santa Fe, États-Unis"
+    },
+    {
+      "from": "2_68",
+      "to": "2_70",
+      "type": "lieu_sequence",
+      "lieu": "Santa Fe, États-Unis"
+    },
+    {
+      "from": "2_70",
+      "to": "2_72",
+      "type": "lieu_sequence",
+      "lieu": "Santa Fe, États-Unis"
+    },
+    {
+      "from": "2_29",
+      "to": "2_31",
+      "type": "lieu_sequence",
+      "lieu": "Florac, France"
+    },
+    {
+      "from": "2_31",
+      "to": "2_34",
+      "type": "lieu_sequence",
+      "lieu": "Florac, France"
+    },
+    {
+      "from": "2_34",
+      "to": "2_36",
+      "type": "lieu_sequence",
+      "lieu": "Florac, France"
+    },
+    {
+      "from": "2_36",
+      "to": "2_38",
+      "type": "lieu_sequence",
+      "lieu": "Florac, France"
+    },
+    {
+      "from": "2_38",
+      "to": "2_40",
+      "type": "lieu_sequence",
+      "lieu": "Florac, France"
+    },
+    {
+      "from": "2_40",
+      "to": "2_95",
+      "type": "lieu_sequence",
+      "lieu": "Florac, France"
+    },
+    {
+      "from": "2_46",
+      "to": "2_51",
+      "type": "lieu_sequence",
+      "lieu": "Lyon, France"
+    },
+    {
+      "from": "2_51",
+      "to": "2_55",
+      "type": "lieu_sequence",
+      "lieu": "Lyon, France"
+    },
+    {
+      "from": "2_50",
+      "to": "2_58",
+      "type": "lieu_sequence",
+      "lieu": "Mashhad, Iran"
+    },
+    {
+      "from": "2_74",
+      "to": "2_78",
+      "type": "lieu_sequence",
+      "lieu": "Christmas Island, Kiribati"
+    },
+    {
+      "from": "2_80",
+      "to": "2_81",
+      "type": "lieu_sequence",
+      "lieu": "Vladivostok, Russie"
+    },
+    {
+      "from": "2_82",
+      "to": "2_84",
+      "type": "lieu_sequence",
+      "lieu": "Discovery Island, Bahamas"
+    },
+    {
+      "from": "2_84",
+      "to": "2_86",
+      "type": "lieu_sequence",
+      "lieu": "Discovery Island, Bahamas"
+    },
+    {
+      "from": "2_86",
+      "to": "2_88",
+      "type": "lieu_sequence",
+      "lieu": "Discovery Island, Bahamas"
+    },
+    {
+      "from": "2_88",
+      "to": "2_90",
+      "type": "lieu_sequence",
+      "lieu": "Discovery Island, Bahamas"
+    },
+    {
+      "from": "2_90",
+      "to": "2_92",
+      "type": "lieu_sequence",
+      "lieu": "Discovery Island, Bahamas"
+    },
+    {
+      "from": "2_92",
+      "to": "2_94",
+      "type": "lieu_sequence",
+      "lieu": "Discovery Island, Bahamas"
+    },
+    {
+      "from": "2_89",
+      "to": "2_91",
+      "type": "lieu_sequence",
+      "lieu": "Samara, Russie"
+    },
+    {
+      "from": "2_91",
+      "to": "2_93",
+      "type": "lieu_sequence",
+      "lieu": "Samara, Russie"
+    },
+    {
+      "from": "3_3",
+      "to": "3_5",
+      "type": "lieu_sequence",
+      "lieu": "Ottawa, Canada"
+    },
+    {
+      "from": "3_10",
+      "to": "3_11",
+      "type": "lieu_sequence",
+      "lieu": "Alto Lucero, Mexique"
+    },
+    {
+      "from": "3_24",
+      "to": "3_26",
+      "type": "lieu_sequence",
+      "lieu": "Goa, Inde"
+    },
+    {
+      "from": "3_26",
+      "to": "3_28",
+      "type": "lieu_sequence",
+      "lieu": "Goa, Inde"
+    },
+    {
+      "from": "3_27",
+      "to": "3_29",
+      "type": "lieu_sequence",
+      "lieu": "Buenos Aires, Argentine"
+    },
+    {
+      "from": "3_29",
+      "to": "3_31",
+      "type": "lieu_sequence",
+      "lieu": "Buenos Aires, Argentine"
+    },
+    {
+      "from": "3_31",
+      "to": "3_33",
+      "type": "lieu_sequence",
+      "lieu": "Buenos Aires, Argentine"
+    },
+    {
+      "from": "3_33",
+      "to": "3_42",
+      "type": "lieu_sequence",
+      "lieu": "Buenos Aires, Argentine"
+    },
+    {
+      "from": "3_42",
+      "to": "3_50",
+      "type": "lieu_sequence",
+      "lieu": "Buenos Aires, Argentine"
+    },
+    {
+      "from": "3_50",
+      "to": "3_95",
+      "type": "lieu_sequence",
+      "lieu": "Buenos Aires, Argentine"
+    },
+    {
+      "from": "3_30",
+      "to": "4_40",
+      "type": "lieu_sequence",
+      "lieu": "Auckland, Nouvelle-Zélande"
+    },
+    {
+      "from": "3_32",
+      "to": "3_34",
+      "type": "lieu_sequence",
+      "lieu": "Dar es Salaam, Tanzanie"
+    },
+    {
+      "from": "3_34",
+      "to": "3_38",
+      "type": "lieu_sequence",
+      "lieu": "Dar es Salaam, Tanzanie"
+    },
+    {
+      "from": "3_35",
+      "to": "3_36",
+      "type": "lieu_sequence",
+      "lieu": "La Croix-de-Rozon, Suisse"
+    },
+    {
+      "from": "3_39",
+      "to": "3_40",
+      "type": "lieu_sequence",
+      "lieu": "Porto, Portugal"
+    },
+    {
+      "from": "3_41",
+      "to": "3_47",
+      "type": "lieu_sequence",
+      "lieu": "Caracas, Vénézuéla"
+    },
+    {
+      "from": "3_47",
+      "to": "3_58",
+      "type": "lieu_sequence",
+      "lieu": "Caracas, Vénézuéla"
+    },
+    {
+      "from": "3_58",
+      "to": "3_62",
+      "type": "lieu_sequence",
+      "lieu": "Caracas, Vénézuéla"
+    },
+    {
+      "from": "3_62",
+      "to": "3_63",
+      "type": "lieu_sequence",
+      "lieu": "Caracas, Vénézuéla"
+    },
+    {
+      "from": "3_48",
+      "to": "3_49",
+      "type": "lieu_sequence",
+      "lieu": "Nuuk, Groenland"
+    },
+    {
+      "from": "3_52",
+      "to": "3_54",
+      "type": "lieu_sequence",
+      "lieu": "Salto Ángel, Vénézuéla"
+    },
+    {
+      "from": "3_54",
+      "to": "3_65",
+      "type": "lieu_sequence",
+      "lieu": "Salto Ángel, Vénézuéla"
+    },
+    {
+      "from": "3_57",
+      "to": "3_59",
+      "type": "lieu_sequence",
+      "lieu": "Petropavlovsk-Kamchatsky, Russie"
+    },
+    {
+      "from": "3_67",
+      "to": "3_68",
+      "type": "lieu_sequence",
+      "lieu": "Sheffield, Angleterre"
+    },
+    {
+      "from": "3_70",
+      "to": "3_73",
+      "type": "lieu_sequence",
+      "lieu": "Station Princesse-Élisabeth, Antarctique"
+    },
+    {
+      "from": "3_73",
+      "to": "3_76",
+      "type": "lieu_sequence",
+      "lieu": "Station Princesse-Élisabeth, Antarctique"
+    },
+    {
+      "from": "3_72",
+      "to": "3_74",
+      "type": "lieu_sequence",
+      "lieu": "Kyoto, Japon"
+    },
+    {
+      "from": "3_74",
+      "to": "3_77",
+      "type": "lieu_sequence",
+      "lieu": "Kyoto, Japon"
+    },
+    {
+      "from": "3_80",
+      "to": "3_83",
+      "type": "lieu_sequence",
+      "lieu": "San Francisco, États-Unis"
+    },
+    {
+      "from": "3_83",
+      "to": "3_85",
+      "type": "lieu_sequence",
+      "lieu": "San Francisco, États-Unis"
+    },
+    {
+      "from": "3_85",
+      "to": "3_87",
+      "type": "lieu_sequence",
+      "lieu": "San Francisco, États-Unis"
+    },
+    {
+      "from": "3_86",
+      "to": "3_88",
+      "type": "lieu_sequence",
+      "lieu": "Türkmenbaşy, Turkménistan"
+    },
+    {
+      "from": "3_88",
+      "to": "3_90",
+      "type": "lieu_sequence",
+      "lieu": "Türkmenbaşy, Turkménistan"
+    },
+    {
+      "from": "3_91",
+      "to": "3_93",
+      "type": "lieu_sequence",
+      "lieu": "Bangalore, Inde"
+    },
+    {
+      "from": "4_6",
+      "to": "4_15",
+      "type": "lieu_sequence",
+      "lieu": "Oxford, Angleterre"
+    },
+    {
+      "from": "4_10",
+      "to": "4_11",
+      "type": "lieu_sequence",
+      "lieu": "Goheung, Corée du Sud"
+    },
+    {
+      "from": "4_16",
+      "to": "4_18",
+      "type": "lieu_sequence",
+      "lieu": "Jackson Hole, États-Unis"
+    },
+    {
+      "from": "4_18",
+      "to": "4_20",
+      "type": "lieu_sequence",
+      "lieu": "Jackson Hole, États-Unis"
+    },
+    {
+      "from": "4_20",
+      "to": "4_22",
+      "type": "lieu_sequence",
+      "lieu": "Jackson Hole, États-Unis"
+    },
+    {
+      "from": "4_22",
+      "to": "4_24",
+      "type": "lieu_sequence",
+      "lieu": "Jackson Hole, États-Unis"
+    },
+    {
+      "from": "4_24",
+      "to": "4_28",
+      "type": "lieu_sequence",
+      "lieu": "Jackson Hole, États-Unis"
+    },
+    {
+      "from": "4_28",
+      "to": "4_30",
+      "type": "lieu_sequence",
+      "lieu": "Jackson Hole, États-Unis"
+    },
+    {
+      "from": "4_30",
+      "to": "4_32",
+      "type": "lieu_sequence",
+      "lieu": "Jackson Hole, États-Unis"
+    },
+    {
+      "from": "4_32",
+      "to": "4_70",
+      "type": "lieu_sequence",
+      "lieu": "Jackson Hole, États-Unis"
+    },
+    {
+      "from": "4_70",
+      "to": "4_86",
+      "type": "lieu_sequence",
+      "lieu": "Jackson Hole, États-Unis"
+    },
+    {
+      "from": "4_17",
+      "to": "4_19",
+      "type": "lieu_sequence",
+      "lieu": "Koyasan, Japon"
+    },
+    {
+      "from": "4_19",
+      "to": "4_21",
+      "type": "lieu_sequence",
+      "lieu": "Koyasan, Japon"
+    },
+    {
+      "from": "4_27",
+      "to": "4_38",
+      "type": "lieu_sequence",
+      "lieu": "San Diego, États-Unis"
+    },
+    {
+      "from": "4_38",
+      "to": "4_42",
+      "type": "lieu_sequence",
+      "lieu": "San Diego, États-Unis"
+    },
+    {
+      "from": "4_42",
+      "to": "4_59",
+      "type": "lieu_sequence",
+      "lieu": "San Diego, États-Unis"
+    },
+    {
+      "from": "4_59",
+      "to": "4_66",
+      "type": "lieu_sequence",
+      "lieu": "San Diego, États-Unis"
+    },
+    {
+      "from": "4_66",
+      "to": "4_68",
+      "type": "lieu_sequence",
+      "lieu": "San Diego, États-Unis"
+    },
+    {
+      "from": "4_34",
+      "to": "4_37",
+      "type": "lieu_sequence",
+      "lieu": "Thermosphère, Pacifique Sud"
+    },
+    {
+      "from": "4_46",
+      "to": "4_50",
+      "type": "lieu_sequence",
+      "lieu": "Lord Howe Island, Australie"
+    },
+    {
+      "from": "4_50",
+      "to": "4_52",
+      "type": "lieu_sequence",
+      "lieu": "Lord Howe Island, Australie"
+    },
+    {
+      "from": "4_49",
+      "to": "4_60",
+      "type": "lieu_sequence",
+      "lieu": "The Dalles, États-Unis"
+    },
+    {
+      "from": "4_60",
+      "to": "4_61",
+      "type": "lieu_sequence",
+      "lieu": "The Dalles, États-Unis"
+    },
+    {
+      "from": "4_71",
+      "to": "4_88",
+      "type": "lieu_sequence",
+      "lieu": "Irbe lighthouse, Lettonie"
+    },
+    {
+      "from": "4_75",
+      "to": "4_77",
+      "type": "lieu_sequence",
+      "lieu": "Ruhnu, Estonie"
+    },
+    {
+      "from": "4_77",
+      "to": "4_79",
+      "type": "lieu_sequence",
+      "lieu": "Ruhnu, Estonie"
+    },
+    {
+      "from": "4_79",
+      "to": "4_81",
+      "type": "lieu_sequence",
+      "lieu": "Ruhnu, Estonie"
+    },
+    {
+      "from": "4_81",
+      "to": "4_83",
+      "type": "lieu_sequence",
+      "lieu": "Ruhnu, Estonie"
+    },
+    {
+      "from": "4_83",
+      "to": "4_85",
+      "type": "lieu_sequence",
+      "lieu": "Ruhnu, Estonie"
+    },
+    {
+      "from": "4_85",
+      "to": "4_90",
+      "type": "lieu_sequence",
+      "lieu": "Ruhnu, Estonie"
+    },
+    {
+      "from": "4_76",
+      "to": "4_80",
+      "type": "lieu_sequence",
+      "lieu": "Base réplicants, Vesta"
+    },
+    {
+      "from": "4_80",
+      "to": "4_82",
+      "type": "lieu_sequence",
+      "lieu": "Base réplicants, Vesta"
+    },
+    {
+      "from": "4_82",
+      "to": "4_84",
+      "type": "lieu_sequence",
+      "lieu": "Base réplicants, Vesta"
+    },
+    {
+      "from": "4_84",
+      "to": "4_87",
+      "type": "lieu_sequence",
+      "lieu": "Base réplicants, Vesta"
+    },
+    {
+      "from": "4_87",
+      "to": "4_89",
+      "type": "lieu_sequence",
+      "lieu": "Base réplicants, Vesta"
+    },
+    {
+      "from": "4_89",
+      "to": "4_91",
+      "type": "lieu_sequence",
+      "lieu": "Base réplicants, Vesta"
+    },
+    {
+      "from": "4_92",
+      "to": "4_93",
+      "type": "lieu_sequence",
+      "lieu": "La lagune, France"
+    }
+  ],
+  "chains": [
+    {
+      "lieu": "Washington, États-Unis",
+      "zone": "Amérique du Nord",
+      "chain": [
+        "1_9",
+        "1_16",
+        "1_35",
+        "1_40",
+        "1_61",
+        "1_80",
+        "2_41",
+        "2_42",
+        "2_61",
+        "2_73",
+        "3_23",
+        "3_81",
+        "4_78"
+      ],
+      "length": 13
+    },
+    {
+      "lieu": "Jackson Hole, États-Unis",
+      "zone": "Amérique du Nord",
+      "chain": [
+        "4_16",
+        "4_18",
+        "4_20",
+        "4_22",
+        "4_24",
+        "4_28",
+        "4_30",
+        "4_32",
+        "4_70",
+        "4_86"
+      ],
+      "length": 10
+    },
+    {
+      "lieu": "Fort George G. Meade, États-Unis",
+      "zone": "Amérique du Nord",
+      "chain": [
+        "1_23",
+        "1_63",
+        "1_81",
+        "2_48",
+        "3_7",
+        "3_43",
+        "3_44",
+        "4_3",
+        "4_23"
+      ],
+      "length": 9
+    },
+    {
+      "lieu": "New York, États-Unis",
+      "zone": "Amérique du Nord",
+      "chain": [
+        "1_2",
+        "1_79",
+        "2_43",
+        "2_54",
+        "3_82",
+        "4_4",
+        "4_47"
+      ],
+      "length": 7
+    },
+    {
+      "lieu": "Seattle, États-Unis",
+      "zone": "Amérique du Nord",
+      "chain": [
+        "1_42",
+        "3_64",
+        "3_66",
+        "3_69",
+        "3_71",
+        "3_75",
+        "3_79"
+      ],
+      "length": 7
+    },
+    {
+      "lieu": "Florac, France",
+      "zone": "Europe de l'Ouest",
+      "chain": [
+        "2_29",
+        "2_31",
+        "2_34",
+        "2_36",
+        "2_38",
+        "2_40",
+        "2_95"
+      ],
+      "length": 7
+    },
+    {
+      "lieu": "Discovery Island, Bahamas",
+      "zone": "Caraïbes",
+      "chain": [
+        "2_82",
+        "2_84",
+        "2_86",
+        "2_88",
+        "2_90",
+        "2_92",
+        "2_94"
+      ],
+      "length": 7
+    },
+    {
+      "lieu": "Buenos Aires, Argentine",
+      "zone": "Amérique du Sud",
+      "chain": [
+        "3_27",
+        "3_29",
+        "3_31",
+        "3_33",
+        "3_42",
+        "3_50",
+        "3_95"
+      ],
+      "length": 7
+    },
+    {
+      "lieu": "Ruhnu, Estonie",
+      "zone": "Europe de l'Est",
+      "chain": [
+        "4_75",
+        "4_77",
+        "4_79",
+        "4_81",
+        "4_83",
+        "4_85",
+        "4_90"
+      ],
+      "length": 7
+    },
+    {
+      "lieu": "Base réplicants, Vesta",
+      "zone": "Espace/orbite",
+      "chain": [
+        "4_76",
+        "4_80",
+        "4_82",
+        "4_84",
+        "4_87",
+        "4_89",
+        "4_91"
+      ],
+      "length": 7
+    },
+    {
+      "lieu": "Arecibo, Porto Rico",
+      "zone": "Caraïbes",
+      "chain": [
+        "1_7",
+        "1_31",
+        "1_85",
+        "1_87",
+        "1_89",
+        "1_95"
+      ],
+      "length": 6
+    },
+    {
+      "lieu": "Santa Fe, États-Unis",
+      "zone": "Amérique du Nord",
+      "chain": [
+        "2_21",
+        "2_64",
+        "2_66",
+        "2_68",
+        "2_70",
+        "2_72"
+      ],
+      "length": 6
+    },
+    {
+      "lieu": "San Diego, États-Unis",
+      "zone": "Amérique du Nord",
+      "chain": [
+        "4_27",
+        "4_38",
+        "4_42",
+        "4_59",
+        "4_66",
+        "4_68"
+      ],
+      "length": 6
+    },
+    {
+      "lieu": "Vancouver, Canada",
+      "zone": "Amérique du Nord",
+      "chain": [
+        "1_15",
+        "1_17",
+        "1_18",
+        "4_12",
+        "4_14"
+      ],
+      "length": 5
+    },
+    {
+      "lieu": "Cambridge, États-Unis",
+      "zone": "Amérique du Nord",
+      "chain": [
+        "2_10",
+        "2_12",
+        "2_14",
+        "2_17",
+        "2_22"
+      ],
+      "length": 5
+    },
+    {
+      "lieu": "Caracas, Vénézuéla",
+      "zone": "Amérique du Sud",
+      "chain": [
+        "3_41",
+        "3_47",
+        "3_58",
+        "3_62",
+        "3_63"
+      ],
+      "length": 5
+    },
+    {
+      "lieu": "Honolulu, États-Unis",
+      "zone": "Océanie/Pacifique",
+      "chain": [
+        "1_70",
+        "2_6",
+        "3_53",
+        "3_55"
+      ],
+      "length": 4
+    },
+    {
+      "lieu": "San Francisco, États-Unis",
+      "zone": "Amérique du Nord",
+      "chain": [
+        "3_80",
+        "3_83",
+        "3_85",
+        "3_87"
+      ],
+      "length": 4
+    },
+    {
+      "lieu": "Mountain View, États-Unis",
+      "zone": "Amérique du Nord",
+      "chain": [
+        "1_12",
+        "1_47",
+        "1_64"
+      ],
+      "length": 3
+    },
+    {
+      "lieu": "Londres, Angleterre",
+      "zone": "Europe de l'Ouest",
+      "chain": [
+        "1_14",
+        "2_49",
+        "4_64"
+      ],
+      "length": 3
+    },
+    {
+      "lieu": "Station spatiale, orbite terrestre",
+      "zone": "Espace/orbite",
+      "chain": [
+        "1_22",
+        "3_8",
+        "4_44"
+      ],
+      "length": 3
+    },
+    {
+      "lieu": "Portsmouth, États-Unis",
+      "zone": "Amérique du Nord",
+      "chain": [
+        "1_36",
+        "1_37",
+        "1_93"
+      ],
+      "length": 3
+    },
+    {
+      "lieu": "Tallinn, Estonie",
+      "zone": "Europe de l'Est/Baltique",
+      "chain": [
+        "1_50",
+        "1_52",
+        "1_54"
+      ],
+      "length": 3
+    },
+    {
+      "lieu": "Paris, France",
+      "zone": "Europe de l'Ouest",
+      "chain": [
+        "1_92",
+        "4_57",
+        "4_74"
+      ],
+      "length": 3
+    },
+    {
+      "lieu": "Tórshavn, Îles Féroé",
+      "zone": "Europe du Nord",
+      "chain": [
+        "2_20",
+        "2_23",
+        "2_25"
+      ],
+      "length": 3
+    },
+    {
+      "lieu": "Lyon, France",
+      "zone": "Europe de l'Ouest",
+      "chain": [
+        "2_46",
+        "2_51",
+        "2_55"
+      ],
+      "length": 3
+    },
+    {
+      "lieu": "Samara, Russie",
+      "zone": "Europe de l'Est",
+      "chain": [
+        "2_89",
+        "2_91",
+        "2_93"
+      ],
+      "length": 3
+    },
+    {
+      "lieu": "Goa, Inde",
+      "zone": "Asie du Sud",
+      "chain": [
+        "3_24",
+        "3_26",
+        "3_28"
+      ],
+      "length": 3
+    },
+    {
+      "lieu": "Dar es Salaam, Tanzanie",
+      "zone": "Afrique",
+      "chain": [
+        "3_32",
+        "3_34",
+        "3_38"
+      ],
+      "length": 3
+    },
+    {
+      "lieu": "Salto Ángel, Vénézuéla",
+      "zone": "Amérique du Sud",
+      "chain": [
+        "3_52",
+        "3_54",
+        "3_65"
+      ],
+      "length": 3
+    },
+    {
+      "lieu": "Station Princesse-Élisabeth, Antarctique",
+      "zone": "Antarctique",
+      "chain": [
+        "3_70",
+        "3_73",
+        "3_76"
+      ],
+      "length": 3
+    },
+    {
+      "lieu": "Kyoto, Japon",
+      "zone": "Asie de l'Est",
+      "chain": [
+        "3_72",
+        "3_74",
+        "3_77"
+      ],
+      "length": 3
+    },
+    {
+      "lieu": "Türkmenbaşy, Turkménistan",
+      "zone": "Asie centrale",
+      "chain": [
+        "3_86",
+        "3_88",
+        "3_90"
+      ],
+      "length": 3
+    },
+    {
+      "lieu": "Koyasan, Japon",
+      "zone": "Asie de l'Est",
+      "chain": [
+        "4_17",
+        "4_19",
+        "4_21"
+      ],
+      "length": 3
+    },
+    {
+      "lieu": "Lord Howe Island, Australie",
+      "zone": "Océanie/Pacifique",
+      "chain": [
+        "4_46",
+        "4_50",
+        "4_52"
+      ],
+      "length": 3
+    },
+    {
+      "lieu": "The Dalles, États-Unis",
+      "zone": "Amérique du Nord",
+      "chain": [
+        "4_49",
+        "4_60",
+        "4_61"
+      ],
+      "length": 3
+    },
+    {
+      "lieu": "Versailles, France",
+      "zone": "Europe de l'Ouest",
+      "chain": [
+        "1_1",
+        "1_4"
+      ],
+      "length": 2
+    },
+    {
+      "lieu": "Moscou, Russie",
+      "zone": "Europe de l'Est",
+      "chain": [
+        "1_20",
+        "1_58"
+      ],
+      "length": 2
+    },
+    {
+      "lieu": "Vienne, Autriche",
+      "zone": "Europe centrale",
+      "chain": [
+        "1_32",
+        "2_44"
+      ],
+      "length": 2
+    },
+    {
+      "lieu": "Mascate, Sultanat d’Oman",
+      "zone": "Moyen-Orient",
+      "chain": [
+        "1_38",
+        "1_39"
+      ],
+      "length": 2
+    },
+    {
+      "lieu": "Jérusalem, Israël",
+      "zone": "Moyen-Orient",
+      "chain": [
+        "1_45",
+        "4_2"
+      ],
+      "length": 2
+    },
+    {
+      "lieu": "Pago Pago, Samoa américaines",
+      "zone": "Océanie/Pacifique",
+      "chain": [
+        "1_53",
+        "1_59"
+      ],
+      "length": 2
+    },
+    {
+      "lieu": "Réserve du Néouvielle, France",
+      "zone": "Europe de l'Ouest",
+      "chain": [
+        "1_60",
+        "1_62"
+      ],
+      "length": 2
+    },
+    {
+      "lieu": "Barcelone, Espagne",
+      "zone": "Europe de l'Ouest",
+      "chain": [
+        "1_67",
+        "1_69"
+      ],
+      "length": 2
+    },
+    {
+      "lieu": "Base Dumont d'Urville, Antarctique",
+      "zone": "Antarctique",
+      "chain": [
+        "1_73",
+        "1_74"
+      ],
+      "length": 2
+    },
+    {
+      "lieu": "Lisbonne, Portugal",
+      "zone": "Europe de l'Ouest",
+      "chain": [
+        "1_75",
+        "2_52"
+      ],
+      "length": 2
+    },
+    {
+      "lieu": "Tikal, Honduras",
+      "zone": "Amérique centrale",
+      "chain": [
+        "1_77",
+        "1_78"
+      ],
+      "length": 2
+    },
+    {
+      "lieu": "Anchorage, États-Unis",
+      "zone": "Amérique du Nord",
+      "chain": [
+        "1_83",
+        "4_13"
+      ],
+      "length": 2
+    },
+    {
+      "lieu": "Annaba, Algérie",
+      "zone": "Afrique du Nord",
+      "chain": [
+        "2_11",
+        "2_13"
+      ],
+      "length": 2
+    },
+    {
+      "lieu": "Mashhad, Iran",
+      "zone": "Moyen-Orient",
+      "chain": [
+        "2_50",
+        "2_58"
+      ],
+      "length": 2
+    },
+    {
+      "lieu": "Christmas Island, Kiribati",
+      "zone": "Océanie/Pacifique",
+      "chain": [
+        "2_74",
+        "2_78"
+      ],
+      "length": 2
+    },
+    {
+      "lieu": "Vladivostok, Russie",
+      "zone": "Europe de l'Est",
+      "chain": [
+        "2_80",
+        "2_81"
+      ],
+      "length": 2
+    },
+    {
+      "lieu": "Ottawa, Canada",
+      "zone": "Amérique du Nord",
+      "chain": [
+        "3_3",
+        "3_5"
+      ],
+      "length": 2
+    },
+    {
+      "lieu": "Alto Lucero, Mexique",
+      "zone": "Amérique du Nord",
+      "chain": [
+        "3_10",
+        "3_11"
+      ],
+      "length": 2
+    },
+    {
+      "lieu": "Auckland, Nouvelle-Zélande",
+      "zone": "Océanie/Pacifique",
+      "chain": [
+        "3_30",
+        "4_40"
+      ],
+      "length": 2
+    },
+    {
+      "lieu": "La Croix-de-Rozon, Suisse",
+      "zone": "Europe centrale",
+      "chain": [
+        "3_35",
+        "3_36"
+      ],
+      "length": 2
+    },
+    {
+      "lieu": "Porto, Portugal",
+      "zone": "Europe du Sud",
+      "chain": [
+        "3_39",
+        "3_40"
+      ],
+      "length": 2
+    },
+    {
+      "lieu": "Nuuk, Groenland",
+      "zone": "Arctique/Amérique du Nord",
+      "chain": [
+        "3_48",
+        "3_49"
+      ],
+      "length": 2
+    },
+    {
+      "lieu": "Petropavlovsk-Kamchatsky, Russie",
+      "zone": "Asie de l'Est",
+      "chain": [
+        "3_57",
+        "3_59"
+      ],
+      "length": 2
+    },
+    {
+      "lieu": "Sheffield, Angleterre",
+      "zone": "Europe de l'Ouest",
+      "chain": [
+        "3_67",
+        "3_68"
+      ],
+      "length": 2
+    },
+    {
+      "lieu": "Bangalore, Inde",
+      "zone": "Asie du Sud",
+      "chain": [
+        "3_91",
+        "3_93"
+      ],
+      "length": 2
+    },
+    {
+      "lieu": "Oxford, Angleterre",
+      "zone": "Europe de l'Ouest",
+      "chain": [
+        "4_6",
+        "4_15"
+      ],
+      "length": 2
+    },
+    {
+      "lieu": "Goheung, Corée du Sud",
+      "zone": "Asie de l'Est",
+      "chain": [
+        "4_10",
+        "4_11"
+      ],
+      "length": 2
+    },
+    {
+      "lieu": "Thermosphère, Pacifique Sud",
+      "zone": "Océanie/Pacifique",
+      "chain": [
+        "4_34",
+        "4_37"
+      ],
+      "length": 2
+    },
+    {
+      "lieu": "Irbe lighthouse, Lettonie",
+      "zone": "Europe de l'Est",
+      "chain": [
+        "4_71",
+        "4_88"
+      ],
+      "length": 2
+    },
+    {
+      "lieu": "La lagune, France",
+      "zone": "Europe de l'Ouest",
+      "chain": [
+        "4_92",
+        "4_93"
+      ],
+      "length": 2
+    }
+  ],
+  "free_chapters": [
+    "1_3",
+    "1_5",
+    "1_6",
+    "1_8",
+    "1_10",
+    "1_11",
+    "1_13",
+    "1_19",
+    "1_21",
+    "1_24",
+    "1_25",
+    "1_26",
+    "1_27",
+    "1_28",
+    "1_29",
+    "1_30",
+    "1_33",
+    "1_34",
+    "1_41",
+    "1_43",
+    "1_44",
+    "1_46",
+    "1_48",
+    "1_49",
+    "1_51",
+    "1_55",
+    "1_56",
+    "1_57",
+    "1_65",
+    "1_66",
+    "1_68",
+    "1_71",
+    "1_72",
+    "1_76",
+    "1_82",
+    "1_84",
+    "1_86",
+    "1_88",
+    "1_90",
+    "1_91",
+    "1_94",
+    "2_1",
+    "2_2",
+    "2_3",
+    "2_4",
+    "2_5",
+    "2_7",
+    "2_8",
+    "2_9",
+    "2_15",
+    "2_16",
+    "2_18",
+    "2_19",
+    "2_24",
+    "2_26",
+    "2_27",
+    "2_28",
+    "2_30",
+    "2_32",
+    "2_33",
+    "2_35",
+    "2_37",
+    "2_39",
+    "2_45",
+    "2_47",
+    "2_53",
+    "2_56",
+    "2_57",
+    "2_59",
+    "2_60",
+    "2_62",
+    "2_63",
+    "2_65",
+    "2_67",
+    "2_69",
+    "2_71",
+    "2_75",
+    "2_76",
+    "2_77",
+    "2_79",
+    "2_83",
+    "2_85",
+    "2_87",
+    "3_1",
+    "3_2",
+    "3_4",
+    "3_6",
+    "3_9",
+    "3_12",
+    "3_13",
+    "3_14",
+    "3_15",
+    "3_16",
+    "3_17",
+    "3_18",
+    "3_19",
+    "3_20",
+    "3_21",
+    "3_22",
+    "3_25",
+    "3_37",
+    "3_45",
+    "3_46",
+    "3_51",
+    "3_56",
+    "3_60",
+    "3_61",
+    "3_78",
+    "3_84",
+    "3_89",
+    "3_92",
+    "3_94",
+    "4_1",
+    "4_5",
+    "4_7",
+    "4_8",
+    "4_9",
+    "4_25",
+    "4_26",
+    "4_29",
+    "4_31",
+    "4_33",
+    "4_35",
+    "4_36",
+    "4_39",
+    "4_41",
+    "4_43",
+    "4_45",
+    "4_48",
+    "4_51",
+    "4_53",
+    "4_54",
+    "4_55",
+    "4_56",
+    "4_58",
+    "4_62",
+    "4_63",
+    "4_65",
+    "4_67",
+    "4_69",
+    "4_72",
+    "4_73",
+    "4_94",
+    "4_95"
+  ]
+}

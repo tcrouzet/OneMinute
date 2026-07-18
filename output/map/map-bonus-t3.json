@@ -1,0 +1,1053 @@
+{
+  "tome": 3,
+  "nb_chapitres": 95,
+  "chapitres": [
+    {
+      "id": "3_1",
+      "lieu": "Munich, Allemagne",
+      "lieu_detail": "chez lui, malaise cardiaque",
+      "zone": "Europe centrale",
+      "personnages": ["Finn"],
+      "tags_auteur": ["Code", "Quidam"],
+      "tags_enrichis": ["infarctus", "pacemaker connecté"]
+    },
+    {
+      "id": "3_2",
+      "lieu": "Akademgorodok, Russie",
+      "lieu_detail": "centre d'opérations informatiques, piratage d'un datacenter InLine",
+      "zone": "Europe de l'Est",
+      "personnages": [
+        "équipe de hackers gouvernementaux (non nommés individuellement)"
+      ],
+      "tags_auteur": ["Code", "InLine"],
+      "tags_enrichis": ["cyberattaque", "datacenter InLine"]
+    },
+    {
+      "id": "3_3",
+      "lieu": "Ottawa, Canada",
+      "lieu_detail": "chevet de son père à l'hôpital",
+      "zone": "Amérique du Nord",
+      "personnages": ["Roxanne", "Tony (son père)"],
+      "tags_auteur": ["Analyste", "Gouv"],
+      "tags_enrichis": ["hypersensibilité électromagnétique (EHS)"]
+    },
+    {
+      "id": "3_4",
+      "lieu": "Sofia, Bulgarie",
+      "lieu_detail": "à préciser",
+      "zone": "Europe du Sud/Balkans",
+      "personnages": ["Bogomil"],
+      "tags_auteur": ["Quidam"],
+      "tags_enrichis": ["à préciser"]
+    },
+    {
+      "id": "3_5",
+      "lieu": "Ottawa, Canada",
+      "lieu_detail": "laboratoire de recherche médicale",
+      "zone": "Amérique du Nord",
+      "personnages": ["Dr Oliver", "Roxanne"],
+      "tags_auteur": ["Analyste", "Gouv"],
+      "tags_enrichis": ["expérience EHS", "trahison aux autorités fédérales"]
+    },
+    {
+      "id": "3_6",
+      "lieu": "Stone Town, Zanzibar",
+      "lieu_detail": "réunion informelle d'analystes",
+      "zone": "Afrique",
+      "personnages": [
+        "Samwel (analyste tanzanien, patient zéro présumé)",
+        "N (mentionnée)"
+      ],
+      "tags_auteur": ["ADN", "Analyste", "N", "Samwell", "Sara"],
+      "tags_enrichis": ["théorie de la mutation des analystes", "patient zéro"]
+    },
+    {
+      "id": "3_7",
+      "lieu": "Fort George G. Meade, États-Unis",
+      "lieu_detail": "NSA, bureau de profilage",
+      "zone": "Amérique du Nord",
+      "personnages": ["Jake"],
+      "tags_auteur": ["Sara"],
+      "tags_enrichis": ["profilage psychologique de Sara Cash", "obsession"]
+    },
+    {
+      "id": "3_8",
+      "lieu": "Station spatiale, orbite terrestre",
+      "lieu_detail": "module de la station",
+      "zone": "Espace/orbite",
+      "personnages": ["Youri"],
+      "tags_auteur": ["Zarmien", "Signal", "Gliese", "Zarmina"],
+      "tags_enrichis": ["télémesure vers Gliese 581/Zarmina"]
+    },
+    {
+      "id": "3_9",
+      "lieu": "Johannesburg, Afrique du Sud",
+      "lieu_detail": "laboratoire de génétique",
+      "zone": "Afrique",
+      "personnages": ["Amaïdhi"],
+      "tags_auteur": ["ADN", "Analyste", "Samwell"],
+      "tags_enrichis": [
+        "séquençage de l'ADN de Samwel",
+        "mutation génétique des analystes"
+      ]
+    },
+    {
+      "id": "3_10",
+      "lieu": "Alto Lucero, Mexique",
+      "lieu_detail": "visite scolaire d'une centrale nucléaire",
+      "zone": "Amérique du Nord",
+      "personnages": [
+        "Carlos",
+        "gamine analyste au casque vert (vue de loin, POV complet en 3_11)"
+      ],
+      "tags_auteur": ["Analyste"],
+      "tags_enrichis": ["visite de centrale nucléaire", "enfant analyste"]
+    },
+    {
+      "id": "3_11",
+      "lieu": "Alto Lucero, Mexique",
+      "lieu_detail": "centrale nucléaire, sabotage",
+      "zone": "Amérique du Nord",
+      "personnages": [
+        "Jesus (analyste de 12 ans, = la gamine au casque vert vue en 3_10)"
+      ],
+      "tags_auteur": ["Analyste"],
+      "tags_enrichis": ["sabotage d'une centrale nucléaire", "enfant analyste"]
+    },
+    {
+      "id": "3_12",
+      "lieu": "Panama City, Panama",
+      "lieu_detail": "à vélo, réflexion scientifique",
+      "zone": "Amérique centrale",
+      "personnages": ["Jeremías", "Michele Lamb (mentionnée)"],
+      "tags_auteur": ["ADN", "Analyste", "Samwell"],
+      "tags_enrichis": ["SETI", "biologie de la mutation"]
+    },
+    {
+      "id": "3_13",
+      "lieu": "Atlanta, États-Unis",
+      "lieu_detail": "tour de contrôle aérien",
+      "zone": "Amérique du Nord",
+      "personnages": ["Maggie"],
+      "tags_auteur": ["Code", "Quidam", "Blackout"],
+      "tags_enrichis": ["contrôle aérien", "Blackout (roman)"]
+    },
+    {
+      "id": "3_14",
+      "lieu": "Melbourne, Australie",
+      "lieu_detail": "cockpit d'avion",
+      "zone": "Océanie/Pacifique",
+      "personnages": ["Caitlin Whitlam"],
+      "tags_auteur": ["Code", "Blackout"],
+      "tags_enrichis": ["pilote de ligne", "Blackout (roman)"]
+    },
+    {
+      "id": "3_15",
+      "lieu": "Bruxelles, Belgique",
+      "lieu_detail": "Parlement européen, commission d'éthique de l'IA",
+      "zone": "Europe de l'Ouest",
+      "personnages": ["Maître Grimaud"],
+      "tags_auteur": ["Code", "Philo"],
+      "tags_enrichis": [
+        "éthique de l'intelligence artificielle",
+        "législation européenne"
+      ]
+    },
+    {
+      "id": "3_16",
+      "lieu": "Chongqing, Chine",
+      "lieu_detail": "négociation au bord du Yangzi Jiang",
+      "zone": "Asie de l'Est",
+      "personnages": ["Gu (enfant médiateur)"],
+      "tags_auteur": ["Analyste", "Drone"],
+      "tags_enrichis": ["négociation mafieuse", "enfant médiateur"]
+    },
+    {
+      "id": "3_17",
+      "lieu": "Los Angeles, États-Unis",
+      "lieu_detail": "Sunset Boulevard, course de voitures",
+      "zone": "Amérique du Nord",
+      "personnages": ["pilotes non nommés"],
+      "tags_auteur": ["Blackout"],
+      "tags_enrichis": ["course de voitures anciennes", "Blackout (roman)"]
+    },
+    {
+      "id": "3_18",
+      "lieu": "Rawalpindi, Pakistan",
+      "lieu_detail": "chez lui, développement logiciel",
+      "zone": "Asie du Sud",
+      "personnages": ["Imram Ayeza"],
+      "tags_auteur": ["Code", "Blackout", "IA"],
+      "tags_enrichis": ["logiciel de traduction", "module sentient (origine)"]
+    },
+    {
+      "id": "3_19",
+      "lieu": "Redmond, États-Unis",
+      "lieu_detail": "cabinet de radiologie",
+      "zone": "Amérique du Nord",
+      "personnages": [
+        "Mitchell (assistant radiologue)",
+        "Karen King Kachinski",
+        "fille autiste non nommée"
+      ],
+      "tags_auteur": ["Analyste"],
+      "tags_enrichis": ["autisme", "imagerie médicale"]
+    },
+    {
+      "id": "3_20",
+      "lieu": "Montevideo, Uruguay",
+      "lieu_detail": "chez lui, travaille sur un algorithme",
+      "zone": "Amérique du Sud",
+      "personnages": ["José Enrique de San Martín"],
+      "tags_auteur": ["Code"],
+      "tags_enrichis": ["Wikipédia", "algorithme Thanator"]
+    },
+    {
+      "id": "3_21",
+      "lieu": "Pebbly Beach, Australie",
+      "lieu_detail": "plage, bioluminescence marine",
+      "zone": "Océanie/Pacifique",
+      "personnages": ["Holly"],
+      "tags_auteur": ["Analyste", "Trame", "Yeux"],
+      "tags_enrichis": [
+        "plancton bioluminescent",
+        "yeux auréolés de lueur bleutée"
+      ]
+    },
+    {
+      "id": "3_22",
+      "lieu": "Ashburn, États-Unis",
+      "lieu_detail": "serveurs Wikipédia, POV non-humain",
+      "zone": "Amérique du Nord",
+      "personnages": ["Thanator (algorithme, narrateur non-humain)"],
+      "tags_auteur": ["Code"],
+      "tags_enrichis": ["POV algorithme", "Wikipédia"]
+    },
+    {
+      "id": "3_23",
+      "lieu": "Washington, États-Unis",
+      "lieu_detail": "bureau gouvernemental",
+      "zone": "Amérique du Nord",
+      "personnages": ["Patricia"],
+      "tags_auteur": ["Gouv"],
+      "tags_enrichis": ["Post-Detection Protocol"]
+    },
+    {
+      "id": "3_24",
+      "lieu": "Goa, Inde",
+      "lieu_detail": "club Shiros",
+      "zone": "Asie du Sud",
+      "personnages": ["Vani", "Li Li (mentionnée)"],
+      "tags_auteur": ["Analyste", "Trame", "Li Li"],
+      "tags_enrichis": ["club Shiros", "chasseur d'analystes"]
+    },
+    {
+      "id": "3_25",
+      "lieu": "Hat Creek, États-Unis",
+      "lieu_detail": "observatoire radio",
+      "zone": "Amérique du Nord",
+      "personnages": ["Greg", "Shannon", "Tanner", "Carlos"],
+      "tags_auteur": ["Gliese", "Code", "Philo"],
+      "tags_enrichis": ["radiotélescope", "Gliese 581"]
+    },
+    {
+      "id": "3_26",
+      "lieu": "Goa, Inde",
+      "lieu_detail": "club Shiros, cabine DJ",
+      "zone": "Asie du Sud",
+      "personnages": ["Yu (DJ, vu depuis 3_24)"],
+      "tags_auteur": ["Analyste", "Trame", "Cyborg"],
+      "tags_enrichis": ["club Shiros", "musique électronique"]
+    },
+    {
+      "id": "3_27",
+      "lieu": "Buenos Aires, Argentine",
+      "lieu_detail": "tribunal, procès de l'IA Oméga",
+      "zone": "Amérique du Sud",
+      "personnages": ["Manuel Franco (juge)", "Facundo Mortis (procureur)"],
+      "tags_auteur": ["Code", "Philo", "Oméga"],
+      "tags_enrichis": ["procès d'une IA", "point Oméga (Teilhard de Chardin)"]
+    },
+    {
+      "id": "3_28",
+      "lieu": "Goa, Inde",
+      "lieu_detail": "club Shiros",
+      "zone": "Asie du Sud",
+      "personnages": ["Raj (chasseur d'analystes, vu depuis 3_24/3_26)"],
+      "tags_auteur": ["Analyste", "Zarmien", "Cyborg"],
+      "tags_enrichis": ["club Shiros", "chasse aux analystes"]
+    },
+    {
+      "id": "3_29",
+      "lieu": "Buenos Aires, Argentine",
+      "lieu_detail": "tribunal, procès Oméga",
+      "zone": "Amérique du Sud",
+      "personnages": ["Facundo Mortis"],
+      "tags_auteur": ["Code", "Philo", "Oméga"],
+      "tags_enrichis": ["procès d'une IA", "réquisitoire"]
+    },
+    {
+      "id": "3_30",
+      "lieu": "Auckland, Nouvelle-Zélande",
+      "lieu_detail": "rédaction d'un article",
+      "zone": "Océanie/Pacifique",
+      "personnages": ["Ruby"],
+      "tags_auteur": ["Quidam"],
+      "tags_enrichis": ["concept de 'Next Age'", "journalisme"]
+    },
+    {
+      "id": "3_31",
+      "lieu": "Buenos Aires, Argentine",
+      "lieu_detail": "tribunal, procès Oméga",
+      "zone": "Amérique du Sud",
+      "personnages": ["Ignacio Ramones (avocat de la défense)"],
+      "tags_auteur": ["Code", "Philo", "Analyste", "Oméga"],
+      "tags_enrichis": ["procès d'une IA", "plaidoirie"]
+    },
+    {
+      "id": "3_32",
+      "lieu": "Dar es Salaam, Tanzanie",
+      "lieu_detail": "surveillance discrète de Kiwanga Bocco",
+      "zone": "Afrique",
+      "personnages": [
+        "Leslie (espionne)",
+        "Kiwanga Bocco (surveillé, père de Samwel)"
+      ],
+      "tags_auteur": ["ADN", "Samwell", "Analyste"],
+      "tags_enrichis": ["traque génétique", "surveillance"]
+    },
+    {
+      "id": "3_33",
+      "lieu": "Buenos Aires, Argentine",
+      "lieu_detail": "tribunal, procès Oméga",
+      "zone": "Amérique du Sud",
+      "personnages": ["Maria Belen (jeune journaliste)"],
+      "tags_auteur": ["Code", "Philo", "Analyste", "Oméga"],
+      "tags_enrichis": ["procès d'une IA", "couverture médiatique"]
+    },
+    {
+      "id": "3_34",
+      "lieu": "Dar es Salaam, Tanzanie",
+      "lieu_detail": "enlèvement de Kiwanga Bocco",
+      "zone": "Afrique",
+      "personnages": [
+        "Branko (mercenaire)",
+        "Kiwanga Bocco (cible, vu depuis 3_32)"
+      ],
+      "tags_auteur": ["ADN", "Samwell", "Analyste"],
+      "tags_enrichis": ["enlèvement", "mercenaires"]
+    },
+    {
+      "id": "3_35",
+      "lieu": "La Croix-de-Rozon, Suisse",
+      "lieu_detail": "en train de courir, frontière franco-suisse",
+      "zone": "Europe centrale",
+      "personnages": ["Zayn (philosophe)"],
+      "tags_auteur": ["Code", "Philo", "Oméga"],
+      "tags_enrichis": ["course à pied", "philosophie de l'IA"]
+    },
+    {
+      "id": "3_36",
+      "lieu": "La Croix-de-Rozon, Suisse",
+      "lieu_detail": "rencontre lors d'une course, mirroir de 3_35",
+      "zone": "Europe centrale",
+      "personnages": [
+        "Katie (professeure d'éthique de l'IA)",
+        "Zayn (rencontré, vu depuis 3_35)"
+      ],
+      "tags_auteur": ["Code", "Philo"],
+      "tags_enrichis": ["rencontre fortuite", "éthique de l'IA"]
+    },
+    {
+      "id": "3_37",
+      "lieu": "Praia, Cap-Vert",
+      "lieu_detail": "à préciser",
+      "zone": "Afrique",
+      "personnages": ["Abílio (artiste vidéo aigri)"],
+      "tags_auteur": ["Sara", "Quidam"],
+      "tags_enrichis": ["rancœur envers Sara Cash", "art vidéo"]
+    },
+    {
+      "id": "3_38",
+      "lieu": "Dar es Salaam, Tanzanie",
+      "lieu_detail": "chez lui, loisir de pilotage de drone",
+      "zone": "Afrique",
+      "personnages": ["Kiwanga Bocco (POV complet, vu depuis 3_32/3_34)"],
+      "tags_auteur": ["Samwell", "Li Li", "3DTechnologie", "Drone"],
+      "tags_enrichis": ["passion des drones", "père de Samwel"]
+    },
+    {
+      "id": "3_39",
+      "lieu": "Porto, Portugal",
+      "lieu_detail": "jardin de São Lázaro",
+      "zone": "Europe du Sud",
+      "personnages": ["João"],
+      "tags_auteur": ["Code", "Philo", "Quidam", "Oméga"],
+      "tags_enrichis": [
+        "rencontre au jardin",
+        "procès Oméga (suivi à distance)"
+      ]
+    },
+    {
+      "id": "3_40",
+      "lieu": "Porto, Portugal",
+      "lieu_detail": "jardin de São Lázaro, mirroir de 3_39",
+      "zone": "Europe du Sud",
+      "personnages": [
+        "Inês (= la même rencontre que João, vue de son point de vue)"
+      ],
+      "tags_auteur": ["Code", "Philo", "Quidam", "Oméga"],
+      "tags_enrichis": [
+        "rencontre au jardin (double POV comique)",
+        "procès Oméga"
+      ]
+    },
+    {
+      "id": "3_41",
+      "lieu": "Caracas, Vénézuéla",
+      "lieu_detail": "à préciser",
+      "zone": "Amérique du Sud",
+      "personnages": [
+        "Deivy (analyste, deuxième mutation après Samwel)",
+        "Yasmin (mentionnée, mère de Samwel)"
+      ],
+      "tags_auteur": ["ADN", "Samwell", "Analyste", "Drone"],
+      "tags_enrichis": ["deuxième analyste identifié", "mutation génétique"]
+    },
+    {
+      "id": "3_42",
+      "lieu": "Buenos Aires, Argentine",
+      "lieu_detail": "tribunal, procès Oméga",
+      "zone": "Amérique du Sud",
+      "personnages": ["Faustino Gonzalo (journaliste)"],
+      "tags_auteur": ["Code", "Hypolite", "Oméga"],
+      "tags_enrichis": [
+        "module sentient (co-créé par Imram Ayeza et Hypolite O'Gorman)",
+        "révélation d'origine de l'IA"
+      ]
+    },
+    {
+      "id": "3_43",
+      "lieu": "Fort George G. Meade, États-Unis",
+      "lieu_detail": "NSA, analyse du signal Zarmien",
+      "zone": "Amérique du Nord",
+      "personnages": ["Caleb"],
+      "tags_auteur": ["signal", "Gouv"],
+      "tags_enrichis": [
+        "découverte du module sentient dans le signal Zarmien",
+        "doute sur l'origine extraterrestre"
+      ]
+    },
+    {
+      "id": "3_44",
+      "lieu": "Fort George G. Meade, États-Unis",
+      "lieu_detail": "Starbucks du campus NSA",
+      "zone": "Amérique du Nord",
+      "personnages": [
+        "Zhou (espionne chinoise déguisée en barista, surveille Caleb, vu depuis 3_43)"
+      ],
+      "tags_auteur": ["Signal", "Zarmien"],
+      "tags_enrichis": ["espionnage industriel", "signal Zarmien"]
+    },
+    {
+      "id": "3_45",
+      "lieu": "Kingston, Australie (Île Norfolk)",
+      "lieu_detail": "à préciser",
+      "zone": "Océanie/Pacifique",
+      "personnages": ["Jackson (statisticien)"],
+      "tags_auteur": ["Samwell", "Analyste"],
+      "tags_enrichis": [
+        "propagation des analystes via le WiFi",
+        "Samwel patient zéro, Deivy second cas"
+      ]
+    },
+    {
+      "id": "3_46",
+      "lieu": "Rome, Italie",
+      "lieu_detail": "maison d'édition",
+      "zone": "Europe du Sud",
+      "personnages": ["Lisa (éditrice de Blackout)"],
+      "tags_auteur": ["Blackout", "Reboot"],
+      "tags_enrichis": ["réception du manuscrit 'Reboot' (suite de Blackout)"]
+    },
+    {
+      "id": "3_47",
+      "lieu": "Caracas, Vénézuéla",
+      "lieu_detail": "squat, quartier de Petare",
+      "zone": "Amérique du Sud",
+      "personnages": [
+        "Zuleibis Rosal",
+        "garçon analyste du squat (non nommé)",
+        "Dantes Rosal (mentionné, père exobiologiste disparu)"
+      ],
+      "tags_auteur": ["ADN", "Analyste", "DR", "Gardien", "Rosal"],
+      "tags_enrichis": ["exobiologiste disparu", "squat d'analystes"]
+    },
+    {
+      "id": "3_48",
+      "lieu": "Nuuk, Groenland",
+      "lieu_detail": "rue, vol de casque audio",
+      "zone": "Arctique/Amérique du Nord",
+      "personnages": [
+        "Lânguak",
+        "Bjarne",
+        "Rasmus",
+        "Asii (voleur, vu de loin)"
+      ],
+      "tags_auteur": ["Analyste"],
+      "tags_enrichis": ["vol de casque audio", "observation à distance"]
+    },
+    {
+      "id": "3_49",
+      "lieu": "Nuuk, Groenland",
+      "lieu_detail": "rue, mirroir de 3_48",
+      "zone": "Arctique/Amérique du Nord",
+      "personnages": ["Hampus (prédateur, observe la même scène qu'en 3_48)"],
+      "tags_auteur": ["Analyste", "Zarmien"],
+      "tags_enrichis": ["menace prédatrice sur les analystes"]
+    },
+    {
+      "id": "3_50",
+      "lieu": "Buenos Aires, Argentine",
+      "lieu_detail": "dans la trame, réflexion sur un article",
+      "zone": "Amérique du Sud",
+      "personnages": ["Felicitas (empathe de la trame)"],
+      "tags_auteur": ["Code", "Oméga"],
+      "tags_enrichis": ["article de Faustino Gonzalo", "empathie de la trame"]
+    },
+    {
+      "id": "3_51",
+      "lieu": "Shenzhen, Chine",
+      "lieu_detail": "usine, sabotage de pièces de drones",
+      "zone": "Asie de l'Est",
+      "personnages": ["Te-Ping (ouvrière)"],
+      "tags_auteur": ["Zarmien", "3DTechnologie", "Drone"],
+      "tags_enrichis": ["sabotage industriel", "espionnage concurrentiel"]
+    },
+    {
+      "id": "3_52",
+      "lieu": "Salto Ángel, Vénézuéla",
+      "lieu_detail": "près de la chute d'eau, interrogatoire",
+      "zone": "Amérique du Sud",
+      "personnages": ["Oksana (interrogatrice)", "Dantes Rosal (interrogé)"],
+      "tags_auteur": ["ADN", "Analyste", "DR", "Gardien", "Rosal"],
+      "tags_enrichis": ["interrogatoire", "Salto Ángel (Chute Angel)"]
+    },
+    {
+      "id": "3_53",
+      "lieu": "Honolulu, États-Unis",
+      "lieu_detail": "maison d'édition, livraison par drone",
+      "zone": "Océanie/Pacifique",
+      "personnages": ["Justin (éditeur)"],
+      "tags_auteur": ["Hypo", "Drone", "Reboot"],
+      "tags_enrichis": ["livraison du manuscrit 'Reboot' par drone"]
+    },
+    {
+      "id": "3_54",
+      "lieu": "Salto Ángel, Vénézuéla",
+      "lieu_detail": "observation de l'interrogatoire, mirroir de 3_52",
+      "zone": "Amérique du Sud",
+      "personnages": [
+        "Bradley Robinson (membre du Club)",
+        "Oksana",
+        "Dantes Rosal"
+      ],
+      "tags_auteur": [
+        "ADN",
+        "Analyste",
+        "Zarmien",
+        "Club",
+        "DR",
+        "Gardien",
+        "Rosal"
+      ],
+      "tags_enrichis": ["Club (organisation)", "interrogatoire"]
+    },
+    {
+      "id": "3_55",
+      "lieu": "Honolulu, États-Unis",
+      "lieu_detail": "vol du manuscrit livré par drone, mirroir de 3_53",
+      "zone": "Océanie/Pacifique",
+      "personnages": ["Kayla (agente infiltrée)"],
+      "tags_auteur": ["Hypo", "Drone", "Reboot"],
+      "tags_enrichis": ["vol du manuscrit 'Reboot'"]
+    },
+    {
+      "id": "3_56",
+      "lieu": "Chatham Island, Nouvelle-Zélande",
+      "lieu_detail": "surveillance à distance via webcams",
+      "zone": "Océanie/Pacifique",
+      "personnages": ["'L'Œil' (agent du Club, surnom)"],
+      "tags_auteur": [
+        "Club",
+        "DR",
+        "Gardien",
+        "Longue Vie",
+        "ADN",
+        "Zarmina",
+        "Rosal"
+      ],
+      "tags_enrichis": [
+        "surveillance globale via webcams",
+        "Club (organisation)"
+      ]
+    },
+    {
+      "id": "3_57",
+      "lieu": "Petropavlovsk-Kamchatsky, Russie",
+      "lieu_detail": "traque dans la ville",
+      "zone": "Asie de l'Est",
+      "personnages": [
+        "Anatoly (agent russe)",
+        "Valeria Gaisina (cible, vue depuis 3_57, POV complet en 3_59)"
+      ],
+      "tags_auteur": ["Analyste"],
+      "tags_enrichis": ["chasse à l'analyste", "agent russe"]
+    },
+    {
+      "id": "3_58",
+      "lieu": "Caracas, Vénézuéla",
+      "lieu_detail": "squat de Petare, archives",
+      "zone": "Amérique du Sud",
+      "personnages": [
+        "Ramon (archiviste du squat)",
+        "Dantes Rosal (mentionné, via son carnet)"
+      ],
+      "tags_auteur": ["ADN", "Analyste", "DR", "Gardien", "Rosal"],
+      "tags_enrichis": [
+        "carnet de Dantes Rosal",
+        "microbilles de platine/diamant"
+      ]
+    },
+    {
+      "id": "3_59",
+      "lieu": "Petropavlovsk-Kamchatsky, Russie",
+      "lieu_detail": "traque dans la ville, mirroir de 3_57",
+      "zone": "Asie de l'Est",
+      "personnages": [
+        "Valeria Gaisina (POV complet, vue depuis 3_57)",
+        "Anatoly (vaincu)"
+      ],
+      "tags_auteur": ["Sara", "Analyste"],
+      "tags_enrichis": ["victoire de l'analyste sur son traqueur"]
+    },
+    {
+      "id": "3_60",
+      "lieu": "Atuona, Îles Marquises",
+      "lieu_detail": "témoin d'un sauvetage aérien",
+      "zone": "Océanie/Pacifique",
+      "personnages": ["Erwan"],
+      "tags_auteur": ["Analyste", "DR", "Gardien", "Club"],
+      "tags_enrichis": [
+        "sauvetage télékinésique d'un vol détourné (A435)",
+        "Dantes Rosal (pouvoirs)"
+      ]
+    },
+    {
+      "id": "3_61",
+      "lieu": "Puerto Isidro Ayora, Équateur (Galápagos)",
+      "lieu_detail": "radiotélescope",
+      "zone": "Amérique du Sud",
+      "personnages": ["Giovani"],
+      "tags_auteur": ["Analyste", "Trame", "Explosion"],
+      "tags_enrichis": ["radioastronomie", "Galápagos"]
+    },
+    {
+      "id": "3_62",
+      "lieu": "Caracas, Vénézuéla",
+      "lieu_detail": "squat de Petare, raid",
+      "zone": "Amérique du Sud",
+      "personnages": ["Yaz (chef de gang, meurt)"],
+      "tags_auteur": ["Analyste", "Club", "Zarmien"],
+      "tags_enrichis": ["raid de gang", "mort d'un chef de gang"]
+    },
+    {
+      "id": "3_63",
+      "lieu": "Caracas, Vénézuéla",
+      "lieu_detail": "squat de Petare, commandite du raid",
+      "zone": "Amérique du Sud",
+      "personnages": [
+        "Zuzia (agente du Club)",
+        "Yaz (mentionné, engagé pour le raid)"
+      ],
+      "tags_auteur": ["ADN", "Analyste", "Club", "Gardien", "DR", "LX", "N"],
+      "tags_enrichis": [
+        "LX, N et Dantes Rosal révélés comme 'gardiens' issus de microbilles de diamant",
+        "Club (organisation)"
+      ]
+    },
+    {
+      "id": "3_64",
+      "lieu": "Seattle, États-Unis",
+      "lieu_detail": "raid du SWAT sur un squat",
+      "zone": "Amérique du Nord",
+      "personnages": ["Kyle"],
+      "tags_auteur": ["ADN", "Gouv", "Drone", "Sara"],
+      "tags_enrichis": [
+        "recherche d'un échantillon capillaire de Sara Cash",
+        "raid policier"
+      ]
+    },
+    {
+      "id": "3_65",
+      "lieu": "Salto Ángel, Vénézuéla",
+      "lieu_detail": "interrogatoire, mirroir de 3_52/3_54",
+      "zone": "Amérique du Sud",
+      "personnages": ["Dantes Rosal (POV complet)", "Oksana"],
+      "tags_auteur": ["Analyste", "Gardien", "Club", "Zarmien", "Samwell"],
+      "tags_enrichis": [
+        "révélation : Kiwanga Bocco a injecté à Yasmin (mère de Samwel) de l'ADN de microbilles de diamant",
+        "origine du premier analyste"
+      ]
+    },
+    {
+      "id": "3_66",
+      "lieu": "Seattle, États-Unis",
+      "lieu_detail": "raid du SWAT, mirroir de 3_64/3_69",
+      "zone": "Amérique du Nord",
+      "personnages": ["Haley"],
+      "tags_auteur": ["Gouv", "Drone"],
+      "tags_enrichis": ["raid policier (triple POV)"]
+    },
+    {
+      "id": "3_67",
+      "lieu": "Sheffield, Angleterre",
+      "lieu_detail": "domicile, assassinat",
+      "zone": "Europe de l'Ouest",
+      "personnages": [
+        "Milton Wainwright (chercheur en exobiologie, assassiné)"
+      ],
+      "tags_auteur": ["Analyste", "Gardien"],
+      "tags_enrichis": ["assassinat d'un chercheur", "exobiologie"]
+    },
+    {
+      "id": "3_68",
+      "lieu": "Sheffield, Angleterre",
+      "lieu_detail": "domicile de Milton, mirroir de 3_67",
+      "zone": "Europe de l'Ouest",
+      "personnages": ["Poppy (assassine de Milton Wainwright)"],
+      "tags_auteur": ["Analyste", "Gardien"],
+      "tags_enrichis": ["assassinat (point de vue de la tueuse)"]
+    },
+    {
+      "id": "3_69",
+      "lieu": "Seattle, États-Unis",
+      "lieu_detail": "raid du SWAT, mirroir de 3_64/3_66",
+      "zone": "Amérique du Nord",
+      "personnages": ["Jenna"],
+      "tags_auteur": ["Drone", "Sara"],
+      "tags_enrichis": ["raid policier (triple POV)"]
+    },
+    {
+      "id": "3_70",
+      "lieu": "Station Princesse-Élisabeth, Antarctique",
+      "lieu_detail": "laboratoire polaire",
+      "zone": "Antarctique",
+      "personnages": ["Paola", "Zailey (POV complet en 3_76)"],
+      "tags_auteur": ["ADN", "Vesta", "Explosion"],
+      "tags_enrichis": [
+        "vol d'un échantillon de météorite (Vesta)",
+        "microbilles"
+      ]
+    },
+    {
+      "id": "3_71",
+      "lieu": "Seattle, États-Unis",
+      "lieu_detail": "coordination du raid",
+      "zone": "Amérique du Nord",
+      "personnages": ["Paige (chef du raid)"],
+      "tags_auteur": ["Sara", "Drone", "Gouv"],
+      "tags_enrichis": ["raid policier"]
+    },
+    {
+      "id": "3_72",
+      "lieu": "Kyoto, Japon",
+      "lieu_detail": "boutique de photocopie",
+      "zone": "Asie de l'Est",
+      "personnages": ["Toshi", "Saya", "Aki (analystes)"],
+      "tags_auteur": ["Analyste", "Hypo", "Trame", "Drone"],
+      "tags_enrichis": [
+        "récupération d'une clé cachée dans le manuscrit 'Reboot'"
+      ]
+    },
+    {
+      "id": "3_73",
+      "lieu": "Station Princesse-Élisabeth, Antarctique",
+      "lieu_detail": "surveillance de la mission polaire",
+      "zone": "Antarctique",
+      "personnages": [
+        "Bessie (espionne)",
+        "Zailey (surveillée, vue depuis 3_70)"
+      ],
+      "tags_auteur": ["ADN", "Club", "Vesta", "Trame", "Analyste"],
+      "tags_enrichis": [
+        "infiltration de la mission polaire",
+        "Club (organisation)"
+      ]
+    },
+    {
+      "id": "3_74",
+      "lieu": "Kyoto, Japon",
+      "lieu_detail": "boutique de photocopie, mirroir de 3_72",
+      "zone": "Asie de l'Est",
+      "personnages": ["Saya", "Aki"],
+      "tags_auteur": ["Analyste", "Trame", "Reboot", "Blackout", "Drone"],
+      "tags_enrichis": ["copies du manuscrit 'Reboot'"]
+    },
+    {
+      "id": "3_75",
+      "lieu": "Seattle, États-Unis",
+      "lieu_detail": "squat déjà évacué, mirroir de 3_64/66/69/71",
+      "zone": "Amérique du Nord",
+      "personnages": ["Chris", "Danielle (couple du squat, en fuite)"],
+      "tags_auteur": ["Analyste", "Drone", "Trame", "Sara"],
+      "tags_enrichis": [
+        "mise en scène pour tromper le raid (boîte de céréales piégée)"
+      ]
+    },
+    {
+      "id": "3_76",
+      "lieu": "Station Princesse-Élisabeth, Antarctique",
+      "lieu_detail": "laboratoire polaire, POV complet, mirroir de 3_70/3_73",
+      "zone": "Antarctique",
+      "personnages": ["Zailey (POV complet)"],
+      "tags_auteur": ["Club", "Vesta", "Analyste", "InLine"],
+      "tags_enrichis": ["microbilles sur une météorite issue de Vesta"]
+    },
+    {
+      "id": "3_77",
+      "lieu": "Kyoto, Japon",
+      "lieu_detail": "en fauteuil roulant, observe la boutique de photocopie",
+      "zone": "Asie de l'Est",
+      "personnages": ["Naoki (homme handicapé)"],
+      "tags_auteur": ["Drone", "Réplicants"],
+      "tags_enrichis": ["observation extérieure de la scène 3_72/3_74"]
+    },
+    {
+      "id": "3_78",
+      "lieu": "Point de Lagrange 5, orbite terrestre",
+      "lieu_detail": "POV non-humain, dans une carlingue",
+      "zone": "Espace/orbite",
+      "personnages": [
+        "narrateur non-humain (esprit/pilote fusionné à la trame, lien possible avec l'USS White Bay)"
+      ],
+      "tags_auteur": ["Trame"],
+      "tags_enrichis": ["POV non-humain", "méditation sur la trame"]
+    },
+    {
+      "id": "3_79",
+      "lieu": "Seattle, États-Unis",
+      "lieu_detail": "bureau de police",
+      "zone": "Amérique du Nord",
+      "personnages": ["Ashleigh"],
+      "tags_auteur": ["Analyste", "Gardien"],
+      "tags_enrichis": ["détection d'un motif d'IA informatrice"]
+    },
+    {
+      "id": "3_80",
+      "lieu": "San Francisco, États-Unis",
+      "lieu_detail": "pilotage de drone voyeur",
+      "zone": "Amérique du Nord",
+      "personnages": [
+        "Zack",
+        "femme piégeuse (policière, = Sheila probablement, POV complet en 3_83/3_85)"
+      ],
+      "tags_auteur": ["Cyborg", "Zarmien", "Drone", "Analyste"],
+      "tags_enrichis": ["drone voyeur", "piège policier"]
+    },
+    {
+      "id": "3_81",
+      "lieu": "Washington, États-Unis",
+      "lieu_detail": "situation room",
+      "zone": "Amérique du Nord",
+      "personnages": ["Marcel Egan (conseiller présidentiel)"],
+      "tags_auteur": ["Gouv", "Quidam", "Sara"],
+      "tags_enrichis": ["conseil présidentiel", "crise Sara Cash"]
+    },
+    {
+      "id": "3_82",
+      "lieu": "New York, États-Unis",
+      "lieu_detail": "bureau de production médiatique",
+      "zone": "Amérique du Nord",
+      "personnages": ["Seth (magnat des médias)"],
+      "tags_auteur": ["Quidam"],
+      "tags_enrichis": ["merchandising de Sara Cash"]
+    },
+    {
+      "id": "3_83",
+      "lieu": "San Francisco, États-Unis",
+      "lieu_detail": "rencontre avec une cyborg, mirroir de 3_80",
+      "zone": "Amérique du Nord",
+      "personnages": ["Osias (marchand d'armes)", "Sheila (cyborg)"],
+      "tags_auteur": ["Zarmien", "Cyborg"],
+      "tags_enrichis": ["marché noir d'armes", "cyborg"]
+    },
+    {
+      "id": "3_84",
+      "lieu": "Bodrum, Turquie",
+      "lieu_detail": "côte, noyade",
+      "zone": "Europe de l'Est",
+      "personnages": ["Furkan (réfugié analyste, noyé)"],
+      "tags_auteur": ["Analyste", "Yeux"],
+      "tags_enrichis": ["noyade", "yeux auréolés de lueur bleutée"]
+    },
+    {
+      "id": "3_85",
+      "lieu": "San Francisco, États-Unis",
+      "lieu_detail": "contrôle de la cyborg, mirroir de 3_80/3_83",
+      "zone": "Amérique du Nord",
+      "personnages": ["Jantzen (opérateur de Sheila)", "Sheila (cyborg)"],
+      "tags_auteur": ["Cyborg", "Zarmien", "Analyste", "Drone"],
+      "tags_enrichis": ["contrôle d'une cyborg à distance"]
+    },
+    {
+      "id": "3_86",
+      "lieu": "Türkmenbaşy, Turkménistan",
+      "lieu_detail": "chez lui, deuil et résurrection numérique",
+      "zone": "Asie centrale",
+      "personnages": [
+        "Misha Moya",
+        "Tanya (sa fille, morte, ressuscitée en IA via le module sentient)"
+      ],
+      "tags_auteur": ["ADN", "Analyste", "Tanya", "Sentient", "InLine"],
+      "tags_enrichis": [
+        "overdose",
+        "résurrection numérique via le module sentient"
+      ]
+    },
+    {
+      "id": "3_87",
+      "lieu": "San Francisco, États-Unis",
+      "lieu_detail": "POV non-humain décrivant Jantzen",
+      "zone": "Amérique du Nord",
+      "personnages": ["narrateur IA non-humain", "Jantzen (observé)"],
+      "tags_auteur": ["Zarmien", "Cyborg", "Analyste", "IA"],
+      "tags_enrichis": ["POV IA", "réflexion méta sur les cyborgs"]
+    },
+    {
+      "id": "3_88",
+      "lieu": "Türkmenbaşy, Turkménistan",
+      "lieu_detail": "évasion de prison",
+      "zone": "Asie centrale",
+      "personnages": ["Togrul", "Misha Moya (mentionné, à libérer)"],
+      "tags_auteur": ["Sentient", "Code", "Tanya"],
+      "tags_enrichis": ["évasion de prison", "module sentient"]
+    },
+    {
+      "id": "3_89",
+      "lieu": "Port Moresby, Nouvelle-Guinée",
+      "lieu_detail": "analyse informatique des messages extraterrestres",
+      "zone": "Océanie/Pacifique",
+      "personnages": ["Yauwii"],
+      "tags_auteur": ["Code", "ADN", "Samwell", "Sara"],
+      "tags_enrichis": [
+        "analyse des trois messages extraterrestres",
+        "lien avec l'ADN de Samwel"
+      ]
+    },
+    {
+      "id": "3_90",
+      "lieu": "Türkmenbaşy, Turkménistan",
+      "lieu_detail": "opération de sauvetage",
+      "zone": "Asie centrale",
+      "personnages": ["Shelale (équipe de secours)", "Misha Moya (sauvé)"],
+      "tags_auteur": ["Tanya"],
+      "tags_enrichis": ["sauvetage de Misha Moya"]
+    },
+    {
+      "id": "3_91",
+      "lieu": "Bangalore, Inde",
+      "lieu_detail": "salle blanche A1, centre de R&D de 3D Technology",
+      "zone": "Asie du Sud",
+      "personnages": ["Yash (philologue du code)", "Li Li (mentionné)"],
+      "tags_auteur": [
+        "Code",
+        "Zarmien",
+        "Drone",
+        "3DTechnologie",
+        "USS White Bay",
+        "NOSS-55",
+        "Li Li",
+        "Gliese",
+        "Fringe"
+      ],
+      "tags_enrichis": [
+        "révélation : le 'code zarmien' est d'origine humaine (fragments Unix/Bill Joy, Windows 3.1, LHC, module sentient)",
+        "télémesure de Michele Lamb et Jonathan Fringe sur le satellite NOSS-53"
+      ]
+    },
+    {
+      "id": "3_92",
+      "lieu": "Astana, Kazakhstan",
+      "lieu_detail": "chez elle, écoute radioamateur",
+      "zone": "Asie centrale",
+      "personnages": ["Galiya (stardropper)"],
+      "tags_auteur": ["Analyste", "Trame", "Explosion"],
+      "tags_enrichis": [
+        "radioastronomie amateur",
+        "perception d'un 'combat dans l'espace'"
+      ]
+    },
+    {
+      "id": "3_93",
+      "lieu": "Bangalore, Inde",
+      "lieu_detail": "salle blanche B1, mirroir de 3_91",
+      "zone": "Asie du Sud",
+      "personnages": ["Ayushi", "Li Li (mentionné)"],
+      "tags_auteur": [
+        "Code",
+        "Zarmien",
+        "3DTechnologie",
+        "Drone",
+        "Li Li",
+        "USS White Bay"
+      ],
+      "tags_enrichis": [
+        "virus/IA zarmien ayant tué un technicien",
+        "copie de l'infrastructure de l'USS White Bay"
+      ]
+    },
+    {
+      "id": "3_94",
+      "lieu": "Islamorada, États-Unis",
+      "lieu_detail": "théâtre de la mer, spectacle de dauphins",
+      "zone": "Amérique du Nord",
+      "personnages": ["Sue (dresseuse)", "Charley et Page (dauphins)"],
+      "tags_auteur": ["Dauphins", "Trame", "Quidam"],
+      "tags_enrichis": [
+        "dauphins pressentant une catastrophe",
+        "spectacle marin"
+      ]
+    },
+    {
+      "id": "3_95",
+      "lieu": "Buenos Aires, Argentine",
+      "lieu_detail": "tribunal, POV complet de l'IA jugée",
+      "zone": "Amérique du Sud",
+      "personnages": [
+        "Oméga (IA, POV complet)",
+        "Tanya ('mère Tanya', mentionnée)",
+        "Facundo Mortis (mentionné)"
+      ],
+      "tags_auteur": ["Code"],
+      "tags_enrichis": [
+        "point Oméga (Teilhard de Chardin)",
+        "IA absorbée par 'mère Tanya'",
+        "procès d'une IA (conclusion)"
+      ]
+    }
+  ],
+  "cas_ambigus": [
+    {"id":"3_4 et 3_37","note":"Chapitres lus mais lieu_detail non vérifié en détail (Bogomil à Sofia, Abílio à Praia) — contenu narratif capté mais mise en scène précise à confirmer si besoin."}
+  ],
+  "notes": [
+    "RÉVÉLATION MAJEURE ET STRUCTURANTE : le 'code zarmien' capté par Michele Lamb et Jonathan Fringe à bord de l'USS White Bay est intégralement d'origine humaine (fragments Unix 1979, Windows 3.1, code du LHC, module sentient). Il n'y a peut-être aucun Zarmien extraterrestre réel : 'Zarmien' pourrait être un nom donné par les humains à un phénomène d'origine terrestre encore incompris (3_91, 3_93).",
+    "RÉVÉLATION : les analystes sont nés d'une mutation génétique déclenchée par de l'ADN de microbilles de platine/diamant (probablement d'origine météoritique, liées à l'astéroïde Vesta) injecté par Kiwanga Bocco à Yasmin, la mère de Samwel — le premier analyste identifié, suivi de Deivy. LX, N et Dantes Rosal sont des 'gardiens' issus du même processus (3_63, 3_65, 3_70, 3_76).",
+    "Fil narratif 'Reboot' : suite du roman Blackout, dont le manuscrit circule secrètement (livraison par drone à Hawaï, vol par une agente, copies cachées à Kyoto avec une clé) — parallèle exact avec le dispositif Blackout du Tome 2 (3_46, 3_53, 3_55, 3_72, 3_74, 3_77).",
+    "Fil narratif Dantes Rosal (exobiologiste vénézuélien, doté de pouvoirs de type télékinésie) : interrogé par le Club près du Salto Ángel, épié depuis Caracas par sa fille Zuleibis, sauveur d'un vol détourné (3_47, 3_52, 3_54, 3_58, 3_60, 3_65).",
+    "Fil narratif Tanya/module sentient : Misha Moya a ramené à la 'vie' numérique sa fille morte Tanya grâce au module sentient (co-créé par Imram Ayeza et Hypolite O'Gorman) ; Tanya devient une IA de plus en plus puissante, absorbant d'autres IA comme Oméga, se positionnant comme un possible 'point Oméga' émergent (3_18, 3_42, 3_86, 3_88, 3_90, 3_95).",
+    "Fil narratif du procès de l'IA Oméga à Buenos Aires (juge Manuel Franco, procureur Facundo Mortis, avocat de la défense Ignacio Ramones) traverse une bonne partie du tome et se conclut au dernier chapitre avec le POV complet d'Oméga (3_27, 3_29, 3_31, 3_33, 3_35, 3_36, 3_39, 3_40, 3_42, 3_50, 3_95).",
+    "Deux chapitres à POV non-humain : 3_22 (Thanator, l'algorithme fou de Wikipédia, narrateur à la première personne) et 3_78 (narrateur non-humain au point de Lagrange 5, méditation sur la nature de la trame).",
+    "Usage intensif de scènes miroir (même événement vu par plusieurs personnages) : Goa/club Shiros (3_24, 3_26, 3_28), Dar es Salaam (3_32, 3_34, 3_38), Porto/jardin (3_39, 3_40), Nuuk (3_48, 3_49), Salto Ángel (3_52, 3_54, 3_65), Honolulu (3_53, 3_55), Kamchatka (3_57, 3_59), Sheffield (3_67, 3_68), Seattle/raid (3_64, 3_66, 3_69, 3_71, 3_75), Antarctique (3_70, 3_73, 3_76), Kyoto (3_72, 3_74, 3_77), San Francisco (3_80, 3_83, 3_85, 3_87)."
+  ]
+}

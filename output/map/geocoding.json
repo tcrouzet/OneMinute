@@ -1,0 +1,1472 @@
+{
+  "akademgorodok, russie": {
+    "type": "earth",
+    "lat": 54.8519,
+    "lon": 83.106,
+    "source": "manual_seed",
+    "query": "Akademgorodok, Russie"
+  },
+  "alexandrie, égypte": {
+    "type": "earth",
+    "lat": 31.2001,
+    "lon": 29.9187,
+    "source": "manual_seed",
+    "query": "Alexandrie, Égypte"
+  },
+  "alger, algérie": {
+    "type": "earth",
+    "lat": 36.7538,
+    "lon": 3.0588,
+    "source": "manual_seed",
+    "query": "Alger, Algérie"
+  },
+  "alto lucero, mexique": {
+    "type": "earth",
+    "lat": 19.6167,
+    "lon": -96.7333,
+    "source": "manual_seed",
+    "query": "Alto Lucero, Mexique"
+  },
+  "amsterdam, pays-bas": {
+    "type": "earth",
+    "lat": 52.3676,
+    "lon": 4.9041,
+    "source": "manual_seed",
+    "query": "Amsterdam, Pays-Bas"
+  },
+  "anchorage, états-unis": {
+    "type": "earth",
+    "lat": 61.2181,
+    "lon": -149.9003,
+    "source": "manual_seed",
+    "query": "Anchorage, États-Unis"
+  },
+  "annaba, algérie": {
+    "type": "earth",
+    "lat": 36.9,
+    "lon": 7.7667,
+    "source": "manual_seed",
+    "query": "Annaba, Algérie"
+  },
+  "aogashima, japon": {
+    "type": "earth",
+    "lat": 32.458,
+    "lon": 139.767,
+    "source": "manual_seed",
+    "query": "Aogashima, Japon"
+  },
+  "archipel des gambier, polynésie française": {
+    "type": "earth",
+    "lat": -23.1333,
+    "lon": -134.9667,
+    "source": "manual_seed",
+    "query": "Archipel des Gambier, Polynésie française"
+  },
+  "arecibo, porto rico": {
+    "type": "earth",
+    "lat": 18.4724,
+    "lon": -66.7157,
+    "source": "manual_seed",
+    "query": "Arecibo, Porto Rico"
+  },
+  "arlington county, états-unis": {
+    "type": "earth",
+    "lat": 38.8816,
+    "lon": -77.091,
+    "source": "manual_seed",
+    "query": "Arlington County, États-Unis"
+  },
+  "artarmon, australie": {
+    "type": "earth",
+    "lat": -33.8089,
+    "lon": 151.1831,
+    "source": "manual_seed",
+    "query": "Artarmon, Australie"
+  },
+  "ashburn, états-unis": {
+    "type": "earth",
+    "lat": 39.0438,
+    "lon": -77.4874,
+    "source": "manual_seed",
+    "query": "Ashburn, États-Unis"
+  },
+  "astana, kazakhstan": {
+    "type": "earth",
+    "lat": 51.1694,
+    "lon": 71.4491,
+    "source": "manual_seed",
+    "query": "Astana, Kazakhstan"
+  },
+  "atacama, chili": {
+    "type": "earth",
+    "lat": -23.8634,
+    "lon": -69.1328,
+    "source": "manual_seed",
+    "query": "Atacama, Chili"
+  },
+  "atlanta, états-unis": {
+    "type": "earth",
+    "lat": 33.749,
+    "lon": -84.388,
+    "source": "manual_seed",
+    "query": "Atlanta, États-Unis"
+  },
+  "atuona, îles marquises": {
+    "type": "earth",
+    "lat": -9.8033,
+    "lon": -139.042,
+    "source": "manual_seed",
+    "query": "Atuona, Îles Marquises"
+  },
+  "auckland, nouvelle-zélande": {
+    "type": "earth",
+    "lat": -36.8485,
+    "lon": 174.7633,
+    "source": "manual_seed",
+    "query": "Auckland, Nouvelle-Zélande"
+  },
+  "bangalore, inde": {
+    "type": "earth",
+    "lat": 12.9716,
+    "lon": 77.5946,
+    "source": "manual_seed",
+    "query": "Bangalore, Inde"
+  },
+  "bangkok, thaïlande": {
+    "type": "earth",
+    "lat": 13.7563,
+    "lon": 100.5018,
+    "source": "manual_seed",
+    "query": "Bangkok, Thaïlande"
+  },
+  "barcelone, espagne": {
+    "type": "earth",
+    "lat": 41.3874,
+    "lon": 2.1686,
+    "source": "manual_seed",
+    "query": "Barcelone, Espagne"
+  },
+  "base dumont d'urville, antarctique": {
+    "type": "earth",
+    "lat": -66.663,
+    "lon": 140.001,
+    "source": "manual_seed",
+    "query": "Base Dumont d'Urville, Antarctique"
+  },
+  "base réplicants, vesta": {
+    "type": "space",
+    "lat": null,
+    "lon": null,
+    "source": "not_geocoded",
+    "reason": "Lieu non terrestre : Base réplicants, Vesta"
+  },
+  "berlin, allemagne": {
+    "type": "earth",
+    "lat": 52.52,
+    "lon": 13.405,
+    "source": "manual_seed",
+    "query": "Berlin, Allemagne"
+  },
+  "bodrum, turquie": {
+    "type": "earth",
+    "lat": 37.0344,
+    "lon": 27.4305,
+    "source": "manual_seed",
+    "query": "Bodrum, Turquie"
+  },
+  "bordeaux, france": {
+    "type": "earth",
+    "lat": 44.8378,
+    "lon": -0.5792,
+    "source": "manual_seed",
+    "query": "Bordeaux, France"
+  },
+  "bruxelles, belgique": {
+    "type": "earth",
+    "lat": 50.8503,
+    "lon": 4.3517,
+    "source": "manual_seed",
+    "query": "Bruxelles, Belgique"
+  },
+  "budapest, hongrie": {
+    "type": "earth",
+    "lat": 47.4979,
+    "lon": 19.0402,
+    "source": "manual_seed",
+    "query": "Budapest, Hongrie"
+  },
+  "buenos aires, argentine": {
+    "type": "earth",
+    "lat": -34.6037,
+    "lon": -58.3816,
+    "source": "manual_seed",
+    "query": "Buenos Aires, Argentine"
+  },
+  "bugarach, france": {
+    "type": "earth",
+    "lat": 42.8758,
+    "lon": 2.3506,
+    "source": "manual_seed",
+    "query": "Bugarach, France"
+  },
+  "bureh beach, sierra leone": {
+    "type": "earth",
+    "lat": 8.218,
+    "lon": -13.155,
+    "source": "manual_seed",
+    "query": "Bureh Beach, Sierra Leone"
+  },
+  "byurakan, arménie": {
+    "type": "earth",
+    "lat": 40.3306,
+    "lon": 44.2733,
+    "source": "manual_seed",
+    "query": "Byurakan, Arménie"
+  },
+  "cern, suisse": {
+    "type": "earth",
+    "lat": 46.2339,
+    "lon": 6.0553,
+    "source": "manual_seed",
+    "query": "CERN, Suisse"
+  },
+  "cambridge, états-unis": {
+    "type": "earth",
+    "lat": 42.3736,
+    "lon": -71.1097,
+    "source": "manual_seed",
+    "query": "Cambridge, États-Unis"
+  },
+  "cape town, afrique du sud": {
+    "type": "earth",
+    "lat": -33.9249,
+    "lon": 18.4241,
+    "source": "manual_seed",
+    "query": "Cape Town, Afrique du Sud"
+  },
+  "caracas, vénézuéla": {
+    "type": "earth",
+    "lat": 10.4806,
+    "lon": -66.9036,
+    "source": "manual_seed",
+    "query": "Caracas, Vénézuéla"
+  },
+  "castel gandolfo, italie": {
+    "type": "earth",
+    "lat": 41.7469,
+    "lon": 12.6503,
+    "source": "manual_seed",
+    "query": "Castel Gandolfo, Italie"
+  },
+  "chatham island, nouvelle-zélande": {
+    "type": "earth",
+    "lat": -43.95,
+    "lon": -176.55,
+    "source": "manual_seed",
+    "query": "Chatham Island, Nouvelle-Zélande"
+  },
+  "chobar, népal": {
+    "type": "earth",
+    "lat": 27.6583,
+    "lon": 85.2917,
+    "source": "manual_seed",
+    "query": "Chobar, Népal"
+  },
+  "chongjin, corée du nord": {
+    "type": "earth",
+    "lat": 41.7956,
+    "lon": 129.7758,
+    "source": "manual_seed",
+    "query": "Chongjin, Corée du Nord"
+  },
+  "chongqing, chine": {
+    "type": "earth",
+    "lat": 29.563,
+    "lon": 106.5516,
+    "source": "manual_seed",
+    "query": "Chongqing, Chine"
+  },
+  "christmas island, kiribati": {
+    "type": "earth",
+    "lat": 1.8721,
+    "lon": -157.4278,
+    "source": "manual_seed",
+    "query": "Christmas Island, Kiribati"
+  },
+  "colobraro, italie": {
+    "type": "earth",
+    "lat": 40.188,
+    "lon": 16.424,
+    "source": "manual_seed",
+    "query": "Colobraro, Italie"
+  },
+  "copenhague, danemark": {
+    "type": "earth",
+    "lat": 55.6761,
+    "lon": 12.5683,
+    "source": "manual_seed",
+    "query": "Copenhague, Danemark"
+  },
+  "cristal bay, états-unis": {
+    "type": "earth",
+    "lat": 39.226,
+    "lon": -120.006,
+    "source": "manual_seed",
+    "query": "Cristal Bay, États-Unis"
+  },
+  "dar es salaam, tanzanie": {
+    "type": "earth",
+    "lat": -6.7924,
+    "lon": 39.2083,
+    "source": "manual_seed",
+    "query": "Dar es Salaam, Tanzanie"
+  },
+  "diego garcia, royaume-uni": {
+    "type": "earth",
+    "lat": -7.3133,
+    "lon": 72.4111,
+    "source": "manual_seed",
+    "query": "Diego Garcia, Royaume-Uni"
+  },
+  "discovery island, bahamas": {
+    "type": "earth",
+    "lat": 25.03,
+    "lon": -77.4,
+    "source": "manual_seed",
+    "query": "Discovery Island, Bahamas"
+  },
+  "djibouti, djibouti": {
+    "type": "earth",
+    "lat": 11.5721,
+    "lon": 43.1456,
+    "source": "manual_seed",
+    "query": "Djibouti, Djibouti"
+  },
+  "errázuriz, chili": {
+    "type": "earth",
+    "lat": -32.9167,
+    "lon": -70.5667,
+    "source": "manual_seed",
+    "query": "Errázuriz, Chili"
+  },
+  "essaouira, maroc": {
+    "type": "earth",
+    "lat": 31.5085,
+    "lon": -9.7595,
+    "source": "manual_seed",
+    "query": "Essaouira, Maroc"
+  },
+  "florac, france": {
+    "type": "earth",
+    "lat": 44.3253,
+    "lon": 3.5933,
+    "source": "manual_seed",
+    "query": "Florac, France"
+  },
+  "fort george g. maeade, états-unis": {
+    "type": "earth",
+    "lat": 39.1084,
+    "lon": -76.7432,
+    "source": "manual_seed",
+    "query": "Fort George G. Maeade, États-Unis"
+  },
+  "fort george g. meade, états-unis": {
+    "type": "earth",
+    "lat": 39.1084,
+    "lon": -76.7432,
+    "source": "manual_seed",
+    "query": "Fort George G. Meade, États-Unis"
+  },
+  "freetown, sierra leone": {
+    "type": "earth",
+    "lat": 8.4657,
+    "lon": -13.2317,
+    "source": "manual_seed",
+    "query": "Freetown, Sierra Leone"
+  },
+  "goa, inde": {
+    "type": "earth",
+    "lat": 15.2993,
+    "lon": 74.124,
+    "source": "manual_seed",
+    "query": "Goa, Inde"
+  },
+  "goheung, corée du sud": {
+    "type": "earth",
+    "lat": 34.6112,
+    "lon": 127.2847,
+    "source": "manual_seed",
+    "query": "Goheung, Corée du Sud"
+  },
+  "grozny, tchétchénie": {
+    "type": "earth",
+    "lat": 43.3178,
+    "lon": 45.6987,
+    "source": "manual_seed",
+    "query": "Grozny, Tchétchénie"
+  },
+  "hat creek, états-unis": {
+    "type": "earth",
+    "lat": 40.816,
+    "lon": -121.472,
+    "source": "manual_seed",
+    "query": "Hat Creek, États-Unis"
+  },
+  "haïfa, israël": {
+    "type": "earth",
+    "lat": 32.794,
+    "lon": 34.9896,
+    "source": "manual_seed",
+    "query": "Haïfa, Israël"
+  },
+  "heidelberg, allemagne": {
+    "type": "earth",
+    "lat": 49.3988,
+    "lon": 8.6724,
+    "source": "manual_seed",
+    "query": "Heidelberg, Allemagne"
+  },
+  "helsinki, finlande": {
+    "type": "earth",
+    "lat": 60.1699,
+    "lon": 24.9384,
+    "source": "manual_seed",
+    "query": "Helsinki, Finlande"
+  },
+  "hohhot, chine": {
+    "type": "earth",
+    "lat": 40.8426,
+    "lon": 111.7492,
+    "source": "manual_seed",
+    "query": "Hohhot, Chine"
+  },
+  "honolulu, états-unis": {
+    "type": "earth",
+    "lat": 21.3069,
+    "lon": -157.8583,
+    "source": "manual_seed",
+    "query": "Honolulu, États-Unis"
+  },
+  "houston, états-unis": {
+    "type": "earth",
+    "lat": 29.7604,
+    "lon": -95.3698,
+    "source": "manual_seed",
+    "query": "Houston, États-Unis"
+  },
+  "irbe lighthouse, lettonie": {
+    "type": "earth",
+    "lat": 57.756,
+    "lon": 21.722,
+    "source": "manual_seed",
+    "query": "Irbe lighthouse, Lettonie"
+  },
+  "islamorada, états-unis": {
+    "type": "earth",
+    "lat": 24.9243,
+    "lon": -80.6278,
+    "source": "manual_seed",
+    "query": "Islamorada, États-Unis"
+  },
+  "istanbul, turquie": {
+    "type": "earth",
+    "lat": 41.0082,
+    "lon": 28.9784,
+    "source": "manual_seed",
+    "query": "Istanbul, Turquie"
+  },
+  "jackson hole, états-unis": {
+    "type": "earth",
+    "lat": 43.4799,
+    "lon": -110.7624,
+    "source": "manual_seed",
+    "query": "Jackson Hole, États-Unis"
+  },
+  "johannesburg, afrique du sud": {
+    "type": "earth",
+    "lat": -26.2041,
+    "lon": 28.0473,
+    "source": "manual_seed",
+    "query": "Johannesburg, Afrique du Sud"
+  },
+  "jérusalem, israël": {
+    "type": "earth",
+    "lat": 31.7683,
+    "lon": 35.2137,
+    "source": "manual_seed",
+    "query": "Jérusalem, Israël"
+  },
+  "kaboul, afghanistan": {
+    "type": "earth",
+    "lat": 34.5553,
+    "lon": 69.2075,
+    "source": "manual_seed",
+    "query": "Kaboul, Afghanistan"
+  },
+  "karnak, égypte": {
+    "type": "earth",
+    "lat": 25.7188,
+    "lon": 32.6573,
+    "source": "manual_seed",
+    "query": "Karnak, Égypte"
+  },
+  "kasei vallis, mars": {
+    "type": "space",
+    "lat": null,
+    "lon": null,
+    "source": "not_geocoded",
+    "reason": "Lieu non terrestre : Kasei Vallis, Mars"
+  },
+  "kashgar, chine": {
+    "type": "earth",
+    "lat": 39.4704,
+    "lon": 75.9898,
+    "source": "manual_seed",
+    "query": "Kashgar, Chine"
+  },
+  "key largo, états-unis": {
+    "type": "earth",
+    "lat": 25.0865,
+    "lon": -80.4473,
+    "source": "manual_seed",
+    "query": "Key Largo, États-Unis"
+  },
+  "kingston, australie": {
+    "type": "earth",
+    "lat": -42.9767,
+    "lon": 147.3094,
+    "source": "manual_seed",
+    "query": "Kingston, Australie"
+  },
+  "kingston, jamaïque": {
+    "type": "earth",
+    "lat": 17.9712,
+    "lon": -76.7936,
+    "source": "manual_seed",
+    "query": "Kingston, Jamaïque"
+  },
+  "kirkkonummi, finlande": {
+    "type": "earth",
+    "lat": 60.1238,
+    "lon": 24.4385,
+    "source": "manual_seed",
+    "query": "Kirkkonummi, Finlande"
+  },
+  "kolka, lettonie": {
+    "type": "earth",
+    "lat": 57.7487,
+    "lon": 22.5838,
+    "source": "manual_seed",
+    "query": "Kolka, Lettonie"
+  },
+  "kowloon, hong kong": {
+    "type": "earth",
+    "lat": 22.3193,
+    "lon": 114.1694,
+    "source": "manual_seed",
+    "query": "Kowloon, Hong Kong"
+  },
+  "koyasan, japon": {
+    "type": "earth",
+    "lat": 34.2125,
+    "lon": 135.5863,
+    "source": "manual_seed",
+    "query": "Koyasan, Japon"
+  },
+  "kuda hithi, maldive": {
+    "type": "earth",
+    "lat": 4.329,
+    "lon": 73.591,
+    "source": "manual_seed",
+    "query": "Kuda Hithi, Maldive"
+  },
+  "kyoto, japon": {
+    "type": "earth",
+    "lat": 35.0116,
+    "lon": 135.7681,
+    "source": "manual_seed",
+    "query": "Kyoto, Japon"
+  },
+  "la croix-de-rozon, suisse": {
+    "type": "earth",
+    "lat": 46.15,
+    "lon": 6.1167,
+    "source": "manual_seed",
+    "query": "La Croix-de-Rozon, Suisse"
+  },
+  "la lagune, france": {
+    "type": "earth",
+    "lat": 43.28,
+    "lon": 3.51,
+    "source": "manual_seed",
+    "query": "La lagune, France"
+  },
+  "lake tahoe, états-unis": {
+    "type": "earth",
+    "lat": 39.0968,
+    "lon": -120.0324,
+    "source": "manual_seed",
+    "query": "Lake Tahoe, États-Unis"
+  },
+  "lancaster, états-unis": {
+    "type": "earth",
+    "lat": 40.0379,
+    "lon": -76.3055,
+    "source": "manual_seed",
+    "query": "Lancaster, États-Unis"
+  },
+  "lhassa, tibet": {
+    "type": "earth",
+    "lat": 29.65,
+    "lon": 91.1,
+    "source": "manual_seed",
+    "query": "Lhassa, Tibet"
+  },
+  "lisbonne, portugal": {
+    "type": "earth",
+    "lat": 38.7223,
+    "lon": -9.1393,
+    "source": "manual_seed",
+    "query": "Lisbonne, Portugal"
+  },
+  "lokolama, congo": {
+    "type": "earth",
+    "lat": -4.05,
+    "lon": 15.3,
+    "source": "manual_seed",
+    "query": "Lokolama, Congo"
+  },
+  "londres, angleterre": {
+    "type": "earth",
+    "lat": 51.5072,
+    "lon": -0.1276,
+    "source": "manual_seed",
+    "query": "Londres, Angleterre"
+  },
+  "lord howe island, australie": {
+    "type": "earth",
+    "lat": -31.5553,
+    "lon": 159.0821,
+    "source": "manual_seed",
+    "query": "Lord Howe Island, Australie"
+  },
+  "los angeles, états-unis": {
+    "type": "earth",
+    "lat": 34.0522,
+    "lon": -118.2437,
+    "source": "manual_seed",
+    "query": "Los Angeles, États-Unis"
+  },
+  "lyon, france": {
+    "type": "earth",
+    "lat": 45.764,
+    "lon": 4.8357,
+    "source": "manual_seed",
+    "query": "Lyon, France"
+  },
+  "madrid, espagne": {
+    "type": "earth",
+    "lat": 40.4168,
+    "lon": -3.7038,
+    "source": "manual_seed",
+    "query": "Madrid, Espagne"
+  },
+  "majuro, marshall islands": {
+    "type": "earth",
+    "lat": 7.1164,
+    "lon": 171.1858,
+    "source": "manual_seed",
+    "query": "Majuro, Marshall Islands"
+  },
+  "malaga, espagne": {
+    "type": "earth",
+    "lat": 36.7213,
+    "lon": -4.4214,
+    "source": "manual_seed",
+    "query": "Malaga, Espagne"
+  },
+  "malmö, suède": {
+    "type": "earth",
+    "lat": 55.605,
+    "lon": 13.0038,
+    "source": "manual_seed",
+    "query": "Malmö, Suède"
+  },
+  "mascate, sultanat d’oman": {
+    "type": "earth",
+    "lat": 23.588,
+    "lon": 58.3829,
+    "source": "manual_seed",
+    "query": "Mascate, Sultanat d’Oman"
+  },
+  "mashhad, iran": {
+    "type": "earth",
+    "lat": 36.2605,
+    "lon": 59.6168,
+    "source": "manual_seed",
+    "query": "Mashhad, Iran"
+  },
+  "melbourne, australie": {
+    "type": "earth",
+    "lat": -37.8136,
+    "lon": 144.9631,
+    "source": "manual_seed",
+    "query": "Melbourne, Australie"
+  },
+  "mendoza, argentine": {
+    "type": "earth",
+    "lat": -32.8895,
+    "lon": -68.8458,
+    "source": "manual_seed",
+    "query": "Mendoza, Argentine"
+  },
+  "milan, italie": {
+    "type": "earth",
+    "lat": 45.4642,
+    "lon": 9.19,
+    "source": "manual_seed",
+    "query": "Milan, Italie"
+  },
+  "monaco, monaco": {
+    "type": "earth",
+    "lat": 43.7384,
+    "lon": 7.4246,
+    "source": "manual_seed",
+    "query": "Monaco, Monaco"
+  },
+  "monkey bay, malawi": {
+    "type": "earth",
+    "lat": -14.0824,
+    "lon": 34.9169,
+    "source": "manual_seed",
+    "query": "Monkey Bay, Malawi"
+  },
+  "montauk, états-unis": {
+    "type": "earth",
+    "lat": 41.0359,
+    "lon": -71.9545,
+    "source": "manual_seed",
+    "query": "Montauk, États-Unis"
+  },
+  "montevideo, uruguay": {
+    "type": "earth",
+    "lat": -34.9011,
+    "lon": -56.1645,
+    "source": "manual_seed",
+    "query": "Montevideo, Uruguay"
+  },
+  "montpellier, france": {
+    "type": "earth",
+    "lat": 43.6119,
+    "lon": 3.8772,
+    "source": "manual_seed",
+    "query": "Montpellier, France"
+  },
+  "montréal, canada": {
+    "type": "earth",
+    "lat": 45.5019,
+    "lon": -73.5674,
+    "source": "manual_seed",
+    "query": "Montréal, Canada"
+  },
+  "moscou, russie": {
+    "type": "earth",
+    "lat": 55.7558,
+    "lon": 37.6173,
+    "source": "manual_seed",
+    "query": "Moscou, Russie"
+  },
+  "mountain view, états-unis": {
+    "type": "earth",
+    "lat": 37.3861,
+    "lon": -122.0839,
+    "source": "manual_seed",
+    "query": "Mountain View, États-Unis"
+  },
+  "mousehole, angleterre": {
+    "type": "earth",
+    "lat": 50.083,
+    "lon": -5.539,
+    "source": "manual_seed",
+    "query": "Mousehole, Angleterre"
+  },
+  "mumbai, inde": {
+    "type": "earth",
+    "lat": 19.076,
+    "lon": 72.8777,
+    "source": "manual_seed",
+    "query": "Mumbai, Inde"
+  },
+  "munich, allemagne": {
+    "type": "earth",
+    "lat": 48.1351,
+    "lon": 11.582,
+    "source": "manual_seed",
+    "query": "Munich, Allemagne"
+  },
+  "muthorai, inde": {
+    "type": "earth",
+    "lat": 11.4,
+    "lon": 76.7,
+    "source": "manual_seed",
+    "query": "Muthorai, Inde"
+  },
+  "mutitjulu, australie": {
+    "type": "earth",
+    "lat": -25.3468,
+    "lon": 131.0369,
+    "source": "manual_seed",
+    "query": "Mutitjulu, Australie"
+  },
+  "nagoya, japon": {
+    "type": "earth",
+    "lat": 35.1815,
+    "lon": 136.9066,
+    "source": "manual_seed",
+    "query": "Nagoya, Japon"
+  },
+  "nairobi, kenya": {
+    "type": "earth",
+    "lat": -1.2921,
+    "lon": 36.8219,
+    "source": "manual_seed",
+    "query": "Nairobi, Kenya"
+  },
+  "naples, italie": {
+    "type": "earth",
+    "lat": 40.8518,
+    "lon": 14.2681,
+    "source": "manual_seed",
+    "query": "Naples, Italie"
+  },
+  "necker island, îles vierges": {
+    "type": "earth",
+    "lat": 18.528,
+    "lon": -64.358,
+    "source": "manual_seed",
+    "query": "Necker Island, îles Vierges"
+  },
+  "new york, états-unis": {
+    "type": "earth",
+    "lat": 40.7128,
+    "lon": -74.006,
+    "source": "manual_seed",
+    "query": "New York, États-Unis"
+  },
+  "newport, états-unis": {
+    "type": "earth",
+    "lat": 41.4901,
+    "lon": -71.3128,
+    "source": "manual_seed",
+    "query": "Newport, États-Unis"
+  },
+  "nouadhibou, mauritanie": {
+    "type": "earth",
+    "lat": 20.9425,
+    "lon": -17.0362,
+    "source": "manual_seed",
+    "query": "Nouadhibou, Mauritanie"
+  },
+  "nuage d’oort, système solaire": {
+    "type": "space",
+    "lat": null,
+    "lon": null,
+    "source": "not_geocoded",
+    "reason": "Lieu non terrestre : Nuage d’Oort, Système solaire"
+  },
+  "nuku’alofa, tonga": {
+    "type": "earth",
+    "lat": -21.1393,
+    "lon": -175.2049,
+    "source": "manual_seed",
+    "query": "Nuku’alofa, Tonga"
+  },
+  "nuuk, groenland": {
+    "type": "earth",
+    "lat": 64.1835,
+    "lon": -51.7216,
+    "source": "manual_seed",
+    "query": "Nuuk, Groenland"
+  },
+  "oklahoma city, états-unis": {
+    "type": "earth",
+    "lat": 35.4676,
+    "lon": -97.5164,
+    "source": "manual_seed",
+    "query": "Oklahoma City, États-Unis"
+  },
+  "oslo, norvège": {
+    "type": "earth",
+    "lat": 59.9139,
+    "lon": 10.7522,
+    "source": "manual_seed",
+    "query": "Oslo, Norvège"
+  },
+  "ottawa, canada": {
+    "type": "earth",
+    "lat": 45.4215,
+    "lon": -75.6972,
+    "source": "manual_seed",
+    "query": "Ottawa, Canada"
+  },
+  "oxford, angleterre": {
+    "type": "earth",
+    "lat": 51.752,
+    "lon": -1.2577,
+    "source": "manual_seed",
+    "query": "Oxford, Angleterre"
+  },
+  "pago pago, samoa américaines": {
+    "type": "earth",
+    "lat": -14.2756,
+    "lon": -170.702,
+    "source": "manual_seed",
+    "query": "Pago Pago, Samoa américaines"
+  },
+  "panama city, panama": {
+    "type": "earth",
+    "lat": 8.9824,
+    "lon": -79.5199,
+    "source": "manual_seed",
+    "query": "Panama City, Panama"
+  },
+  "paris, france": {
+    "type": "earth",
+    "lat": 48.8566,
+    "lon": 2.3522,
+    "source": "manual_seed",
+    "query": "Paris, France"
+  },
+  "parkes, australie": {
+    "type": "earth",
+    "lat": -33.1372,
+    "lon": 148.1759,
+    "source": "manual_seed",
+    "query": "Parkes, Australie"
+  },
+  "pearl harbor, états-unis": {
+    "type": "earth",
+    "lat": 21.3675,
+    "lon": -157.9711,
+    "source": "manual_seed",
+    "query": "Pearl Harbor, États-Unis"
+  },
+  "pebbly beach, australie": {
+    "type": "earth",
+    "lat": -35.595,
+    "lon": 150.332,
+    "source": "manual_seed",
+    "query": "Pebbly Beach, Australie"
+  },
+  "petropavlovsk-kamchatsky, russie": {
+    "type": "earth",
+    "lat": 53.037,
+    "lon": 158.6559,
+    "source": "manual_seed",
+    "query": "Petropavlovsk-Kamchatsky, Russie"
+  },
+  "plateforme elgin, mer du nord": {
+    "type": "earth",
+    "lat": 57.0,
+    "lon": 2.1,
+    "source": "manual_seed",
+    "query": "Plateforme Elgin, Mer du Nord"
+  },
+  "point de lagrange 5, orbite terrestre": {
+    "type": "space",
+    "lat": null,
+    "lon": null,
+    "source": "not_geocoded",
+    "reason": "Lieu non terrestre : Point de Lagrange 5, Orbite terrestre"
+  },
+  "ponta delgada, portugal": {
+    "type": "earth",
+    "lat": 37.7394,
+    "lon": -25.6687,
+    "source": "manual_seed",
+    "query": "Ponta Delgada, Portugal"
+  },
+  "port moresby, nouvelle-guinée": {
+    "type": "earth",
+    "lat": -9.4438,
+    "lon": 147.1803,
+    "source": "manual_seed",
+    "query": "Port Moresby, Nouvelle-Guinée"
+  },
+  "portillo, chili": {
+    "type": "earth",
+    "lat": -32.836,
+    "lon": -70.129,
+    "source": "manual_seed",
+    "query": "Portillo, Chili"
+  },
+  "porto, portugal": {
+    "type": "earth",
+    "lat": 41.1579,
+    "lon": -8.6291,
+    "source": "manual_seed",
+    "query": "Porto, Portugal"
+  },
+  "portsmouth, états-unis": {
+    "type": "earth",
+    "lat": 43.0718,
+    "lon": -70.7626,
+    "source": "manual_seed",
+    "query": "Portsmouth, États-Unis"
+  },
+  "poznań, pologne": {
+    "type": "earth",
+    "lat": 52.4064,
+    "lon": 16.9252,
+    "source": "manual_seed",
+    "query": "Poznań, Pologne"
+  },
+  "praia, cap vert": {
+    "type": "earth",
+    "lat": 14.933,
+    "lon": -23.5133,
+    "source": "manual_seed",
+    "query": "Praia, Cap Vert"
+  },
+  "puerto isidro ayora, équateur": {
+    "type": "earth",
+    "lat": -0.7433,
+    "lon": -90.3138,
+    "source": "manual_seed",
+    "query": "Puerto Isidro Ayora, Équateur"
+  },
+  "puerto montt, chili": {
+    "type": "earth",
+    "lat": -41.4689,
+    "lon": -72.9411,
+    "source": "manual_seed",
+    "query": "Puerto Montt, Chili"
+  },
+  "rangoon, myanmar": {
+    "type": "earth",
+    "lat": 16.8409,
+    "lon": 96.1735,
+    "source": "manual_seed",
+    "query": "Rangoon, Myanmar"
+  },
+  "rawalpindi, pakistan": {
+    "type": "earth",
+    "lat": 33.5651,
+    "lon": 73.0169,
+    "source": "manual_seed",
+    "query": "Rawalpindi, Pakistan"
+  },
+  "redmond, états-unis": {
+    "type": "earth",
+    "lat": 47.674,
+    "lon": -122.1215,
+    "source": "manual_seed",
+    "query": "Redmond, États-Unis"
+  },
+  "resolute, canada": {
+    "type": "earth",
+    "lat": 74.6973,
+    "lon": -94.8297,
+    "source": "manual_seed",
+    "query": "Resolute, Canada"
+  },
+  "reykjavik, islande": {
+    "type": "earth",
+    "lat": 64.1466,
+    "lon": -21.9426,
+    "source": "manual_seed",
+    "query": "Reykjavik, Islande"
+  },
+  "rome, italie": {
+    "type": "earth",
+    "lat": 41.9028,
+    "lon": 12.4964,
+    "source": "manual_seed",
+    "query": "Rome, Italie"
+  },
+  "ruhnu, estonie": {
+    "type": "earth",
+    "lat": 57.8,
+    "lon": 23.25,
+    "source": "manual_seed",
+    "query": "Ruhnu, Estonie"
+  },
+  "réserve de sarakawa, togo": {
+    "type": "earth",
+    "lat": 9.6,
+    "lon": 1.1,
+    "source": "manual_seed",
+    "query": "Réserve de Sarakawa, Togo"
+  },
+  "réserve du néouvielle, france": {
+    "type": "earth",
+    "lat": 42.831,
+    "lon": 0.166,
+    "source": "manual_seed",
+    "query": "Réserve du Néouvielle, France"
+  },
+  "réserve du paracas, pérou": {
+    "type": "earth",
+    "lat": -13.835,
+    "lon": -76.25,
+    "source": "manual_seed",
+    "query": "Réserve du Paracas, Pérou"
+  },
+  "saint-pétersbourg, russie": {
+    "type": "earth",
+    "lat": 59.9311,
+    "lon": 30.3609,
+    "source": "manual_seed",
+    "query": "Saint-Pétersbourg, Russie"
+  },
+  "salto ángel, vénézuéla": {
+    "type": "earth",
+    "lat": 5.9675,
+    "lon": -62.5356,
+    "source": "manual_seed",
+    "query": "Salto Ángel, Vénézuéla"
+  },
+  "samara, russie": {
+    "type": "earth",
+    "lat": 53.1959,
+    "lon": 50.1002,
+    "source": "manual_seed",
+    "query": "Samara, Russie"
+  },
+  "san andrés zabache, mexique": {
+    "type": "earth",
+    "lat": 16.638,
+    "lon": -96.86,
+    "source": "manual_seed",
+    "query": "San Andrés Zabache, Mexique"
+  },
+  "san diego, états-unis": {
+    "type": "earth",
+    "lat": 32.7157,
+    "lon": -117.1611,
+    "source": "manual_seed",
+    "query": "San Diego, États-Unis"
+  },
+  "san francisco, états-unis": {
+    "type": "earth",
+    "lat": 37.7749,
+    "lon": -122.4194,
+    "source": "manual_seed",
+    "query": "San Francisco, États-Unis"
+  },
+  "santa cruz, états-unis": {
+    "type": "earth",
+    "lat": 36.9741,
+    "lon": -122.0308,
+    "source": "manual_seed",
+    "query": "Santa Cruz, États-Unis"
+  },
+  "santa fe, états-unis": {
+    "type": "earth",
+    "lat": 35.687,
+    "lon": -105.9378,
+    "source": "manual_seed",
+    "query": "Santa Fe, États-Unis"
+  },
+  "seattle, états-unis": {
+    "type": "earth",
+    "lat": 47.6062,
+    "lon": -122.3321,
+    "source": "manual_seed",
+    "query": "Seattle, États-Unis"
+  },
+  "sheffield, angleterre": {
+    "type": "earth",
+    "lat": 53.3811,
+    "lon": -1.4701,
+    "source": "manual_seed",
+    "query": "Sheffield, Angleterre"
+  },
+  "shenzhen, chine": {
+    "type": "earth",
+    "lat": 22.5431,
+    "lon": 114.0579,
+    "source": "manual_seed",
+    "query": "Shenzhen, Chine"
+  },
+  "singapour, république de singapour": {
+    "type": "earth",
+    "lat": 1.3521,
+    "lon": 103.8198,
+    "source": "manual_seed",
+    "query": "Singapour, République de Singapour"
+  },
+  "snow lake, états-unis": {
+    "type": "earth",
+    "lat": 37.735,
+    "lon": -119.6,
+    "source": "manual_seed",
+    "query": "Snow Lake, États-Unis"
+  },
+  "sofia, bulgarie": {
+    "type": "earth",
+    "lat": 42.6977,
+    "lon": 23.3219,
+    "source": "manual_seed",
+    "query": "Sofia, Bulgarie"
+  },
+  "station deep prospecting, orbite de vesta": {
+    "type": "space",
+    "lat": null,
+    "lon": null,
+    "source": "not_geocoded",
+    "reason": "Lieu non terrestre : Station Deep Prospecting, Orbite de Vesta"
+  },
+  "station princesse-élisabeth, antarctique": {
+    "type": "earth",
+    "lat": -71.9499,
+    "lon": 23.347,
+    "source": "manual_seed",
+    "query": "Station Princesse-Élisabeth, Antarctique"
+  },
+  "station spatiale, orbite terrestre": {
+    "type": "space",
+    "lat": null,
+    "lon": null,
+    "source": "not_geocoded",
+    "reason": "Lieu non terrestre : Station spatiale, orbite terrestre"
+  },
+  "stone town, zanzibar": {
+    "type": "earth",
+    "lat": -6.1622,
+    "lon": 39.1921,
+    "source": "manual_seed",
+    "query": "Stone Town, Zanzibar"
+  },
+  "sydney, australie": {
+    "type": "earth",
+    "lat": -33.8688,
+    "lon": 151.2093,
+    "source": "manual_seed",
+    "query": "Sydney, Australie"
+  },
+  "são paulo, brésil": {
+    "type": "earth",
+    "lat": -23.5558,
+    "lon": -46.6396,
+    "source": "manual_seed",
+    "query": "São Paulo, Brésil"
+  },
+  "sète, france": {
+    "type": "earth",
+    "lat": 43.4079,
+    "lon": 3.6966,
+    "source": "manual_seed",
+    "query": "Sète, France"
+  },
+  "séville, espagne": {
+    "type": "earth",
+    "lat": 37.3891,
+    "lon": -5.9845,
+    "source": "manual_seed",
+    "query": "Séville, Espagne"
+  },
+  "taipei, taiwan": {
+    "type": "earth",
+    "lat": 25.033,
+    "lon": 121.5654,
+    "source": "manual_seed",
+    "query": "Taipei, Taiwan"
+  },
+  "tallinn, estonie": {
+    "type": "earth",
+    "lat": 59.437,
+    "lon": 24.7536,
+    "source": "manual_seed",
+    "query": "Tallinn, Estonie"
+  },
+  "teton village, états-unis": {
+    "type": "earth",
+    "lat": 43.587,
+    "lon": -110.827,
+    "source": "manual_seed",
+    "query": "Teton Village, États-Unis"
+  },
+  "the dalles, états-unis": {
+    "type": "earth",
+    "lat": 45.5946,
+    "lon": -121.1787,
+    "source": "manual_seed",
+    "query": "The Dalles, États-Unis"
+  },
+  "thermosphère, pacifique sud": {
+    "type": "earth",
+    "lat": -45.0,
+    "lon": -140.0,
+    "source": "manual_seed",
+    "query": "Thermosphère, Pacifique Sud"
+  },
+  "thessalonique, grèce": {
+    "type": "earth",
+    "lat": 40.6401,
+    "lon": 22.9444,
+    "source": "manual_seed",
+    "query": "Thessalonique, Grèce"
+  },
+  "tikal, honduras": {
+    "type": "earth",
+    "lat": 17.222,
+    "lon": -89.6237,
+    "source": "manual_seed",
+    "query": "Tikal, Honduras"
+  },
+  "tokyo, japon": {
+    "type": "earth",
+    "lat": 35.6762,
+    "lon": 139.6503,
+    "source": "manual_seed",
+    "query": "Tokyo, Japon"
+  },
+  "toronto, canada": {
+    "type": "earth",
+    "lat": 43.6532,
+    "lon": -79.3832,
+    "source": "manual_seed",
+    "query": "Toronto, Canada"
+  },
+  "tunis, tunisie": {
+    "type": "earth",
+    "lat": 36.8065,
+    "lon": 10.1815,
+    "source": "manual_seed",
+    "query": "Tunis, Tunisie"
+  },
+  "turin, italie": {
+    "type": "earth",
+    "lat": 45.0703,
+    "lon": 7.6869,
+    "source": "manual_seed",
+    "query": "Turin, Italie"
+  },
+  "tórshavn, îles féroé": {
+    "type": "earth",
+    "lat": 62.0079,
+    "lon": -6.79,
+    "source": "manual_seed",
+    "query": "Tórshavn, Îles Féroé"
+  },
+  "türkmenbaşy, turkménistan": {
+    "type": "earth",
+    "lat": 40.0222,
+    "lon": 52.9552,
+    "source": "manual_seed",
+    "query": "Türkmenbaşy, Turkménistan"
+  },
+  "valencia, vénézuéla": {
+    "type": "earth",
+    "lat": 10.1579,
+    "lon": -67.9972,
+    "source": "manual_seed",
+    "query": "Valencia, Vénézuéla"
+  },
+  "vancouver, canada": {
+    "type": "earth",
+    "lat": 49.2827,
+    "lon": -123.1207,
+    "source": "manual_seed",
+    "query": "Vancouver, Canada"
+  },
+  "varsovie, pologne": {
+    "type": "earth",
+    "lat": 52.2297,
+    "lon": 21.0122,
+    "source": "manual_seed",
+    "query": "Varsovie, Pologne"
+  },
+  "vatican, italie": {
+    "type": "earth",
+    "lat": 41.9029,
+    "lon": 12.4534,
+    "source": "manual_seed",
+    "query": "Vatican, Italie"
+  },
+  "venise, italie": {
+    "type": "earth",
+    "lat": 45.4408,
+    "lon": 12.3155,
+    "source": "manual_seed",
+    "query": "Venise, Italie"
+  },
+  "versailles, france": {
+    "type": "earth",
+    "lat": 48.8049,
+    "lon": 2.1204,
+    "source": "manual_seed",
+    "query": "Versailles, France"
+  },
+  "vienne, autriche": {
+    "type": "earth",
+    "lat": 48.2082,
+    "lon": 16.3738,
+    "source": "manual_seed",
+    "query": "Vienne, Autriche"
+  },
+  "vladivostok, russie": {
+    "type": "earth",
+    "lat": 43.1155,
+    "lon": 131.8855,
+    "source": "manual_seed",
+    "query": "Vladivostok, Russie"
+  },
+  "washington, états-unis": {
+    "type": "earth",
+    "lat": 38.9072,
+    "lon": -77.0369,
+    "source": "manual_seed",
+    "query": "Washington, États-Unis"
+  },
+  "wellington, nouvelle-zélande": {
+    "type": "earth",
+    "lat": -41.2865,
+    "lon": 174.7762,
+    "source": "manual_seed",
+    "query": "Wellington, Nouvelle-Zélande"
+  },
+  "winnipeg, canada": {
+    "type": "earth",
+    "lat": 49.8951,
+    "lon": -97.1384,
+    "source": "manual_seed",
+    "query": "Winnipeg, Canada"
+  },
+  "xunantunich, bélize": {
+    "type": "earth",
+    "lat": 17.0891,
+    "lon": -89.1415,
+    "source": "manual_seed",
+    "query": "Xunantunich, Bélize"
+  },
+  "yevpatoria, crimée": {
+    "type": "earth",
+    "lat": 45.1905,
+    "lon": 33.3668,
+    "source": "manual_seed",
+    "query": "Yevpatoria, Crimée"
+  },
+  "zelenchukskaya, russie": {
+    "type": "earth",
+    "lat": 43.8583,
+    "lon": 41.5894,
+    "source": "manual_seed",
+    "query": "Zelenchukskaya, Russie"
+  },
+  "älvdalen, suède": {
+    "type": "earth",
+    "lat": 61.2277,
+    "lon": 14.0394,
+    "source": "manual_seed",
+    "query": "Älvdalen, Suède"
+  },
+  "éros, ceinture d’astéroïdes": {
+    "type": "space",
+    "lat": null,
+    "lon": null,
+    "source": "not_geocoded",
+    "reason": "Lieu non terrestre : Éros, Ceinture d’astéroïdes"
+  }
+}
