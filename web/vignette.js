@@ -86,6 +86,7 @@
         marker,
         chapterId: resolvedChapterId,
         pinned,
+        shownAt: performance.now(),
         open: () => onOpen(resolvedChapterId, marker),
       };
       const visibleMarker = display(marker, resolvedChapterId);
@@ -154,6 +155,7 @@
       event.preventDefault();
       event.stopPropagation();
       if (!element.classList.contains("is-visible")) return;
+      if (active?.shownAt && performance.now() - active.shownAt < 320) return;
       active?.open();
     });
 

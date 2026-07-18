@@ -40,6 +40,7 @@
   const PINCH_ZOOM_RATIO = 1.35;
   const RSVP = window.OneMinuteRSVP;
   const Links = window.OneMinuteLinks;
+  const ClickRouter = window.OneMinuteClickRouter;
   const Vignette = window.OneMinuteVignette;
   const Profile = window.OneMinuteProfile;
   const Debug = window.OneMinuteDebug;
@@ -121,6 +122,9 @@
   }
   if (!Links) {
     throw new Error("Le module de liens n'est pas charge.");
+  }
+  if (!ClickRouter) {
+    throw new Error("Le module de routage clic n'est pas charge.");
   }
   if (!Vignette) {
     throw new Error("Le module vignette n'est pas charge.");
@@ -800,43 +804,33 @@
     const setCanvasCursor = (cursor) => {
       viewer.scene.canvas.style.cursor = cursor;
     };
+    const clickRouter = ClickRouter.createClickRouter({
+      directMarker: directPickedMarker,
+      nearbyMarker: nearestMarker,
+      link: pickedUnlockLink,
+      onMarker: routeMarkerClick,
+      onLink: (link) => {
+        historyReturnActive = false;
+        flyToLinkedChapter(link);
+      },
+      onEmpty: hidePopup,
+    });
     const routeMapClick = (position) => {
       const now = performance.now();
       if (now - lastRoutedClickAt < 90) return;
       lastRoutedClickAt = now;
       if (introPlaying) return;
-      const marker = directPickedMarker(position);
-      if (marker) {
-        routeMarkerClick(marker, position);
-        return;
-      }
-      const priorityMarker = nearestMarker(position, IS_TOUCH_DEVICE ? 28 : 20);
-      if (priorityMarker) {
-        routeMarkerClick(priorityMarker, position);
-        return;
-      }
-      const link = pickedUnlockLink(position);
-      if (link?.to) {
-        historyReturnActive = false;
-        flyToLinkedChapter(link);
-        return;
-      }
-      const nearbyMarker = nearestMarker(position);
-      if (nearbyMarker) {
-        routeMarkerClick(nearbyMarker, position);
-        return;
-      }
-      hidePopup();
+      clickRouter.route(position);
     };
 
-    const routeMarkerClick = (marker, position) => {
+    function routeMarkerClick(marker, position) {
       historyReturnActive = false;
       if (!firstReadableChapterId(marker)) {
         if (markerHasKnownLinks(marker, true)) showRememberedLinksForMarker(marker);
         return;
       }
       showReadableMarker(marker, markerScreenPosition(marker) || position, true);
-    };
+    }
 
     const handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
     handler.setInputAction((movement) => {
@@ -847,11 +841,7 @@
         setCanvasCursor("");
         return;
       }
-      if (directPickedMarker(movement.endPosition) || nearestMarker(movement.endPosition, 24)) {
-        setCanvasCursor("pointer");
-        return;
-      }
-      setCanvasCursor(pickedUnlockLink(movement.endPosition) ? "pointer" : "");
+      setCanvasCursor(clickRouter.hover(movement.endPosition));
     }, Cesium.ScreenSpaceEventType.MOUSE_MOVE);
 
     viewer.scene.canvas.addEventListener("pointerleave", () => {
