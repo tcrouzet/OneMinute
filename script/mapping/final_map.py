@@ -215,6 +215,10 @@ def geocode_for_lieu(geocoding: dict[str, Any], lieu: str | None) -> dict[str, A
     return {key: value for key, value in coords.items() if value is not None}
 
 
+def normalize_geocoding_keys(geocoding: dict[str, Any]) -> dict[str, Any]:
+    return {normalize_text(key): value for key, value in geocoding.items()}
+
+
 def consolidated_chapters(
     minimal: dict[str, Any],
     bonus: dict[str, dict[str, Any]],
@@ -259,7 +263,7 @@ def consolidated_chapters(
 def main() -> int:
     minimal = read_json(config.MAP_MINIMAL_PATH)
     bonus = bonus_by_id()
-    geocoding = read_json(config.GEOCODING_CACHE_PATH)
+    geocoding = normalize_geocoding_keys(read_json(config.GEOCODING_CACHE_PATH))
 
     raw_tags_by_chapter = collect_raw_tags(minimal, bonus)
     tags_by_chapter, tag_counts = filter_non_unique_tags(raw_tags_by_chapter)

@@ -284,6 +284,7 @@ def write_json(path: Path, payload: dict[str, Any]) -> None:
 def normalize_key(value: str) -> str:
     value = value.strip().lower()
     value = unicodedata.normalize("NFKC", value)
+    value = value.replace("’", "'")
     return " ".join(value.split())
 
 

@@ -107,6 +107,27 @@ def merge_location_points(points: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return list(grouped.values())
 
 
+def filter_links_to_mapped_chapters(chapters: list[dict[str, Any]]) -> int:
+    mapped_ids = {
+        str(chapter["id"])
+        for chapter in chapters
+        if point_for_chapter(chapter) is not None
+    }
+    removed = 0
+
+    for chapter in chapters:
+        links = chapter.get("next_chapter_links") or []
+        ids = chapter.get("next_chapter_ids") or []
+        kept_links = [link for link in links if str(link.get("to")) in mapped_ids]
+        kept_ids = [chapter_id for chapter_id in ids if str(chapter_id) in mapped_ids]
+        removed += len(links) - len(kept_links)
+        removed += len(ids) - len(kept_ids)
+        chapter["next_chapter_links"] = kept_links
+        chapter["next_chapter_ids"] = kept_ids
+
+    return removed
+
+
 def export_chapters(map_payload: dict[str, Any], corpus_payload: dict[str, Any]) -> dict[str, str]:
     text_by_id = {chapter["id"]: chapter["texte"] for chapter in corpus_payload.get("chapitres", [])}
     paths: dict[str, str] = {}
@@ -133,12 +154,15 @@ def main() -> int:
     corpus_payload = read_json(config.CORPUS_PATH)
     tag_graph = map_payload.get("tag_graph") or {}
 
-    for chapter in map_payload.get("chapitres", []):
+    chapters = map_payload.get("chapitres", [])
+
+    for chapter in chapters:
         chapter["next_chapter_links"] = reading_graph.chapter_next_links(chapter, tag_graph)
         chapter["next_chapter_ids"] = reading_graph.chapter_next_ids(chapter, tag_graph)
+    removed_links = filter_links_to_mapped_chapters(chapters)
 
     chapter_paths = export_chapters(map_payload, corpus_payload)
-    chapter_points = [point_for_chapter(chapter) for chapter in map_payload.get("chapitres", [])]
+    chapter_points = [point_for_chapter(chapter) for chapter in chapters]
     chapter_points = [point for point in chapter_points if point is not None]
     points = merge_location_points(chapter_points)
 
@@ -150,12 +174,14 @@ def main() -> int:
         "chapter_total": len(map_payload.get("chapitres", [])),
         "point_chapter_total": len(chapter_points),
         "total": len(points),
+        "filtered_unmapped_links": removed_links,
         "points": points,
     }
 
     write_json(WEB_MAP_PATH, output)
     print(
         f"OK : {len(points)} lieux, {len(chapter_points)} chapitres géolocalisés, "
+        f"{removed_links} liens sans pastille filtrés, "
         f"{len(chapter_paths)} textes -> {WEB_MAP_PATH}"
     )
     return 0

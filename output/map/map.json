@@ -3542,7 +3542,14 @@
       "livre_suivant": "1_39",
       "lieu_suivant": "1_39",
       "point_entree": false,
-      "open_initially": false
+      "open_initially": false,
+      "coordonnees": {
+        "type": "earth",
+        "source": "manual_seed",
+        "query": "Mascate, Sultanat d’Oman",
+        "lat": 23.588,
+        "lon": 58.3829
+      }
     },
     {
       "id": "1_39",
@@ -3571,7 +3578,14 @@
       "livre_suivant": "1_40",
       "lieu_predecesseur": "1_38",
       "point_entree": false,
-      "open_initially": false
+      "open_initially": false,
+      "coordonnees": {
+        "type": "earth",
+        "source": "manual_seed",
+        "query": "Mascate, Sultanat d’Oman",
+        "lat": 23.588,
+        "lon": 58.3829
+      }
     },
     {
       "id": "1_40",
@@ -15732,7 +15746,14 @@
       },
       "livre_suivant": "4_55",
       "point_entree": false,
-      "open_initially": false
+      "open_initially": false,
+      "coordonnees": {
+        "type": "earth",
+        "source": "manual_seed",
+        "query": "Nuku’alofa, Tonga",
+        "lat": -21.1393,
+        "lon": -175.2049
+      }
     },
     {
       "id": "4_55",
@@ -16375,7 +16396,12 @@
       },
       "livre_suivant": "4_70",
       "point_entree": false,
-      "open_initially": false
+      "open_initially": false,
+      "coordonnees": {
+        "type": "space",
+        "source": "not_geocoded",
+        "reason": "Lieu non terrestre : Éros, Ceinture d’astéroïdes"
+      }
     },
     {
       "id": "4_70",
@@ -17417,7 +17443,12 @@
       },
       "livre_suivant": "4_95",
       "point_entree": false,
-      "open_initially": false
+      "open_initially": false,
+      "coordonnees": {
+        "type": "space",
+        "source": "not_geocoded",
+        "reason": "Lieu non terrestre : Nuage d’Oort, Système solaire"
+      }
     },
     {
       "id": "4_95",

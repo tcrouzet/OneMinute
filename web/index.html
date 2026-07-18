@@ -16,8 +16,7 @@
     <main class="game-map" aria-label="Globe de navigation OneMinute">
       <div id="globe"></div>
       <div class="point-hit-layer" id="pointHitLayer" aria-hidden="true"></div>
-      <div class="map-title" aria-hidden="true">One Minute</div>
-      <div class="build-badge" id="buildBadge" aria-hidden="true">build ...</div>
+      <button class="title-band map-title" id="mapTitle" type="button" aria-label="Profil">One Minute</button>
       <div class="zoom-controls" aria-label="Zoom">
         <button id="zoomIn" type="button" aria-label="Zoomer">+</button>
         <button id="zoomOut" type="button" aria-label="Dezoomer">-</button>
@@ -28,15 +27,13 @@
       </button>
       <aside class="profile-panel" id="profilePanel" aria-hidden="true">
         <div class="profile-content">
-          <button class="profile-close" id="profileClose" type="button" aria-label="Fermer">x</button>
-          <div class="profile-row">
-            <span>XP</span>
-            <strong id="profileXp">0</strong>
-          </div>
-          <div class="profile-row">
-            <span>vitesse</span>
-            <strong id="profileSpeed">5 syll/s</strong>
-          </div>
+          <header class="profile-header">
+            <h1 class="title-band profile-title" id="profileTitle">One Minute</h1>
+            <button class="profile-close" id="profileClose" type="button" aria-label="Fermer">x</button>
+          </header>
+          <p class="profile-intro" id="profileIntro"></p>
+          <section class="profile-stats profile-tomes" id="profileTomes" aria-label="Progression par tome"></section>
+          <section class="profile-stats" id="profileZones" aria-label="Progression par zone"></section>
           <div class="profile-history" id="profileHistory" aria-label="Chapitres lus"></div>
           <button class="profile-reset" id="profileReset" type="button">Reset lecture</button>
         </div>

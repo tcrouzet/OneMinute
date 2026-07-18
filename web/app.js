@@ -17,6 +17,22 @@
   const POPUP_AUTO_HEIGHT = 22000;
   const POST_READ_ZOOM_OUT_FACTOR = 18;
   const POST_READ_ZOOM_OUT_MAX_HEIGHT = 9000000;
+  const READING_TOTAL_CHAPTERS = 380;
+  const TOME_UNLOCK_THRESHOLD = 0.3;
+  const TOME_IDS = [1, 2, 3, 4];
+  const TOME_COVERS = {
+    1: "assets/oneminute-1.webp",
+    2: "assets/oneminue2.webp",
+    3: "assets/oneminute3.webp",
+    4: "assets/oneminute4.webp",
+  };
+  const TOME_SHOP_URLS = {
+    1: "https://pvh-editions.com/product/one-minute-t1-la-communion-des-analystes-papier",
+    2: "https://pvh-editions.com/product/one-minute-t2-le-manifeste-hypo-papier",
+    3: "https://pvh-editions.com/product/one-minute-t3-la-controverse-omega-papier",
+    4: "https://pvh-editions.com/product/one-minute-t4-le-musee-des-replicants-epub",
+  };
+  const ZONE_IDS = ["Europe", "Amérique", "Asie", "Afrique", "Océanie", "Espace"];
   const BUTTON_ZOOM_IN_RATIO = 0.62;
   const BUTTON_ZOOM_OUT_RATIO = 1.25;
   const WHEEL_ZOOM_RATIO = 0.0042;
@@ -30,7 +46,8 @@
   const mapRoot = document.querySelector(".game-map");
   const tooltip = document.querySelector("#pointTooltip");
   const pointHitLayer = document.querySelector("#pointHitLayer");
-  const buildBadge = document.querySelector("#buildBadge");
+  const mapTitle = document.querySelector("#mapTitle");
+  const profileTitle = document.querySelector("#profileTitle");
   const reader = document.querySelector("#reader");
   const readerPlace = document.querySelector("#readerPlace");
   const readerWords = document.querySelector("#readerWords");
@@ -41,8 +58,9 @@
   const profileButton = document.querySelector("#profileButton");
   const profilePanel = document.querySelector("#profilePanel");
   const profileClose = document.querySelector("#profileClose");
-  const profileXp = document.querySelector("#profileXp");
-  const profileSpeed = document.querySelector("#profileSpeed");
+  const profileIntro = document.querySelector("#profileIntro");
+  const profileTomes = document.querySelector("#profileTomes");
+  const profileZones = document.querySelector("#profileZones");
   const profileHistory = document.querySelector("#profileHistory");
   const profileReset = document.querySelector("#profileReset");
   const zoomIn = document.querySelector("#zoomIn");
@@ -62,10 +80,10 @@
   let popupPinned = false;
   let suppressAutoPopup = false;
   const zoomState = { cameraHeight: 260000000 };
+  let totalChapterCount = 0;
 
-  if (buildBadge) buildBadge.textContent = `build ${BUILD}`;
   console.info(`OneMinute map build ${BUILD}`);
-  const progress = { read: new Set(), readOrder: [], open: new Set(), unlockEdges: [], knownEdges: [] };
+  const progress = { read: new Set(), readOrder: [], open: new Set(), blocked: new Set(), unlockEdges: [], knownEdges: [] };
   let lastChapterId = null;
   const rsvp = {
     chapter: null,
@@ -148,8 +166,9 @@
     button: profileButton,
     panel: profilePanel,
     closeButton: profileClose,
-    xp: profileXp,
-    speed: profileSpeed,
+    intro: profileIntro,
+    tomes: profileTomes,
+    zones: profileZones,
     history: profileHistory,
     reset: { element: profileReset, action: resetProgress },
     chapterLabel,
@@ -159,6 +178,7 @@
       showOutgoingLinks: true,
     }),
   });
+  profileManager.loadIntro("assets/profile-intro.md", assetUrl);
 
   const pointPrimitives = viewer.scene.primitives.add(new Cesium.PointPrimitiveCollection());
   function loadState() {
@@ -174,11 +194,40 @@
       read: [...progress.read],
       readOrder: progress.readOrder,
       open: [...progress.open],
+      blocked: [...progress.blocked],
       knownEdges: progress.knownEdges,
       lastChapterId,
       syllablesPerSecond: rsvp.syllablesPerSecond,
     }));
     updateProfile();
+  }
+
+  function updateReadingScore(animate = false) {
+    const total = Math.max(READING_TOTAL_CHAPTERS, totalChapterCount || chapterById.size || 0);
+    const read = progress.read.size;
+    const percent = total ? Math.max(0, Math.min(100, (read / total) * 100)) : 0;
+    for (const title of [mapTitle, profileTitle]) {
+      if (!title) continue;
+      const progressValue = `${percent}%`;
+      if (animate) {
+        const pulsePercent = Math.min(100, Math.max(percent + 18, percent * 4.4));
+        title.style.setProperty("--reading-progress", `${pulsePercent}%`);
+        window.setTimeout(() => {
+          title.style.setProperty("--reading-progress", progressValue);
+        }, 1250);
+      } else {
+        title.style.setProperty("--reading-progress", progressValue);
+      }
+      title.title = `${read} / ${total}`;
+    }
+    if (animate) {
+      for (const title of [mapTitle, profileTitle]) {
+        if (!title) continue;
+        title.classList.remove("is-bumped");
+        void title.offsetWidth;
+        title.classList.add("is-bumped");
+      }
+    }
   }
 
   function assetUrl(path) {
@@ -192,9 +241,51 @@
     return ta - tb || ca - cb;
   }
 
+  function chapterTome(chapterId) {
+    const tome = Number(String(chapterId).split("_")[0]);
+    return Number.isFinite(tome) ? tome : 0;
+  }
+
+  function tomeChapterIds(tome) {
+    return [...chapterById.values()]
+      .filter((chapter) => chapter.tome === tome || chapterTome(chapter.id) === tome)
+      .map((chapter) => chapter.id);
+  }
+
+  function tomeProgressRatio(tome) {
+    const ids = tomeChapterIds(tome);
+    if (!ids.length) return 0;
+    return ids.filter((chapterId) => progress.read.has(chapterId)).length / ids.length;
+  }
+
+  function tomeUnlocked(tome) {
+    if (tome <= 1) return true;
+    return tomeProgressRatio(tome - 1) >= TOME_UNLOCK_THRESHOLD;
+  }
+
+  function chapterTomeUnlocked(chapterId) {
+    return tomeUnlocked(chapterTome(chapterId));
+  }
+
+  function chapterBlocked(chapterId) {
+    return progress.blocked.has(chapterId) && !progress.read.has(chapterId) && !progress.open.has(chapterId);
+  }
+
+  function chapterLinkVisible(chapterId) {
+    return progress.open.has(chapterId) || progress.read.has(chapterId);
+  }
+
+  function edgeLinkVisible(edge) {
+    return chapterCanBeMapped(edge.from)
+      && chapterCanBeMapped(edge.to)
+      && chapterLinkVisible(edge.from)
+      && chapterLinkVisible(edge.to);
+  }
+
   function pointStatus(point, read) {
     const chapters = point.chapters || [];
     if (chapters.some((chapter) => progress.open.has(chapter.id) && !read.has(chapter.id))) return "open";
+    if (chapters.some((chapter) => chapterBlocked(chapter.id))) return "blocked";
     if (chapters.some((chapter) => read.has(chapter.id))) return "read";
     return "locked";
   }
@@ -202,6 +293,7 @@
   function pointColor(status) {
     if (status === "read") return Cesium.Color.fromCssColorString("#ffd75e");
     if (status === "open") return Cesium.Color.fromCssColorString("#62dd72");
+    if (status === "blocked") return Cesium.Color.fromCssColorString("#c2193b");
     return Cesium.Color.fromCssColorString("#ff3355");
   }
 
@@ -233,8 +325,8 @@
     const radius = EARTH_RADIUS_METERS * spaceScale(point);
     return new Cesium.Cartesian3(
       radius * Math.sin(phi) * Math.cos(theta),
-      radius * Math.cos(phi),
-      radius * Math.sin(phi) * Math.sin(theta)
+      radius * Math.sin(phi) * Math.sin(theta),
+      radius * Math.cos(phi)
     );
   }
 
@@ -248,6 +340,7 @@
       type: point.type,
       lieu: point.lieu,
       heure: point.heure,
+      zone: point.zone,
       status,
       position,
       lat: point.lat,
@@ -328,6 +421,7 @@
     initialOpenChapterIds = payload.initial_open_chapter_ids || [];
     lastChapterId = state.lastChapterId || progress.readOrder.at(-1) || null;
     progress.open = new Set((Array.isArray(state.open) && state.open.length ? state.open : initialOpenChapterIds) || []);
+    progress.blocked = new Set(state.blocked || []);
     progress.unlockEdges = [];
     progress.knownEdges = Array.isArray(state.knownEdges) ? state.knownEdges : [];
     const savedSpeed = Number.isFinite(state.syllablesPerSecond)
@@ -340,13 +434,18 @@
     for (const point of payload.points || []) {
       addPoint(point, progress.read);
     }
+    totalChapterCount = chapterById.size;
+    let stateChanged = enforceTomeLocks();
     for (const chapterId of progress.read) {
       unlockNextChapters(chapterId, markerByChapterId.get(chapterId), false);
       rememberKnownOutgoingLinks(chapterById.get(chapterId));
     }
+    stateChanged = enforceTomeLocks() || stateChanged;
+    stateChanged = promoteBlockedChapters().length > 0 || stateChanged;
     refreshMarkerStatuses();
     redrawUnlockLines();
-    if (progress.read.size && !Array.isArray(state.knownEdges)) saveState();
+    if ((progress.read.size && !Array.isArray(state.knownEdges)) || stateChanged) saveState();
+    else updateProfile();
   }
 
   function bindZoomButtons() {
@@ -407,7 +506,7 @@
   }
 
   function zoomIgnoredTarget(target) {
-    return !!target?.closest?.(".zoom-controls, .profile-panel, .debug-panel, .point-tooltip, #reader");
+    return !!target?.closest?.(".zoom-controls, .map-title, .profile-panel, .debug-panel, .point-tooltip, #reader");
   }
 
   function markerVisible(marker, cameraHeight, occluder) {
@@ -425,13 +524,36 @@
   function updateMarkers() {
     const cameraHeight = viewer.camera.positionCartographic.height;
     const occluder = new Cesium.EllipsoidalOccluder(Cesium.Ellipsoid.WGS84, viewer.camera.positionWC);
+    const linkedMarkers = activeLinkedMarkers();
+    const spaceFocus = currentSpaceFocusMarker();
 
     for (const marker of markers) {
-      marker.baseVisible = markerVisible(marker, cameraHeight, occluder);
+      if (spaceFocus && marker.type !== "space" && !linkedMarkers.has(marker)) {
+        marker.baseVisible = false;
+      } else {
+        marker.baseVisible = markerVisible(marker, cameraHeight, occluder) || linkedMarkers.has(marker);
+      }
       marker.primitive.show = marker.baseVisible && !vignette.isActiveMarker(marker);
     }
     updateHitTargets();
     updateAutoPopup(cameraHeight);
+  }
+
+  function activeLinkedMarkers() {
+    const linked = new Set();
+    for (const edge of progress.unlockEdges) {
+      if (!edgeLinkVisible(edge)) continue;
+      const fromMarker = markerByChapterId.get(edge.from);
+      const toMarker = markerByChapterId.get(edge.to);
+      if (fromMarker) linked.add(fromMarker);
+      if (toMarker) linked.add(toMarker);
+    }
+    return linked;
+  }
+
+  function currentSpaceFocusMarker() {
+    const marker = vignette.marker?.() || rsvp.marker || null;
+    return marker?.type === "space" ? marker : null;
   }
 
   function updateHitTargets() {
@@ -555,7 +677,7 @@
     if (!marker) return false;
     if (refresh) rebuildKnownEdgesFromRead();
     return progress.knownEdges.some((edge) => {
-      if (!progress.open.has(edge.to) && !progress.read.has(edge.to)) return false;
+      if (!edgeLinkVisible(edge)) return false;
       return markerByChapterId.get(edge.from) === marker || markerByChapterId.get(edge.to) === marker;
     });
   }
@@ -707,9 +829,58 @@
   function updateProfile() {
     profileManager?.update({
       readCount: progress.read.size,
+      totalCount: Math.max(READING_TOTAL_CHAPTERS, totalChapterCount || chapterById.size || 0),
       readOrder: progress.readOrder,
+      tomeStats: buildTomeStats(),
+      zoneStats: buildZoneStats(),
     });
+    updateReadingScore();
     updateSpeedLabel();
+  }
+
+  function buildTomeStats() {
+    return TOME_IDS.map((tome) => {
+      const ids = tomeChapterIds(tome);
+      return {
+        label: `Tome ${tome}`,
+        percent: progressPercent(ids),
+        locked: !tomeUnlocked(tome),
+        cover: assetUrl(TOME_COVERS[tome]),
+        href: TOME_SHOP_URLS[tome],
+        lockReason: tome <= 1 ? "" : `Lis 30 % du Tome ${tome - 1} pour débloquer cette zone.`,
+      };
+    });
+  }
+
+  function buildZoneStats() {
+    const idsByZone = new Map(ZONE_IDS.map((zone) => [zone, new Set()]));
+    for (const marker of markers) {
+      const zone = markerZone(marker);
+      const ids = idsByZone.get(zone) || idsByZone.get("Océanie");
+      for (const chapterId of marker.chapterIds || []) ids.add(chapterId);
+    }
+    return ZONE_IDS.map((zone) => ({
+      label: zone,
+      percent: progressPercent([...idsByZone.get(zone)]),
+      locked: false,
+    }));
+  }
+
+  function progressPercent(chapterIds) {
+    if (!chapterIds.length) return 0;
+    const readCount = chapterIds.filter((chapterId) => progress.read.has(chapterId)).length;
+    return Math.round((readCount / chapterIds.length) * 100);
+  }
+
+  function markerZone(marker) {
+    if (marker?.type === "space") return "Espace";
+    const zone = String(marker?.zone || "").toLowerCase();
+    if (zone.includes("europe")) return "Europe";
+    if (zone.includes("amérique") || zone.includes("amerique") || zone.includes("caraïbes") || zone.includes("caraibes")) return "Amérique";
+    if (zone.includes("asie") || zone.includes("moyen-orient")) return "Asie";
+    if (zone.includes("afrique")) return "Afrique";
+    if (zone.includes("espace")) return "Espace";
+    return "Océanie";
   }
 
   function chapterLabel(chapterId) {
@@ -724,6 +895,7 @@
     progress.read = new Set();
     progress.readOrder = [];
     progress.open = new Set(initialOpenChapterIds);
+    progress.blocked = new Set();
     progress.unlockEdges = [];
     progress.knownEdges = [];
     lastChapterId = null;
@@ -842,10 +1014,19 @@
 
     for (const link of nextLinks) {
       const nextId = link.to;
+      if (!chapterCanBeMapped(nextId)) {
+        Debug?.log("Map", "lien ignore sans pastille", { from: chapterId, to: nextId, label: link.label || link.type || "" });
+        continue;
+      }
       if (recordEdges) rememberUnlockEdge(chapterId, nextId, link);
       else rememberKnownEdge(chapterId, nextId, link);
       if (progress.read.has(nextId)) continue;
+      if (!chapterTomeUnlocked(nextId)) {
+        progress.blocked.add(nextId);
+        continue;
+      }
       if (!progress.open.has(nextId)) {
+        progress.blocked.delete(nextId);
         progress.open.add(nextId);
         newlyOpened.push(nextId);
       }
@@ -855,6 +1036,38 @@
       selectedMarker = sourceMarker;
     }
     return newlyOpened;
+  }
+
+  function promoteBlockedChapters() {
+    const newlyOpened = [];
+    for (const chapterId of [...progress.blocked]) {
+      if (progress.read.has(chapterId) || !chapterCanBeMapped(chapterId)) {
+        progress.blocked.delete(chapterId);
+        continue;
+      }
+      if (!chapterTomeUnlocked(chapterId)) continue;
+      progress.blocked.delete(chapterId);
+      if (!progress.open.has(chapterId)) {
+        progress.open.add(chapterId);
+        newlyOpened.push(chapterId);
+      }
+    }
+    return newlyOpened;
+  }
+
+  function enforceTomeLocks() {
+    let changed = false;
+    for (const chapterId of [...progress.open]) {
+      if (progress.read.has(chapterId) || chapterTomeUnlocked(chapterId)) continue;
+      progress.open.delete(chapterId);
+      progress.blocked.add(chapterId);
+      changed = true;
+    }
+    return changed;
+  }
+
+  function chapterCanBeMapped(chapterId) {
+    return !!CHAPTER_PATHS[chapterId] && !!chapterById.get(chapterId) && !!markerByChapterId.get(chapterId);
   }
 
   function rememberUnlockEdge(from, to, link = {}) {
@@ -867,15 +1080,15 @@
   }
 
   function redrawUnlockLines() {
-    linkManager.redraw(progress.unlockEdges, (chapterId) => progress.open.has(chapterId) && !progress.read.has(chapterId));
+    linkManager.redraw(progress.unlockEdges, edgeLinkVisible);
   }
 
   function redrawInspectableLinks() {
-    linkManager.redraw(progress.unlockEdges, (chapterId) => progress.open.has(chapterId) || progress.read.has(chapterId));
+    linkManager.redraw(progress.unlockEdges, edgeLinkVisible);
   }
 
   function redrawRestoredLinks() {
-    linkManager.redraw(progress.unlockEdges, () => true);
+    linkManager.redraw(progress.unlockEdges, edgeLinkVisible);
   }
 
   function showOutgoingLinksForChapter(chapterId) {
@@ -887,13 +1100,15 @@
 
   function rememberOutgoingLinks(chapter) {
     for (const link of chapter?.next_chapter_links || []) {
-      if (!progress.open.has(link.to) && !progress.read.has(link.to)) continue;
+      const edge = { from: chapter.id, to: link.to };
+      if (!edgeLinkVisible(edge)) continue;
       rememberUnlockEdge(chapter.id, link.to, link);
     }
   }
 
   function rememberKnownOutgoingLinks(chapter) {
     for (const link of chapter?.next_chapter_links || []) {
+      if (!chapterCanBeMapped(link.to)) continue;
       rememberKnownEdge(chapter.id, link.to, link);
     }
   }
@@ -920,12 +1135,13 @@
       unlockNextChapters(chapterId, markerByChapterId.get(chapterId), false);
       rememberKnownOutgoingLinks(chapter);
     }
+    promoteBlockedChapters();
   }
 
   function rememberKnownEdgesFrom(chapterId) {
     for (const edge of progress.knownEdges) {
       if (edge.from !== chapterId) continue;
-      if (!progress.open.has(edge.to) && !progress.read.has(edge.to)) continue;
+      if (!edgeLinkVisible(edge)) continue;
       linkManager.remember(progress.unlockEdges, edge.from, edge.to, edge);
     }
   }
@@ -941,15 +1157,19 @@
     for (const edge of progress.knownEdges) {
       const fromMarker = markerByChapterId.get(edge.from);
       const toMarker = markerByChapterId.get(edge.to);
+      if (!fromMarker || !toMarker || !edgeLinkVisible(edge)) continue;
       if (!markerSet.has(fromMarker) && !markerSet.has(toMarker)) continue;
-      if (!progress.open.has(edge.to) && !progress.read.has(edge.to)) continue;
       linkManager.remember(progress.unlockEdges, edge.from, edge.to, edge);
     }
     redrawInspectableLinks();
   }
 
-  function zoomOutAfterReading(openedChapterIds) {
+  function zoomOutAfterReading(openedChapterIds, marker = null) {
     if (!openedChapterIds?.length) return;
+    if (marker?.type === "space") {
+      zoomOutFromSpaceMarker(marker);
+      return;
+    }
     const cartographic = viewer.camera.positionCartographic;
     const targetHeight = Math.min(
       POST_READ_ZOOM_OUT_MAX_HEIGHT,
@@ -969,6 +1189,38 @@
       duration: 1.8,
       easingFunction: Cesium.EasingFunction.QUADRATIC_OUT,
       complete: syncZoomState,
+    });
+  }
+
+  function zoomOutFromSpaceMarker(marker) {
+    const cameraPosition = viewer.camera.positionWC;
+    let away = Cesium.Cartesian3.subtract(cameraPosition, marker.position, new Cesium.Cartesian3());
+    if (Cesium.Cartesian3.magnitude(away) < 1) {
+      away = Cesium.Cartesian3.normalize(marker.position, away);
+    } else {
+      Cesium.Cartesian3.normalize(away, away);
+    }
+    const currentDistance = Cesium.Cartesian3.distance(cameraPosition, marker.position);
+    const targetDistance = Math.min(
+      CAMERA_MAX_HEIGHT,
+      Math.max(currentDistance * 3.2, marker.lieu?.toLowerCase?.().includes("station spatiale") ? 2600000 : 4200000)
+    );
+    const destination = Cesium.Cartesian3.add(
+      marker.position,
+      Cesium.Cartesian3.multiplyByScalar(away, targetDistance, new Cesium.Cartesian3()),
+      new Cesium.Cartesian3()
+    );
+    const orientation = spaceCameraOrientation(marker, destination);
+    viewer.camera.flyTo({
+      destination,
+      orientation,
+      duration: 1.8,
+      easingFunction: Cesium.EasingFunction.QUADRATIC_OUT,
+      complete: () => {
+        viewer.camera.setView({ destination, orientation });
+        syncZoomState();
+        requestAnimationFrame(() => vignette.position());
+      },
     });
   }
 
@@ -1018,12 +1270,82 @@
       });
       return;
     }
+    const destination = spaceCameraDestination(marker);
+    const orientation = spaceCameraOrientation(marker, destination);
     viewer.camera.flyTo({
-      destination: marker.position,
+      destination,
+      orientation,
       duration: 1.8,
       easingFunction: Cesium.EasingFunction.QUADRATIC_IN_OUT,
-      complete,
+      complete: () => {
+        viewer.camera.setView({ destination, orientation });
+        requestAnimationFrame(() => {
+          complete();
+          vignette.position();
+        });
+      },
     });
+  }
+
+  function spaceCameraDestination(marker) {
+    const direction = Cesium.Cartesian3.normalize(marker.position, new Cesium.Cartesian3());
+    if (marker.lieu?.toLowerCase?.().includes("station spatiale")) {
+      const tangent = spaceCameraTangent(direction);
+      const outward = Cesium.Cartesian3.multiplyByScalar(direction, 760000, new Cesium.Cartesian3());
+      const lateral = Cesium.Cartesian3.multiplyByScalar(tangent, 2300000, new Cesium.Cartesian3());
+      return Cesium.Cartesian3.add(
+        marker.position,
+        Cesium.Cartesian3.add(outward, lateral, new Cesium.Cartesian3()),
+        new Cesium.Cartesian3()
+      );
+    }
+    if (spaceMarkerIsDeep(marker)) {
+      const tangent = spaceCameraTangent(direction);
+      const distance = Math.max(8500000, Cesium.Cartesian3.magnitude(marker.position) * 0.16);
+      const lateralDistance = Math.max(16000000, Cesium.Cartesian3.magnitude(marker.position) * 0.28);
+      const outward = Cesium.Cartesian3.multiplyByScalar(direction, distance, new Cesium.Cartesian3());
+      const lateral = Cesium.Cartesian3.multiplyByScalar(tangent, lateralDistance, new Cesium.Cartesian3());
+      return Cesium.Cartesian3.add(
+        marker.position,
+        Cesium.Cartesian3.add(outward, lateral, new Cesium.Cartesian3()),
+        new Cesium.Cartesian3()
+      );
+    }
+    const distance = Math.max(1200000, Cesium.Cartesian3.magnitude(marker.position) * 0.08);
+    return Cesium.Cartesian3.add(
+      marker.position,
+      Cesium.Cartesian3.multiplyByScalar(direction, distance, new Cesium.Cartesian3()),
+      new Cesium.Cartesian3()
+    );
+  }
+
+  function spaceMarkerIsDeep(marker) {
+    return Cesium.Cartesian3.magnitude(marker.position) > EARTH_RADIUS_METERS * 8;
+  }
+
+  function spaceCameraTangent(direction) {
+    let tangent = Cesium.Cartesian3.cross(Cesium.Cartesian3.UNIT_Z, direction, new Cesium.Cartesian3());
+    if (Cesium.Cartesian3.magnitude(tangent) < 0.001) {
+      tangent = Cesium.Cartesian3.cross(Cesium.Cartesian3.UNIT_Y, direction, tangent);
+    }
+    Cesium.Cartesian3.normalize(tangent, tangent);
+    return tangent;
+  }
+
+  function spaceCameraOrientation(marker, cameraPosition = spaceCameraDestination(marker)) {
+    const direction = Cesium.Cartesian3.subtract(marker.position, cameraPosition, new Cesium.Cartesian3());
+    Cesium.Cartesian3.normalize(direction, direction);
+    let right = Cesium.Cartesian3.cross(direction, Cesium.Cartesian3.UNIT_Z, new Cesium.Cartesian3());
+    if (Cesium.Cartesian3.magnitude(right) < 0.001) {
+      right = Cesium.Cartesian3.cross(direction, Cesium.Cartesian3.UNIT_Y, right);
+    }
+    Cesium.Cartesian3.normalize(right, right);
+    const up = Cesium.Cartesian3.cross(right, direction, new Cesium.Cartesian3());
+    Cesium.Cartesian3.normalize(up, up);
+    return {
+      direction,
+      up,
+    };
   }
 
   function flyToLinkedChapter(link) {
@@ -1064,22 +1386,26 @@
     readerWords.textContent = "Fin";
     if (readerSeek) readerSeek.value = readerSeek.max;
     let newlyOpened = [];
+    let newlyRead = false;
     if (rsvp.chapter) {
       progress.unlockEdges = [];
       if (!progress.read.has(rsvp.chapter.id)) {
         progress.readOrder.push(rsvp.chapter.id);
+        newlyRead = true;
       }
       progress.read.add(rsvp.chapter.id);
       lastChapterId = rsvp.chapter.id;
       newlyOpened = unlockNextChapters(rsvp.chapter.id, rsvp.marker);
+      newlyOpened.push(...promoteBlockedChapters());
     }
     refreshMarkerStatuses();
     if (rsvp.chapter?.id) showKnownLinksFromChapter(rsvp.chapter.id);
     else redrawUnlockLines();
     saveState();
+    updateReadingScore(newlyRead);
     suppressAutoPopup = true;
     closeReader();
-    zoomOutAfterReading(newlyOpened);
+    zoomOutAfterReading(newlyOpened, rsvp.marker);
   }
 
   async function openReader(chapterId, marker) {
@@ -1188,6 +1514,11 @@
       saveState();
     });
     readerClose.addEventListener("click", closeReader);
+    mapTitle?.addEventListener("click", (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      profileManager?.open();
+    });
     profileManager.bind();
     reader.addEventListener("click", (event) => {
       if (event.target === reader || event.target.classList.contains("reader-backdrop")) closeReader();

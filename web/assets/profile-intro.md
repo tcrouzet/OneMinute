@@ -1,0 +1,1 @@
+*One Minute* est un roman en quatre tomes de [Thierry Crouzet](https://tcrouzet.com/), publié par [PVH Éditions](https://pvh-editions.com/product/one-minute-integrale-papier), disponible dans toutes les bonnes librairies.
