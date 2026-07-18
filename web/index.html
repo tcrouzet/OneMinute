@@ -17,7 +17,7 @@
     <script src="https://cesium.com/downloads/cesiumjs/releases/1.143/Build/Cesium/Cesium.js"></script>
     <link href="https://cesium.com/downloads/cesiumjs/releases/1.143/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
     <script>
-      window.ONEMINUTE_DEV_VERSION = "20260718-mobile-links-1";
+      window.ONEMINUTE_DEV_VERSION = "20260718-profile-note-md-1";
       document.write(`<link rel="stylesheet" href="styles.css?dev=${window.ONEMINUTE_DEV_VERSION}">`);
     </script>
   </head>
@@ -52,17 +52,18 @@
           <section class="profile-stats" id="profileZones" aria-label="Progression par zone"></section>
           <div class="profile-history" id="profileHistory" aria-label="Chapitres lus"></div>
           <button class="profile-reset" id="profileReset" type="button">Reset lecture</button>
+          <p class="profile-intro profile-note" id="profileNote"></p>
         </div>
       </aside>
       <div class="point-tooltip" id="pointTooltip" aria-hidden="true"></div>
-      <section class="reader" id="reader" aria-hidden="true">
+      <section class="reader is-vertical" id="reader" aria-hidden="true">
         <div class="reader-backdrop"></div>
         <div class="reader-shell" role="dialog" aria-modal="true" aria-label="Lecture du chapitre">
           <header class="reader-header">
             <div class="reader-place" id="readerPlace"></div>
             <div class="reader-actions">
               <button class="reader-close" id="readerClose" type="button" aria-label="Fermer">x</button>
-              <button class="reader-mode" id="readerMode" type="button" aria-label="Lecture verticale">
+              <button class="reader-mode" id="readerMode" type="button" aria-label="Lecture RSVP" title="Lecture RSVP">
                 <svg class="reader-mode-icon icon-classic" aria-hidden="true" viewBox="0 0 24 24">
                   <path d="M4 6h16"></path>
                   <path d="M4 10h11"></path>

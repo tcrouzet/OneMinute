@@ -34,6 +34,7 @@
         const toMarker = markerByChapterId.get(edge.to);
         if (!fromMarker || !toMarker || !isEdgeVisible(edge)) continue;
         if (fromMarker === toMarker) continue;
+        const color = edge.type === "retour" ? "#4aa3ff" : "#62dd72";
         visibleEdges.push(edge);
         entities.push(viewer.entities.add({
           id: edge.id,
@@ -47,8 +48,8 @@
           polyline: {
             positions: new Cesium.CallbackProperty(() => positionsFor(edges, fromMarker, toMarker, edge), false),
             width: edge.type === "retour" ? 5 : 4,
-            material: Cesium.Color.fromCssColorString("#62dd72").withAlpha(0.78),
-            depthFailMaterial: Cesium.Color.fromCssColorString("#62dd72").withAlpha(0.78),
+            material: Cesium.Color.fromCssColorString(color).withAlpha(0.82),
+            depthFailMaterial: Cesium.Color.fromCssColorString(color).withAlpha(0.82),
             arcType: Cesium.ArcType.GEODESIC,
           },
         }));

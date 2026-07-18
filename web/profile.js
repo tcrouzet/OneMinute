@@ -6,6 +6,7 @@
     panel,
     closeButton,
     intro,
+    note,
     tomes,
     zones,
     history,
@@ -23,9 +24,18 @@
 
     async function loadIntro(path, assetUrl) {
       if (!intro || !path) return;
+      await loadMarkdownInto(intro, path, assetUrl);
+    }
+
+    async function loadNote(path, assetUrl) {
+      if (!note || !path) return;
+      await loadMarkdownInto(note, path, assetUrl);
+    }
+
+    async function loadMarkdownInto(element, path, assetUrl) {
       const text = await fetch(assetUrl ? assetUrl(path) : path, { cache: "no-store" }).then((res) => res.text());
-      intro.innerHTML = renderInlineMarkdown(text.trim());
-      intro.querySelectorAll("a").forEach((link) => {
+      element.innerHTML = renderInlineMarkdown(text.trim());
+      element.querySelectorAll("a").forEach((link) => {
         link.target = "_blank";
         link.rel = "noopener";
       });
@@ -93,14 +103,18 @@
       let html = escapeHtml(markdown);
       html = html.replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, (_match, label, href) => {
         const token = `@@LINK_${placeholders.length}@@`;
-        placeholders.push(`<a href="${href}">${label}</a>`);
+        placeholders.push(`<a href="${href}">${renderInlineEmphasis(label)}</a>`);
         return token;
       });
-      html = html.replace(/\*([^*]+)\*/g, "<em>$1</em>");
+      html = renderInlineEmphasis(html);
       for (let index = 0; index < placeholders.length; index += 1) {
         html = html.replace(`@@LINK_${index}@@`, placeholders[index]);
       }
       return html;
+    }
+
+    function renderInlineEmphasis(html) {
+      return html.replace(/\*([^*]+)\*/g, "<em>$1</em>");
     }
 
     function renderHistory(readOrder) {
@@ -166,6 +180,7 @@
       close,
       open,
       loadIntro,
+      loadNote,
       setSpeed,
       update,
     };

@@ -66,6 +66,7 @@
   const profilePanel = document.querySelector("#profilePanel");
   const profileClose = document.querySelector("#profileClose");
   const profileIntro = document.querySelector("#profileIntro");
+  const profileNote = document.querySelector("#profileNote");
   const profileTomes = document.querySelector("#profileTomes");
   const profileZones = document.querySelector("#profileZones");
   const profileHistory = document.querySelector("#profileHistory");
@@ -100,7 +101,7 @@
     playing: false,
     timer: null,
     syllablesPerSecond: 6,
-    mode: "rsvp",
+    mode: "vertical",
     seeking: false,
     resumeAfterSeek: false,
     readerFontSize: null,
@@ -164,7 +165,7 @@
     Cesium,
     viewer,
     markerByChapterId,
-    pickTolerance: IS_TOUCH_DEVICE ? 24 : 10,
+    pickTolerance: IS_TOUCH_DEVICE ? 44 : 12,
   });
   vignette = Vignette.createVignette({
     element: tooltip,
@@ -180,6 +181,7 @@
     panel: profilePanel,
     closeButton: profileClose,
     intro: profileIntro,
+    note: profileNote,
     tomes: profileTomes,
     zones: profileZones,
     history: profileHistory,
@@ -192,6 +194,7 @@
     }),
   });
   profileManager.loadIntro("assets/profile-intro.md", assetUrl);
+  profileManager.loadNote("assets/profile-note.md", assetUrl);
 
   const pointPrimitives = viewer.scene.primitives.add(new Cesium.PointPrimitiveCollection());
   function loadState() {
@@ -445,7 +448,9 @@
       rsvp.syllablesPerSecond = Math.max(2, Math.min(12, Number(savedSpeed)));
       readerSpeed.value = String(rsvp.syllablesPerSecond);
     }
-    if (state.readerMode === "vertical") {
+    if (state.readerMode === "rsvp") {
+      rsvp.mode = "rsvp";
+    } else if (state.readerMode === "vertical") {
       rsvp.mode = "vertical";
     }
     applyReaderMode();
@@ -655,7 +660,7 @@
     return normalize(viewer.scene.cartesianToCanvasCoordinates?.(marker.position) || null);
   }
 
-  function nearestMarker(screenPosition) {
+  function nearestMarker(screenPosition, maxDistance = 48) {
     let best = null;
     let bestDistance = Infinity;
     for (const marker of markers) {
@@ -665,7 +670,7 @@
       const dx = markerPosition.x - screenPosition.x;
       const dy = markerPosition.y - screenPosition.y;
       const distance = Math.sqrt(dx * dx + dy * dy);
-      if (distance <= 48 && distance < bestDistance) {
+      if (distance <= maxDistance && distance < bestDistance) {
         best = marker;
         bestDistance = distance;
       }
@@ -678,6 +683,11 @@
   }
 
   function directPickedMarker(screenPosition) {
+    const pickedItems = viewer.scene.drillPick?.(screenPosition, 8) || [];
+    for (const picked of pickedItems) {
+      const marker = picked?.id || picked?.primitive?.id;
+      if (marker?.lieu) return marker;
+    }
     const picked = viewer.scene.pick(screenPosition);
     const marker = picked?.id || picked?.primitive?.id;
     if (marker?.lieu) return marker;
@@ -782,6 +792,9 @@
 
   function bindTooltip() {
     let lastRoutedClickAt = 0;
+    const setCanvasCursor = (cursor) => {
+      viewer.scene.canvas.style.cursor = cursor;
+    };
     const routeMapClick = (position) => {
       const now = performance.now();
       if (now - lastRoutedClickAt < 90) return;
@@ -789,12 +802,12 @@
       if (introPlaying) return;
       const marker = directPickedMarker(position);
       if (marker) {
-        historyReturnActive = false;
-        if (!firstReadableChapterId(marker)) {
-          if (markerHasKnownLinks(marker, true)) showRememberedLinksForMarker(marker);
-          return;
-        }
-        showReadableMarker(marker, markerScreenPosition(marker) || position, true);
+        routeMarkerClick(marker, position);
+        return;
+      }
+      const priorityMarker = nearestMarker(position, IS_TOUCH_DEVICE ? 28 : 20);
+      if (priorityMarker) {
+        routeMarkerClick(priorityMarker, position);
         return;
       }
       const link = pickedUnlockLink(position);
@@ -805,23 +818,39 @@
       }
       const nearbyMarker = nearestMarker(position);
       if (nearbyMarker) {
-        historyReturnActive = false;
-        if (!firstReadableChapterId(nearbyMarker)) {
-          if (markerHasKnownLinks(nearbyMarker, true)) showRememberedLinksForMarker(nearbyMarker);
-          return;
-        }
-        showReadableMarker(nearbyMarker, markerScreenPosition(nearbyMarker) || position, true);
+        routeMarkerClick(nearbyMarker, position);
         return;
       }
       hidePopup();
+    };
+
+    const routeMarkerClick = (marker, position) => {
+      historyReturnActive = false;
+      if (!firstReadableChapterId(marker)) {
+        if (markerHasKnownLinks(marker, true)) showRememberedLinksForMarker(marker);
+        return;
+      }
+      showReadableMarker(marker, markerScreenPosition(marker) || position, true);
     };
 
     const handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
     handler.setInputAction((movement) => {
       routeMapClick(movement.position);
     }, Cesium.ScreenSpaceEventType.LEFT_CLICK);
+    handler.setInputAction((movement) => {
+      if (introPlaying || reader.classList.contains("is-open")) {
+        setCanvasCursor("");
+        return;
+      }
+      if (directPickedMarker(movement.endPosition) || nearestMarker(movement.endPosition, 24)) {
+        setCanvasCursor("pointer");
+        return;
+      }
+      setCanvasCursor(pickedUnlockLink(movement.endPosition) ? "pointer" : "");
+    }, Cesium.ScreenSpaceEventType.MOUSE_MOVE);
 
     viewer.scene.canvas.addEventListener("pointerleave", () => {
+      setCanvasCursor("");
       if (!popupPinned) hidePopup();
     });
 
@@ -936,7 +965,7 @@
     suppressAutoPopup = false;
     rsvp.chapter = null;
     rsvp.marker = null;
-    rsvp.mode = "rsvp";
+    rsvp.mode = "vertical";
     applyReaderMode();
     profileManager?.close();
     closeReader();
@@ -1470,16 +1499,11 @@
     if (!canShowRead && !canShowOpen) return;
     if (link.type === "retour") {
       const previous = linkHistory.pop() || null;
-      const restoreEdges = previous?.edges || null;
-      const restoreChapterId = previous?.chapterId || chapterId;
-      const restoreCanShowRead = progress.read.has(restoreChapterId);
-      const restoreCanShowOpen = progress.open.has(restoreChapterId) && !progress.read.has(restoreChapterId);
-      if (!restoreCanShowRead && !restoreCanShowOpen) return;
-      flyToChapter(restoreChapterId, {
-        allowRead: restoreCanShowRead,
-        showChapterId: restoreChapterId,
-        restoreEdges,
-        keepLinks: !restoreEdges,
+      flyToChapter(chapterId, {
+        allowRead: canShowRead,
+        showChapterId: chapterId,
+        restoreEdges: previous?.edges || null,
+        keepLinks: !previous?.edges,
         suppressPopup: true,
       });
       return;

@@ -359,6 +359,11 @@ button {
   text-underline-offset: 3px;
 }
 
+.profile-note {
+  padding-top: 10px;
+  font-size: clamp(0.84rem, 1.5vw, 0.98rem);
+}
+
 .profile-stats {
   display: grid;
   gap: 8px;
