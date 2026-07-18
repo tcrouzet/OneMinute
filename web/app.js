@@ -907,6 +907,7 @@
     refreshMarkerStatuses();
     redrawUnlockLines();
     saveState();
+    playIntro();
   }
 
   function setReaderProgress() {
