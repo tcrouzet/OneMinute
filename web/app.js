@@ -42,8 +42,10 @@
   const Vignette = window.OneMinuteVignette;
   const Profile = window.OneMinuteProfile;
   const Debug = window.OneMinuteDebug;
+  const IS_TOUCH_DEVICE = window.matchMedia?.("(pointer: coarse)")?.matches || navigator.maxTouchPoints > 0;
 
   const mapRoot = document.querySelector(".game-map");
+  const introCurtain = document.querySelector("#introCurtain");
   const tooltip = document.querySelector("#pointTooltip");
   const pointHitLayer = document.querySelector("#pointHitLayer");
   const mapTitle = document.querySelector("#mapTitle");
@@ -147,6 +149,13 @@
   viewer.scene.screenSpaceCameraController.minimumZoomDistance = 80;
   viewer.scene.screenSpaceCameraController.maximumZoomDistance = CAMERA_MAX_HEIGHT;
   viewer.scene.screenSpaceCameraController.enableZoom = true;
+  if (IS_TOUCH_DEVICE) {
+    viewer.scene.screenSpaceCameraController.maximumMovementRatio = 0.04;
+    viewer.scene.screenSpaceCameraController.inertiaSpin = 0.55;
+    viewer.scene.screenSpaceCameraController.inertiaTranslate = 0.35;
+    viewer.scene.screenSpaceCameraController.inertiaZoom = 0.35;
+    viewer.scene.screenSpaceCameraController.zoomFactor = 2.2;
+  }
   viewer.camera.percentageChanged = 0.001;
   viewer.camera.setView({
     destination: Cesium.Cartesian3.fromDegrees(-35, 28, 260000000),
@@ -452,7 +461,9 @@
     bindZoomButton(zoomIn, -BUTTON_ZOOM_IN_RATIO);
     bindZoomButton(zoomOut, BUTTON_ZOOM_OUT_RATIO);
     mapRoot?.addEventListener("wheel", handleWheelZoom, { passive: false, capture: true });
-    mapRoot?.addEventListener("gesturechange", handleGestureZoom, { passive: false, capture: true });
+    if (!IS_TOUCH_DEVICE) {
+      mapRoot?.addEventListener("gesturechange", handleGestureZoom, { passive: false, capture: true });
+    }
     viewer.camera.changed.addEventListener(syncZoomState);
   }
 
@@ -478,8 +489,9 @@
   function zoomCamera(ratio) {
     syncZoomState();
     const height = zoomState.cameraHeight;
-    const amount = Math.max(80, height * Math.abs(ratio));
-    if (ratio < 0) viewer.camera.zoomIn(amount);
+    const effectiveRatio = IS_TOUCH_DEVICE ? ratio * 0.55 : ratio;
+    const amount = Math.max(80, height * Math.abs(effectiveRatio));
+    if (effectiveRatio < 0) viewer.camera.zoomIn(amount);
     else viewer.camera.zoomOut(amount);
     syncZoomState();
   }
@@ -902,12 +914,37 @@
     suppressAutoPopup = false;
     rsvp.chapter = null;
     rsvp.marker = null;
+    profileManager?.close();
     closeReader();
     hidePopup();
     refreshMarkerStatuses();
     redrawUnlockLines();
     saveState();
-    playIntro();
+    restartIntroFromBlack();
+  }
+
+  function restartIntroFromBlack() {
+    introCurtain?.classList.add("is-visible");
+    introPlaying = true;
+    selectedMarker = null;
+    popupPinned = false;
+    suppressAutoPopup = false;
+    hidePopup();
+    viewer.camera.cancelFlight();
+    viewer.camera.setView({
+      destination: Cesium.Cartesian3.fromDegrees(-35, 28, 260000000),
+      orientation: {
+        heading: 0,
+        pitch: Cesium.Math.toRadians(-90),
+        roll: 0,
+      },
+    });
+    syncZoomState();
+    updateMarkers();
+    window.setTimeout(() => {
+      introCurtain?.classList.remove("is-visible");
+      playIntro();
+    }, 460);
   }
 
   function setReaderProgress() {
@@ -1594,6 +1631,7 @@
           },
         });
         syncZoomState();
+        introCurtain?.classList.remove("is-visible");
         introPlaying = false;
         updateMarkers();
         showInitialChapterPopup();
