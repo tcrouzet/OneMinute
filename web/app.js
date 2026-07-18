@@ -36,12 +36,13 @@
   const BUTTON_ZOOM_IN_RATIO = 0.62;
   const BUTTON_ZOOM_OUT_RATIO = 1.25;
   const WHEEL_ZOOM_RATIO = 0.0042;
-  const PINCH_ZOOM_RATIO = 1.35;
+  const CTRL_WHEEL_ZOOM_RATIO = 1.35;
   const RSVP = window.OneMinuteRSVP;
   const Links = window.OneMinuteLinks;
   const Vignette = window.OneMinuteVignette;
   const Profile = window.OneMinuteProfile;
   const Debug = window.OneMinuteDebug;
+  const IS_TOUCH_DEVICE = window.matchMedia?.("(pointer: coarse)")?.matches || navigator.maxTouchPoints > 0;
 
   const mapRoot = document.querySelector(".game-map");
   const tooltip = document.querySelector("#pointTooltip");
@@ -80,6 +81,7 @@
   let popupPinned = false;
   let suppressAutoPopup = false;
   const zoomState = { cameraHeight: 260000000 };
+  const interactionState = { moving: false, timer: null };
   let totalChapterCount = 0;
 
   console.info(`OneMinute map build ${BUILD}`);
@@ -144,9 +146,18 @@
   viewer.scene.globe.enableLighting = false;
   viewer.scene.globe.depthTestAgainstTerrain = true;
   viewer.scene.skyAtmosphere.show = true;
+  if (IS_TOUCH_DEVICE) {
+    viewer.resolutionScale = Math.min(1, 2 / (window.devicePixelRatio || 1));
+    viewer.scene.fxaa = false;
+  }
   viewer.scene.screenSpaceCameraController.minimumZoomDistance = 80;
   viewer.scene.screenSpaceCameraController.maximumZoomDistance = CAMERA_MAX_HEIGHT;
   viewer.scene.screenSpaceCameraController.enableZoom = true;
+  if (IS_TOUCH_DEVICE) {
+    viewer.scene.screenSpaceCameraController.inertiaSpin = 0.35;
+    viewer.scene.screenSpaceCameraController.inertiaTranslate = 0.25;
+    viewer.scene.screenSpaceCameraController.inertiaZoom = 0.15;
+  }
   viewer.camera.percentageChanged = 0.001;
   viewer.camera.setView({
     destination: Cesium.Cartesian3.fromDegrees(-35, 28, 260000000),
@@ -377,6 +388,7 @@
     let popupShownOnPointerDown = false;
     button.type = "button";
     button.className = "point-hit";
+    button.hidden = true;
     button.setAttribute("aria-label", `Lire ${marker.lieu}`);
     button.addEventListener("pointerdown", (event) => {
       event.preventDefault();
@@ -451,9 +463,12 @@
   function bindZoomButtons() {
     bindZoomButton(zoomIn, -BUTTON_ZOOM_IN_RATIO);
     bindZoomButton(zoomOut, BUTTON_ZOOM_OUT_RATIO);
-    mapRoot?.addEventListener("wheel", handleWheelZoom, { passive: false, capture: true });
-    mapRoot?.addEventListener("gesturechange", handleGestureZoom, { passive: false, capture: true });
+    if (!IS_TOUCH_DEVICE) {
+      mapRoot?.addEventListener("wheel", handleWheelZoom, { passive: false, capture: true });
+    }
     viewer.camera.changed.addEventListener(syncZoomState);
+    viewer.camera.moveStart.addEventListener(beginCameraInteraction);
+    viewer.camera.moveEnd.addEventListener(endCameraInteractionSoon);
   }
 
   function bindZoomButton(button, ratio) {
@@ -475,6 +490,30 @@
     if (Number.isFinite(height)) zoomState.cameraHeight = Math.max(80, Math.min(CAMERA_MAX_HEIGHT, height));
   }
 
+  function beginCameraInteraction() {
+    interactionState.moving = true;
+    if (interactionState.timer) window.clearTimeout(interactionState.timer);
+    hideHitTargets();
+    if (vignette.active() && !popupPinned) {
+      selectedMarker = null;
+      vignette.hide();
+    }
+  }
+
+  function endCameraInteractionSoon() {
+    if (interactionState.timer) window.clearTimeout(interactionState.timer);
+    interactionState.timer = window.setTimeout(() => {
+      interactionState.moving = false;
+      updateMarkers();
+    }, IS_TOUCH_DEVICE ? 180 : 80);
+  }
+
+  function hideHitTargets() {
+    for (const marker of markers) {
+      if (marker.hitButton) marker.hitButton.hidden = true;
+    }
+  }
+
   function zoomCamera(ratio) {
     syncZoomState();
     const height = zoomState.cameraHeight;
@@ -489,19 +528,9 @@
     event.preventDefault();
     event.stopPropagation();
     const unit = event.deltaMode === WheelEvent.DOM_DELTA_LINE ? 18 : event.deltaMode === WheelEvent.DOM_DELTA_PAGE ? window.innerHeight : 1;
-    const delta = event.deltaY * unit * (event.ctrlKey ? PINCH_ZOOM_RATIO : 1);
+    const delta = event.deltaY * unit * (event.ctrlKey ? CTRL_WHEEL_ZOOM_RATIO : 1);
     const ratio = Math.max(-0.9, Math.min(0.9, delta * WHEEL_ZOOM_RATIO));
     if (Math.abs(ratio) < 0.002) return;
-    zoomCamera(ratio);
-  }
-
-  function handleGestureZoom(event) {
-    if (zoomIgnoredTarget(event.target)) return;
-    event.preventDefault();
-    event.stopPropagation();
-    const scale = Number(event.scale) || 1;
-    const ratio = Math.max(-0.9, Math.min(0.9, (1 - scale) * PINCH_ZOOM_RATIO));
-    if (Math.abs(ratio) < 0.004) return;
     zoomCamera(ratio);
   }
 
@@ -522,6 +551,14 @@
   }
 
   function updateMarkers() {
+    if (interactionState.moving) {
+      hideHitTargets();
+      if (IS_TOUCH_DEVICE && !popupPinned) {
+        selectedMarker = null;
+        vignette.hide();
+      }
+      return;
+    }
     const cameraHeight = viewer.camera.positionCartographic.height;
     const occluder = new Cesium.EllipsoidalOccluder(Cesium.Ellipsoid.WGS84, viewer.camera.positionWC);
     const linkedMarkers = activeLinkedMarkers();
@@ -557,6 +594,14 @@
   }
 
   function updateHitTargets() {
+    if (IS_TOUCH_DEVICE) {
+      hideHitTargets();
+      return;
+    }
+    if (interactionState.moving) {
+      hideHitTargets();
+      return;
+    }
     for (const marker of markers) {
       if (!marker.hitButton) continue;
       const visible = marker.baseVisible
@@ -762,6 +807,7 @@
       const now = performance.now();
       if (now - lastRoutedClickAt < 90) return;
       lastRoutedClickAt = now;
+      if (interactionState.moving) return;
       if (introPlaying) return;
       const link = pickedUnlockLink(position);
       if (link?.to) {
