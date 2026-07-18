@@ -196,11 +196,18 @@ button {
   border-top: 1px solid rgba(34, 24, 12, 0.24);
 }
 
-.profile-button {
+.action-controls {
   position: fixed;
   right: max(14px, env(safe-area-inset-right));
   top: max(14px, env(safe-area-inset-top));
   z-index: 1100;
+  display: grid;
+  gap: 6px;
+}
+
+.share-button,
+.profile-button {
+  position: relative;
   width: 42px;
   height: 42px;
   border: 1px solid rgba(0, 0, 0, 0.3);
@@ -209,6 +216,56 @@ button {
   color: var(--ink);
   cursor: pointer;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.28);
+}
+
+.share-box,
+.share-arrow,
+.share-arrow::before,
+.share-arrow::after {
+  position: absolute;
+  display: block;
+  content: "";
+}
+
+.share-box {
+  left: 10px;
+  bottom: 9px;
+  width: 22px;
+  height: 18px;
+  border: 3px solid var(--ink);
+  border-top: 0;
+  border-radius: 2px;
+}
+
+.share-arrow {
+  left: 20px;
+  top: 7px;
+  width: 3px;
+  height: 19px;
+  border-radius: 2px;
+  background: var(--ink);
+}
+
+.share-arrow::before,
+.share-arrow::after {
+  top: 0;
+  width: 11px;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--ink);
+  transform-origin: 1.5px 1.5px;
+}
+
+.share-arrow::before {
+  transform: rotate(45deg);
+}
+
+.share-arrow::after {
+  transform: rotate(135deg);
+}
+
+.share-button.is-copied {
+  background: #62dd72;
 }
 
 .profile-head,

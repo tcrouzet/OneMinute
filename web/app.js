@@ -57,6 +57,7 @@
   const readerSpeed = document.querySelector("#readerSpeed");
   const speedLabel = document.querySelector("#speedLabel");
   const readerClose = document.querySelector("#readerClose");
+  const shareButton = document.querySelector("#shareButton");
   const profileButton = document.querySelector("#profileButton");
   const profilePanel = document.querySelector("#profilePanel");
   const profileClose = document.querySelector("#profileClose");
@@ -1582,6 +1583,7 @@
       saveState();
     });
     readerClose.addEventListener("click", closeReader);
+    shareButton?.addEventListener("click", shareCurrentPage);
     mapTitle?.addEventListener("click", (event) => {
       event.preventDefault();
       event.stopPropagation();
@@ -1593,6 +1595,27 @@
     });
     updateSpeedLabel();
     updateProfile();
+  }
+
+  async function shareCurrentPage(event) {
+    event?.preventDefault();
+    event?.stopPropagation();
+    const payload = {
+      title: "One Minute",
+      text: "One Minute",
+      url: window.location.href.split("#")[0],
+    };
+    try {
+      if (navigator.share) {
+        await navigator.share(payload);
+        return;
+      }
+      await navigator.clipboard?.writeText(payload.url);
+      shareButton?.classList.add("is-copied");
+      window.setTimeout(() => shareButton?.classList.remove("is-copied"), 900);
+    } catch {
+      // L'utilisateur peut annuler le partage natif.
+    }
   }
 
   function playIntro() {
