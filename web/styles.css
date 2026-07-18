@@ -21,7 +21,6 @@ body,
 #globe {
   width: 100%;
   height: 100%;
-  touch-action: none;
 }
 
 body {
@@ -735,5 +734,4 @@ button.profile-stat.is-locked {
 .cesium-widget canvas {
   width: 100%;
   height: 100%;
-  touch-action: none;
 }
