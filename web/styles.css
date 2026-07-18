@@ -63,7 +63,7 @@ button {
 .point-hit-layer {
   position: fixed;
   inset: 0;
-  z-index: 900;
+  z-index: 1000;
   pointer-events: none;
 }
 
@@ -75,6 +75,7 @@ button {
   background: transparent;
   cursor: pointer;
   pointer-events: auto;
+  touch-action: manipulation;
   transform: translate(-50%, -50%);
 }
 

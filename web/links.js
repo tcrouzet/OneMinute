@@ -15,12 +15,8 @@
       const key = `${fromMarker.id}|${toMarker.id}`;
       const existing = edges.find((edge) => edge.key === key);
       if (existing) {
-        if (existing.type === "retour" && type === "actif") {
-          existing.from = from;
-          existing.to = to;
-          existing.type = type;
-          existing.label = label;
-        }
+        existing.type = type;
+        existing.label = label;
         return;
       }
       edges.push({ id: `unlock_${sequence += 1}`, key, from, to, type, label });

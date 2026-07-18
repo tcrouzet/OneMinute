@@ -14,6 +14,7 @@
   }) {
     let active = null;
     let lastShowKey = "";
+    let activatedByPointerAt = 0;
 
     function escapeHtml(value) {
       return String(value).replace(/[&<>"']/g, (char) => ({
@@ -86,7 +87,6 @@
         marker,
         chapterId: resolvedChapterId,
         pinned,
-        shownAt: performance.now(),
         open: () => onOpen(resolvedChapterId, marker),
       };
       const visibleMarker = display(marker, resolvedChapterId);
@@ -151,11 +151,19 @@
       event.stopPropagation();
     });
 
+    element?.addEventListener("pointerup", (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      if (!element.classList.contains("is-visible")) return;
+      activatedByPointerAt = performance.now();
+      active?.open();
+    });
+
     element?.addEventListener("click", (event) => {
       event.preventDefault();
       event.stopPropagation();
       if (!element.classList.contains("is-visible")) return;
-      if (active?.shownAt && performance.now() - active.shownAt < 320) return;
+      if (performance.now() - activatedByPointerAt < 450) return;
       active?.open();
     });
 

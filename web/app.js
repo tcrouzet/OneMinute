@@ -84,7 +84,6 @@
   let initialOpenChapterIds = [];
   let selectedMarker = null;
   let readerRequestId = 0;
-  const linkHistory = [];
   let historyReturnActive = false;
   let introPlaying = true;
   let popupPinned = false;
@@ -216,7 +215,7 @@
       readOrder: progress.readOrder,
       open: [...progress.open],
       blocked: [...progress.blocked],
-      knownEdges: progress.knownEdges,
+      knownEdges: progress.knownEdges.filter((edge) => edge.type !== "retour"),
       lastChapterId,
       syllablesPerSecond: rsvp.syllablesPerSecond,
       readerMode: rsvp.mode,
@@ -396,36 +395,25 @@
   function createHitButton(marker) {
     if (!pointHitLayer) return null;
     const button = document.createElement("button");
-    let popupShownOnPointerDown = false;
+    let activatedByPointerAt = 0;
     button.type = "button";
     button.className = "point-hit";
     button.setAttribute("aria-label", `Lire ${marker.lieu}`);
     button.addEventListener("pointerdown", (event) => {
       event.preventDefault();
       event.stopPropagation();
-      if (!markerInteractive(marker)) return;
-      historyReturnActive = false;
-      if (!firstReadableChapterId(marker)) {
-        showRememberedLinksForMarker(marker);
-        return;
-      }
-      popupShownOnPointerDown = !vignette.isActiveMarker(marker);
-      showReadableMarker(marker, null, true);
+    });
+    button.addEventListener("pointerup", (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      activatedByPointerAt = performance.now();
+      activateMarker(marker, null);
     });
     button.addEventListener("click", (event) => {
       event.preventDefault();
       event.stopPropagation();
-      if (!markerInteractive(marker)) return;
-      historyReturnActive = false;
-      if (!firstReadableChapterId(marker)) {
-        showRememberedLinksForMarker(marker);
-        return;
-      }
-      if (popupShownOnPointerDown) {
-        popupShownOnPointerDown = false;
-        return;
-      }
-      showReadableMarker(marker, null, true);
+      if (performance.now() - activatedByPointerAt < 450) return;
+      activateMarker(marker, null);
     });
     pointHitLayer.appendChild(button);
     return button;
@@ -445,7 +433,9 @@
     progress.open = new Set((Array.isArray(state.open) && state.open.length ? state.open : initialOpenChapterIds) || []);
     progress.blocked = new Set(state.blocked || []);
     progress.unlockEdges = [];
-    progress.knownEdges = Array.isArray(state.knownEdges) ? state.knownEdges : [];
+    progress.knownEdges = Array.isArray(state.knownEdges)
+      ? state.knownEdges.filter((edge) => edge.type !== "retour")
+      : [];
     const savedSpeed = Number.isFinite(state.syllablesPerSecond)
       ? state.syllablesPerSecond
       : state.wordsPerSecond;
@@ -536,7 +526,7 @@
   }
 
   function zoomIgnoredTarget(target) {
-    return !!target?.closest?.(".zoom-controls, .map-title, .profile-panel, .debug-panel, .point-tooltip, #reader");
+    return !!target?.closest?.(".zoom-controls, .map-title, .profile-panel, .debug-panel, .point-tooltip, .point-hit, #reader");
   }
 
   function markerVisible(marker, cameraHeight, occluder) {
@@ -592,7 +582,6 @@
       const visible = marker.baseVisible
         && markerInteractive(marker)
         && !vignette.isActiveMarker(marker)
-        && !historyReturnActive
         && !introPlaying
         && !reader.classList.contains("is-open");
       const screenPosition = visible ? markerScreenPosition(marker) : null;
@@ -611,11 +600,11 @@
     showChapterPopup(marker, vignette.resolve(marker, chapterId), pinned);
   }
 
-  function showReadableMarker(marker, screenPosition, pinned = false) {
+  function showReadableMarker(marker, screenPosition, pinned = false, chapterId = null) {
     if (markerHasKnownLinks(marker, true)) {
       showActiveLinksForPoints([marker]);
     }
-    showPopup(marker, screenPosition, pinned);
+    showPopup(marker, screenPosition, pinned, chapterId);
   }
 
   function forceShowPopup(marker, pinned = false, chapterId = null) {
@@ -725,6 +714,21 @@
     return !!firstReadableChapterId(marker) || markerHasKnownLinks(marker);
   }
 
+  function activateMarker(marker, position = null) {
+    if (!markerInteractive(marker)) return;
+    historyReturnActive = false;
+    const chapterId = firstReadableChapterId(marker);
+    if (chapterId) {
+      if (viewer.camera.positionCartographic.height > POPUP_PINNED_MAX_HEIGHT) {
+        flyToChapter(chapterId, { showChapterId: chapterId });
+        return;
+      }
+      showReadableMarker(marker, position || markerScreenPosition(marker), true, chapterId);
+      return;
+    }
+    showRememberedLinksForMarker(marker);
+  }
+
   function showRememberedLinksForMarker(marker) {
     if (!marker) return;
     hidePopup();
@@ -824,12 +828,7 @@
     };
 
     function routeMarkerClick(marker, position) {
-      historyReturnActive = false;
-      if (!firstReadableChapterId(marker)) {
-        if (markerHasKnownLinks(marker, true)) showRememberedLinksForMarker(marker);
-        return;
-      }
-      showReadableMarker(marker, markerScreenPosition(marker) || position, true);
+      activateMarker(marker, markerScreenPosition(marker) || position);
     }
 
     const handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
@@ -1226,10 +1225,6 @@
     linkManager.redraw(progress.unlockEdges, edgeLinkVisible);
   }
 
-  function redrawRestoredLinks() {
-    linkManager.redraw(progress.unlockEdges, edgeLinkVisible);
-  }
-
   function showOutgoingLinksForChapter(chapterId) {
     const chapter = chapterById.get(chapterId);
     progress.unlockEdges = [];
@@ -1259,7 +1254,7 @@
     if (sourceMarker && sourceMarker !== marker) markers.push(sourceMarker);
     showActiveLinksForPoints(markers);
     if (preservedEdge?.from && preservedEdge?.to) {
-      rememberUnlockEdge(preservedEdge.to, preservedEdge.from, {
+      linkManager.remember(progress.unlockEdges, preservedEdge.from, preservedEdge.to, {
         type: "retour",
         label: "retour",
       });
@@ -1327,7 +1322,10 @@
       },
       duration: 1.8,
       easingFunction: Cesium.EasingFunction.QUADRATIC_OUT,
-      complete: syncZoomState,
+      complete: () => {
+        syncZoomState();
+        updateMarkers();
+      },
     });
   }
 
@@ -1372,14 +1370,7 @@
     const complete = () => {
       syncZoomState();
       marker.baseVisible = true;
-      if (options.restoreEdges) {
-        historyReturnActive = true;
-        progress.unlockEdges = options.restoreEdges.map((edge) => ({ ...edge }));
-        redrawRestoredLinks();
-      } else if (options.keepLinks) {
-        historyReturnActive = true;
-        // Navigation d'historique: la carte et les liens restent tels quels.
-      } else if (options.showOutgoingLinks) {
+      if (options.showOutgoingLinks) {
         historyReturnActive = false;
         showContextLinksForChapter(chapterId, marker, options.preservedEdge || null);
       } else {
@@ -1487,26 +1478,56 @@
     };
   }
 
+  function flyBackToLinkSource(link) {
+    const marker = markerByChapterId.get(link.from);
+    if (!marker) return;
+    suppressAutoPopup = true;
+    hidePopup();
+    const complete = () => {
+      syncZoomState();
+      marker.baseVisible = true;
+      historyReturnActive = false;
+      selectedMarker = null;
+      showActiveLinksForPoints([marker]);
+      updateHitTargets();
+    };
+    if (marker.type === "earth") {
+      viewer.camera.flyTo({
+        destination: Cesium.Cartesian3.fromDegrees(marker.lon, marker.lat, INTRO_TARGET_HEIGHT),
+        orientation: {
+          heading: viewer.camera.heading,
+          pitch: Cesium.Math.toRadians(-90),
+          roll: 0,
+        },
+        duration: 1.8,
+        easingFunction: Cesium.EasingFunction.QUADRATIC_IN_OUT,
+        complete,
+      });
+      return;
+    }
+    const destination = spaceCameraDestination(marker);
+    const orientation = spaceCameraOrientation(marker, destination);
+    viewer.camera.flyTo({
+      destination,
+      orientation,
+      duration: 1.8,
+      easingFunction: Cesium.EasingFunction.QUADRATIC_IN_OUT,
+      complete: () => {
+        viewer.camera.setView({ destination, orientation });
+        requestAnimationFrame(complete);
+      },
+    });
+  }
+
   function flyToLinkedChapter(link) {
+    if (link.type === "retour") {
+      flyBackToLinkSource(link);
+      return;
+    }
     const chapterId = link.to;
     const canShowRead = progress.read.has(chapterId);
     const canShowOpen = progress.open.has(chapterId) && !progress.read.has(chapterId);
     if (!canShowRead && !canShowOpen) return;
-    if (link.type === "retour") {
-      const previous = linkHistory.pop() || null;
-      flyToChapter(chapterId, {
-        allowRead: canShowRead,
-        showChapterId: chapterId,
-        restoreEdges: previous?.edges || null,
-        keepLinks: !previous?.edges,
-        suppressPopup: true,
-      });
-      return;
-    }
-    linkHistory.push({
-      chapterId: link.from,
-      edges: progress.unlockEdges.map((edge) => ({ ...edge })),
-    });
     flyToChapter(chapterId, {
       allowRead: canShowRead,
       showChapterId: chapterId,
@@ -1672,6 +1693,7 @@
     reader.setAttribute("aria-hidden", "true");
     if (readerVerticalText) readerVerticalText.textContent = "";
     hidePopup();
+    updateHitTargets();
   }
 
   function bindReaderControls() {
