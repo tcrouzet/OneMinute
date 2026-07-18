@@ -15,6 +15,7 @@
   const CAMERA_MAX_HEIGHT = 1600000000;
   const INTRO_TARGET_HEIGHT = 14000;
   const POPUP_AUTO_HEIGHT = 22000;
+  const POPUP_PINNED_MAX_HEIGHT = 45000;
   const POST_READ_ZOOM_OUT_FACTOR = 18;
   const POST_READ_ZOOM_OUT_MAX_HEIGHT = 9000000;
   const READING_TOTAL_CHAPTERS = 380;
@@ -787,6 +788,10 @@
 
   function updatePopupAnchor() {
     if (!vignette.active()) return;
+    if (viewer.camera.positionCartographic.height > POPUP_PINNED_MAX_HEIGHT) {
+      hidePopup();
+      return;
+    }
     vignette.position();
   }
 
@@ -1590,10 +1595,7 @@
     });
     rsvp.index = 0;
     rsvp.playing = false;
-    readerPlace.innerHTML = vignette.htmlFor({
-      lieu: chapter.lieu,
-      heure: chapter.heure,
-    }).replace(/<button[\s\S]*<\/button>/, "");
+    readerPlace.innerHTML = readerPlaceHtml(chapter);
     readerWords.textContent = "";
     if (readerSeek) {
       readerSeek.max = String(Math.max(0, rsvp.groups.length - 1));
@@ -1613,6 +1615,21 @@
     return new Promise((resolve) => {
       requestAnimationFrame(() => requestAnimationFrame(resolve));
     });
+  }
+
+  function readerPlaceHtml(chapter) {
+    const [city, ...rest] = String(chapter.lieu || "").split(",");
+    const country = rest.join(",").trim();
+    const escape = (value) => String(value).replace(/[&<>"']/g, (char) => ({
+      "&": "&amp;",
+      "<": "&lt;",
+      ">": "&gt;",
+      '"': "&quot;",
+      "'": "&#39;",
+    }[char]));
+    return country
+      ? `${escape(city.trim())},<br>${escape(country)},<br>${escape(chapter.heure || "")}`
+      : `${escape(chapter.lieu || "")},<br><br>${escape(chapter.heure || "")}`;
   }
 
   function waitForCesiumReady(timeout = 6500) {

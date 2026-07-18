@@ -59,10 +59,10 @@
       const title = country
         ? `${escapeHtml(city.trim())},<br>${escapeHtml(country)},<br>${escapeHtml(marker.heure)}`
         : `${escapeHtml(marker.lieu)},<br><br>${escapeHtml(marker.heure)}`;
-      const progress = marker.chapterTotal > 1
-        ? `<div class="point-progress"><span class="${marker.read ? "is-read" : "is-open"}">${marker.chapterIndex}</span>/<span>${marker.chapterTotal}</span></div>`
-        : "";
-      return `${title}${progress}`;
+      const buttonLabel = marker.chapterTotal > 1
+        ? `Lire <span class="${marker.read ? "is-read" : "is-open"}">${marker.chapterIndex}</span>/${marker.chapterTotal}`
+        : "Lire";
+      return `${title}<div class="point-read-button">${buttonLabel}</div>`;
     }
 
     function chapterState(chapterId) {
@@ -124,14 +124,17 @@
     function hide() {
       active = null;
       element?.classList.remove("is-visible");
-      if (element) delete element.dataset.chapterId;
+      if (element) {
+        delete element.dataset.chapterId;
+        element.innerHTML = "";
+      }
     }
 
     function position() {
       if (!element || !active?.marker) return;
       const point = screenPosition(active.marker);
       if (!point) {
-        element.classList.remove("is-visible");
+        hide();
         return;
       }
       element.style.left = `${point.x}px`;
@@ -139,7 +142,7 @@
     }
 
     function contains(target) {
-      return !!element?.contains(target);
+      return !!active && element?.classList.contains("is-visible") && !!element?.contains(target);
     }
 
     element?.addEventListener("pointerdown", (event) => {
@@ -150,6 +153,7 @@
     element?.addEventListener("click", (event) => {
       event.preventDefault();
       event.stopPropagation();
+      if (!element.classList.contains("is-visible")) return;
       active?.open();
     });
 

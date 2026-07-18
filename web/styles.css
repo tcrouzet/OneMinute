@@ -556,21 +556,23 @@ button.profile-stat.is-locked {
   visibility: visible;
 }
 
-.point-progress {
-  margin-top: 5px;
-  padding-top: 5px;
-  border-top: 1px solid rgba(24, 24, 24, 0.18);
-  font-size: 0.68rem;
+.point-read-button {
+  margin-top: 8px;
+  padding: 7px 10px;
+  border-radius: 4px;
+  background: #151515;
+  color: #faf8ef;
+  font-size: 0.78rem;
   font-weight: 900;
   line-height: 1;
 }
 
-.point-progress .is-open {
-  color: #159947;
+.point-read-button .is-open {
+  color: #62dd72;
 }
 
-.point-progress .is-read {
-  color: #c69000;
+.point-read-button .is-read {
+  color: #faf8ef;
 }
 
 .debug-panel {
