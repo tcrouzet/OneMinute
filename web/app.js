@@ -149,13 +149,6 @@
   viewer.scene.screenSpaceCameraController.minimumZoomDistance = 80;
   viewer.scene.screenSpaceCameraController.maximumZoomDistance = CAMERA_MAX_HEIGHT;
   viewer.scene.screenSpaceCameraController.enableZoom = true;
-  if (IS_TOUCH_DEVICE) {
-    viewer.scene.screenSpaceCameraController.maximumMovementRatio = 0.04;
-    viewer.scene.screenSpaceCameraController.inertiaSpin = 0.55;
-    viewer.scene.screenSpaceCameraController.inertiaTranslate = 0.35;
-    viewer.scene.screenSpaceCameraController.inertiaZoom = 0.35;
-    viewer.scene.screenSpaceCameraController.zoomFactor = 2.2;
-  }
   viewer.camera.percentageChanged = 0.001;
   viewer.camera.setView({
     destination: Cesium.Cartesian3.fromDegrees(-35, 28, 260000000),
@@ -489,9 +482,8 @@
   function zoomCamera(ratio) {
     syncZoomState();
     const height = zoomState.cameraHeight;
-    const effectiveRatio = IS_TOUCH_DEVICE ? ratio * 0.55 : ratio;
-    const amount = Math.max(80, height * Math.abs(effectiveRatio));
-    if (effectiveRatio < 0) viewer.camera.zoomIn(amount);
+    const amount = Math.max(80, height * Math.abs(ratio));
+    if (ratio < 0) viewer.camera.zoomIn(amount);
     else viewer.camera.zoomOut(amount);
     syncZoomState();
   }

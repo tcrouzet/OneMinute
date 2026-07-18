@@ -26,10 +26,7 @@ body,
 body {
   margin: 0;
   overflow: hidden;
-  overscroll-behavior: none;
   background: #02040a;
-  -webkit-user-select: none;
-  user-select: none;
 }
 
 button {
