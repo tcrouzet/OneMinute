@@ -674,10 +674,14 @@
   }
 
   function pickMarker(screenPosition) {
+    return directPickedMarker(screenPosition) || nearestMarker(screenPosition);
+  }
+
+  function directPickedMarker(screenPosition) {
     const picked = viewer.scene.pick(screenPosition);
     const marker = picked?.id || picked?.primitive?.id;
     if (marker?.lieu) return marker;
-    return nearestMarker(screenPosition);
+    return null;
   }
 
   function pickedUnlockTarget(screenPosition) {
@@ -783,7 +787,7 @@
       if (now - lastRoutedClickAt < 90) return;
       lastRoutedClickAt = now;
       if (introPlaying) return;
-      const marker = pickMarker(position);
+      const marker = directPickedMarker(position);
       if (marker) {
         historyReturnActive = false;
         if (!firstReadableChapterId(marker)) {
@@ -797,6 +801,16 @@
       if (link?.to) {
         historyReturnActive = false;
         flyToLinkedChapter(link);
+        return;
+      }
+      const nearbyMarker = nearestMarker(position);
+      if (nearbyMarker) {
+        historyReturnActive = false;
+        if (!firstReadableChapterId(nearbyMarker)) {
+          if (markerHasKnownLinks(nearbyMarker, true)) showRememberedLinksForMarker(nearbyMarker);
+          return;
+        }
+        showReadableMarker(nearbyMarker, markerScreenPosition(nearbyMarker) || position, true);
         return;
       }
       hidePopup();
