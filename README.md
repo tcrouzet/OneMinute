@@ -21,7 +21,7 @@ Le premier point d'entrée est Versailles. Chaque chapitre lu ouvre de nouvelles
 - Profil avec progression par tome et par zone géographique.
 - Sauvegarde/rechargement de la progression pour poursuivre sur un autre appareil.
 
-## Donnees
+## Données
 
 La version interactive embarque :
 
