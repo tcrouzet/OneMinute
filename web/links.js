@@ -45,7 +45,6 @@
             positions: new Cesium.CallbackProperty(() => positionsFor(edges, fromMarker, toMarker, edge), false),
             width: edge.type === "retour" ? 5 : 4,
             material: Cesium.Color.fromCssColorString(color).withAlpha(0.82),
-            depthFailMaterial: Cesium.Color.fromCssColorString(color).withAlpha(0.82),
             arcType: Cesium.ArcType.GEODESIC,
           },
         }));
@@ -61,14 +60,15 @@
     }
 
     function pickedLink(screenPosition) {
+      const picked = pickedRenderedLink(screenPosition);
+      return picked || pickedLinkByScreenDistance(screenPosition);
+    }
+
+    function pickedRenderedLink(screenPosition) {
       const picked = viewer.scene.pick(screenPosition);
       const entity = picked?.id;
       const role = entity?.properties?.role?.getValue?.();
-      if (role === "unlock-link") return linkFromEntity(entity);
-      return pickedLinkByScreenDistance(screenPosition);
-    }
-
-    function linkFromEntity(entity) {
+      if (role !== "unlock-link") return null;
       return {
         from: entity.properties.from?.getValue?.() || null,
         to: entity.properties.to?.getValue?.() || null,
@@ -80,6 +80,7 @@
     function pickedLinkByScreenDistance(screenPosition) {
       let best = null;
       let bestDistance = Infinity;
+      const occluder = new Cesium.EllipsoidalOccluder(Cesium.Ellipsoid.WGS84, viewer.camera.positionWC);
 
       for (const edge of visibleEdges) {
         const fromMarker = markerByChapterId.get(edge.from);
@@ -87,9 +88,12 @@
         if (!fromMarker || !toMarker) continue;
         const points = positionsFor(visibleEdges, fromMarker, toMarker, edge);
         for (let index = 1; index < points.length; index += 1) {
-          const a = worldToScreen(points[index - 1]);
-          const b = worldToScreen(points[index]);
-          if (!a || !b) continue;
+          const start = points[index - 1];
+          const end = points[index];
+          if (!segmentVisible(start, end, occluder, fromMarker, toMarker)) continue;
+          const a = worldToScreen(start);
+          const b = worldToScreen(end);
+          if (!screenPointVisible(a) || !screenPointVisible(b)) continue;
           const distance = distanceToSegment(screenPosition, a, b);
           if (distance < bestDistance) {
             bestDistance = distance;
@@ -105,6 +109,25 @@
         type: best.type,
         label: best.label,
       };
+    }
+
+    function segmentVisible(start, end, occluder, fromMarker, toMarker) {
+      const midpoint = Cesium.Cartesian3.midpoint(start, end, new Cesium.Cartesian3());
+      if (fromMarker.type === "space" || toMarker.type === "space") {
+        return occluder.isPointVisible(midpoint);
+      }
+      return occluder.isPointVisible(start)
+        && occluder.isPointVisible(midpoint)
+        && occluder.isPointVisible(end);
+    }
+
+    function screenPointVisible(point) {
+      if (!point) return false;
+      const margin = pickTolerance + 2;
+      return point.x >= -margin
+        && point.y >= -margin
+        && point.x <= window.innerWidth + margin
+        && point.y <= window.innerHeight + margin;
     }
 
     function worldToScreen(position) {
@@ -141,9 +164,12 @@
     }
 
     function spaceCurvePositions(fromMarker, toMarker) {
-      const points = [];
       const fromRadius = Cesium.Cartesian3.magnitude(fromMarker.position);
       const toRadius = Cesium.Cartesian3.magnitude(toMarker.position);
+      const nearOrbit = Math.max(fromRadius, toRadius) < 6378137 * 3;
+      if (nearOrbit) return nearSpaceCurvePositions(fromMarker, toMarker, fromRadius, toRadius);
+
+      const points = [];
       const fromNormal = Cesium.Cartesian3.normalize(fromMarker.position, new Cesium.Cartesian3());
       const toNormal = Cesium.Cartesian3.normalize(toMarker.position, new Cesium.Cartesian3());
       const peakLift = Math.max(450000, Math.abs(toRadius - fromRadius) * 0.18);
@@ -168,13 +194,41 @@
       return points;
     }
 
+    function nearSpaceCurvePositions(fromMarker, toMarker, fromRadius, toRadius) {
+      const points = [];
+      const maxRadius = Math.max(fromRadius, toRadius);
+      const lift = Math.max(180000, Math.abs(toRadius - fromRadius) * 0.55);
+
+      for (let step = 0; step <= 28; step += 1) {
+        const t = step / 28;
+        if (t === 0) {
+          points.push(fromMarker.position);
+          continue;
+        }
+        if (t === 1) {
+          points.push(toMarker.position);
+          continue;
+        }
+
+        const point = Cesium.Cartesian3.lerp(fromMarker.position, toMarker.position, t, new Cesium.Cartesian3());
+        const normal = Cesium.Cartesian3.normalize(point, new Cesium.Cartesian3());
+        const currentRadius = Cesium.Cartesian3.magnitude(point);
+        const raisedRadius = Math.max(currentRadius, maxRadius + Math.sin(Math.PI * t) * lift);
+        points.push(Cesium.Cartesian3.multiplyByScalar(normal, raisedRadius, new Cesium.Cartesian3()));
+      }
+
+      return points;
+    }
+
     function earthCurvePositions(edges, fromMarker, toMarker, edge) {
       const sameRouteEdges = edges.filter((item) => item.from === edge.from && item.to === edge.to);
       const routeIndex = Math.max(0, sameRouteEdges.findIndex((item) => item.id === edge.id));
-      const offset = (routeIndex - (sameRouteEdges.length - 1) / 2) * 2.4;
       const dx = toMarker.lon - fromMarker.lon;
       const dy = toMarker.lat - fromMarker.lat;
       const length = Math.max(0.0001, Math.sqrt(dx * dx + dy * dy));
+      const routeSpread = Math.min(1.8, Math.max(0, length * 0.18));
+      const offset = (routeIndex - (sameRouteEdges.length - 1) / 2) * routeSpread;
+      const peakHeight = Math.max(12000, Math.min(160000, length * 14000 + routeIndex * 18000));
       const normalLon = -dy / length;
       const normalLat = dx / length;
       const points = [];
@@ -184,7 +238,7 @@
         points.push(Cesium.Cartesian3.fromDegrees(
           lerp(fromMarker.lon, toMarker.lon, t) + normalLon * bow,
           lerp(fromMarker.lat, toMarker.lat, t) + normalLat * bow,
-          Math.sin(Math.PI * t) * (160000 + routeIndex * 35000)
+          Math.sin(Math.PI * t) * peakHeight
         ));
       }
       return points;

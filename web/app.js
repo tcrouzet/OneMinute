@@ -73,6 +73,9 @@
   const profileZones = document.querySelector("#profileZones");
   const profileHistory = document.querySelector("#profileHistory");
   const profileReset = document.querySelector("#profileReset");
+  const profileSave = document.querySelector("#profileSave");
+  const profileLoad = document.querySelector("#profileLoad");
+  const profileLoadFile = document.querySelector("#profileLoadFile");
   const zoomIn = document.querySelector("#zoomIn");
   const zoomOut = document.querySelector("#zoomOut");
   const markers = [];
@@ -190,6 +193,8 @@
     zones: profileZones,
     history: profileHistory,
     reset: { element: profileReset, action: resetProgress },
+    save: { element: profileSave, action: exportReadingProgress },
+    load: { element: profileLoad, file: profileLoadFile, action: importReadingProgress },
     chapterLabel,
     openChapter: (chapterId) => flyToChapter(chapterId, {
       allowRead: true,
@@ -209,8 +214,11 @@
     }
   }
 
-  function saveState() {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify({
+  function serializedProgress() {
+    return {
+      version: 1,
+      app: "One Minute",
+      exportedAt: new Date().toISOString(),
       read: [...progress.read],
       readOrder: progress.readOrder,
       open: [...progress.open],
@@ -219,7 +227,11 @@
       lastChapterId,
       syllablesPerSecond: rsvp.syllablesPerSecond,
       readerMode: rsvp.mode,
-    }));
+    };
+  }
+
+  function saveState() {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(serializedProgress()));
     updateProfile();
   }
 
@@ -337,7 +349,7 @@
   }
 
   function spaceVisibleHeight(point) {
-    return spaceScale(point) > 8 ? DEEP_SPACE_VISIBLE_HEIGHT : NEAR_SPACE_VISIBLE_HEIGHT;
+    return spaceScale(point) > 8 ? DEEP_SPACE_VISIBLE_HEIGHT : 0;
   }
 
   function spacePosition(point) {
@@ -551,12 +563,19 @@
       if (spaceFocus && marker.type !== "space" && !linkedMarkers.has(marker)) {
         marker.baseVisible = false;
       } else {
-        marker.baseVisible = markerVisible(marker, cameraHeight, occluder) || linkedMarkers.has(marker);
+        marker.baseVisible = markerVisible(marker, cameraHeight, occluder)
+          || (linkedMarkers.has(marker) && linkedMarkerVisible(marker, cameraHeight, occluder));
       }
       marker.primitive.show = marker.baseVisible && !vignette.isActiveMarker(marker);
     }
     updateHitTargets();
     updateAutoPopup(cameraHeight);
+  }
+
+  function linkedMarkerVisible(marker, cameraHeight, occluder) {
+    if (cameraHeight < marker.minCameraHeight || cameraHeight > marker.maxCameraHeight) return false;
+    if (marker.type === "space") return true;
+    return occluder.isPointVisible(marker.position);
   }
 
   function activeLinkedMarkers() {
@@ -572,7 +591,11 @@
   }
 
   function currentSpaceFocusMarker() {
-    const marker = vignette.marker?.() || rsvp.marker || null;
+    const marker = vignette.active()
+      ? vignette.marker?.()
+      : reader.classList.contains("is-open")
+        ? rsvp.marker
+        : null;
     return marker?.type === "space" ? marker : null;
   }
 
@@ -601,7 +624,9 @@
   }
 
   function showReadableMarker(marker, screenPosition, pinned = false, chapterId = null) {
-    if (markerHasKnownLinks(marker, true)) {
+    if (chapterId) {
+      showMarkerNetwork(marker, chapterId);
+    } else if (markerHasKnownLinks(marker, true)) {
       showActiveLinksForPoints([marker]);
     }
     showPopup(marker, screenPosition, pinned, chapterId);
@@ -658,7 +683,7 @@
     let best = null;
     let bestDistance = Infinity;
     for (const marker of markers) {
-      if (!marker.baseVisible && !vignette.isActiveMarker(marker)) continue;
+      if (!markerClickable(marker)) continue;
       const markerPosition = markerScreenPosition(marker);
       if (!markerPosition) continue;
       const dx = markerPosition.x - screenPosition.x;
@@ -672,6 +697,12 @@
     return best;
   }
 
+  function markerClickable(marker) {
+    return !!marker?.baseVisible
+      && marker.primitive?.show !== false
+      && markerInteractive(marker);
+  }
+
   function pickMarker(screenPosition) {
     return directPickedMarker(screenPosition) || nearestMarker(screenPosition);
   }
@@ -680,11 +711,11 @@
     const pickedItems = viewer.scene.drillPick?.(screenPosition, 8) || [];
     for (const picked of pickedItems) {
       const marker = picked?.id || picked?.primitive?.id;
-      if (marker?.lieu) return marker;
+      if (marker?.lieu && markerClickable(marker)) return marker;
     }
     const picked = viewer.scene.pick(screenPosition);
     const marker = picked?.id || picked?.primitive?.id;
-    if (marker?.lieu) return marker;
+    if (marker?.lieu && markerClickable(marker)) return marker;
     return null;
   }
 
@@ -720,7 +751,7 @@
     const chapterId = firstReadableChapterId(marker);
     if (chapterId) {
       if (viewer.camera.positionCartographic.height > POPUP_PINNED_MAX_HEIGHT) {
-        flyToChapter(chapterId, { showChapterId: chapterId });
+        flyToChapter(chapterId, { showChapterId: chapterId, showChapterNetwork: true });
         return;
       }
       showReadableMarker(marker, position || markerScreenPosition(marker), true, chapterId);
@@ -796,7 +827,8 @@
 
   function updatePopupAnchor() {
     if (!vignette.active()) return;
-    if (viewer.camera.positionCartographic.height > POPUP_PINNED_MAX_HEIGHT) {
+    const marker = vignette.marker?.();
+    if (marker?.type !== "space" && viewer.camera.positionCartographic.height > POPUP_PINNED_MAX_HEIGHT) {
       hidePopup();
       return;
     }
@@ -968,6 +1000,70 @@
     redrawUnlockLines();
     saveState();
     restartIntroFromBlack();
+  }
+
+  function exportReadingProgress() {
+    const data = JSON.stringify(serializedProgress(), null, 2);
+    const blob = new Blob([data], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    const date = new Date().toISOString().slice(0, 10);
+    link.href = url;
+    link.download = `one-minute-lecture-${date}.json`;
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    URL.revokeObjectURL(url);
+  }
+
+  async function importReadingProgress(file) {
+    if (!file) return;
+    let state = null;
+    try {
+      state = JSON.parse(await file.text());
+    } catch {
+      window.alert("Fichier de sauvegarde illisible.");
+      return;
+    }
+    if (!Array.isArray(state.read) || !Array.isArray(state.open)) {
+      window.alert("Fichier de sauvegarde invalide.");
+      return;
+    }
+    applyImportedProgress(state);
+  }
+
+  function applyImportedProgress(state) {
+    pauseReader();
+    closeReader();
+    hidePopup();
+    progress.read = new Set((state.read || []).filter((chapterId) => CHAPTER_PATHS[chapterId]));
+    progress.readOrder = Array.isArray(state.readOrder)
+      ? state.readOrder.filter((chapterId) => progress.read.has(chapterId))
+      : [...progress.read].sort(chapterSort);
+    progress.open = new Set((state.open || []).filter((chapterId) => CHAPTER_PATHS[chapterId]));
+    if (!progress.open.size) progress.open = new Set(initialOpenChapterIds);
+    progress.blocked = new Set((state.blocked || []).filter((chapterId) => CHAPTER_PATHS[chapterId]));
+    progress.unlockEdges = [];
+    progress.knownEdges = Array.isArray(state.knownEdges)
+      ? state.knownEdges.filter((edge) => edge?.type !== "retour")
+      : [];
+    lastChapterId = state.lastChapterId && CHAPTER_PATHS[state.lastChapterId] ? state.lastChapterId : progress.readOrder.at(-1) || null;
+    if (Number.isFinite(state.syllablesPerSecond)) {
+      rsvp.syllablesPerSecond = Math.max(2, Math.min(12, Number(state.syllablesPerSecond)));
+      readerSpeed.value = String(rsvp.syllablesPerSecond);
+    }
+    rsvp.mode = state.readerMode === "rsvp" ? "rsvp" : "vertical";
+    rsvp.chapter = null;
+    rsvp.marker = null;
+    applyReaderMode();
+    rebuildKnownEdgesFromRead();
+    refreshMarkerStatuses();
+    if (lastChapterId) showKnownLinksFromChapter(lastChapterId);
+    else redrawUnlockLines();
+    saveState();
+    updateReadingScore(false);
+    updateMarkers();
+    profileManager?.close();
   }
 
   function restartIntroFromBlack() {
@@ -1240,6 +1336,14 @@
     }
   }
 
+  function rememberVisibleOutgoingLinks(chapter) {
+    for (const link of chapter?.next_chapter_links || []) {
+      const edge = { from: chapter.id, to: link.to };
+      if (!edgeLinkVisible(edge)) continue;
+      linkManager.remember(progress.unlockEdges, chapter.id, link.to, link);
+    }
+  }
+
   function rememberKnownOutgoingLinks(chapter) {
     for (const link of chapter?.next_chapter_links || []) {
       if (!chapterCanBeMapped(link.to)) continue;
@@ -1260,6 +1364,20 @@
       });
       redrawInspectableLinks();
     }
+  }
+
+  function showMarkerNetwork(marker, chapterId = null) {
+    rebuildKnownEdgesFromRead();
+    progress.unlockEdges = [];
+    for (const edge of progress.knownEdges) {
+      const fromMarker = markerByChapterId.get(edge.from);
+      const toMarker = markerByChapterId.get(edge.to);
+      if (!fromMarker || !toMarker || !edgeLinkVisible(edge)) continue;
+      if (fromMarker !== marker && toMarker !== marker) continue;
+      linkManager.remember(progress.unlockEdges, edge.from, edge.to, edge);
+    }
+    if (chapterId) rememberVisibleOutgoingLinks(chapterById.get(chapterId));
+    redrawInspectableLinks();
   }
 
   function rebuildKnownEdgesFromRead() {
@@ -1370,7 +1488,10 @@
     const complete = () => {
       syncZoomState();
       marker.baseVisible = true;
-      if (options.showOutgoingLinks) {
+      if (options.showChapterNetwork) {
+        historyReturnActive = false;
+        showMarkerNetwork(marker, options.showChapterId || chapterId);
+      } else if (options.showOutgoingLinks) {
         historyReturnActive = false;
         showContextLinksForChapter(chapterId, marker, options.preservedEdge || null);
       } else {
@@ -1693,7 +1814,7 @@
     reader.setAttribute("aria-hidden", "true");
     if (readerVerticalText) readerVerticalText.textContent = "";
     hidePopup();
-    updateHitTargets();
+    updateMarkers();
   }
 
   function bindReaderControls() {

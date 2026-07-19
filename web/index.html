@@ -17,7 +17,7 @@
     <script src="https://cesium.com/downloads/cesiumjs/releases/1.143/Build/Cesium/Cesium.js"></script>
     <link href="https://cesium.com/downloads/cesiumjs/releases/1.143/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
     <script>
-      window.ONEMINUTE_DEV_VERSION = "20260718-marker-focus-before-popup-1";
+      window.ONEMINUTE_DEV_VERSION = "20260719-reader-align-visible-links-1";
       document.write(`<link rel="stylesheet" href="styles.css?dev=${window.ONEMINUTE_DEV_VERSION}">`);
     </script>
   </head>
@@ -51,7 +51,12 @@
           <section class="profile-stats profile-tomes" id="profileTomes" aria-label="Progression par tome"></section>
           <section class="profile-stats" id="profileZones" aria-label="Progression par zone"></section>
           <div class="profile-history" id="profileHistory" aria-label="Chapitres lus"></div>
-          <button class="profile-reset" id="profileReset" type="button">Reset lecture</button>
+          <div class="profile-actions">
+            <button class="profile-save" id="profileSave" type="button">Sauvegarder lecture</button>
+            <button class="profile-load" id="profileLoad" type="button">Recharger lecture</button>
+            <input id="profileLoadFile" type="file" accept="application/json,.json" hidden>
+            <button class="profile-reset" id="profileReset" type="button">Recommencer la lecture</button>
+          </div>
           <p class="profile-intro profile-note" id="profileNote"></p>
         </div>
       </aside>

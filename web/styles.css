@@ -517,7 +517,26 @@ button.profile-stat.is-locked {
   cursor: pointer;
 }
 
+.profile-actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.profile-save,
+.profile-load {
+  height: 34px;
+  border: 1px solid rgba(250, 248, 239, 0.22);
+  border-radius: 4px;
+  background: rgba(250, 248, 239, 0.09);
+  color: #faf8ef;
+  font-size: 0.76rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+
 .profile-reset {
+  grid-column: 1 / -1;
   width: 100%;
   height: 34px;
   border: 1px solid rgba(255, 51, 85, 0.52);
@@ -710,7 +729,7 @@ button.profile-stat.is-locked {
 .reader-header {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(64px, max-content);
-  align-items: start;
+  align-items: stretch;
   gap: 16px;
   padding: 12px 0;
 }
@@ -726,7 +745,9 @@ button.profile-stat.is-locked {
 
 .reader-actions {
   display: grid;
+  grid-template-rows: 38px 1fr;
   justify-items: end;
+  align-self: stretch;
   gap: 6px;
   min-width: 0;
 }
@@ -742,6 +763,7 @@ button.profile-stat.is-locked {
 }
 
 .reader-close {
+  align-self: start;
   width: 38px;
   height: 38px;
   font-size: 1.45rem;
@@ -750,6 +772,7 @@ button.profile-stat.is-locked {
 
 .reader-mode {
   position: relative;
+  align-self: end;
   width: 38px;
   height: 34px;
 }

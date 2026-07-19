@@ -11,6 +11,8 @@
     zones,
     history,
     reset,
+    save,
+    load,
     chapterLabel,
     openChapter,
   }) {
@@ -154,8 +156,23 @@
       reset?.element?.addEventListener("click", (event) => {
         event.preventDefault();
         event.stopPropagation();
-        if (!window.confirm("Réinitialiser la lecture ?")) return;
+        if (!window.confirm("Attention : l'historique de lecture sera effacé.")) return;
         reset.action();
+      });
+      save?.element?.addEventListener("click", (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        save.action();
+      });
+      load?.element?.addEventListener("click", (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        load.file?.click();
+      });
+      load?.file?.addEventListener("change", (event) => {
+        const file = event.target.files?.[0] || null;
+        event.target.value = "";
+        load.action(file);
       });
       panel?.addEventListener("click", (event) => {
         if (event.target.closest(".profile-stat-cover-link")) return;
