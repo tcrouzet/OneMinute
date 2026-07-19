@@ -54,16 +54,26 @@
       };
     }
 
-    function htmlFor(marker) {
+    function htmlFor(marker, allChapters = false) {
       const [city, ...rest] = marker.lieu.split(",");
       const country = rest.join(",").trim();
       const title = country
         ? `${escapeHtml(city.trim())},<br>${escapeHtml(country)},<br>${escapeHtml(marker.heure)}`
         : `${escapeHtml(marker.lieu)},<br><br>${escapeHtml(marker.heure)}`;
+      if (allChapters) return `${title}${chapterButtonsHtml(marker)}`;
       const buttonLabel = marker.chapterTotal > 1
         ? `Lire <span class="${marker.read ? "is-read" : "is-open"}">${marker.chapterIndex}</span>/${marker.chapterTotal}`
         : "Lire";
       return `${title}<div class="point-read-button">${buttonLabel}</div>`;
+    }
+
+    function chapterButtonsHtml(marker) {
+      const buttons = (marker.chapterIds || []).map((chapterId, index) => {
+        const canRead = isRead(chapterId) || isOpen(chapterId);
+        const stateClass = isRead(chapterId) ? "is-read" : isOpen(chapterId) ? "is-open" : "is-locked";
+        return `<button class="point-read-button" type="button" data-chapter-id="${escapeHtml(chapterId)}"${canRead ? "" : " disabled"}>Lire <span class="${stateClass}">${index + 1}</span>/${marker.chapterTotal}</button>`;
+      }).join("");
+      return `<div class="point-read-list">${buttons}</div>`;
     }
 
     function chapterState(chapterId) {
@@ -80,12 +90,13 @@
         : `${marker.lieu},\n\n${marker.heure}`;
     }
 
-    function show(marker, chapterId, { pinned = false } = {}) {
+    function show(marker, chapterId, { pinned = false, allChapters = false } = {}) {
       const resolvedChapterId = resolve(marker, chapterId);
       if (!resolvedChapterId || !element) return null;
       active = {
         marker,
         chapterId: resolvedChapterId,
+        allChapters,
         pinned,
         open: () => onOpen(resolvedChapterId, marker),
       };
@@ -102,7 +113,7 @@
         lastShowKey = showKey;
       }
       setDebugChapterLinks(marker, resolvedChapterId);
-      element.innerHTML = htmlFor(visibleMarker);
+      element.innerHTML = htmlFor(visibleMarker, allChapters);
       element.dataset.chapterId = resolvedChapterId;
       element.classList.add("is-visible");
       position();
@@ -156,6 +167,12 @@
       event.stopPropagation();
       if (!element.classList.contains("is-visible")) return;
       activatedByPointerAt = performance.now();
+      const button = event.target.closest("[data-chapter-id]");
+      if (button && element.contains(button)) {
+        if (button.disabled) return;
+        onOpen(button.dataset.chapterId, active.marker);
+        return;
+      }
       active?.open();
     });
 
@@ -164,6 +181,12 @@
       event.stopPropagation();
       if (!element.classList.contains("is-visible")) return;
       if (performance.now() - activatedByPointerAt < 450) return;
+      const button = event.target.closest("[data-chapter-id]");
+      if (button && element.contains(button)) {
+        if (button.disabled) return;
+        onOpen(button.dataset.chapterId, active.marker);
+        return;
+      }
       active?.open();
     });
 

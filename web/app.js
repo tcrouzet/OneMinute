@@ -199,6 +199,7 @@
     openChapter: (chapterId) => flyToChapter(chapterId, {
       allowRead: true,
       showChapterId: chapterId,
+      showAllChapters: true,
       showOutgoingLinks: true,
     }),
   });
@@ -618,31 +619,31 @@
     }
   }
 
-  function showPopup(marker, _screenPosition, pinned = false, chapterId = null) {
+  function showPopup(marker, _screenPosition, pinned = false, chapterId = null, allChapters = false) {
     if (introPlaying) return;
-    showChapterPopup(marker, vignette.resolve(marker, chapterId), pinned);
+    showChapterPopup(marker, vignette.resolve(marker, chapterId), pinned, { allChapters });
   }
 
-  function showReadableMarker(marker, screenPosition, pinned = false, chapterId = null) {
+  function showReadableMarker(marker, screenPosition, pinned = false, chapterId = null, allChapters = false) {
     if (chapterId) {
       showMarkerNetwork(marker, chapterId);
     } else if (markerHasKnownLinks(marker, true)) {
       showActiveLinksForPoints([marker]);
     }
-    showPopup(marker, screenPosition, pinned, chapterId);
+    showPopup(marker, screenPosition, pinned, chapterId, allChapters);
   }
 
   function forceShowPopup(marker, pinned = false, chapterId = null) {
     showChapterPopup(marker, vignette.resolve(marker, chapterId), pinned);
   }
 
-  function showChapterPopup(marker, chapterId, pinned = false) {
+  function showChapterPopup(marker, chapterId, pinned = false, options = {}) {
     if (!chapterId) return;
     suppressAutoPopup = false;
     popupPinned = pinned;
     selectedMarker = marker;
     hidePopupLabels();
-    vignette.show(marker, chapterId, { pinned });
+    vignette.show(marker, chapterId, { pinned, allChapters: !!options.allChapters });
     marker.primitive.show = false;
     updateHitTargets();
   }
@@ -732,6 +733,11 @@
     return ids.find((id) => CHAPTER_PATHS[id] && progress.open.has(id) && !progress.read.has(id)) || null;
   }
 
+  function firstReadChapterId(marker) {
+    const ids = marker.chapterIds || [];
+    return ids.find((id) => CHAPTER_PATHS[id] && progress.read.has(id)) || null;
+  }
+
   function markerHasKnownLinks(marker, refresh = false) {
     if (!marker) return false;
     if (refresh) rebuildKnownEdgesFromRead();
@@ -742,7 +748,7 @@
   }
 
   function markerInteractive(marker) {
-    return !!firstReadableChapterId(marker) || markerHasKnownLinks(marker);
+    return !!firstReadableChapterId(marker) || !!firstReadChapterId(marker) || markerHasKnownLinks(marker);
   }
 
   function activateMarker(marker, position = null) {
@@ -755,6 +761,20 @@
         return;
       }
       showReadableMarker(marker, position || markerScreenPosition(marker), true, chapterId);
+      return;
+    }
+    const readChapterId = firstReadChapterId(marker);
+    if (readChapterId) {
+      if (viewer.camera.positionCartographic.height > POPUP_PINNED_MAX_HEIGHT) {
+        flyToChapter(readChapterId, {
+          allowRead: true,
+          showChapterId: readChapterId,
+          showChapterNetwork: true,
+          showAllChapters: true,
+        });
+        return;
+      }
+      showReadableMarker(marker, position || markerScreenPosition(marker), true, readChapterId, true);
       return;
     }
     showRememberedLinksForMarker(marker);
@@ -1498,12 +1518,15 @@
         historyReturnActive = false;
         redrawUnlockLines();
       }
-      const canShowPopup = !!firstReadableChapterId(marker);
+      const canShowPopup = !!firstReadableChapterId(marker)
+        || (options.allowRead && !!options.showChapterId && marker.chapterIds?.includes(options.showChapterId));
       if (options.suppressPopup || !canShowPopup) {
         suppressAutoPopup = true;
         selectedMarker = null;
       } else {
-        forceShowPopup(marker, true, options.showChapterId || null);
+        showChapterPopup(marker, vignette.resolve(marker, options.showChapterId || null), true, {
+          allChapters: !!options.showAllChapters,
+        });
       }
       updateHitTargets();
     };

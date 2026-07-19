@@ -587,12 +587,32 @@ button.profile-stat.is-locked {
   line-height: 1;
 }
 
+.point-read-list {
+  display: grid;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.point-read-list .point-read-button {
+  margin-top: 0;
+  cursor: pointer;
+}
+
+.point-read-list .point-read-button:disabled {
+  opacity: 0.48;
+  cursor: default;
+}
+
 .point-read-button .is-open {
   color: #62dd72;
 }
 
 .point-read-button .is-read {
   color: #faf8ef;
+}
+
+.point-read-button .is-locked {
+  color: #ff3355;
 }
 
 .debug-panel {
